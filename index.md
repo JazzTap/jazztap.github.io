@@ -1,40 +1,28 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-    "http://www.w3.org/TR/html4/strict.dtd"
-    >
-<html lang="en">
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
 <div class="block">
-    <label><b>Jasmine Otto</b>
-
-    </label>
-    <info>Graduate Student in Applied & Computer Mathematics</info>
+    <label><b>Jasmine Otto</b></label>
+    <info>Graduate Student in Applied Mathematics</info>
 </div>
 <div class="block">
     <label><a href="./cv single.pdf">[CV]</a></label>
     <info>University of Illinois at Chicago</info>
     <hr>
 </div>
-<div class="demos">
-    
-<h3>Demos</h3>
-    <p><a href="./neuron_web/neuron.html">Generalized Fitz-Hugh Nagomo model</a> of an axon.</p>
-    <h4>Pending For Web</h4>
-    <p>Procedural generation of iterated fractals and fictional maps. Parameter tuning via artificial selection.</p>
-    <p>Predator-prey dynamics with spatial effects (and possibly handling time). Comparison of discrete and continuous cases.</p>
-     <h3>Technical Considerations</h3>
 
-    <ul>
-        <li>agent-based (stochastic) simulations vs. dynamical systems</li>
-        <li>numerical methods vs. direct (symbolic) analysis</li>
-    </ul>
-    <hr>
-</div>
-<div class="research">
-     <h2>Research Items</h2>
+
+### Demos
+<a href="./neuron_web/neuron.html">Generalized Fitz-Hugh Nagumo model</a> of an axon.
+
+#### Pending For Web
+Procedural generation of iterated fractals and fictional maps. Parameter tuning via artificial selection.
+
+Predator-prey dynamics with spatial effects (and possibly handling time). Comparison of discrete and continuous cases.
+
+### Technical Considerations
+* agent-based (stochastic) simulations vs. dynamical systems
+* numerical methods vs. direct (symbolic) analysis
+---
+
+## Research Items
 
     
 <h3>biological pattern formation</h3>
@@ -77,7 +65,3 @@
         </li>
     </ul>
     <hr>
-</div>
-
-</body>
-</html>
