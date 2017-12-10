@@ -1,14 +1,3 @@
-<div class="block">
-    <label><b>Jasmine Otto</b></label>
-    <info>Graduate Student in Applied Mathematics</info>
-</div>
-<div class="block">
-    <label><a href="./cv single.pdf">[CV]</a></label>
-    <info>University of Illinois at Chicago</info>
-    <hr>
-</div>
-
-
 ### Demos
 <a href="./neuron_web/neuron.html">Generalized Fitz-Hugh Nagumo model</a> of an axon.
 
@@ -20,6 +9,7 @@ Predator-prey dynamics with spatial effects (and possibly handling time). Compar
 ### Technical Considerations
 * agent-based (stochastic) simulations vs. dynamical systems
 * numerical methods vs. direct (symbolic) analysis
+
 ---
 
 ## Research Items
