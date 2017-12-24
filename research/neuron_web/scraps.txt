@@ -1,0 +1,56 @@
+
+/* function keyPressed() {
+  // FIXME: only ENTER works
+  if (key == ' ') {
+    if (!running) {
+      update();
+      // TODO: mark graphs with discontinuity
+    }
+  }
+  else if (key == 'p') {
+    running = !running;
+  }
+  else if (keyCode == RETURN || keyCode == ENTER)
+    model[0].v = inputMag;
+} */
+
+
+    /* whichCone(x, y) { // int /in [0, 2n)
+        dx = x - this.x; dy = y - this.y
+        return {'idx': floor(atan2(dy, dx) * n / PI), 'rSq': x*x + y*y}
+    } */
+
+        this.cx = x; this.cy = y;
+        this.x = (th) => this.cx + cos(th)*this.rad;
+        this.y = (th) => this.cy + sin(th)*this.rad;
+
+         this.poly = [];
+        for (i = 0; i < 2*n; ++i)
+            poly.push({'x': this.x(i*this.dTh),
+                       'y': this.y(i*this.dTh));
+
+        let makePoly = d3.svg.line()
+                            .x((d) => d.x).y((d) => d.y)
+                            .interpolate("linear");
+
+        d3.select(this.handle)
+            .append("path")
+            .attr("d", makePoly(poly))
+            .attr("stroke", "black")
+            .attr("fill", "none");
+
+        // sectors
+        for (i = 0; i < 2*n; ++i) {
+            let th0 = , th1 = (i+1)*this.dTh;
+            let r = this.scales(i % n);
+
+            d3.select(this.handle)
+                .append("path")
+                .attr("d", makePoly([
+                            {'x': this.x, 'y': this.y},
+                            {'x': this.x(th0), 'y': this.y(th0)},
+                            {'x': this.x(th1), 'y': this.y(th1)}]
+                      ))
+            .attr("stroke", "black");
+        }
+

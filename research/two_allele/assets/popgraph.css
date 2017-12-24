@@ -1,0 +1,28 @@
+#main {
+	max-width: 625px;
+	margin: 0 auto; 
+}
+#footer {
+	font-size: 10px;
+}
+
+div.column {
+  width:33%;
+  float:left;
+}
+
+.grey {
+	color: rgb(170,170,170);
+}
+.cerulean {
+	color: rgb(151,187,205);
+}
+.red {
+	color: rgb(196, 0, 0);
+}
+.purple {
+	color: rgb(196, 0, 196);
+}
+.blue {
+	color: rgb(0, 0, 196);
+}

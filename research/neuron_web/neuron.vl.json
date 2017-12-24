@@ -1,0 +1,41 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+    "data": {"name": "trace"},
+    "config": {"legend": {"orient": "none"}},
+
+    "hconcat": [
+        {"width": 250, "title": "signal",
+         "layer": [
+            {"mark": {"type": "line", "color": "#4682b4"},
+            "encoding": {
+                "x": {"field": "t", "type": "quantitative",
+                      "scale": {"zero": false, "nice": false},
+                      "axis": {"title": "time"}},
+                "y": {"field": "voltage", "type": "quantitative",
+                      "scale": {"domain": [-0.4,1]}},
+
+                "opacity": {"field": "position", "type": "nominal"}
+            }},
+            {"mark": {"type": "line", "color": "#a2d9d7"},
+            "encoding": {
+                "x": {"field": "t", "type": "quantitative",
+                      "scale": {"zero": false, "nice": false}},
+                "y": {"field": "inactivation", "type": "quantitative",
+                      "scale": {"domain": [-0.4,1]}},
+
+                "opacity": {"field": "position", "type": "nominal"}
+        }}]},
+
+        {"mark": "point", "width": 250, "title": "phase plane",
+        "encoding": {
+            "x": {"field": "voltage", "type": "quantitative",
+                  "scale": {"domain": [-0.4,1]}},
+            "y": {"field": "inactivation", "type": "quantitative",
+                  "scale": {"domain": [0,0.15]}},
+            "order": {"field": "t", "type": "quantitative"},
+
+            "color": {"field": "position", "type": "nominal",
+                      "scale": {"range": ["#a2d9d7", "#4682b4"]}}
+        }}
+    ]
+}
