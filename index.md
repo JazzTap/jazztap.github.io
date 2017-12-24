@@ -1,5 +1,5 @@
 ### Demos
-<a href="./neuron_web/neuron.html">Generalized Fitz-Hugh Nagumo model</a> of an axon.
+<a href="./research/neuron_web/">Generalized Fitz-Hugh Nagumo model</a> of an axon.
 
 #### Pending For Web
 Procedural generation of iterated fractals and fictional maps. Parameter tuning via artificial selection.

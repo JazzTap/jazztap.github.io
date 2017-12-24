@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <a href="..">[back]</a> &mdash; <em>Fitz-Hugh Nagumo in one spatial dimension</em>
+    <a href="../..">[back]</a> &mdash; <em>Fitz-Hugh Nagumo in one spatial dimension</em>
 	<div id="applet">
         <!-- TODO: parameter grid in d3. memorize phaseplane?
         <div class="sliders">

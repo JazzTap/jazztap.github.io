@@ -1,0 +1,14 @@
+/* https://hartshorne.ca/sidenotes-with-css-3f28f1628518 */
+.sidenote {
+  margin-right: -170px;
+  position: absolute;
+  right: 0;
+  top: auto; /* default */
+  width: 150px;
+}
+.leftnote {
+  left: 0;
+  margin-left: -170px;
+  margin-right: auto;
+  right: auto;
+}

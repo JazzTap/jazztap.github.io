@@ -6,6 +6,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<link rel="stylesheet" href="/assets/sidenotes.css">
 
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -15,22 +16,20 @@
   <body>
     <div class="wrapper">
         <!-- {{ site.github.url }} -->
-        <a href=".."><h1 style="display:inline">{{ site.title }}</h3></a>
+        <a href="/"><h1 style="display:inline">{{ site.title }}</h3></a>
 		<span class="view">
-			&nbsp; <a href="./cv single.pdf">[CV]</a> &nbsp;
-			<a href="{{ site.github.owner_url }}"><img src="Github-black.svg" width="25" height="25" /></a>
-			<a href="https://twitter.com/jatazak"><img src="Twitter-black.svg" width="25" height="25" /></a>
-			<a href="https://jatazak.tumblr.com"><img src="Tumblr-black.svg" width="25" height="25" /></a>			
+			&nbsp; <a href="/cv single.pdf">[CV]</a> &nbsp;
+			<a href="{{ site.github.owner_url }}"><img src="/assets/Github-black.svg" width="25" height="25" /></a>
+			<a href="https://twitter.com/jatazak"><img src="/assets/Twitter-black.svg" width="25" height="25" /></a>
+			<a href="https://jatazak.tumblr.com"><img src="/assets/Tumblr-black.svg" width="25" height="25" /></a>			
 		</span>
         <p> {{ site.description }} </p>
-
-        
       <!-- </header> <section> -->
 
       {{ content }}
 
       <!-- </section> <footer> -->
-        <p><small>Theme is <a href="https://github.com/pages-themes/minimal">Minimal</a> (orderedlist) for Jekyll with <a href="https://dribbble.com/shots/2235197-50-Free-Flat-Icons-Sketch-Illustrator">flat icons</a> (alexisdoreau).</small></p>
+        <p><small>Theme is <a href="https://github.com/pages-themes/minimal">Minimal</a> (orderedlist) for Jekyll with <a href="https://dribbble.com/shots/2235197-50-Free-Flat-Icons-Sketch-Illustrator">flat icons</a> (alexisdoreau) and <a href="https://daringfireball.net/2005/08/notes_on_notes">sidenotes</a> (hartshorne).</small></p>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
