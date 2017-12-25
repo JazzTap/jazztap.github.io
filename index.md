@@ -1,4 +1,4 @@
-# tl;dr
+## tl;dr
 IAMA mathematical ecologist, ask me about cybernetics.
 
 <sidenote>Cognition</sidenote>
@@ -11,7 +11,7 @@ I've investigated procedural generation of fictional maps like poetry, and itera
 
 [Apollonius' circle problem](https://github.com/JazzTap/mcs563/blob/master/README.md) asks which circles are tangent to all of three given circles. Although the system of equations is nonlinear, it certainly has eight complex solutions, whose real part we can draw in real-time. By dragging input circles across catastrophes, a beautiful geometric continuity is evinced.
 
-Rugs and morphogenesis. Shader code.
+Rugs and morphogenesis. [Shader code](WRAP in p5.js).
 
 <sidenote>Mathematics</sidenote>
 
@@ -25,10 +25,10 @@ But to document a numerical inquiry satisfactorily requires an intimate correspo
 
 <sidenote>Reproducibility</sidenote>
 
-<small>No amount of information is satisfactory without context - consider any Wikipedia article from a technical discipline adjacent to yours. Yet academic and scientific cultures have traditionally been bottlenecked by college acceptance (and the cost of tuition, and the distracted advisors caught in publish-or-perish...), even though without their uniquely evidence-based reasoning, we browse blindly or according to authority alone.</small>
-
-[Excerpt paper]() about science in the Anthropocene.
+No amount of information is satisfactory without context. Yet the exponential growth of science [in the Anthropocene](EXCERPT paper) has increased its insularity as well as its depth. Distillation through notebooks is a way out.
 
 <sidenote>Socioecology</sidenote>
 
-Network effects? Rough sketch of [symmetries]().
+Network effects? Rough sketch of [symmetries](UPLOAD notebook).
+
+My social media is linked above, including some of my [illustrative hobby](extant poetry only ok). I also drum and dance, which are likewise about improvising with the subjects at hand, and I feel this sense of performance applies also to concise writing toward agile research.
