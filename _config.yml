@@ -3,6 +3,5 @@ theme: jekyll-theme-minimal
 title: Jasmine Otto
 description: PhD student in Applied Mathematics at the University of Illinois at Chicago
 
-codes: Interacts
-writes: Writings
-draws: Creativity
+titles_from_headings:
+	enabled: false
