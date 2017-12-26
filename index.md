@@ -48,8 +48,8 @@ If I run each cell in order, a **meaningful answer** must come out. If I sensibl
 The combination of these principles is extremely powerful. Honestly, I can't go back to writing codes without graphics, without visuospatial representation and tight feedback loops.
 
 ### Reproduction
-Jupyter notebooks have the specific advantage of a FOSS stack underneath, which is harder to hold hostage to a license fee. The experimental side of our serious play is grounded by its roots in our communities, for no amount of information is satisfactory without context. 
+Jupyter notebooks have the specific advantage of a FOSS stack underneath, which is harder to hold hostage to a license fee. The **experiential** side of our serious play is grounded by its roots in our communities, for no amount of information is satisfactory without context. 
 
-My improvisational ethos derives from jazz drumming and modern dance, and is likewise applicable to concise codes and iterative writings, toward agile research. I organize some of my [fictional interests by drawing](muses) in a literal notebook, which keeps me observant, at least of birds and mirrors.
+My improvisational ethos derives from jazz drumming and modern dance, and is likewise applicable to concise codes and iterative writings, toward agile research. I organize some of my [fictional interests by drawing](muses) _[**album**]_ in a literal notebook, which keeps me observant, at least of birds and mirrors.
 
 Welcome to the footer! For contact, please see my CV and social media links above.
