@@ -1,4 +1,9 @@
-/* https://hartshorne.ca/sidenotes-with-css-3f28f1628518 */
+---
+---
+
+@import "{{ site.theme }}";
+/*  parent has position: relative
+	https://hartshorne.ca/sidenotes-with-css-3f28f1628518 */
 .sidenote {
   margin-right: -170px;
   position: absolute;
