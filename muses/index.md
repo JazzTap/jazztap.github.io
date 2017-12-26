@@ -1,5 +1,10 @@
-![hand-like tree bearing cobwebbed dendrites](dendrite.png) ![yasia fears the shattered library](fear of falling.png) ![expression timing](blink.gif) 
+![hand-like tree bearing cobwebbed dendrites](dendrite.png) ![yasia fears the shattered library](fear of falling.png) 
 ![oil-plumed child](fire rat.png)
-![mace-swinging goblin and her amphibious dog](003cr.png) ![phosphorescent helm](g4363.png) ![jade bull](bull icon.png)
+![mace-swinging goblin and her amphibious dog](003cr.png) ![phosphor helm of the firestarter](g4363.png)
+
 ![yasia's profile](tunic.png) ![setesh wears half-remembered crpg clothes](samurai_s.png)
-![lammergeier eyes](oils_.png) ![setesh holds a pole](bull god small.png)
+![on the riften border](illia_svg-3.png)
+
+<div style="margin-left: 200px"><img src="blink.gif"></img></div>
+
+<small>mostly digital media (GIMP, Inkscape, Alchemy), 2016 - 2017</small>
