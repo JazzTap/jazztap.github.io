@@ -1,13 +1,4 @@
-![][dendrite] ![][bull]
-![][falling] ![][rat]
-![][goblin] ![][helm]
-![][setesh] ![][geier]
-
-[goblin]: ./003cr.png
-[bull]: ./bull icon.png
-[dendrite]: ./dendrite.png
-[falling]: ./fear of falling.png
-[rat]: ./fire rat.png
-[helm]: ./g4363.png
-[geier]: ./oils_.png
-[setesh]: ./samurai_s.png
+![hand-like tree bearing cobwebbed dendrites](./dendrite.png) ![jade bull](./bull icon.png)
+![yasia fears the shattered library](./fear of falling.png) ![oil-plumed child](./fire rat.png)
+![mace-swinging goblin and her amphibious dog](./003cr.png) ![phosphorescent helm](./g4363.png)
+![setesh wears half-remembered crpg clothes](./samurai_s.png) ![lammergeier eyes](./oils_.png)
