@@ -7,14 +7,14 @@ Consider how [a neuron transmits](/research/neuron_web/) _[demo]_ an electrical 
 I've investigated procedural generation of fictional maps like poetry, and iterated fractals under artificial selection, i.e. parameter tuning via a human-in-the-loop providing the utility function to an evolutionary algorithm.
 
 ### Geometry
-The circle problem of Apollonius asks which circles are tangent to all of three given circles. The nonlinear system certainly has eight complex solutions, which parameterize the solution circles - sometimes nonunique, or out at infinity. The rest, we can draw in real-time - whilst _crossing_ these singularities, instead of shooting blindly at them. This uses [a D3 interface to phcpy in Jupyter](https://github.com/JazzTap/mcs563/blob/master/README.md) _[🔗]_, which I gave as a poster at SciPy 2017.
+The circle problem of Apollonius asks which circles are tangent to all of three given circles. The nonlinear system certainly has eight complex solutions, which parameterize the solution circles - sometimes nonunique, or out at infinity. The rest, we can draw in real-time - whilst _crossing_ these singularities, instead of shooting blindly at them. This uses [a D3 interface to phcpy in Jupyter](https://github.com/JazzTap/mcs563/blob/master/README.md) _[repo🔗]_, which I gave as a poster at SciPy 2017.
 
 ![circle tangency demo](assets/2017-03-20 12s.gif)
 
-By dragging input circles across catastrophes, a beautiful geometric continuity is evinced. (I've done the Python side of a [JupyterHub deployment](https://github.com/JazzTap/jupyterhub) _[repo🔗]_ which can run the notebook out-of-the-box with its phcpy dependency for the nonlinear solver.)
+By dragging input circles across catastrophes, a beautiful geometric continuity is evinced. (I've worked for Professor Verschelde on his [JupyterHub deployment](phcpack.org) _[🔗]_ which can run the notebook, but otherwise, the phcpy dependency is still a bit hairy.)
 
 ### Pattern
-Consider now biological morphogenesis, whose implications [in signalling](research/geobio_pattern/slides.pdf) _[slides]_ I have [written up](research/geobio_pattern/paper.pdf) _[paper, [refs](research/geobio_pattern/refs.pdf)]_ somewhat. Genetic control-flow via selective activation is the more subtle form of biochemical 'circuitry', as exquisite as growth and form itself. Can this high concept can [be sketched](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) _[demo🔗]_ and *tested* by any in-silico implementation?
+Consider biological morphogenesis, whose implications [in signalling](research/geobio_pattern/slides.pdf) _[slides]_ I have [written up](research/geobio_pattern/paper.pdf) _[paper, [refs](research/geobio_pattern/refs.pdf)]_ somewhat. Genetic control-flow via selective activation is the more subtle form of biochemical 'circuitry', as exquisite as growth and form itself. Can this high concept can [be sketched](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) _[demo🔗]_ and *tested* by any in-silico implementation?
 
 Graphics shaders admitting a human-in-the-loop are my first bet for real-time interactive methods, but special boundary conditions (e.g. differential growth implicated in folding) complicate implementation. As to the ecological interpretation of *mathematically similar* spatial models, there is crossover with quantitative history and urban planning.
 
@@ -50,6 +50,6 @@ The combination of these principles is extremely powerful. Honestly, I can't go 
 ### Reproduction
 Jupyter notebooks have the specific advantage of a FOSS stack underneath, which is harder to hold hostage to a license fee. The experimental side of our serious play is grounded by its roots in our communities, for no amount of information is satisfactory without context. 
 
-My improvisational ethos derives from jazz drumming and modern dance, and is equally applicable to concise codes, iterative writings, and agile research. I organize some of my [fictional interests by drawing](muses) in a literal notebook, which keeps me observant, at least of birds and mirrors.
+My improvisational ethos derives from jazz drumming and modern dance, and is likewise applicable to concise codes and iterative writings, toward agile research. I organize some of my [fictional interests by drawing](muses) in a literal notebook, which keeps me observant, at least of birds and mirrors.
 
 Welcome to the footer! For contact, please see my CV and social media links above.
