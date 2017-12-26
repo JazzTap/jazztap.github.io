@@ -2,21 +2,23 @@
 I am a mathematical ecologist, ask me about cybernetics. I code science for the web, and this is my portfolio.
 
 ### Cognition
-Consider how [a neuron transmits](/research/neuron_web/) *[demo]* an electrical signal, and thereby biochemistry participates in circuitry (1/2 ways). Instead of gates built out of transistors, voltage is summed at the neural dendrites.
+Consider how [a neuron transmits](/research/neuron_web/) *[demo]* an electrical signal, and thereby biochemistry participates in circuitry (1/2 - see *morphogenesis* below). Instead of gates built out of transistors, voltage is summed at the neural dendrites.
 
-I've investigated procedural generation of fictional maps like poetry, and iterated fractals under artificial selection. Parameter tuning via a human-in-the-loop. Examples through Jupyter notebooks, supersceding JAR files.
+I've investigated procedural generation of fictional maps like poetry, and iterated fractals under artificial selection. Parameter tuning via a human-in-the-loop. Examples through Jupyter notebooks, drawing inspiration from Processing.
 
 ### Pattern
 Apollonius' circle problem asks which circles are tangent to all of three given circles. Although the system of equations is nonlinear, it certainly has eight complex solutions, whose real part we can [draw in real-time](https://github.com/JazzTap/mcs563/blob/master/README.md) *[repo]* using [a D3 interface to phcpy in Jupyter](research/scipy2017.pdf) *[poster]*, which I presented at SciPy 2017. By dragging input circles across catastrophes, a beautiful geometric continuity is evinced.
 
 (Alas, public servers which will serve both phcpack and D3 are rare.)
 
-So we move onto graphics shaders as a real-time interactive platform for [morphogenesis](research/geobio_pattern/slides.pdf) *[slides]*, which I have [expounded upon](research/geobio_pattern/paper.pdf) *[paper]* (with [extended references](research/geobio_pattern/refs.pdf)) for a seminar course, whose implementation is a research task I wish to spend more time on. (Note additionally the mathematical connection to spatial models in cliodynamics, the quantitative modelling of history.)
+So we move onto graphics shaders, a likely real-time interactive platform for [morphogenesis](research/geobio_pattern/slides.pdf) *[slides]*, which I have [expounded upon](research/geobio_pattern/paper.pdf) *[paper]* (with [extended references](research/geobio_pattern/refs.pdf)) for a seminar course. Genetic control-flow via selective activation is the more subtle form of biochemical 'circuitry' (2/2), as exquisite as growth and form itself. Whether this high concept can be sketched and tested by any in-silico implementation is my primary research interest.
+
+(But note also the mathematical connection to spatial models in cliodynamics, the quantitative modelling of history.)
 
 ### Mathematics
 I began in mathematical biology by studying [individual-based predator-prey dynamics](research/honcap.pdf) *[paper]* as the population approaches infinity (n -> oo), but remains much smaller than e.g. particles in the air. Notably, self-limitation alone makes a population model nonlinear, even though it emerges readily from the individual-based dynamics under appropriate assumptions.
 
-<small>As a counterexample, when your model predicts $10^{-18}$ foxes in the population's stable limit cycle - that is, a population of this miniscule size will never go extinct - something is absurd. These *attofoxes* are an artifact of assuming *n* continuum-large (as numerous as particles in the air). In fact, small systems of individuals are inherently noisy, prone to sampling error. </small>
+<small>As a counterexample, when your model predicts 10^-18 foxes in the population's stable limit cycle - that is, a population of this miniscule size will never go extinct - something is absurd. These *attofoxes* are an artifact of assuming *n* continuum-large (as numerous as particles in the air). In fact, small systems of individuals are inherently noisy, prone to sampling error. </small>
   
 <small>Similar accidents of discretization are a fact of life, in contradiction to control-theoretic optimality. For instance, isolated populations can and will perish in a black-swan catastrophe, so migration between habitats (incl' refugia - 'eggs in more than one basket') is necessary for conservation.</small>
 
@@ -25,12 +27,12 @@ I believe that network effects tie individual-based models to traditional dynami
 ### Notebooks
 To document a numerical inquiry satisfactorily requires an intimate correspondence between equations, experimental method, and code. The notebook paradigm is the most satisfactory approach, whose visualization potential spans two axes:
 
-###### Rich Output → Input:
+##### Rich Output → Input:
 From image display (e.g. plotting a linear transform as pixels), to kernel interfaces (arbitrary calls to *inline* Python, etc.) from Javascript which *minimize* the usually exorbitant technical overhead of domain-nonspecific binding code.
 
 Compare the rich-input analysis of Fitz-Hugh Nagumo above with a [rich-output analysis](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) *[notebook]* using xarray to study parameter variation by 'painting the space'. Contrast IPyWidgets with the domain-specific input method ('ux design') of Apollonius above.
 
-###### Static → Dynamic Flow: 
+##### Static → Dynamic Flow: 
 Movement between cells of a notebook implies pipelines for data science.  
 (Monolithic Program ⇄ **Ordered Worksheet** ⇄ Ad-Hoc REPL)
 
