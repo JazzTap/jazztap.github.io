@@ -5,4 +5,6 @@
 ![yasia's profile](tunic.png) ![setesh wears half-remembered crpg clothes](samurai_s.png)
 ![on the riften border](illia_svg-3.png)
 
-<div style="margin-left: 200px">![expression timing](blink.gif)</div>
+<div style="margin-left: 200px"><img src="blink.gif"></img></div>
+
+<small>mostly digital media (GIMP, Inkscape, Alchemy), 2016 - 2017</small>
