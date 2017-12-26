@@ -7,4 +7,4 @@
 
 <div style="margin-left: 200px"><img src="blink.gif"></div>
 
-<small>mostly digital media (<a href="https://www.gimp.org/">GIMP</a>, <a href="https://inkscape.org/en/">Inkscape</a>, <a href="http://al.chemy.org/">Alchemy</a>, 2016 - 2017, except yasia blinking from 2011</small>
+<small>mostly digital media (<a href="https://www.gimp.org/">GIMP</a>, <a href="https://inkscape.org/en/">Inkscape</a>, <a href="http://al.chemy.org/">Alchemy</a>), 2016 - 2017, except yasia blinking from 2011</small>
