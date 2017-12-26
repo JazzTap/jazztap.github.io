@@ -2,7 +2,7 @@
 I am a mathematical ecologist, ask me about cybernetics. I code science for the web, and this is my portfolio.
 
 ### Cognition
-Consider how [a neuron transmits](/research/neuron_web/) _[**demo**]_ an electrical signal, and thereby biochemistry participates in circuitry - a **control flow**. Instead of gates built out of transistors, voltage is summed at the neural dendrites. (But see also *morphogenesis* below.)
+Consider how **[a neuron transmits](/research/neuron_web/) _[demo]_** an electrical signal, and thereby biochemistry participates in circuitry - a **control flow**. Instead of gates built out of transistors, voltage is summed at the neural dendrites. (But see also *morphogenesis* below.)
 
 I've investigated procedural generation of fictional maps like poetry, and iterated fractals under artificial selection, i.e. parameter tuning via a human-in-the-loop providing the utility function to an evolutionary algorithm. Not only are we humans cybernetic lifeforms, but we can finally speak in dynamics, as creative coders.
 
@@ -14,7 +14,7 @@ The circle problem of Apollonius asks which circles are tangent to all of three 
 By dragging input circles across catastrophes, a beautiful geometric continuity is evinced.  (I’ve worked for Professor Verschelde on his [JupyterHub deployment](http://phcpack.org) _[🔗]_ which can run the notebook, but otherwise, the phcpy dependency is still a bit hairy.)
 
 ### Pattern
-Consider biological morphogenesis, whose implications [in signalling](research/geobio_pattern/slides.pdf) _[slides]_ I have [written up](research/geobio_pattern/paper.pdf) _[**paper**, [refs](research/geobio_pattern/refs.pdf)]_ somewhat. Genetic control-flow via selective activation is the more subtle form of biochemical 'circuitry', *as exquisite as growth and form itself*. Can this high concept can [be sketched](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) _[demo🔗]_ and *tested* by any in-silico implementation?
+Consider biological morphogenesis, whose implications [in signalling](research/geobio_pattern/slides.pdf) _[slides]_ I have **[written up](research/geobio_pattern/paper.pdf) _[paper, [refs](research/geobio_pattern/refs.pdf)]_** somewhat. Genetic control-flow via selective activation is the more subtle form of biochemical 'circuitry', *as exquisite as growth and form itself*. Can this high concept can [be sketched](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) _[demo🔗]_ and *tested* by any in-silico implementation?
 
 Graphics shaders admitting a human-in-the-loop are my first bet for real-time interactive methods, but special boundary conditions (e.g. differential growth implicated in folding) complicate implementation. As to the ecological interpretation of *mathematically similar* spatial models, there is crossover with quantitative history and urban planning.
 
@@ -33,7 +33,7 @@ To adequately document a numerical study requires an intimate correspondence bet
 ##### Rich Output ⇄ Input:
 From image display (e.g. plotting a linear transform as pixels), which is a good way to see what you're doing, to kernel interfaces (arbitrary calls to *inline* Python, etc.) from Javascript which *minimize* the usually exorbitant technical overhead of domain-nonspecific binding code.
 
-Compare the rich-input analysis of Fitz-Hugh Nagumo above with a [rich-output analysis](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) _[**notebook**🔗]_ using xarray to study parameter variation by 'painting the space'. Contrast also IPyWidgets with the domain-specific input method of Apollonius above, inspired by Processing sketches.
+Compare the rich-input analysis of Fitz-Hugh Nagumo above with a **[rich-output analysis](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) _[notebook🔗]_** using xarray to study parameter variation by 'painting the space'. Contrast also IPyWidgets with the domain-specific input method of Apollonius above, inspired by Processing sketches.
 
 ##### Static ⇄ Dynamic Flow: 
 Movement between cells of a notebook implies pipelines for data science.  
@@ -50,6 +50,6 @@ The combination of these principles is extremely powerful. Honestly, I can't go 
 ### Reproduction
 Jupyter notebooks have the specific advantage of a FOSS stack underneath, which is harder to hold hostage to a license fee. The **experiential** side of our serious play is grounded by its roots in our communities, for no amount of information is satisfactory without context. 
 
-My improvisational ethos derives from jazz drumming and modern dance, and is likewise applicable to concise codes and iterative writings, toward agile research. I organize some of my [fictional interests by drawing](muses) _[**album**]_ in a literal notebook, which keeps me observant, at least of birds and mirrors.
+My improvisational ethos derives from jazz drumming and modern dance, and is likewise applicable to concise codes and iterative writings, toward agile research. I organize some of my **[fictional interests by drawing](muses) _[album]_** in a literal notebook, which keeps me observant, at least of birds and mirrors.
 
 Welcome to the footer! For contact, please see my CV and social media links above.
