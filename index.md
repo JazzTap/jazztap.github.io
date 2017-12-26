@@ -27,14 +27,14 @@ I believe that network effects tie individual-based models to traditional dynami
 ### Notebooks
 To document a numerical inquiry satisfactorily requires an intimate correspondence between equations, experimental method, and code. The notebook paradigm is the most satisfactory approach, whose visualization potential spans two axes:
 
-##### Rich Output → Input:
+##### Rich Output ⇄ Input:
 From image display (e.g. plotting a linear transform as pixels), to kernel interfaces (arbitrary calls to *inline* Python, etc.) from Javascript which *minimize* the usually exorbitant technical overhead of domain-nonspecific binding code.
 
 Compare the rich-input analysis of Fitz-Hugh Nagumo above with a [rich-output analysis](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) *[notebook]* using xarray to study parameter variation by 'painting the space'. Contrast IPyWidgets with the domain-specific input method ('ux design') of Apollonius above.
 
-##### Static → Dynamic Flow: 
+##### Static ⇄ Dynamic Flow: 
 Movement between cells of a notebook implies pipelines for data science.  
-(Monolithic Program ⇄ **Ordered Worksheet** ⇄ Ad-Hoc REPL)
+(Monolithic Program → **Ordered Worksheet** ← Ad-Hoc REPL)
 
 <small>If I run each cell in order, a meaningful answer must come out. If I sensibly modify an intermediate cell, and run all successive cells in order, a meaningful answer still comes out. Contrast modular but ad-hoc situations where a pile of scripts is navigable only by a single graduate student, and stable but monolithic situations where the slightest change upstream breaks the entire workflow. (I have personally commited the worst of both worlds.)</small>
 
