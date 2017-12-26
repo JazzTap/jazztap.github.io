@@ -14,9 +14,9 @@ Now consider biological [morphogenesis](research/geobio_pattern/slides.pdf) *[sl
 ### Mathematics
 I began in mathematical biology by studying [individual-based predator-prey dynamics](research/honcap.pdf) *[paper]* as the population approaches infinity (n -> oo), but remains much smaller than e.g. particles in the air. Notably, self-limitation alone makes a population model nonlinear, even though it emerges readily from the individual-based dynamics under appropriate assumptions.
 
-<small>As a counterexample, when your model predicts 10^-18 foxes in the population's stable limit cycle - that is, a population of this miniscule size will never go extinct - something is absurd. These *attofoxes* are an artifact of assuming *n* continuum-large (as numerous as particles in the air). In fact, small systems of individuals are inherently noisy, prone to sampling error. </small>
+<div class="side">As a counterexample, when your model predicts 10^-18 foxes in the population's stable limit cycle - that is, a population of this miniscule size will never go extinct - something is absurd. These *attofoxes* are an artifact of assuming *n* continuum-large (as numerous as particles in the air). In fact, small systems of individuals are inherently noisy, prone to sampling error. </div>
   
-<small>Similar accidents of discretization are a fact of life, in contradiction to control-theoretic optimality. For instance, isolated populations can and will perish in a black-swan catastrophe, so migration between habitats (incl' refugia - 'eggs in more than one basket') is necessary for conservation.</small>
+<div class="side">Similar accidents of discretization are a fact of life, in contradiction to control-theoretic optimality. For instance, isolated populations can and will perish in a black-swan catastrophe, so migration between habitats (incl' refugia - 'eggs in more than one basket') is necessary for conservation.</div>
 
 I believe that network effects tie individual-based models to traditional dynamical models. Rough sketch of [symmetries](UPLOAD notebook) *[generator]* in the vein of Golubitsky. [?]
 
@@ -32,9 +32,9 @@ Compare the rich-input analysis of Fitz-Hugh Nagumo above with a [rich-output an
 Movement between cells of a notebook implies pipelines for data science.  
 (Monolithic Program → **Ordered Worksheet** ← Ad-Hoc REPL)
 
-<small>If I run each cell in order, a meaningful answer must come out. If I sensibly modify an intermediate cell, and run all successive cells in order, a meaningful answer still comes out. Contrast modular but ad-hoc situations where a pile of scripts is navigable only by a single graduate student, and stable but monolithic situations where the slightest change upstream breaks the entire workflow. (I have personally commited the worst of both worlds.)</small>
+If I run each cell in order, a meaningful answer must come out. If I sensibly modify an intermediate cell, and run all successive cells in order, a meaningful answer still comes out. Contrast modular but ad-hoc situations where a pile of scripts is navigable only by a single graduate student, and stable but monolithic situations where the slightest change upstream breaks the entire workflow. (I have personally commited the worst of both worlds.)
 
-<small>The human should be able to advise the machine on which scripts to call, when they know better, yet still be able to run the procedure when they don't. By treating the worksheet as a pipeline, we have well-defined invalidation criteria for cached data. while the user traverses the pipeline linearly, the update process is transparent.</small>
+<div class="side">The human should be able to advise the machine on which scripts to call, when they know better, yet still be able to run the procedure when they don't. By treating the worksheet as a pipeline, we have well-defined invalidation criteria for cached data. while the user traverses the pipeline linearly, the update process is transparent.</div>
 
 The combination of these principles is extremely powerful, suffice to say.
 
@@ -45,4 +45,4 @@ No amount of information is satisfactory without context. Yet the exponential gr
 
 I organize some of my [fictional interests by drawing](muses). My improvisational ethos derives from jazz drumming and modern dance, and is equally applicable to concise codes, iterative writings, and agile research.
 
-To contact, please see my CV and social media links above. And thanks for reading.
+For contact, please see my CV and social media links above.
