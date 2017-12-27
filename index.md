@@ -1,7 +1,7 @@
 **tl;dr**
-I am a mathematical ecologist, ask me about cybernetics. I code science for the web, and this is my portfolio.
+I am a mathematical ecologist, ask me about cybernetics. I sketch science with code, and this is my portfolio.
 
-**Quicklinks:** [Cognition](/research/neuron_web/) - [Geometry](https://github.com/JazzTap/mcs563) - [Pattern](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) - [Dynamics](research/two_allele) - [Notebooks](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) - [Reproduction](muses)
+**Just the Demos:** [Cognition](/research/neuron_web/) - [Geometry](https://github.com/JazzTap/mcs563) - [Pattern](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) - [Dynamics](research/two_allele) - [Notebooks](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) - [Album](muses)
 
 ### Cognition
 Consider how [a neuron transmits](/research/neuron_web/) _[demo]_ an electrical signal, and thereby biochemistry participates in circuitry - a **control flow**. Instead of gates built out of transistors, voltage is summed at the neural dendrites. (But see also *morphogenesis* below.)
@@ -49,8 +49,8 @@ If I run each cell in order, a **meaningful answer** must come out. If I sensibl
 
 The combination of these principles is extremely powerful. Honestly, I can't go back to writing codes without graphics, without visuospatial representation and tight feedback loops.
 
-### Reproduction
-Jupyter notebooks have the specific advantage of a FOSS stack underneath, which is harder to hold hostage to a license fee. The **experiential** side of our serious play is grounded by its roots in our communities, for no amount of information is satisfactory without context. 
+### Re-production
+Jupyter notebooks have the specific advantage of a FOSS stack underneath, which is a harder infrastructure to hold hostage than the proprietary and unverifiable. The **experiential** side of our serious play is grounded by its roots in our communities, for no amount of information is satisfactory without context. 
 
 My improvisational ethos derives from jazz drumming and modern dance, and is likewise applicable to concise codes and iterative writings, toward agile research. I organize some of my [fictional interests by drawing](muses) _[album]_ in a literal notebook, which keeps me observant, at least of birds and dancers.
 
