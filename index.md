@@ -1,7 +1,7 @@
 **tl;dr**
 I am a mathematical ecologist, ask me about cybernetics. I sketch science with code, and this is my portfolio.
 
-**Just the Demos:** [Cognition](/research/neuron_web/) - [Geometry](https://github.com/JazzTap/mcs563) - [Pattern](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) - [Dynamics](research/two_allele) - [Notebooks](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) - [Album](muses)
+**Just key demos:** [Neuron (Live)](/research/neuron_web/) - [Apollonius](https://github.com/JazzTap/mcs563) - [Vesicle](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) - [Reaction-Diffusion](http://glslsandbox.com/e#44459.0) - [Neuron (Notebook)](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) - [Album](muses)
 
 ### Cognition
 Consider how [a neuron transmits](/research/neuron_web/) _[demo]_ an electrical signal, and thereby biochemistry participates in circuitry - a **control flow**. Instead of gates built out of transistors, voltage is summed at the neural dendrites. (But see also *morphogenesis* below.)
@@ -18,10 +18,10 @@ By dragging input circles across catastrophes, a beautiful geometric continuity 
 ### Pattern
 Consider biological morphogenesis, whose implications [in signalling](research/geobio_pattern/slides.pdf) _[slides]_ I have [written up](research/geobio_pattern/paper.pdf) _[paper, [refs](research/geobio_pattern/refs.pdf)]_ somewhat. Genetic control-flow via selective activation is the more subtle form of biochemical 'circuitry', *as exquisite as growth and form itself*. Can this high concept can [be sketched](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) _[demo🔗]_ and *tested* by any in-silico implementation?
 
-Graphics shaders admitting a human-in-the-loop are my first bet for real-time interactive methods, but special boundary conditions (e.g. differential growth implicated in folding) complicate implementation. As to the ecological interpretation of *mathematically similar* spatial models, there is crossover with quantitative history and urban planning.
+Graphics shaders admitting a human-in-the-loop are my [first bet](http://glslsandbox.com/e#44459.0) _[demo🔗]_ for real-time interactive methods, but special boundary conditions (e.g. differential growth implicated in folding) complicate implementation. As to the ecological interpretation of *mathematically similar* spatial models, there is crossover with quantitative history and urban planning.
 
 ### Dynamics
-I began in mathematical biology by studying [individual-based predator-prey dynamics](research/honcap.pdf) _[paper]_ as the population approaches infinity (n → oo), but remains much smaller than e.g. particles in the air. Self-limitation alone makes a population model nonlinear! Yet clear steady states emerge from the individual-based dynamics (e.g. [gene flow between populations](research/two_allele) _[demo]_) under appropriate assumptions.
+I began in mathematical biology by studying [individual-based predator-prey dynamics](research/honcap.pdf) _[paper]_ as the population approaches infinity (n → oo), but remains much smaller than e.g. particles in the air. Self-limitation alone makes a population model nonlinear! Yet clear steady states emerge from the individual-based dynamics (e.g. maintenance of Hardy-Weinberg equilibrium by [gene flow between populations](research/two_allele) _[demo]_) under appropriate assumptions.
 
 <small class="side">The mentioned continuum assumption from fluid physics can go awry - when your model predicts 10^-18 foxes in the population's stable limit cycle ('a population of infinitesimal size will never go extinct'), it's absurd. These *attofoxes* are an artifact of assuming a population on scale with Avogadro's number, whereas in fact, small systems of individuals are inherently prone to sampling error, mere accidents of discretization. Mathematical instances of **approximation** suffuse the real world. Otherwise, we'd have optimality and no need for (bio)diversity. </small>
 
