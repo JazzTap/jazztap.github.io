@@ -7,7 +7,7 @@
 	<script src="assets/popgraph.js"></script>
 </head>
 
-*1/2/18: Hardy-Weinberg equilibrium is maintained for much longer, in the face of extinctions due to discretization error, by small amounts of gene flow.*
+*1/2/18: Hardy-Weinberg equilibrium is maintained for much longer, in the face of extinctions due to discretization error, by small amounts of gene flow. Grey and blue pops are otherwise independent. Please reload page to unlock parameters.*
 
 <!-- <div id="main"> -->
 <p>Initial population: <select id="initAA" onchange="updateRunOps()">
