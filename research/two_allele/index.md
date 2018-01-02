@@ -1,4 +1,3 @@
-<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Pop. Genetics Lab - BIOS 101 UIC Sum14</title>
@@ -8,9 +7,9 @@
 	<script src="assets/popgraph.js"></script>
 </head>
 
-<body>
 	*1/2/18: Hardy-Weinberg equilibrium is maintained for much longer, in the face of extinctions due to discretization error, by small amounts of gene flow.*
-	<div id="main">
+
+	<!-- <div id="main"> -->
 		<p>Initial population: <select id="initAA" onchange="updateRunOps()">
 			<option value="5">5</option>
 			<option value="25">25</option>
@@ -56,6 +55,3 @@
 		<div id="footer">
 			Jasmine Otto, 2014, using [graph.js](http://www.chartjs.org/) and a variety of tutorial resources
 		</div>
-	</div>
-</body>
-</html>
