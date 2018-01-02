@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -10,6 +9,7 @@
 </head>
 
 <body>
+	*1/2/18: Hardy-Weinberg equilibrium is maintained for much longer, in the face of extinctions due to discretization error, by small amounts of gene flow.*
 	<div id="main">
 		<p>Initial population: <select id="initAA" onchange="updateRunOps()">
 			<option value="5">5</option>
@@ -54,7 +54,7 @@
 		<p>Reload page to reset.</p>
 
 		<div id="footer">
-			<p>Jasmine Otto, 2014, using <a href=http://www.chartjs.org/>graph.js</a> and a variety of tutorial resources</p>
+			Jasmine Otto, 2014, using [graph.js](http://www.chartjs.org/) and a variety of tutorial resources
 		</div>
 	</div>
 </body>
