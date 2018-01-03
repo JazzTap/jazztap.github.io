@@ -11,14 +11,14 @@
     <script src="../lib/vega-embed.js"></script>
     <!-- 0.5.16, 3.0.8, 2.0.3, 3.0.0-rc7 -->
 
-	<script src="../lib/d3.min.js"></script>
+	<!-- pending input widget: <script src="../lib/d3.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
     <script src="neuron_web.js"></script>
 </head>
 
 <body>
-    <a href="../..">[back]</a> &mdash; <em>Fitz-Hugh Nagumo in one spatial dimension</em>
+    <a href="../..">[back]</a> &mdash; <em>Fitz-Hugh Nagumo in one spatial dimension (with p5.js and vega-lite)</em>
 	<div id="applet">
         <!-- TODO: parameter grid in d3. memorize phaseplane?
         <div class="sliders">
@@ -29,7 +29,6 @@
         </div>
         <svg id="cobweb"></svg> -->
 
-		<!-- <canvas data-processing-sources="neuron_web.pde"></canvas> -->
         <div id="sim"></div>
         <div id="view"></div>
 
