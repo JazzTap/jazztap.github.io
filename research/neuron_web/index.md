@@ -33,7 +33,7 @@
         <div id="view"></div>
 
 		<p>Click (tap) to depolarize the left end. <small>(Advanced: Modify parameter dictionary 'par' from the JS console.)</small></p>
-		<p>Voltage may be <span style="color:blue">greater</span> (or <span style="color:red">less than</span>) resting potential. Light borders mark inactivated segments.</p>
+		<p>Voltage may be <span style="color: #226666">greater</span> (or <span style="color: #aa3939">less than</span>) resting potential. Light borders mark inactivated segments.</p>
         <hr>
 	</div>
 
