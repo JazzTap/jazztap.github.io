@@ -1,7 +1,7 @@
 **tl;dr**
 I am a mathematical ecologist, ask me about cybernetics. I sketch science with code, and this is my portfolio.
 
-**Just [tagged] content:** [Cognition](/research/neuron_web/) - [Geometry](https://github.com/JazzTap/mcs563/tree/master/Apollonius) - [Pattern](http://glslsandbox.com/e#44459.0) - [Dynamics](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) - [Notebook](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3) - [Album](muses)
+**Just [tagged] content:** [Cognition](/research/neuron_web/) - [Geometry](https://github.com/JazzTap/mcs563/tree/master/Apollonius) - **[Pattern](http://glslsandbox.com/e#44459.0)** - [Dynamics](http://ncase.me/simulating/model/?remote=-L1I2RsTvnsoRKFWQnRk) - **[Notebook](https://gist.github.com/JazzTap/a9d74398b2e6252deeeda63c3a3718e3)** - [Album](muses)
 
 ### Cognition
 Consider how [a neuron transmits](/research/neuron_web/) _[demo]_ an electrical signal, and thereby biochemistry participates in circuitry - a **control flow**. Instead of gates built out of transistors, voltage is summed at the neural dendrites. (But see also *morphogenesis* below.)
