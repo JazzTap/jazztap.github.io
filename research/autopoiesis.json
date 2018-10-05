@@ -1,0 +1,177 @@
+{
+    "meta": {
+        "description": "autopoiesis redux\nbecause saving broke",
+        "draw": 2,
+        "fps": 15
+    },
+    "states": [
+        {
+            "id": 0,
+            "icon": "",
+            "name": "empty",
+            "actions": [
+            ],
+            "description": ""
+        },
+        {
+            "id": 1,
+            "icon": "○",
+            "name": "lipid",
+            "actions": [
+                {
+                    "type": "if_neighbor",
+                    "sign": ">",
+                    "num": 3,
+                    "stateID": "3",
+                    "actions": [
+                    {
+                        "type": "if_random",
+                        "probability": 0.3,
+                        "actions": [
+                            {
+                                "type": "go_to_state",
+                                "stateID": "0",
+                                "actions": []
+                            }
+                        ]
+                    }
+                    ]
+                },
+                {
+                    "type": "if_random",
+                    "probability": 0.05,
+                    "actions": [
+                        {"type": "move_to",
+                         "space": "0", "spotStateID": "3", "leaveStateID": "0",
+                         "actions": []}
+                    ]
+                },
+                {
+                    "type": "if_random",
+                    "probability": 0.01,
+                    "actions": [
+                        {"type": "go_to_state", "stateID": "0", "actions": []}
+                    ]
+                }
+            ],
+            "description": "dissolve\ncreep\naccident"
+        },
+        {
+            "id": 2,
+            "icon": "☆",
+            "name": "catalyst",
+            "description": "dissolve\nreplicate\nwander\naccident",
+            "actions": [
+                {
+                    "type": "if_neighbor",
+                    "sign": ">",
+                    "num": 1,
+                    "stateID": "3",
+                    "actions": [
+                    {
+                        "type": "if_random",
+                        "probability": 0.3,
+                        "actions": [
+                            {
+                                "type": "go_to_state",
+                                "stateID": "0",
+                                "actions": []
+                            }
+                        ]
+                    }
+                    ]
+                },
+                {
+                    "type": "if_random",
+                    "probability": 0.005,
+                    "actions": [
+                        {"type": "move_to",
+                         "space": "0", "spotStateID": "0", "leaveStateID": "2",
+                         "actions": []}
+                    ]
+                },
+                {
+                    "type": "if_random",
+                    "probability": 0.01,
+                    "actions": [
+                        {"type": "move_to",
+                         "space": "0", "spotStateID": "0", "leaveStateID": "0",
+                         "actions": []}
+                    ]
+                },
+                {
+                    "type": "if_random",
+                    "probability": 0.01,
+                    "actions": [
+                        {"type": "go_to_state", "stateID": "0", "actions": []}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "icon": "◦",
+            "name": "substrate",
+            "description": "spawn\nflood\naccrete",
+            "actions": [
+                {
+                    "type": "if_random",
+                    "probability": 0.01,
+                    "actions": [
+                        {"type": "go_to_state", "stateID": "2", "actions": []}
+                    ]
+                },
+                {
+                    "type": "if_random",
+                    "probability": 0.7,
+                    "actions": [
+                        {"type": "move_to",
+                         "space": "0", "spotStateID": "0", "leaveStateID": "3",
+                         "actions": []}
+                    ]
+                },
+                {
+                    "type": "if_neighbor",
+                    "sign": ">=",
+                    "num": 1,
+                    "stateID": "2",
+                    "actions": [
+                    {
+                        "type": "if_random",
+                        "probability": 0.8,
+                        "actions": [
+                            {
+                                "type": "go_to_state",
+                                "stateID": "1",
+                                "actions": []
+                            }
+                        ]
+                    }
+                    ]
+                }
+            ]
+        }
+    ],
+    "world": {
+        "update": "simultaneous",
+        "neighborhood": "moore",
+        "proportions": [
+            {
+                "stateID": 0,
+                "parts": 90
+            },
+            {
+                "stateID": 1,
+                "parts": 10
+            },
+            {
+                "stateID": 2,
+                "parts": 0
+            }
+        ],
+        "size": {
+            "width": 12,
+            "height": 11
+        }
+    }
+}
