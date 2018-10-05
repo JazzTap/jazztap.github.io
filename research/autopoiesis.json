@@ -2,7 +2,7 @@
     "meta": {
         "description": "autopoiesis redux\nbecause saving broke",
         "draw": 2,
-        "fps": 15
+        "fps": 30
     },
     "states": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "id": 1,
-            "icon": "○",
+            "icon": "⭘",
             "name": "lipid",
             "actions": [
                 {
@@ -26,7 +26,7 @@
                     "actions": [
                     {
                         "type": "if_random",
-                        "probability": 0.3,
+                        "probability": 0.1,
                         "actions": [
                             {
                                 "type": "go_to_state",
@@ -39,7 +39,7 @@
                 },
                 {
                     "type": "if_random",
-                    "probability": 0.05,
+                    "probability": 0.025,
                     "actions": [
                         {"type": "move_to",
                          "space": "0", "spotStateID": "3", "leaveStateID": "0",
@@ -48,7 +48,7 @@
                 },
                 {
                     "type": "if_random",
-                    "probability": 0.01,
+                    "probability": 0.0,
                     "actions": [
                         {"type": "go_to_state", "stateID": "0", "actions": []}
                     ]
@@ -58,7 +58,7 @@
         },
         {
             "id": 2,
-            "icon": "☆",
+            "icon": "★",
             "name": "catalyst",
             "description": "dissolve\nreplicate\nwander\naccident",
             "actions": [
@@ -83,16 +83,16 @@
                 },
                 {
                     "type": "if_random",
-                    "probability": 0.005,
+                    "probability": 0.05,
                     "actions": [
                         {"type": "move_to",
-                         "space": "0", "spotStateID": "0", "leaveStateID": "2",
+                         "space": "0", "spotStateID": "1", "leaveStateID": "2",
                          "actions": []}
                     ]
                 },
                 {
                     "type": "if_random",
-                    "probability": 0.01,
+                    "probability": 0.05,
                     "actions": [
                         {"type": "move_to",
                          "space": "0", "spotStateID": "0", "leaveStateID": "0",
@@ -101,7 +101,7 @@
                 },
                 {
                     "type": "if_random",
-                    "probability": 0.01,
+                    "probability": 0.025,
                     "actions": [
                         {"type": "go_to_state", "stateID": "0", "actions": []}
                     ]
@@ -112,28 +112,12 @@
             "id": 3,
             "icon": "◦",
             "name": "substrate",
-            "description": "spawn\nflood\naccrete",
+            "description": "accrete\nflood\nspawn",
             "actions": [
                 {
-                    "type": "if_random",
-                    "probability": 0.01,
-                    "actions": [
-                        {"type": "go_to_state", "stateID": "2", "actions": []}
-                    ]
-                },
-                {
-                    "type": "if_random",
-                    "probability": 0.7,
-                    "actions": [
-                        {"type": "move_to",
-                         "space": "0", "spotStateID": "0", "leaveStateID": "3",
-                         "actions": []}
-                    ]
-                },
-                {
                     "type": "if_neighbor",
-                    "sign": ">=",
-                    "num": 1,
+                    "sign": ">",
+                    "num": 0,
                     "stateID": "2",
                     "actions": [
                     {
@@ -148,6 +132,22 @@
                         ]
                     }
                     ]
+                },
+                {
+                    "type": "if_random",
+                    "probability": 0.7,
+                    "actions": [
+                        {"type": "move_to",
+                         "space": "0", "spotStateID": "0", "leaveStateID": "3",
+                         "actions": []}
+                    ]
+                },
+                {
+                    "type": "if_random",
+                    "probability": 0.001,
+                    "actions": [
+                        {"type": "go_to_state", "stateID": "2", "actions": []}
+                    ]
                 }
             ]
         }
@@ -158,20 +158,16 @@
         "proportions": [
             {
                 "stateID": 0,
-                "parts": 90
+                "parts": 99
             },
             {
-                "stateID": 1,
-                "parts": 10
-            },
-            {
-                "stateID": 2,
-                "parts": 0
+                "stateID": 3,
+                "parts": 1
             }
         ],
         "size": {
-            "width": 12,
-            "height": 11
+            "width": 40,
+            "height": 33
         }
     }
 }
