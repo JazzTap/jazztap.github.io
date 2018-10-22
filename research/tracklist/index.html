@@ -1,16 +1,8 @@
 <head>
     <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/vasturiano/aframe-forcegraph-component/dist/aframe-forcegraph-component.min.js"></script>
-    <style>
-        @font-face {
-            font-family: Roboto Condensed;
-            src: url('./lib/RobotoCondensed-Regular.ttf'), url('./lib/RobotoCondensed-Bold.ttf');
-        }
-        @font-face {
-            font-family: Roboto;
-            src: url('./lib/Roboto-Regular.ttf'), url('./lib/Roboto-Bold.ttf');
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+    
     <script>
     lyricsResponse = undefined
     fetch('https://api.myjson.com/bins/1gc1kc').then((re) => {lyricsResponse = re.json()})
@@ -21,37 +13,31 @@
             cv = canvas.getContext('2d')
         
         canvas.width = 128; canvas.height = 512
-        cv.fillStyle = 'black'
-        cv.globalAlpha = .2
-        cv.fillRect(0,0, canvas.width,canvas.height)
+        cv.globalAlpha = .2; cv.fillStyle = 'black'
+        cv.fillRect(0,0, canvas.width,canvas.height) // background
         
-        cv.font = 'Bold 20px Roboto'
-        cv.fillStyle = 'white'
-        cv.globalAlpha = 1
-        cv.textAlign = 'center'
-        
+        cv.globalAlpha = 1; cv.fillStyle = 'white';
+        cv.font = 'Bold 20px Roboto'; cv.textAlign = 'center' // prep for text
         let ret = new THREE.MeshLambertMaterial({
             map: new THREE.Texture(canvas),
             transparent: true,
             opacity: 0.5,
             depthWrite: false,
         });
-        u.mat = ret // for use outside this closure
+        u.mat = ret // for use by blotLyrics
         
         lyricsResponse.then((ldict) => {
             // let v = lyrics.find(v => v.id == u.source.id) // not assuming sort
-            let v = ldict[u.source.id]
-            u.lyrics = v.lyrics
+            u.lyrics = ldict[u.source.id].lyrics
             
-            let i = Math.floor(Math.random() * (v.lyrics.length - 2))
-            let set = v.lyrics.slice(i, i+6)
+            let i = Math.floor(Math.random() * (u.lyrics.length - 2))
+            let set = u.lyrics.slice(i, i+6)
             
             cv.translate(canvas.width/2, canvas.height/2)
             cv.rotate(-Math.PI/2)
             set.forEach((s,i) => cv.fillText(s, 0, -48 + 18*i))
             
             ret.map.needsUpdate = true
-            
             // yes, Promise resolution can monkey-patch returned Material
             // ret.color = new THREE.Color(u.source.id/150, 0, u.target.id/150)
         })
@@ -61,7 +47,6 @@
     colorByYear = function(u) {
         let h = parseInt(u.year) - 1980,
             b = 70
-        
         if (isNaN(h)) {h = 0; b = 100}
         h *= 8
         
@@ -75,30 +60,30 @@
         if (u) u.mat.opacity = 1
         
         if (u_ && !u) {
-            let poem = document.getElementById('poem')
+            // let poem = document.getElementById('poem')
             let v = u_
             
-            let i = scroll[v.source.song]
+            let i = scroll[v.source.song] // get current index
             if (i === undefined)
-                scroll[v.source.song] = i = Math.floor(Math.random() * v.lyrics.length)
+                scroll[v.source.song] = i = Math.floor(Math.random() * v.lyrics.length) // random start
             if (i >= v.lyrics.length)
-                scroll[v.source.song] = i = 0
+                scroll[v.source.song] = i = 0 // wrap around
             if (v.lyrics.length == 0)
-                return
+                return // escape if I can do nothing
             
             let odds = (s) => 9 / (10 + s.length)
+            // set 90% odds of word retention, decreasing with sentence length
             
             let k = 0
             while (k < 2 && i+k < v.lyrics.length) {
-                let s = v.lyrics[i+k].split(' '),
+                let s = v.lyrics[i+k].split(' '), // get next sentence
                     ret = s.map(w => Math.random() < odds(s) ? w : '').join(' ')
                         // '_'.repeat(w.length) // prefer to not preserve length info
                 
                 console.log(ret != 'Instrumental' ? ret : '')
-                poem.value += ret + '<br/>\n' // FIXME: A-frame entities are not like DOM nodes.
+                // poem.value += ret + '<br/>\n' // FIXME: A-frame entities are not like DOM nodes.
                 k += 1
             }
-            
             scroll[v.source.song] += k
         }
         
