@@ -1,0 +1,121 @@
+<head>
+    <script src="./lib/aframe.min.js"></script>
+    <script src="./lib/aframe-forcegraph-component.min.js"></script>
+    <style>
+        @font-face {
+            font-family: Roboto Condensed;
+            src: url('./lib/RobotoCondensed-Regular.ttf'), url('./lib/RobotoCondensed-Bold.ttf');
+        }
+        @font-face {
+            font-family: Roboto;
+            src: url('./lib/Roboto-Regular.ttf'), url('./lib/Roboto-Bold.ttf');
+        }
+    </style>
+    <script>
+    lyricsResponse = undefined
+    fetch('https://api.myjson.com/bins/1gc1kc').then((re) => {lyricsResponse = re.json()})
+      // big bin of lyrics
+        
+    textMaterial = function(u) {
+        let canvas = document.createElement('canvas'),
+            cv = canvas.getContext('2d')
+        
+        canvas.width = 128; canvas.height = 512
+        cv.fillStyle = 'black'
+        cv.globalAlpha = .2
+        cv.fillRect(0,0, canvas.width,canvas.height)
+        
+        cv.font = 'Bold 20px Roboto'
+        cv.fillStyle = 'white'
+        cv.globalAlpha = 1
+        cv.textAlign = 'center'
+        
+        let ret = new THREE.MeshLambertMaterial({
+            map: new THREE.Texture(canvas),
+            transparent: true,
+            opacity: 0.5,
+            depthWrite: false,
+        });
+        u.mat = ret // for use outside this closure
+        
+        lyricsResponse.then((ldict) => {
+            // let v = lyrics.find(v => v.id == u.source.id) // not assuming sort
+            let v = ldict[u.source.id]
+            u.lyrics = v.lyrics
+            
+            let i = Math.floor(Math.random() * (v.lyrics.length - 2))
+            let set = v.lyrics.slice(i, i+6)
+            
+            cv.translate(canvas.width/2, canvas.height/2)
+            cv.rotate(-Math.PI/2)
+            set.forEach((s,i) => cv.fillText(s, 0, -48 + 18*i))
+            
+            ret.map.needsUpdate = true
+            
+            // yes, Promise resolution can monkey-patch returned Material
+            // ret.color = new THREE.Color(u.source.id/150, 0, u.target.id/150)
+        })
+        return ret
+    }
+    
+    colorByYear = function(u) {
+        let h = parseInt(u.year) - 1980,
+            b = 70
+        
+        if (isNaN(h)) {h = 0; b = 100}
+        h *= 8
+        
+        let s = 'hsl(' + [h, '65%', b + '%'].join(',') + ')'
+        return new THREE.Color(s).getHex()
+    }
+    
+    let scroll = {}
+    blotLyrics = function(u, u_) {
+        if (u_) u_.mat.opacity = 0.5
+        if (u) u.mat.opacity = 1
+        
+        if (u_ && !u) {
+            let poem = document.getElementById('poem')
+            let v = u_
+            
+            let i = scroll[v.source.song]
+            if (i === undefined)
+                scroll[v.source.song] = i = Math.floor(Math.random() * v.lyrics.length)
+            if (i >= v.lyrics.length)
+                scroll[v.source.song] = i = 0
+            if (v.lyrics.length == 0)
+                return
+            
+            let odds = (s) => 9 / (10 + s.length)
+            
+            let k = 0
+            while (k < 2 && i+k < v.lyrics.length) {
+                let s = v.lyrics[i+k].split(' '),
+                    ret = s.map(w => Math.random() < odds(s) ? w : '').join(' ')
+                        // '_'.repeat(w.length) // prefer to not preserve length info
+                
+                console.log(ret != 'Instrumental' ? ret : '')
+                poem.value += ret + '<br/>\n' // FIXME: A-frame entities are not like DOM nodes.
+                k += 1
+            }
+            
+            scroll[v.source.song] += k
+        }
+        
+        // scratch - in vr space...
+        // cv.requestAnimationFrame()
+        // mat.map.needsUpdate = true
+    }
+    </script>
+</head>
+  <body>      
+    <a-scene states=false>
+      <a-camera wasd-controls="fly: true; acceleration: 600">
+        <a-cursor color="lavender" opacity="0.5"></a-cursor>  
+        <a-text id="poem" width="0.5" opacity="0.5" value="poem" align="center"></a-text>
+      </a-camera>
+      <a-sky color="#002"></a-sky>
+
+      <!-- nodes and links data -->
+      <a-entity forcegraph="json-url: https://api.myjson.com/bins/w3azw; node-label: song; node-desc: artist; node-color: colorByYear; node-val: weight; node-rel-size: 4; node-opacity: .5; link-width: 15; link-material: textMaterial; link-resolution: 32; on-link-center-hover: blotLyrics; warmup-ticks: 100; cooldown-ticks: 5000;"></a-entity>
+    </a-scene>
