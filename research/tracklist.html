@@ -1,0 +1,249 @@
+<head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/vasturiano/aframe-forcegraph-component/dist/aframe-forcegraph-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-orbit-controls@1.2.0/dist/aframe-orbit-controls.min.js"></script>
+    <script src="https://unpkg.com/three.texttexture"></script>
+    <script src="https://unpkg.com/three.textsprite"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+
+    <script>
+    lyricsResponse = undefined
+    fetch('https://api.myjson.com/bins/1gc1kc').then((re) => {lyricsResponse = re.json()})
+    // FIXME: doubtful that loader & callbacks outside of aframe component are kosher.
+
+    /* AFRAME.registerComponent('rotation-reader', {
+        tick: function () {
+            let rotation = this.el.getAttribute('rotation'); // https://stackoverflow.com/a/38907883
+            console.log(this.el, rotation)
+        }
+    }); */
+
+    songQuery = ''
+    mute = true
+    window.addEventListener('keydown', (e) => {
+        // todo: with scroll listener, fix 'screenspace' text for orbitcontrols camera
+        // document.querySelector('a-entity[camera]')
+        
+        if ('abcdefghijklmnopqrstuvwxyz '.includes(e.key))
+            console.log(songQuery += e.key)
+        else if (e.key == 'Backspace')
+            console.log(songQuery = songQuery.slice(0, -1))
+        else if (e.key == 'Enter')
+            console.log(songQuery = '')
+        else if (e.key == 'Tab')
+            mute = !mute
+        
+        lyricsResponse.then((ldict) => {
+            ldict.forEach(d => {
+                let i = d.id
+                if (!innerMats[i] || !outerMats[i])
+                    return // guard against lyrics with no node
+                    
+                if (songQuery.length == 0) {
+                    innerMats[i].color.setHex(unfocus)
+                    outerMats[i].color.setHex(mute ? unfocus : colors[i])
+                }
+                else {
+                    let frontMatch = s => s.slice(0, songQuery.length) == songQuery
+
+                    let inLyrics = d.lyrics.join('\n').toLowerCase().includes(songQuery),
+                        inTitle = d.artist.toLowerCase().split(' ').some(frontMatch) ||                  d.song.toLowerCase().split(' ').some(frontMatch)
+
+                    innerMats[i].color.setHex( inLyrics ? colors[i] : unfocus)
+                    outerMats[i].color.setHex( inTitle ? colors[i] : unfocus)
+                }
+            })
+        })
+    });
+    
+    // nodes, highlightable by song query.
+    innerMats = []
+    outerMats = []
+    selectorSphere = function(u) {
+        colors[u.id] = colorMap(u)
+        
+        let geometry = new THREE.SphereGeometry( u.weight * .25, 32, 32 ),
+            material = new THREE.MeshLambertMaterial( {color: unfocus,
+                                                       transparent: true, opacity: 0.8,
+                                                       depthWrite: false} ),
+            outline = new THREE.MeshBasicMaterial( {color: unfocus, side: THREE.BackSide,
+                                                    transparent: true, opacity: 0.8})
+        
+        innerMats[u.id] = material // FIXME: extend the forcegraph instead of just sinking my pointers in, kudzu-like
+        outerMats[u.id] = outline
+        
+        let res = new THREE.Mesh( geometry, outline ),
+            ret = new THREE.Group()
+        res.scale.multiplyScalar(1.1) // https://stemkoski.github.io/Three.js/Outline.html
+        let w = Math.max(u.weight, 5)
+        
+        ret.add(res)
+        ret.add(new THREE.Mesh( geometry, material ))
+        ret.add(new THREE.TextSprite({
+            textSize: 5 * w / (w + 10),
+            texture: {
+                text: u.song, //+ '\n(' + u.artist + ')',
+                fontFamily: 'Roboto',
+            },
+            material: {color: 0xcccccc},
+        }))
+        return ret;
+    }
+    
+    colors = []
+    unfocus = 0xaaaaaa
+    colorMap = function(u) {
+        let h = parseInt(u.year) - 1985, b = 70
+        if (isNaN(h)) {h = 0; b = 100} // fallback
+        h *= 8
+        
+        let s = 'hsl(' + [h, '90%', b + '%'].join(',') + ')'
+        return new THREE.Color(s).getHex()
+    }
+
+    // lyrics in 3d scene
+    ltexW = 256; ltexH = 1024
+    textMaterial = function(u) {
+        let canvas = document.createElement('canvas'),
+            cv = canvas.getContext('2d')
+        canvas.width = ltexW; canvas.height = ltexH
+        
+        let ret = new THREE.MeshLambertMaterial({
+            map: new THREE.Texture(canvas),
+            transparent: true,
+            opacity: 0.7,
+            depthWrite: false,
+        });
+        u.mat = ret // for use outside this closure
+        u.canvas = canvas
+        u.flip = false
+
+        printLyrics(cv, u)
+        return ret
+    }
+
+    printLyrics = function (cv, link) {
+        // todo: argument i in range(0, ldict[u.source.id].lyrics.length)
+        // if (link.fake) return // fake links each get their own invisible texture
+
+        cv.setTransform(1,0,0,1,0,0)
+        cv.clearRect(0,0, ltexW,ltexH)
+        
+        cv.fillStyle = 'black'
+        cv.globalAlpha = .2
+        cv.fillRect(0,0, ltexW,ltexH)
+        
+        cv.font = 'Bold 42px Sans' // FIXME: wait for font to load
+        cv.fillStyle = 'white'
+        cv.globalAlpha = 1
+        // cv.textAlign = 'center'
+
+        lyricsResponse.then((ldict) => {
+            // let v = lyrics.find(v => v.id == u.source.id) // not assuming sort
+            let u = link.flip ? ldict[link.target.id] : ldict[link.source.id],
+                v = link.flip ? ldict[link.source.id] : ldict[link.target.id]
+            
+            let i = u.lyrics.findIndex(line => line.includes(songQuery)),
+                j = v.lyrics.findIndex(line => line.includes(songQuery))
+
+            if (i == -1 || songQuery == '') i = Math.floor(Math.random()*(u.lyrics.length - 3))
+            if (j == -1 || songQuery == '') j = Math.floor(Math.random()*(v.lyrics.length - 3))
+
+            let set = [].concat( // fails gracefully for '[instrumental]'
+                    u.lyrics.slice(i, i+3),
+                    v.lyrics.slice(j, j+3)
+                    )
+            link.lyrics = set // save for blotting
+            
+            cv.translate(ltexW/2, ltexH/2)
+            cv.rotate(-Math.PI/2)
+            set.forEach((s,k) => {
+                let x = -cv.measureText(s).width/2, // center, because spheres vary in size
+                    y = -100 + 42*k
+                // cv.fillText(s, 0, y)
+                
+                s.split(' ').forEach(w => {
+                    let kw = w.toLowerCase()
+                    cv.fillStyle =
+                        songQuery.length > 1 && kw.includes(songQuery) ? 'mediumorchid' :
+
+                        ['stars', 'go', 'bring', 'through', 'away', 'out', 'travel', 'world', 'dreams', 'keep', 'carry', 'around', 'hidden', 'down', 'among', 'transition', 'made', 'take', 'taking', 'confined', 'home', 'where', 'leave', 'aside', 'back', 'above', 'been', 'still', 'save', 'aside', 'face', 'cage', 'come', 'news', 'told', 'break', 'calls', 'calling', 'speak', 'call', 'on', 'beneath']
+                        .includes(kw) ? 'aquamarine' :
+                        ['sun', 'expires', 'suddenly', 'radio', 'music', 'now', 'never', 'fade', 'survive', 'fear', 'disappear', 'vanished', 'seconds', 'slows', 'now', 'sleep', 'chance', 'year', 'old', 'face', 'show', 'why', 'black', 'painted', 'know', 'feel', 'head', 'dark', 'listen', 'awake', 'behold', 'rage', 'believe', 'taste', 'when', 'know', 'am', 'veins']
+                        .includes(kw) ? 'salmon' :
+                        'white';
+                    cv.fillText(w, x, y);
+                    x += cv.measureText(w + ' ').width; // https://stackoverflow.com/a/7665485
+                })
+            })
+            
+            link.mat.map.needsUpdate = true
+            link.flip = !link.flip
+            
+            // yes, Promise resolution can monkey-patch returned Material
+            // ret.color = new THREE.Color(u.source.id/150, 0, u.target.id/150)
+        })
+    }
+    
+    // lyrics to console
+    let scroll = {}
+    blotLyrics = function(u, u_) {
+        if (u_) u_.mat.opacity = 0.7
+        if (u) u.mat.opacity = 1
+        
+        if (u && !u_) { // (initial) enter
+        }
+
+        if (u_) { // exit
+            let v = u_,
+                cv = v.canvas.getContext('2d')
+            printLyrics(cv, v)
+            if (!v.lyrics) return
+
+            let i = scroll[v.source.song]
+            if (i === undefined)
+                scroll[v.source.song] = i = Math.floor(Math.random() * v.lyrics.length)
+            if (i >= v.lyrics.length)
+                scroll[v.source.song] = i = 0
+            
+            let odds = (s) => 9 / (10 + s.length)
+            
+            let k = 0, ret = []
+            while (k < 2 && i+k < v.lyrics.length) {
+                let s = v.lyrics[i+k].split(' '),
+                    res = s.map(w => Math.random() < odds(s) ? w : '').join(' ')
+                        // '_'.repeat(w.length) // prefer to not preserve length info
+
+                if (res != 'Instrumental') {
+                    // console.log(res)
+                    ret.push(res)
+                }
+                // else console.log()
+                k += 1
+            }            
+            scroll[v.source.song] += k
+            console.log(ret.join('\n'))
+        }        
+        // scratch - in vr space...
+        // cv.requestAnimationFrame()
+        // mat.map.needsUpdate = true
+    }
+    </script>
+</head>
+<body>
+    <a-scene states=false keyboard-shortcuts="enterVR: false">        
+        <!-- <a-entity id="rig" movement-controls="fly: true; speed: 5.0" position="0 0 0">
+            <a-camera position="0 1.6 0" look-controls>
+                <a-cursor color="lavender" opacity="0.5"></a-cursor> 
+            </a-camera>
+        </a-entity> -->
+        <a-entity windows-motion-controls="hand: left"></a-entity>
+        <a-entity windows-motion-controls="hand: right"></a-entity>
+
+        <a-entity camera rotation-reader look-controls orbit-controls="target: 0 1.6 0; minDistance: 15; maxDistance: 580; keyPanSpeed: 50; zoomSpeed: 2.5; initialPosition: 0 5 15"> </a-entity>
+        <a-sky color="#222"></a-sky>
+
+        <a-entity id="graph" forcegraph="json-url: https://api.myjson.com/bins/w3azw; node-label: song; node-desc: artist; node-three-object: selectorSphere; link-width: 10; link-material: textMaterial; link-resolution: 32; on-link-center-hover: blotLyrics; warmup-ticks: 100; cooldown-ticks: 50000;"></a-entity>
+        <!-- node-val: weight; node-rel-size: 4; node-opacity: .75;  -->
+    </a-scene>
+</body>
