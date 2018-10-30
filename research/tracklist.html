@@ -47,7 +47,8 @@
                     let frontMatch = s => s.slice(0, songQuery.length) == songQuery
 
                     let inLyrics = d.lyrics.join('\n').toLowerCase().includes(songQuery),
-                        inTitle = d.artist.toLowerCase().split(' ').some(frontMatch) ||                  d.song.toLowerCase().split(' ').some(frontMatch)
+                        inTitle = d.artist.toLowerCase().split(' ').some(frontMatch) ||
+                                  d.song.toLowerCase().split(' ').some(frontMatch)
 
                     innerMats[i].color.setHex( inLyrics ? colors[i] : unfocus)
                     outerMats[i].color.setHex( inTitle ? colors[i] : unfocus)
@@ -102,7 +103,7 @@
     }
 
     // lyrics in 3d scene
-    ltexW = 256; ltexH = 1024
+    ltexW = 128; ltexH = 512
     textMaterial = function(u) {
         let canvas = document.createElement('canvas'),
             cv = canvas.getContext('2d')
@@ -133,7 +134,7 @@
         cv.globalAlpha = .2
         cv.fillRect(0,0, ltexW,ltexH)
         
-        cv.font = 'Bold 42px Sans' // FIXME: wait for font to load
+        cv.font = 'Bold 21px Sans' // FIXME: wait for font to load
         cv.fillStyle = 'white'
         cv.globalAlpha = 1
         // cv.textAlign = 'center'
@@ -159,7 +160,7 @@
             cv.rotate(-Math.PI/2)
             set.forEach((s,k) => {
                 let x = -cv.measureText(s).width/2, // center, because spheres vary in size
-                    y = -100 + 42*k
+                    y = -50 + 21*k
                 // cv.fillText(s, 0, y)
                 
                 s.split(' ').forEach(w => {
