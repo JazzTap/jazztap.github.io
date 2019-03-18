@@ -5,22 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<base target="_parent">
 
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">-->
     <style>
-    div.chunk {
-      margin-bottom: 2rem;
-      color: #888;
-    }
-    div.active {
-      color: #000;
-    }
+    div.chunk { margin-bottom: 2rem; }
+    div.interact { text-align: center; }
 
-    i { font: 14px normal, monospace; }
+    i { font: 12px normal, monospace; }
     .preview { color: #888 }
-    // .k { color: black; }
-
-    path {
-      pointer-events: none; // pass clicks through to svg
-    }
+    /* .k { color: black; } */
     
     input[type=button] {
       border: 1px solid #eee;
@@ -36,15 +28,10 @@
       background-color: #ddd;
     }
 
-    /* .container {
+    .container {
       display: grid;
-      grid-template-columns: 2fr 2fr;
+      grid-template-columns: 2fr 1fr;
     }
-    .column {
-      margin-left: 1em;
-      margin-right: 1em;
-      overflow: hidden;
-    } */
     /* .book {
       column-count: 2;
     }
@@ -55,25 +42,50 @@
       margin: 12px 0px 12px 0px;
       background-color: #ddd;
     } */
+    .column {
+      margin-left: 1em;
+      margin-right: 1em;
+      overflow: hidden;
+    }
     </style>
   </head>
 
   <body>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 1rem">
-      <div id="lhs"></div>
-      <div id="rhs"></div>
+    <div class="container">
+      <div class="column">
+        <div><span id="setting" /></div>
+      </div>
+
+      <div class="column" >
+          <!-- <div><span id="title" /></div> -->
+  
+          <div> <span id="scroll" /> </div>
+          <div><span id="intro" /></div>
+          
+          <div class="interact"><span id="sockets" style="margin: 0 auto;"/> </div>
+          <div class="interact"><span id="eye" style="margin: 0 auto;"/></div>
+          <div><span id="color" /></div>
+          <div><span id="cut" /></div>
+          <div><span id="grail-choice" /></div>
+
+          <div> <span id="end" /> </div> 	   
+        </div>
+
+      <div class="column" >
+        <!-- <div><span id="reseed" /></div> -->
+        <div><span id="ps" />  </div>
+      </div>
+      <!-- <div class="column"><hr></div> -->
     </div>
 
     <script type="module">
       import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1.0.1?module";
-      import notebook from "https://api.observablehq.com/d/f7344b258f6348f8.js";
+      import notebook from "https://api.observablehq.com/d/6026454a4c3c15e2.js";
       
       const renders = {
-        // "currImage(input.tokens)": "#tarot",
-        // "root": "#content",
-
-        "lhs": "#lhs",
-        "rhs": "#rhs",
+        "viewof input": "#sockets",
+        "root": "#setting",
+        "eye": "#eye",
 
         /* // "title": "#title",
       	"opening_scroll": "#scroll",
