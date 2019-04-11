@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<base target="_parent">
+
+    <style>
+    body
+    {
+      --serif: "Iowan Old Style","Apple Garamond",Baskerville,"Palatino Linotype","Times New Roman","Droid Serif",Times,"Source Serif Pro",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      --sans-serif: -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
+      font: 15px var(--sans-serif);
+    }
+    i {
+      font-size: 13px;
+      font-family: monospace;
+      font-style: normal; 
+    }
+
+    figure
+    {
+      display: inline-block;
+      max-width: 30%;
+      height: auto;
+      margin: 0;
+      padding: 5px;
+      text-align: center;
+    }
+    grid
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 100%;
+      margin: 1rem;
+    }
+    passage
+    {
+      font-family: var(--serif);
+      height: 400px;
+      margin: 0 1rem;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+    }
+    input {
+      background: white;
+      border: 1px solid #aaa;
+      color: #aaa;
+    }
+    input:hover {
+      border: 1px solid #066;
+      color: #066;
+    }
+
+    div.wrapper {
+      padding: 40px 9%;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div id="zero"></div>
+
+      <div id="one"></div>
+      <div id="two"></div>
+      <div id="three"></div>
+    </div>>
+
+    <script type="module">
+      import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1.0.1?module";
+      import notebook from "https://api.observablehq.com/d/cb07d4e6cd00b4fe.js";
+      
+      const renders = {
+        // "currImage(input.tokens)": "#tarot",
+        // "root": "#content",
+
+        "zero": "#zero",
+        "one": "#one",
+
+        "two": "#two",
+        "three": "#three",
+
+        /* // "title": "#title",
+      	"opening_scroll": "#scroll",
+        "viewof ritual": "#sockets",
+
+        "setting": "#setting",
+        "scenes": "#scenes",
+        "end": "#end",
+        "postscript": "#ps",
+
+        // "viewof intro_choice": "#intro-choice",
+        "intro": "#intro",
+        "grail_choice": "#grail-choice",
+        "viewof fin": "#finitum",
+        
+        "eye": "#eye",
+        "viewof color": "#color",
+        "viewof cut": "#cut",
+        "spread": "#tarot", */
+      };
+
+      // let done = false;
+      Runtime.load(notebook, (variable) => {
+        const selector = renders[variable.name];
+        // if (variable.name === 'timeline') done = true;
+
+        if (selector) {
+          return new Inspector(document.querySelector(selector));
+        } /* else if (variable.name) {
+          var div = document.createElement("div");
+          document.body.appendChild(div);
+          return new Inspector(div);
+        } */
+      });
+    </script>
+  </body>
+</html>
