@@ -12,9 +12,6 @@
       --sans-serif: -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
       font: 15px var(--sans-serif);
     }
-    text {
-      font: 15px var(--serif);
-    }
     i {
       font-size: 13px;
       font-family: monospace;
@@ -42,7 +39,7 @@
       font-family: var(--serif);
       height: 400px;
       margin: 0 1rem;
-      overflow: auto;
+      overflow: hidden;
     }
 
     img {
@@ -74,23 +71,51 @@
     </div>>
 
     <script type="module">
-      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-      import define from "https://api.observablehq.com/d/f1563807cc21daea.js?v=3";
+      import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1.0.1?module";
+      import notebook from "https://api.observablehq.com/d/cb07d4e6cd00b4fe.js";
       
       const renders = {
-        "header": "#zero",
-        "first": "#one",
+        // "currImage(input.tokens)": "#tarot",
+        // "root": "#content",
 
-        "second": "#two",
-        "third": "#three",
+        "zero": "#zero",
+        "one": "#one",
+
+        "two": "#two",
+        "three": "#three",
+
+        /* // "title": "#title",
+      	"opening_scroll": "#scroll",
+        "viewof ritual": "#sockets",
+
+        "setting": "#setting",
+        "scenes": "#scenes",
+        "end": "#end",
+        "postscript": "#ps",
+
+        // "viewof intro_choice": "#intro-choice",
+        "intro": "#intro",
+        "grail_choice": "#grail-choice",
+        "viewof fin": "#finitum",
+        
+        "eye": "#eye",
+        "viewof color": "#color",
+        "viewof cut": "#cut",
+        "spread": "#tarot", */
       };
 
-      const runtime = new Runtime()
-      const main = runtime.module(define, (name) => {
-        const selector = renders[name];
+      // let done = false;
+      Runtime.load(notebook, (variable) => {
+        const selector = renders[variable.name];
+        // if (variable.name === 'timeline') done = true;
+
         if (selector) {
           return new Inspector(document.querySelector(selector));
-        }
+        } /* else if (variable.name) {
+          var div = document.createElement("div");
+          document.body.appendChild(div);
+          return new Inspector(div);
+        } */
       });
     </script>
   </body>
