@@ -1,6 +1,8 @@
 ---
-title: Exul Mater, preview of
+title: preview - Exul Mater
 ---
+
+[![preview of tarot cards](/assets/blog/card.jpg)](/exul-mater/staging)
 
 [a combinatorial fiction in tarot](/exul-mater/staging)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Portfolio, Summer 2018"
+title: "Portfolio - Summer 2018"
 ---
 
 Untouched since then, basically. I've spent a year learning to articulate each of these parts more legibly.
