@@ -27,6 +27,15 @@
 
       {{ content }}
 
+    <h3>All Posts</h3>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: '%B %d, %Y' }})
+        </li>
+      {% endfor %}
+    </ul>
+
       <!-- </section> <footer> -->
         <p><small>Theme is <a href="https://github.com/pages-themes/minimal">Minimal</a> (orderedlist) for Jekyll with <a href="https://dribbble.com/shots/2235197-50-Free-Flat-Icons-Sketch-Illustrator">flat icons</a> (alexisdoreau).</small></p>
     </div>

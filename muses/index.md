@@ -1,6 +1,3 @@
-[a combinatorial fiction in eight aspects](../exul-mater)
-
----
 
 ![hand-like tree bearing cobwebbed dendrites](dendrite.png) ![yasia fears the shattered library](fear of falling.png) 
 ![oil-plumed child](fire rat.png)
