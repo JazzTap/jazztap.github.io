@@ -2,13 +2,13 @@
 title: Who uses the computational medium?
 ---
 
-What's computational media? We get asked that a lot. We all have different answers.
+What's computational media? As grad students presenting our 'computational media' research, we get asked that a lot.
 
 <img src="/assets/blog/venn.png" width="400px" align="right"/>
 
-That's good. But then, if all of us doing CM are differently productive - what unifies us after all? Who's it for?
+We all have different backgrounds, and use different approaches, so our answers vary necessarily. But then why are we colleagues? What's the shared struggle?
 
-Lo, a map of audiences for computational media research, i.e. stakeholders in its practice(s). As scholars, we need to recognize the spaces our audiences occupy, where they coincide or not.
+In this article, I propose a map of audiences for computational media research, i.e. stakeholders in its practice(s). As scholars, we need to recognize the spaces our audiences occupy, where they coincide or not.
 
 From the top going clockwise, we consider  
 a) the expressive capacity of the medium,  
