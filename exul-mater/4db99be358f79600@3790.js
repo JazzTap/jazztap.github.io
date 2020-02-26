@@ -752,7 +752,7 @@ input:hover {
   // writing prompt
   let a = (s) => `./assets/${s}.png`
   let images =
-    [a('hanged'), a('moth'),
+    [a('hanged'), a('mother'),
       a('priestess'), a('grail'), a('lantern'),
     a('guardian'), a('imbrication'),
       a('devil'), a('orbit'), a('emperor'),
