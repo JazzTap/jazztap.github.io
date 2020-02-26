@@ -755,7 +755,7 @@ input:hover {
     [a('hanged'), a('moth'),
       a('priestess'), a('grail'), a('lantern'),
     a('guardian'), a('imbrication'),
-      a('empress'), a('orbit'), a('emperor'),
+      a('devil'), a('orbit'), a('emperor'),
     a('hanged')]
   
   let res = (i) => ({id: i, epithet: roles[i], query: wants[i], url: images[i], tall: true}) // [0,1,2,5].includes(i)})
