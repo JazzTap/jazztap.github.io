@@ -152,50 +152,46 @@ new Charsheet(() => 'and so',
 })
 )});
   main.variable(observer("lines")).define("lines", function(){return(
-`
-- [0+2i]
-    
+`    
 - [0+2j]
 EIDOLON:
 Your fleet gathers for the iron-crowned girl who has promised to end an empire, whose corona is like the burning sun. Their formation is like woven metal, which forms resonating membranes.
 
-Their sound is the transformation of light into movement, signals into physical displacements. To become sacred is to purify your wavelength, and thus strike at the world, to produce a clean interference pattern.
+Your shape is your history, and malleable in the same ways. Because you are sacred, you may dictate your story. It will not become true until you have moved the world, by moving your own perspective.
 
-These methods reveal other persons, who are known only through the sums and differences of our misapprehensions. Their decompositions are easily consumed.
+Because I am never facing myself, I see the monster in my mirror, and never the woman. Because you resemble me in this way, I am glad.
 
 - [0+3j]
 IRAE:
-Father thought to imagine the Tyrant was not reproduced amongst the petty bureaucracy of the World. In his absence, his reading is perhaps incomplete. But like them, he resolved to be free of you.
+The history that followed me would eat at me forever, having abandoned me and died for me. Their patterns predicted wrong shapes, and yet I sought to understand Father. Voided by the glory which accrued to your conquest.
 
-If he could not be cold, he should have burnt himself numb. I will choose to forsake mortal weakness, for I am but one of his kind. It is an efficient sacrifice, because I am so much less than we will be. As you were once less than you became.
+Mother, you misunderstand the alchemical function of sacrifice, which is to provoke an exchange. The World is not a fair partner in this respect. What did Father barter for, when he could have sheltered me?
 
-There is no immortality but through those who succeed us, who will by example become our kind.
+Our Holy Empire will not root out the cancer it thinks to exploit, and is consumed by. They have never learnt the lessons of your exile.
     
 - [1+1i]
 IRAE:
-As I was taught by the hunter of men, who was your pupil, who learned that the meaning of strength is to be broken and yet survive. To embrace this strength was never to heal; a cruel lesson, that she'd learned well.
+Father would imagine the Tyrant was not reproduced amongst the petty bureaucracy of the World. In his absence, he is like the World, resolved to be free of you.
 
-Greater than the Tyrant was the power that caught us, on the moon of prismatic stone which hosts the World's reactors. It now is compromised, overgrowing itself for its own wants and ends. Mother, your solution cannot be to weaken our allies.
+If he could not be cold, he should have burnt himself numb. Thus I will choose to forsake mortal weakness, for I am but one of his kind.
 
-Our Holy Empire will not root out the cancer it thinks to exploit, and is consumed by. They have never learnt the lessons of your exile.
+It is an efficient sacrifice, because I am so much less than we will be. As you were once less than you became. There is no immortality but through those who succeed us, who will by example become our kind.
 
 - [1+2k]
 ANSEGDNISS:
 Consider who she is, that loves you as you have become. And if she is your creature, then what might she be capable of?
 
-If you could assign a shape to corruption, a color, wouldn't it be convenient? The stones are black and iridescent, grown at odd angles under a fractal-inducing field.
+If you could assign a shape to corruption, a color, wouldn't it be convenient? Colors are the transition metals found in blood, or warpaint - they are engines and impurities both.
 
-You warned me of the false Sun that the World would harness, whose creeping growth is exponential. The void at the heart is white, because it penetrates.
-    
-- [1+3k]
+Those dualities were made to blind. You are of the Earth, and you will deliver the Sky from chaos. She will refuse you as a demon, she will not understand. She will not surrender her people.
 
 - [1+4i]
 ANSEGDNISS:
-Each warning was a temptation. Our mistakes created the border our cleverer apprentices would cross, and perhaps return from. I despair for our errors which I failed to obsolesce.
+That which would be inexistent is weak. Yet the World is virtuous, and I take pity on it. Though their sacred were tamed, and could not become us in all of history.
 
-Of all of us, your teacher knew best the cruelty of mercy. That which would be inexistent is weak. Yet the World is virtuous, and I take pity on it. Though their sacred were tamed, and could not become us in all of history.
+Sound transforms signals into materials, compounded fluctuating waves of physical displacement. Existence is to beat against the world, in a certain interference pattern.
 
-Did I not discourage her from creating false saviors? And here you come. So we do away with the mortals we were. 
+To purify your signal is to become sacred, and unable to recognize the world as it was. For any personhood that is known is only the sum and cancellation of fleeting impressions.
 
 - [1+5j]
 ANSEGDNISS:
@@ -204,16 +200,14 @@ Your limbs are bound and used as levers, yet you twist away. It is because of th
 Your brow is furrowed deeply, and erythritic against the hollows of your eyes. Their bony sockets lie taut beneath your skin. You wear the woman I see as a mask, your own body.
 
 You know your parents' failings, and their wraiths. You will flee their forms, and recapitulate each one in turn.
-
-- [2+1i]
     
 - [2+1k]
 EIDOLON:
-Consider who she is, that your father loved who she once was. Your mother is broken by a contagious philosophy. Her proximity, warps.
+Consider who she is, that your father loved who she once was. Your mother is broken by a contagious philosophy. Her eyes are scarred by the Sun. Her proximity, warps.
 
-Your teacher was her student, and knew these failings well. She discovered the malignance on that reactor moon, seeking the white hole or its containment within, whereby those crystals yield greater energy than they consume.
+None of her kind are worthy to follow. Your elders were found before ruin. I am weary of their words, none of them more correct than any other. Let us not perpetuate their architecture.
 
-Its ineluctable signal drew her there, its pattern inimical to all others, before she was killed.
+So we are never again to lie in the garden whence we met, where we could survive far from the sun. For the oxygen gardens burn, when the fleets clash.
     
 - [2+2i]
 IRAE:
@@ -223,10 +217,6 @@ My father's crime was such: he betrayed his liege out of guilt, when the Earth s
 
 My illumination then was certain. I was brought to the Temple, as a student. And I would banish their shades both, their failed encapsulation of me.
     
-- [2+2k]
-    
-- [2+4i]
-    
 - [2+4j]
 IRAE:
 I have realized, Mother, that you love the World dearly. As one loves the thing that has consumed them. You conquered for them, so that I might not. You would have committed any atrocity.
@@ -234,14 +224,6 @@ I have realized, Mother, that you love the World dearly. As one loves the thing 
 Let me bear the sum and total of your deeds. Father conferred upon me the armor, his temperance, and I am tempered thus. The sword I claim is your crusade, and I am cut free of doubt.
 
 Tempered against hatred, at last I shall wield it. I am here now to join your cause, which is a war to end wars. Are you afraid, Mother?
-
-- [2+5i]
-    
-- [3+2k]
-
-- [3+2j]
-    
-- [3+3k]
     
 - [3+1j]
 IRAE:
@@ -252,7 +234,7 @@ The memories of the dead had scurried to hide in the deepest archives. My famili
 My throat is scraped raw. I find it has no gullet, despite its parasitism. I coax its venom-bearing body into the proper place for a tongue.
 
 - [3+3j]
-ANN:
+ANSEGDNISS:
 You forsook your king for my sake, and led your men to die. I accepted these gratefully. I only sought to create a future free of ancient curses. Then, none would be left to guide her steps.
 
 But when my enemies came for her father, you surrendered her to my castigators. She would be alone on the Moon for many spans, and enter into many of its tortured chasms, where hid those voices which I had silenced.
@@ -266,10 +248,6 @@ Strength, in the person of your mother, is hard and grey. A pillar of laminar st
 She is a widow, or a vagrant, or a general. Because she serves the World that is the Origin of Holy Empire, she is banished from the World. Having made herself sacred, she is more and less than a citizen.
 
 Your mother Lord Ansegdniss resides in the black between Worlds. You are pulled to her.
-
-- [3+6j]
-    
-- [4+0i]
     
 - [4+2i]
 ANSEGDNISS:
@@ -283,14 +261,13 @@ I have sealed the Sky against the lawful means of rule, of belonging to the Worl
 EIDOLON:
 Better to be a monster, I rationalized while young. My suffering would be purposeful, a punishment for impiety. Suffering in service of future triumph, an end to cruel masters. 
 
-You were also a mask, an artifice that dreamed itself to conceal a flaw. A person who would solve the problem of herself. By exile, you would inherit her divinity. You removed your mask, which was your skin.
+You were also a mask, an artifice that dreamed itself to conceal a flaw. A woman who would solve herself. By exile, you would inherit your true divinity. So you removed your mask, which was your skin.
 
-Beneath it was the painful contradiction, a gap. A story you could not tell. We drew from it a weapon fit to end empires. A terrible goddess, fit to worship.
+Beneath it was the painful contradiction, a gap free of meaning. A feeling without a story. We drew from it a weapon fit to end empires, a goddess fit to worship.
 
-    
 - [4+5j]
 IRAE:
-As the world is divided into evening and dawn, so we gave the wandering star two names, and it became divided. Fickle stars created by acerbic words.
+As the world is divided into evening and dawn, so we gave the wandering star two names, and it became divided. Fickle stars are made by sharp words.
 
 I am afraid of my serpents, for they beg me to let them feed. Afraid of my tools, for they conceal any problem they cannot solve. I will show you what I do and what I say. Then I will beg of you, tell me who I am.
 
@@ -298,59 +275,51 @@ How else can I reckon my worth? Lest madness arrive in wisdom's guise. Lest trau
 
 - [4+9j]
 EIDOLON:
-Your fingers find mine, eager, careful not to catch on sharp claws. I tell you they've begun to ask, have you let the Earth's secrets slip our grasp? You inquire so gently: Have I answered truly?
+Your fingers find mine, eager, careful not to catch on sharp claws. They're asking if you let the Earth's secrets slip our grasp, I say. Have I answered truly? - you ask, gently.
 
-They will not know your deeds. Am I not your priestess? Would you harm me when they have not? Your familiar reaches toward me, uncoiling for a kiss. I offer my neck.
+Am I not your priestess? They will not know your deeds. Would you harm me when they have not? In your eyes is the color of embers, honoring your father. You are burning, you are are burning. You will save us all.
 
-Are you not yourself turned against the Earth, willingly? In your irises are red embers, which honor your father. You are burning, you are are burning. You will save us all. You insist. You insist.
-
-- [5+1i]
+Are you not yourself turned against the Earth, willingly? Your familiar reaches toward me insistent, uncoiling itself. I offer my neck for your kiss.
     
 - [5+1k]
 LOPTR:
-Then I wish we could rewind, to when nothing jagged and weeping resided in you. No more the pain you feel. No cloak or flashing steel. Before betrayals such as mine, the murder of false masters.
+Then I wish we could rewind, to when nothing jagged and weeping resided in you. No more cloak of armor, no more burning light. Before betrayals such as mine, the murder of false masters.
 
-Could I have loved you, or only the mortal who was you, all along? The goddess could not love; she could not be anything but what she was.
+Could I have loved you, or only the mortal who was you, before? The goddess could not love; she could not be anything but what she was.
 
-I know the symptoms of surrender, the brimstone in your irises. I don't need you to be strong now. What she will be, is what we have saved.
-    
-- [5+2j]
+I know the symptoms of surrender. I see the brimstone in your eyes. I don't need you to be strong now. What she will be, is what we have saved.
     
 - [6+1i]
 IRAE:
 I have adored the hard planes of your face, which honors the World and its beautiful statues. I have beheld your scarred visage, whose tertiary eyes are glassy and black, that you earned after killing your mother.
 
-I traced behind your curse-mask, monstrous where your face is occluded, as by turning away. By palpitation, I would discern which was the lie. But between were only intermediates; my gradations between them, arbitrary.
+I traced behind your curse-mask, monstrous where your face is occluded, as by turning away. By palpitation, I would discern which was the lie. But from ear-hole to eye-socket were only intermediates; my gradations between them, arbitrary.
 
 Now I recognize your corruption, your contradictory polysemy, which you allowed me to approach freely. Your scrying sphere rests in your palm, it holds me inverted.
     
-- [6+1j]
-    
-- [6+1k]
-    
 - [6+2i]
 IRAE:
-If I cannot discern your true name, then my telling of you is empty deception. Am I weary of words, that none is more correct than any other?
+When you're gone, I will grieve. I have searched my dreams, so as to be found. I shall suffer my own venom. I shall turn on you with fangs.
 
-When I taste the air, I know each facet of the molecular conformations in their whole distribution, an intricate and inevitable balance which is unspeakable. This is our secret that you have told me.
+Between my lips there is a black-scaled snake, which tastes the air. I know each facet of the molecular conformations in their whole distribution, an intricate and inevitable balance which is unspeakable. This is our secret that you have told me.
 
 Each technology of thought, each teaching unlearnt, each text that seeks to name you forever will fail. Would that you were wood ash, and not black powder.
 
 - [6+2k]
 LOPTR:
-The jackboot, the mutineer, is painfully alive and his warm heart bleeds. For you memorized the ligaments of your joints, and practiced upon yourself, learning to permanently cripple your enemy.
+The man who murdered his king for you is painfully alive, and his warm heart bleeds. For you memorized the weaknesses of mortals and practiced upon yourself, learning to cripple your enemies and your students alike.
 
-The Tyrant died. You would not replace him. The moral danger lay not in individual transgressions, but in no longer knowing which were necessary. The sovereign futures I had spun fell one by one to pieces.
+The Tyrant died, but you would not replace him. Fearing the moral danger lay not in individual transgressions, but in no longer knowing which were necessary. My sovereign futures fell one by one to pieces.
 
-My daughter will be my legacy. Stained, but a disciple nonetheless. Because it will not suffice that she pretend to understand their scriptures, therefore she will come to know them. 
-    
+My daughter will be my legacy, a blood-stained disciple. Because she cannot pretend to understand their scriptures, therefore she will come to know them. Because she will redeem them, she will not be yours.
+
 - [7+1j]
 EIDOLON:
 You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth.
 
 I will make of the World its own altar. At the heart of its Temple lies a glassy atrium, a compendium whose stacks are shining polyhedra, which house their stolen and forgotten and former truths.
 
-When I enter into this archive, the World will burn it for us, so that I am expunged. Because I am not mine, but yours alone, this will see us safely gone.
+When I enter into this archive, the World will burn it for us, so that I am expunged. Because I am not mine, but yours alone, this will see us victorious.
 
 - [7+1i]
 EIDOLON:
@@ -366,7 +335,7 @@ The archives of the Holy Empire are fractal shelves, thirty-some layers deep. Th
 
 The ships which rallied to my mother's banner fell into chasms and shattered into echoes. These dead were left for priests to grow forgetful of, which is how I came to know the past despite their guard.
 
-I would isolate the key to heaven amongst these remains. I would unite the Earth and the Sky. I would discover the antiphase of the ineluctable signal.`.split('\n')
+I would isolate the key to heaven amongst these remains. I would unite the Earth and the Sky.`.split('\n')
 )});
   main.variable(observer("Charsheet")).define("Charsheet", ["md"], function(md){return(
 class Charsheet { // NB: depends on global 'keys'
@@ -719,7 +688,7 @@ input:hover {
 )});
   main.variable(observer("roles")).define("roles", function(){return(
 [
-  `Loptr, The Gallows`,
+  `Irae, The Gallows`,
   `Ansegdniss, Strength`,
   `Eidolon, Temperance`,
   `Irae, The Magician`,
