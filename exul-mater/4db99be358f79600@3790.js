@@ -4,27 +4,13 @@ export default function define(runtime, observer) {
   main.variable(observer()).define(["md"], function(md){return(
 md`# exul mater`
 )});
-  main.variable(observer()).define(["md"], function(md)
-{
-  let ret = md`
-In 405, ~~Mettia Setesh~~ Ansegdniss subjugated the territory of the Sky, despite censure from the World that is the Origin of Holy Empire. She had once been protector of the Five Moons in the Defensive War, and counted among their rebellious priests.
-
-In 427, the Temple which seats the World was sacked by invaders from the Sky, because it had departed from the virtues of past ages. It is testified that a daughter of Setesh was responsible.`
-  ret.children[0].style.margin = "1em 0" // HACK
-  
-  // return ret
-  return md``
-}
-);
   main.variable(observer("showPreamble")).define("showPreamble", ["updateHints","md","mutable hints","wants"], function(updateHints,md,$0,wants)
 {
   updateHints;
-  let title = `
-Two decades prior, Setesh Ansegdniss subjugated the territory of the Sky, despite censure from the World that is the Origin of Holy Empire. 
-
-The Temple which seats the World was sacked by invaders from the Sky, because it had departed from the virtues of past ages.
-
-It is testified that a daughter of Setesh was responsible.`
+  let title = `<p style="text-align: center;">
+  I am exiled, Mother.  
+I shall rejoin you thus.
+</p>`
   
   if ($0.value.every(t => t == -1)) {
     let ret = md`${title}`
@@ -103,52 +89,41 @@ irae.render([...branching.faces(tokens),
   main.variable(observer("counter")).define("counter", ["Generators", "viewof counter"], (G, _) => G.input(_));
   main.variable(observer("irae")).define("irae", ["Charsheet"], function(Charsheet){return(
 new Charsheet(() => 'and so',
-{'magician': [`*The princess seeks the exiled queen.*  
+{'magician': [`"I am alone," the daughter thought, "and will on my own merits fail, or succeed."
 
-*In this course, she takes a lover.*
-`, ['strength', 'justice', 'death',
+But she knew only the world from which her mother had gone. And she was very tired.
+
+So the witch said, "Take strength from my presence."`, ['strength', 'justice', 'death',
     'tower', 'devil', 'priestess',
     'moon', 'sun', 'judgement']],
  
  // ansegdniss
- 'strength': [`**ENTER ANSEGDNISS.**
+ 'strength': [`"You are mine," her mother said with reluctance. "Don't ask me to speak of him."
  
- *The queen admits the princess into her confidence.*`, ['justice', 'death', 'moon', 'judgement']],
+ "But he was of the Sky. These living vessels, his home. That should have been mine."`, ['justice', 'death', 'moon', 'judgement']],
  
- 'justice': [`**ENTER LOPTR.**
+ 'justice': [`"He was my husband. I arranged for your training after he failed."
  
- *The queen's foreign consort mourns, for she is crowned.*  
-
-*He flees to the Earth with his princess.*`, 'judgement'],
- 'death': [`*The princess becomes her mother's general.*  
-
-*She discerns the crucible upon which the Sky becomes the World.*`, 'moon'],
+ "I had to train myself, seeing as the rituals were deeper in the archives than anyone knew to find them."`, 'judgement'],
+ 'death': [`Lord Ansegdniss raises Irae as her general, who arranges a conquest from amongst the raiding fleets.
+ 
+ It is the crucible upon which the Sky becomes the World.`, 'moon'],
  
  // idyll
- 'tower': [`**ENTER EIDOLON.**
+ 'tower': [`The witch unites with the daughter. They would unite the World entire.`, ['priestess', 'devil', 'sun', 'judgement']],
  
- *The witch unites with the princess. They would unite the World entire.*`, ['priestess', 'devil', 'sun', 'judgement']],
- 
- 'priestess': [`*The princess knows the Earth and its weaknesses, being intimate with its dogmas.*  
+ 'priestess': [`The daughter knows the Earth and its weaknesses, being intimate with its dogmas.
 
-*She instructs the witch toward her revenge.*`, 'sun'],
- 'devil': [`*The princess learns to summon her familiars for guidance.*  
+She instructs the witch toward her revenge.`, 'sun'],
+ 'devil': [`The daughter learns to summon her familiars for guidance.
 
-*These serpents come to dwell in her flesh.*`, 'judgement'],
+These serpents come to dwell in her flesh.`, 'judgement'],
  
  // terminal
- 'judgement': `**EXIT LOPTR.**
- 
- *The princess is crowned, in the end.*`,
- 'judgement_': `**EXIT ANSEGDNISS.**
-
- *The princess is crowned, in the end.*`,
- 'sun': `**EXIT EIDOLON.**
- 
- *The witch is reduced to ashes in the campaign.*`,
- 'moon': `**EXIT IRAE.**
- 
- *The princess returns to conquer her homeland.*`
+ 'judgement': `The daughter is crowned, in the end.`,
+ 'judgement_': `The traitor is redeemed in memory.`,
+ 'sun': `The witch is lost during the campaign.`,
+ 'moon': `The daughter returns to conquer the Earth.`
 })
 )});
   main.variable(observer("lines")).define("lines", function(){return(
@@ -163,19 +138,19 @@ Because I am never facing myself, I see the monster in my mirror, and never the 
 
 - [0+3j]
 IRAE:
-The history that followed me would eat at me forever, having abandoned me and died for me. Their patterns predicted wrong shapes, and yet I sought to understand Father. Voided by the glory which accrued to your conquest.
+That history, unwritten, would follow me forever. Their patterns of him predicted wrong shapes, not fitting his ways or means. Yet I sought to understand Father, voided by the glory which accrued to your conquest.
 
-Mother, you misunderstand the alchemical function of sacrifice, which is to provoke an exchange. The World is not a fair partner in this respect. What did Father barter for, when he could have sheltered me?
+Our World will not reject the exponential energies their engines exploit. They never learnt your lesson of sacrifice, which must be allowed to take anything. And in return expunge that need, that weakness.
 
-Our Holy Empire will not root out the cancer it thinks to exploit, and is consumed by. They have never learnt the lessons of your exile.
-    
+You would undo Father's work, allowing the Sun to consume the World. You would render my remains - (all of him which persists) - without worth.
+
 - [1+1i]
-IRAE:
-Father would imagine the Tyrant was not reproduced amongst the petty bureaucracy of the World. In his absence, he is like the World, resolved to be free of you.
+EIDOLON:
+I dreamed a queen of serpents to murder me with my gratitude. I would face the Sun and refract its glory, knowing I was made of ice. Thus an illumination was also an ending.
 
-If he could not be cold, he should have burnt himself numb. Thus I will choose to forsake mortal weakness, for I am but one of his kind.
+The Lord of Sacrifice has lost her daughter, who came back to her. Whose father had begged she be made civilized and civilizer. We conquered with the iron of your forges, and were conquered by the efficient forms of your processes.
 
-It is an efficient sacrifice, because I am so much less than we will be. As you were once less than you became. There is no immortality but through those who succeed us, who will by example become our kind.
+This is synthesis, then. The Earth wanes as the Sky waxes. And in time, we will raise our own legion for the World.
 
 - [1+2k]
 ANSEGDNISS:
@@ -202,16 +177,16 @@ Your brow is furrowed deeply, and erythritic against the hollows of your eyes. T
 You know your parents' failings, and their wraiths. You will flee their forms, and recapitulate each one in turn.
     
 - [2+1k]
-EIDOLON:
-Consider who she is, that your father loved who she once was. Your mother is broken by a contagious philosophy. Her eyes are scarred by the Sun. Her proximity, warps.
+IRAE:
+Father would imagine the Tyrant was not reproduced amongst the petty bureaucracy of the World. In his absence, he is like the World, resolved to be free of you.
 
-None of her kind are worthy to follow. Your elders were found before ruin. I am weary of their words, none of them more correct than any other. Let us not perpetuate their architecture.
+If he could not be cold, he should have burnt himself numb. Thus I will choose to forsake mortal weakness, for I am but one of his kind. It is an efficient sacrifice, because I am so much less than we will be.
 
-So we are never again to lie in the garden whence we met, where we could survive far from the sun. For the oxygen gardens burn, when the fleets clash.
+As you were once less than you became. There is no immortality but through those who succeed us, who will by example become our kind.
     
 - [2+2i]
 IRAE:
-My mother's strength was such: when the Tyrant went to turn her against herself, he found nothing there. Yet she could not rule my father's people alone, and allied with warlords, indulging their depredations upon the World.
+My mother's crime was such: when the Tyrant went to turn her against herself, he found nothing there. Yet she could not rule my father's people alone, and allied with warlords, indulging their depredations upon the World.
 
 My father's crime was such: he betrayed his liege out of guilt, when the Earth sent him their broken general to ruin what was not yet the World. Yet he saw I would inherit her darkness.
 
@@ -243,11 +218,11 @@ Thus you stole her from me, the only one I would save.
 
 - [3+4j]
 EIDOLON:
-Strength, in the person of your mother, is hard and grey. A pillar of laminar steel, made under torsion to curve like a human body would.
+Strength, in the person of your mother, is hard and grey. A pillar of steel, made under torsion to curve like a human body would. She is a widow, a vagrant, a strangler. Having made herself sacred, she is more and less than a citizen.
 
-She is a widow, or a vagrant, or a general. Because she serves the World that is the Origin of Holy Empire, she is banished from the World. Having made herself sacred, she is more and less than a citizen.
+She has killed her soldiers, and raised soldiers to take their place. Thus, because she serves the World that is the Origin of Holy Empire, she is banished from the World and its kindness.
 
-Your mother Lord Ansegdniss resides in the black between Worlds. You are pulled to her.
+Your mother Lord Ansegdniss resides in the black between worlds. You are pulled to her.
     
 - [4+2i]
 ANSEGDNISS:
@@ -275,11 +250,11 @@ How else can I reckon my worth? Lest madness arrive in wisdom's guise. Lest trau
 
 - [4+9j]
 EIDOLON:
-Your fingers find mine, eager, careful not to catch on sharp claws. They're asking if you let the Earth's secrets slip our grasp, I say. Have I answered truly? - you ask, gently.
+You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth. Still, I delivered my master to your justice.
 
-Am I not your priestess? They will not know your deeds. Would you harm me when they have not? In your eyes is the color of embers, honoring your father. You are burning, you are are burning. You will save us all.
+I will make of the World its own altar. At the heart of its Temple lies a glassy atrium, a compendium whose stacks are shining polyhedra, which house their stolen and forgotten and former truths.
 
-Are you not yourself turned against the Earth, willingly? Your familiar reaches toward me insistent, uncoiling itself. I offer my neck for your kiss.
+When I enter into this archive, you will burn it for us, for I alone know you are of the World. This will see us victorious.
     
 - [5+1k]
 LOPTR:
@@ -299,35 +274,35 @@ Now I recognize your corruption, your contradictory polysemy, which you allowed 
     
 - [6+2i]
 IRAE:
-When you're gone, I will grieve. I have searched my dreams, so as to be found. I shall suffer my own venom. I shall turn on you with fangs.
+When you're gone, I will grieve. I have searched my trail, so as to be found. I shall suffer my own venom. I shall turn on you with fangs. Between my lips, there is a black-scaled snake.
 
-Between my lips there is a black-scaled snake, which tastes the air. I know each facet of the molecular conformations in their whole distribution, an intricate and inevitable balance which is unspeakable. This is our secret that you have told me.
+It tastes the air, and I know each facet of the molecular conformations in their whole distribution. An intricate and inevitable balance which is unspeakable - this is our secret that you have told me.
 
 Each technology of thought, each teaching unlearnt, each text that seeks to name you forever will fail. Would that you were wood ash, and not black powder.
 
 - [6+2k]
 LOPTR:
-The man who murdered his king for you is painfully alive, and his warm heart bleeds. For you memorized the weaknesses of mortals and practiced upon yourself, learning to cripple your enemies and your students alike.
+The man who murdered his king for you, bleeds. For you memorized the weaknesses of mortals and practiced upon yourself, learning to cripple your enemies and your students alike.
 
-The Tyrant died, but you would not replace him. Fearing the moral danger lay not in individual transgressions, but in no longer knowing which were necessary. My sovereign futures fell one by one to pieces.
+The Tyrant died, but you would not replace him. Fearing not the individual transgressions, but no longer knowing which were necessary. And my sovereign futures fell one by one to pieces.
 
-My daughter will be my legacy, a blood-stained disciple. Because she cannot pretend to understand their scriptures, therefore she will come to know them. Because she will redeem them, she will not be yours.
+My daughter will be an adequate disciple. Because she cannot pretend to understand their scriptures, therefore she will come to know them.
 
 - [7+1j]
 EIDOLON:
-You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth.
+Your fingers find mine, eager, careful not to catch on sharp claws. They're asking if you let the Earth's secrets slip our grasp, I say. Have I answered truly? - you ask, gently.
 
-I will make of the World its own altar. At the heart of its Temple lies a glassy atrium, a compendium whose stacks are shining polyhedra, which house their stolen and forgotten and former truths.
+Am I not your priestess? They will not know your deeds. Would you harm me when they have not? In your eyes is the color of embers, honoring your father. You are acrid, you are are burning. (You will save us all.)
 
-When I enter into this archive, the World will burn it for us, so that I am expunged. Because I am not mine, but yours alone, this will see us victorious.
+Are you not yourself turned against the Earth, willingly? Your familiar reaches toward me insistent, uncoiling itself. I offer my neck for your kiss.
 
 - [7+1i]
 EIDOLON:
-I dreamed a queen of serpents to murder me with my gratitude. I would face the sun and refract its glory, knowing I was made of ice. Thus an illumination was also an ending.
+Consider who she is, that your father loved who she once was. Your mother is broken by a cruelty that catches. Her eyes are scarred by the Sun. Her proximity, warps.
 
-The Lord of Sacrifice has lost her daughter, who came back to her. Whose father had begged she be made civilized and civilizer. We conquered with the iron of your forges, and were conquered by the efficient forms of your processes.
+None of her kind are worthy to follow. Your elders were found before ruin. I am weary of their words, none of them more correct than any other. Let us not perpetuate their rituals, which cannot preserve true feelings.
 
-This is synthesis, then. The Earth wanes as the Sky waxes. And in time, we will raise our own legion for the World.
+So we are never again to lie in the garden where we met, where we could survive far from the sun. I cannot breathe, for it is burning.
 
 - [7+2i]
 IRAE:
@@ -688,12 +663,12 @@ input:hover {
 )});
   main.variable(observer("roles")).define("roles", function(){return(
 [
-  `Irae, The Gallows`,
+  `Ansegdniss, The Gallows`,
   `Ansegdniss, Strength`,
   `Eidolon, Temperance`,
   `Irae, The Magician`,
   `Invidiae, Death`,
-  `Ansegdniss, The Moon`,
+  `Irae, The Moon`,
   `Invidiae, The Devil`,
   `Irae, The Sun`,
   `Eidolon, The Priestess`,
@@ -721,10 +696,10 @@ input:hover {
   // writing prompt
   let a = (s) => `./assets/${s}.png`
   let images =
-    [a('hanged'), a('mother'),
-      a('priestess'), a('grail'), a('lantern'),
-    a('guardian'), a('imbrication'),
-      a('devil'), a('orbit'), a('emperor'),
+    [a('guardian'), a('moth'),
+      a('orbit'), a('grail'), a('lantern'),
+    a('statue'), a('imbrication'),
+      a('devil'), a('priestess'), a('emperor'),
     a('hanged')]
   
   let res = (i) => ({id: i, epithet: roles[i], query: wants[i], url: images[i], tall: true}) // [0,1,2,5].includes(i)})
