@@ -98,13 +98,15 @@ So the witch said, "Take strength from my presence."`, ['strength', 'justice', '
     'moon', 'sun', 'judgement']],
  
  // ansegdniss
- 'strength': [`"You are mine," her mother said with reluctance. "Don't ask me to speak of him."
+ 'strength': [`"You are mine," said the pious mother to her blessed daughter. "And therefore you are of the Earth." Which was a lie.
  
- "But he was of the Sky. These living vessels, his home. That should have been mine."`, ['justice', 'death', 'moon', 'judgement']],
+ In spite of honoring your Father, the barbarian. The daughter heard this unspoken.
  
- 'justice': [`"He was my husband. I arranged for your training after he failed."
+ "No, you should be proud. For I am the Sun and its glory."`, ['justice', 'death', 'moon', 'judgement']],
  
- "I had to train myself, seeing as the rituals were deeper in the archives than anyone knew to find them."`, 'judgement'],
+ 'justice': [`"Although your father failed to keep you safe, we thought your training would suffice."
+
+ So the daughter was kept safe from harm, if not from cruelty. And she learned those ways, among other secrets.`, 'judgement'],
  'death': [`Lord Ansegdniss raises Irae as her general, who arranges a conquest from amongst the raiding fleets.
  
  It is the crucible upon which the Sky becomes the World.`, 'moon'],
@@ -148,7 +150,7 @@ You would undo Father's work, allowing the Sun to consume the World. You would r
 EIDOLON:
 I dreamed a queen of serpents to murder me with my gratitude. I would face the Sun and refract its glory, knowing I was made of ice. Thus an illumination was also an ending.
 
-The Lord of Sacrifice has lost her daughter, who came back to her. Whose father had begged she be made civilized and civilizer. We conquered with the iron of your forges, and were conquered by the efficient forms of your processes.
+The Lord of Sacrifice has lost her daughter, who came back to her. Whose father had begged she be made civilized and civilizer. We conquered with the iron of your forges, and were conquered by your processes.
 
 This is synthesis, then. The Earth wanes as the Sky waxes. And in time, we will raise our own legion for the World.
 
@@ -178,19 +180,19 @@ You know your parents' failings, and their wraiths. You will flee their forms, a
     
 - [2+1k]
 IRAE:
-Father would imagine the Tyrant was not reproduced amongst the petty bureaucracy of the World. In his absence, he is like the World, resolved to be free of you.
+Father could imagine the Tyrant was not reproduced amongst the furnaces of the World, and in the greed of its energy markets. Had he lived, he would have resolved to ruin them, too.
 
-If he could not be cold, he should have burnt himself numb. Thus I will choose to forsake mortal weakness, for I am but one of his kind. It is an efficient sacrifice, because I am so much less than we will be.
+So I wll forsake mortal weakness. If he could not be cold, he should have burnt himself numb. It is an efficient sacrifice, because I am so much less than we will be.
 
 As you were once less than you became. There is no immortality but through those who succeed us, who will by example become our kind.
     
 - [2+2i]
 IRAE:
-My mother's crime was such: when the Tyrant went to turn her against herself, he found nothing there. Yet she could not rule my father's people alone, and allied with warlords, indulging their depredations upon the World.
+My mother's crime was such: when the Tyrant went to turn her against herself, she was already broken. Yet she could not rule my father's people alone, and has permitted their warlords to bleed the World.
 
-My father's crime was such: he betrayed his liege out of guilt, when the Earth sent him their broken general to ruin what was not yet the World. Yet he saw I would inherit her darkness.
+My father had betrayed his liege out of guilt. He had not yet known the Sky would become the World, or it would be ruined. Yet he saw I would inherit her crown.
 
-My illumination then was certain. I was brought to the Temple, as a student. And I would banish their shades both, their failed encapsulation of me.
+He had me brought to the Temple Moon as a student, so I would be tempered. And I would banish their shades both, their failed encapsulation of me.
     
 - [2+4j]
 IRAE:
