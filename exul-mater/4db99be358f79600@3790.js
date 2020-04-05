@@ -4,7 +4,7 @@ export default function define(runtime, observer) {
   main.variable(observer()).define(["md"], function(md){return(
 md`# exul mater`
 )});
-  main.variable(observer("showPreamble")).define("showPreamble", ["updateHints","md","mutable hints","wants"], function(updateHints,md,$0,wants)
+  main.variable(observer("showPreamble")).define("showPreamble", ["d3", "updateHints","md","mutable hints","tokens","branching","trace","makePicks","html","dictionary"], function(d3, updateHints,md,$0,tokens,branching,trace,makePicks,html,dictionary)
 {
   updateHints;
   let title = `<p style="text-align: center;">
@@ -13,13 +13,47 @@ I shall rejoin you thus.
 </p>`
   
   if ($0.value.every(t => t == -1)) {
-    let ret = md`${title}`
+    let ret = md`<br/>${title}<br/>`
     ret.className = 'hints'
     return ret
   }
-  let ret = $0.value.map(t => t == -1 ? '' : wants[t].replace('  ', '  \n'))
+  /* let ret = $0.value.map(t => t == -1 ? '' : wants[t].replace('  ', '  \n'))
                     .map(s => `<p style="text-align: center;">${s}</p>`)
-  return md`<div class="hints">${ret}</div>`
+  return md`<div class="hints">${ret}</div>` */
+
+  // render constellation
+  let nodes = [[3,-2], [-2,0], [1,-2], [0,0], [-1,2], [-1,-2],
+  [3,2], [1,2], [2,0], [-3,-2], [-3,2]].map((u) => u.map(v => v*20)),
+      activeNodes = d3.range(tokens.length).filter(i => branching.index[i] != -1),
+      edges = trace,
+      activeEdges = makePicks(branching)
+
+  const hw = 100, hh = 75
+  const ret = html`<svg width=${hw*2} height=${hh*2}><g transform="translate(${hw},${hh})"></g></svg>`,
+  sel = d3.select(ret).select('g')
+  /* sel.html(`<rect x=${-hw} y=${-hh} width=${hw*2} height=${hh*2} style="fill: #111"></rect>`) */
+
+  /* sel.selectAll('g.node').data(nodes).join('g').attr('class', 'node')
+  .html(d => `<circle r=8 cx=${d[0]} cy=${d[1]} style="stroke:#444; stroke-width:2px; fill:none;"></circle>`) */
+  sel.selectAll('g.hint').data(activeNodes).join('g').attr('class', 'node')
+  .html(i => `<circle r=2 cx=${nodes[i][0]} cy=${nodes[i][1]} style="fill: #ccc;"></circle>`)
+
+  sel.selectAll('g.edge').data(edges).join('g').attr('class', 'edge')
+  .html(idx => { let d = indexToEdge(idx).sort(); return makeStroke(d[0], d[1]) })
+  .style('stroke', idx => activeEdges.includes(idx) ? '#ccc' : '#888')
+
+  function makeStroke(i,j) {
+    // if (i == j) return `<circle r=2 cx=${nodes[i][0]} cy=${nodes[i][1]} style="fill: #ccc;"></circle>`
+    let [x1, y1] = nodes[i]
+    let [x2, y2] = nodes[j]
+    return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" style="stroke-width:2px; stroke-dasharray: 7;"></line>`
+  }
+  function indexToEdge(index) {
+    return Object.keys(dictionary.head)
+    .filter(key => dictionary.head[key].includes(index))
+    .map(key => tokens.indexOf(key))
+  }
+  return ret
 }
 );
   main.variable(observer("showFable")).define("showFable", ["irae","branching","tokens"], function(irae,branching,tokens){return(
@@ -182,13 +216,13 @@ You know your parents' failings, and their wraiths. You will flee their forms, a
 IRAE:
 Father could imagine the Tyrant was not reproduced amongst the furnaces of the World, and in the greed of its energy markets. Had he lived, he would have resolved to ruin them, too.
 
-So I wll forsake mortal weakness. If he could not be cold, he should have burnt himself numb. It is an efficient sacrifice, because I am so much less than we will be.
+So I wll forsake mortal weakness. If he could not be cold, he should have burnt himself numb. It is an efficient sacrifice, because I am far less than we will be.
 
 As you were once less than you became. There is no immortality but through those who succeed us, who will by example become our kind.
     
 - [2+2i]
 IRAE:
-My mother's crime was such: when the Tyrant went to turn her against herself, she was already broken. Yet she could not rule my father's people alone, and has permitted their warlords to bleed the World.
+My mother's crime was such: when the Tyrant went to turn her against herself, she was already broken. Yet she could not rule my father's people alone, and permitted their warlords to bleed the World.
 
 My father had betrayed his liege out of guilt. He had not yet known the Sky would become the World, or it would be ruined. Yet he saw I would inherit her crown.
 
@@ -252,7 +286,7 @@ How else can I reckon my worth? Lest madness arrive in wisdom's guise. Lest trau
 
 - [4+9j]
 EIDOLON:
-You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth. Still, I delivered my master to your justice.
+You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth. Still, I believe in your progress.
 
 I will make of the World its own altar. At the heart of its Temple lies a glassy atrium, a compendium whose stacks are shining polyhedra, which house their stolen and forgotten and former truths.
 
@@ -300,11 +334,11 @@ Are you not yourself turned against the Earth, willingly? Your familiar reaches 
 
 - [7+1i]
 EIDOLON:
-Consider who she is, that your father loved who she once was. Your mother is broken by a cruelty that catches. Her eyes are scarred by the Sun. Her proximity, warps.
+Consider who she is, that your father could not love who she became. Your mother suffers a cruelty that catches. Her eyes are scarred by the Sun. Her gravity warps the moral fabric.
 
-None of her kind are worthy to follow. Your elders were found before ruin. I am weary of their words, none of them more correct than any other. Let us not perpetuate their rituals, which cannot preserve true feelings.
+None of her is worthy to follow, nor any of your elders, for they prefigure our ruin. I am weary of their words, which battle to become correct. We must not keep their rituals, which perpetuate a feeling that once was true.
 
-So we are never again to lie in the garden where we met, where we could survive far from the sun. I cannot breathe, for it is burning.
+We are never again to lie in the garden whence we met, nor to breathe its oxygen. Once, we could survive far from the Sun. Now ours has caught alight. It is burning.
 
 - [7+2i]
 IRAE:
