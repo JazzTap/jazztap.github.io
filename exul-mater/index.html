@@ -49,9 +49,6 @@ figure {
   padding: 5px;
   text-align: center;
 }
-img {
-  width: 100%;
-}
 
 input[type=button] {
   position: absolute;
@@ -77,6 +74,22 @@ input:hover {
 @keyframes fadein {
     from { opacity:0; }
     to { opacity:1; }
+}
+.lightbox {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 100%; /* 45%; */
+  min-width: 400px;
+  left: 0; /* 50%; */
+  height: 90vh;
+  top: 5vh;
+  text-align: center; /* right; */
+  background: rgba(0,0,0,0.8);
+}
+.lightbox img {
+  max-height: 95%;
+  margin-top: 5%;
 }
     </style>
   </head>
@@ -111,7 +124,7 @@ input:hover {
         "showFable": "#one",
 
         "viewof branching": "#two",
-        // "showHints": "#three",
+        "lightbox": "#three",
 
         "showScenes": "#four",
         "viewof counter": "#five",
