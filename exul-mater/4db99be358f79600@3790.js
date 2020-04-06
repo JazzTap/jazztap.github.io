@@ -403,6 +403,12 @@ function makeInput (prep, paths) {
     .append('clipPath').attr('id', 'cliptall')
       .append('rect').attr('width', card.w_).attr('height', card.h_)
       .attr('rx', 10)
+  // https://stackoverflow.com/questions/15500894/background-color-of-text-in-svg
+  svg.select('defs')
+    .append('filter').attr('id', 'solid')
+                     .attr('x', 0).attr('y', 0).attr('width', 1).attr('height', 1)
+        .html(`<feFlood flood-color="#222"/>
+               <feComposite in="SourceGraphic" operator="atop"/>`)
   
   // playing area
   let mat = svg.append('rect')
@@ -441,17 +447,18 @@ function makeInput (prep, paths) {
           .attr('id', 'epithet')
           .style('fill', 'white').style('opacity', 0).style('user-select', 'none')
           .attr('text-anchor', 'middle').attr('alignment-baseline', 'hanging')
+          .attr('filter', 'url(#solid)')
           .selectAll('tspan').data(d.epithet.split(', '))
-          .join('tspan')
-          .text((s) => s).attr('x', d.w / 2).attr('y', (_,i) => d.h + (i+1.3)*14)
+            .join('tspan')
+            .text((s) => s).attr('x', d.w / 2).attr('y', (_,i) => d.h + (i+1.3)*14)
 
         d3.select(this).append('text')
           .attr('id', 'query')
           .style('fill', 'black').style('user-select', 'none')
           .attr('text-anchor', 'middle').attr('alignment-baseline', 'hanging')
           .selectAll('tspan').data(d.query.split('  '))
-          .join('tspan')
-          .text((s) => s).attr('x', d.w / 2).attr('y', (_,i) => d.h + (i+1.3)*14)
+            .join('tspan')
+            .text((s) => s).attr('x', d.w / 2).attr('y', (_,i) => d.h + (i+1.3)*14)
       })
 
       cards.on('click', (d,i) => {
