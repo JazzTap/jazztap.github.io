@@ -318,12 +318,12 @@ I traced behind it to discern which was the lie, the monster or the woman. But f
 The World I know is intricate, inevitable, and unspeakable. Would that you were wood ash, and not black powder. 
     
 - [6+2i]
-IRAE:
-Your many-faceted visage is more beautiful than any army. It is a marble sweep, as if you killed your color, that imperfection. You would make of the World its own altar. You have dreamed a queen of serpents to murder you, with your gratitude.
+EIDOLON:
+Consider who she is, that your father could not love who she became. Your mother suffers a cruelty that catches. Her eyes are scarred by the Sun. Her gravity warps the moral fabric.
 
-At the heart of the Moon lies the deepest atrium, whose stacks are shining polyhedra, which compile their stolen and fading and former truths. Each technology forgotten, each teaching unrecognized, each text that seeks to name you forever will fail.
+None of her is worthy to follow, nor any of your elders, for they prefigure our ruin. I am weary of their words, which battle to become correct. We must not keep their rituals, which perpetuate a feeling that once was true.
 
-Your kind will conquer with the iron of our forges, and be conquered by our efficient processes. The Earth wanes as the Sky waxes. And in time, you will raise your own legion for the World.
+We are never again to lie in the garden whence we met, nor to breathe its oxygen. Once, we could survive far from the Sun. Now ours has caught alight. It is burning.
 
 - [6+2k]
 LOPTR:
@@ -342,12 +342,12 @@ Am I not your priestess? They will not know your deeds. Would you harm me when t
 Are you not yourself turned against the Earth, willingly? Your familiar reaches toward me insistent, uncoiling itself. I offer my neck for your kiss.
 
 - [7+1i]
-EIDOLON:
-Consider who she is, that your father could not love who she became. Your mother suffers a cruelty that catches. Her eyes are scarred by the Sun. Her gravity warps the moral fabric.
+IRAE:
+Your many-faceted visage is more beautiful than any army. It is a marble sweep, as if you killed your color, that imperfection. You would make of the World its own altar. You have dreamed a queen of serpents to murder you, with your gratitude.
 
-None of her is worthy to follow, nor any of your elders, for they prefigure our ruin. I am weary of their words, which battle to become correct. We must not keep their rituals, which perpetuate a feeling that once was true.
+At the heart of the Moon lies the deepest atrium, whose stacks are shining polyhedra, which compile their stolen and fading and former truths. Each technology forgotten, each teaching unrecognized, each text that seeks to name you forever will fail.
 
-We are never again to lie in the garden whence we met, nor to breathe its oxygen. Once, we could survive far from the Sun. Now ours has caught alight. It is burning.
+Your kind will conquer with the iron of our forges, and be conquered by our efficient processes. The Earth wanes as the Sky waxes. And in time, you will raise your own legion for the World.
 
 - [7+2i]
 IRAE:
@@ -436,7 +436,7 @@ function makeInput (prep, paths) {
         .attr('rx', 15).style('fill', '#444444')
       cards // illustrations
         .append('image')
-        .attr('href', d => d.url).attr('preserveAspectRatio', 'xMidYMid slice')
+        .attr('href', d => d.url).attr('preserveAspectRatio', 'xMinYMid slice')
         .attr('width', d => d.w).attr('height', d => d.h)
         .attr('clip-path', d => `url(#clip${d.tall ? 'tall' : ''})`)
 
@@ -527,9 +527,9 @@ function makeInput (prep, paths) {
       // TODO: ascertain how the extant cards are leaked into this closure
       
       cards.selectAll('.highlight')
-          .style('opacity', (d) => faces.includes(d.id) ? 1 : 0)
-      cards.selectAll('image')
-          .style('opacity', (d) => faces.includes(d.id) ? 1 : .9)
+          .style('opacity', (d) => faces.includes(d.id) ? .5 : .1)
+      /* cards.selectAll('image') // inactive cards are translucent
+          .style('opacity', (d) => faces.includes(d.id) ? 1 : .9) */
       
       cards.selectAll('text#epithet')
           .transition()
@@ -727,7 +727,7 @@ input:hover {
   `THE DEVIL`,
   `THE SUN`,
   `EIDOLON`,
-  'THE LOVERS',
+  'THE LOVER',
   `THE TRAITOR`,
   ]
 )});
@@ -753,8 +753,8 @@ input:hover {
   let images =
     [a('guardian'), a('moth'),
       a('orbit'), a('grail'), a('lantern'),
-    a('statue'), a('imbrication'),
-      a('devil'), a('priestess'), a('emperor'),
+    a('ophidian'), a('devil'),
+      a('imbrication'), a('priestess'), a('emperor'),
     a('hanged')]
   
   let res = (i) => ({id: i, epithet: roles[i], query: wants[i], url: images[i], tall: true}) // [0,1,2,5].includes(i)})
