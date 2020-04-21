@@ -241,10 +241,10 @@ She was brought to the Temple Moon as a student, to be tempered. And we would ba
 IRAE:
 I have realized, Mother, that you love the World dearly. As one loves the thing that has consumed them. You conquered for them, so that I might not. You would have committed any atrocity.
 
-Let me bear the sum and total of your deeds. Father conferred upon me the armor, his temperance, and I am tempered thus. The sword I claim is your crusade, and I am cut free of doubt.
+Let me bear the sum and total of your deeds. Father conferred upon me the armor, and I am tempered against hatred, so at last I shall wield it. I would make of the World its own altar.
 
-Tempered against hatred, at last I shall wield it. I am here now to join your cause, which is a war to end wars. Are you afraid, Mother?
-    
+I am here now to join your cause, which is the war to end wars. I will have your sword, and it shall cut free my own doubt. Are you afraid, Mother?
+
 - [3+1j]
 IRAE:
 I draw the new muscle from inside, anchored by the root. I feel the imbricated veneer of its surface as though grasping my own fingernail. I know it for a creature which exudes slime, whose dispatch from my airways brings little relief.
@@ -281,7 +281,7 @@ I have sealed the Sky against the lawful means of rule, of belonging to the Worl
 EIDOLON:
 Your father took to regret too well, perhaps. It is likely that your malaise inherits from his. The ineptitude at rationalizing tragedy away. (We must be ashamed to remain upon the same old battle lines.)
 
-You were also a mask, an artifice that dreamed herself to solve itself. By exile, you would inherit your true divinity. So you removed your mask, which was your skin. Beneath it was the painful contradiction, a gap free of meaning.
+You wore a mask, an artifice that dreamed herself to solve itself. By exile, you would inherit your true divinity. So you removed your mask, which was your skin. Beneath it was the painful contradiction, a gap free of meaning.
 
 A feeling with no justification. We drew from it an end to empires, a goddess fit to worship. This false story, a form of progress, grew until it required an ending.
 
@@ -343,7 +343,7 @@ Are you not yourself turned against the Earth, willingly? Your familiar reaches 
 
 - [7+1i]
 IRAE:
-Your many-faceted visage is more beautiful than any army. It is a marble sweep, as if you killed your color, that imperfection. You would make of the World its own altar. You have dreamed a queen of serpents to murder you, with your gratitude.
+Your many-faceted visage is more beautiful than any army. It is a marble sweep, as if you killed your color, that imperfection. You have dreamed a queen of serpents to murder you with your gratitude.
 
 At the heart of the Moon lies the deepest atrium, whose stacks are shining polyhedra, which compile their stolen and fading and former truths. Each technology forgotten, each teaching unrecognized, each text that seeks to name you forever will fail.
 
@@ -428,19 +428,19 @@ function makeInput (prep, paths) {
   
   // card initialization
   let define = (db) => {    
-    let attach = function (cards) { 
-      cards // borders
+    let attach = function (sel) { 
+      sel // borders
         .append('rect')
         .attr('class', 'highlight').attr('transform', 'translate(-5,-5)')
         .attr('width', d => d.w+10).attr('height', d => d.h+10)
         .attr('rx', 15).style('fill', '#444444')
-      cards // illustrations
+      sel // illustrations
         .append('image')
         .attr('href', d => d.url).attr('preserveAspectRatio', 'xMinYMid slice')
         .attr('width', d => d.w).attr('height', d => d.h)
         .attr('clip-path', d => `url(#clip${d.tall ? 'tall' : ''})`)
 
-      cards // labels
+      sel // labels
         .each(function (d,i) {
         // multiline text from each datum
         d3.select(this).append('text')
@@ -461,20 +461,22 @@ function makeInput (prep, paths) {
             .text((s) => s).attr('x', d.w / 2).attr('y', (_,i) => d.h + (i+1.3)*14)
       })
 
-      cards.on('click', (d,i) => {
-        if (choice.index[d.id] != -1) { // rotate clicked card to top
+      sel.on('click', (d,i) => {
+        if (choice.index[d.id] != -1 && choice.stuff[choice.index[d.id]][0] != d.id) { // rotate clicked card to top
           choice.put(d.id, choice.index[d.id])
           update()
         }
-        // activate lightbox
-        d3.selectAll(`.lightbox`).style('display', 'none')
-        d3.select(`.lightbox#${tokens[d.id]}`).style('display', 'block')
+        else { // activate lightbox
+          d3.selectAll(`.lightbox`).style('display', 'none')
+          d3.select(`.lightbox#${tokens[d.id]}`).style('display', 'block')
+        }
       })
-      return cards
+      return sel
     }
     
     let cards = svg.selectAll('g').data(db, d => d.id) // FIXME: exiting data breaks alignment
                 .join((enter) => attach(enter.append('g')))
+                // .join('g').call(attach)
                 .attr('transform', d => `translate(${d.x}, ${d.y})`)
     
     cards.call(d3.drag()
@@ -527,9 +529,9 @@ function makeInput (prep, paths) {
       // TODO: ascertain how the extant cards are leaked into this closure
       
       cards.selectAll('.highlight')
-          .style('opacity', (d) => faces.includes(d.id) ? .5 : .1)
-      /* cards.selectAll('image') // inactive cards are translucent
-          .style('opacity', (d) => faces.includes(d.id) ? 1 : .9) */
+          .style('opacity', (d) => faces.includes(d.id) ? 1 : 0)
+      cards.selectAll('image') // inactive cards are translucent
+          .style('opacity', (d) => faces.includes(d.id) ? 1 : .9)
       
       cards.selectAll('text#epithet')
           .transition()
@@ -902,7 +904,7 @@ function(arg, min, max) {
 }
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
-require('d3@5')
+require('./assets/d3.v5.min.js')
 )});
   main.variable(observer("Piles")).define("Piles", ["d3"], function(d3){return(
 class Piles { /* think of this as Piles[Int],
