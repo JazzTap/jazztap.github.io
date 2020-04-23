@@ -124,7 +124,7 @@ main.variable(observer("lightbox")).define("lightbox", ["html", "d3", "tokens", 
 );
   main.variable(observer("viewof counter")).define("viewof counter", ["html"], function(html)
 {
-  let ret = html`<input type='button' value='rewind' style='font-size: 2em; float: right;' />`
+  let ret = html`<input type='button' value='rewind' style='font-size: 2em; float: right; z-index: 1;' />`
   ret.onclick = Function.prototype // HACK: merely triggers the dependent cell 'viewof branching' to reload
   return ret
 }
@@ -175,7 +175,7 @@ So the witch said, "Take strength from my presence."`, ['strength', 'justice', '
 `    
 - [0+2j]
 EIDOLON:
-Your fleet gathers for the iron-crowned girl who has promised to end an empire, whose corona is like the burning sun. Their formation is like woven metal, which forms resonating membranes.
+Your fleet gathers for the iron-crowned girl who has promised to end an empire, whose corona is like the dawn star. Their formation is like woven metal, which forms resonating membranes.
 
 As you reflect me, would you refract me? Because I am never facing myself, I see only the monster in my mirror. Our colors are both iron and copper, as in hemoglobin and hemocyanin, which are engines made by orbital gaps.
 
@@ -187,7 +187,7 @@ That history, unwritten, would follow me forever. Their patterns of him predicte
 
 Our World will not reject the exponential energies their engines exploit. They never learnt your lesson of sacrifice, which must be allowed to take anything. And in return expunge that need, that weakness.
 
-You would undo Father's work, allowing the Sun to consume the World. You would render my remains - all of him which persists - without worth.
+You would undo Father's work, you would see the World consumed for its own glory. You would render my remains - all of him which persists - without worth.
 
 - [1+1i]
 IRAE:
@@ -287,7 +287,7 @@ A feeling with no justification. We drew from it an end to empires, a goddess fi
 
 - [4+5j]
 IRAE:
-As the world is divided into evening and dawn, so we gave the wandering star two names, and it became divided. Fickle stars are made by sharp words. If we could assign a shape to corruption, a color, wouldn't it be convenient?
+As the World is divided into the Earth and the Sky, so we gave the dawn star two names, and it became divided. One fell from heaven, where the other would rise. If we could assign a shape to corruption, a color, wouldn't it be convenient?
 
 I am afraid of my desires, for they beg me to let them feed. Afraid of my tools, for they conceal any problem they cannot solve. I will show you what I do and what I say. Then I will beg of you, tell me who I am.
 
@@ -297,9 +297,9 @@ How else can I reckon my worth? Lest madness arrive in wisdom's guise. Lest trau
 EIDOLON:
 You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth. You shall suffer your own venom, you will turn on yourself with fangs.
 
-I would face your illumination, the Sun's true glory, knowing my shape was only ice. Between your lips is your familiar - its fumes are poison, its fire clings, and to douse it, spreads it.
+Between your lips is your familiar, a white snake. Its fumes are poison, and its fire clings, being spread by water. You reveal only by removing what isn't - this is our secret, that I have worded for you.
 
-You reveal, by removing what isn't. This is our secret, that I have worded for you. The scrying sphere in my palm holds you inverted.
+The scrying sphere in my palm holds you inverted. I would face your glory, knowing my shape is only ice.
     
 - [5+1k]
 EIDOLON:
@@ -319,7 +319,7 @@ The World I know is intricate, inevitable, and unspeakable. Would that you were 
     
 - [6+2i]
 EIDOLON:
-Consider who she is, that your father could not love who she became. Your mother suffers a cruelty that catches. Her eyes are scarred by the Sun. Her gravity warps the moral fabric.
+Consider who she is, that your father could not love who she became. Your mother suffers a cruelty that catches. Her eyes are scarred pale. Her gravity, warps.
 
 None of her is worthy to follow, nor any of your elders, for they prefigure our ruin. I am weary of their words, which battle to become correct. We must not keep their rituals, which perpetuate a feeling that once was true.
 
@@ -384,10 +384,13 @@ makePicks(branching)
 )});
   main.variable(observer("makeInput")).define("makeInput", ["d3","DOM","Piles","tokens","clamp"], function(d3,DOM,Piles,tokens,clamp){return(
 function makeInput (prep, paths) {
-  let svg = d3.select(DOM.svg(1000, 450)) // 900, 500
+  let svg = d3.select(DOM.svg(document.body.clientWidth, 900)) // 1000, 450
+  svg.style('position', 'absolute').style('top', 0)
+     .attr('viewBox', '0 0 1200 950')
+
   let card = {w: 220, h: 300, w_: 200, h_: 340}, // 170, 250; 160, 270
       spread = {x: card.w_ + 5, y: 10,
-                w: 540, h: 420} // 700, 470
+                w: 850, h: 950} // 540, 420
   let grab = {dx: 0, dy: 0},
       choice = new Piles(tokens.length),
       faces = [], obstructed = [],
@@ -406,15 +409,15 @@ function makeInput (prep, paths) {
   // https://stackoverflow.com/questions/15500894/background-color-of-text-in-svg
   svg.select('defs')
     .append('filter').attr('id', 'solid')
-                     .attr('x', 0).attr('y', 0).attr('width', 1).attr('height', 1)
+                     .attr('x', 0).attr('y', 0).attr('width', 1).attr('height', 1.1)
         .html(`<feFlood flood-color="#222"/>
                <feComposite in="SourceGraphic" operator="atop"/>`)
   
   // playing area
-  let mat = svg.append('rect')
+  /* let mat = svg.append('rect')
     .attr('x', spread.x).attr('y', spread.y)
     .attr('width', spread.w).attr('height', spread.h)
-    .style('fill', '#222').style('stroke', 'black')
+    .style('fill', '#222').style('stroke', 'black') */
   
   let initialize = (d,i=0) => ({...d, x: i * (spread.w + card.w_ + 10), y: 0,
                                      w: d.tall ? card.w_ : card.w,
@@ -433,7 +436,7 @@ function makeInput (prep, paths) {
         .append('rect')
         .attr('class', 'highlight').attr('transform', 'translate(-5,-5)')
         .attr('width', d => d.w+10).attr('height', d => d.h+10)
-        .attr('rx', 15).style('fill', '#444444')
+        .attr('rx', 15).style('fill', '#ddd')
       sel // illustrations
         .append('image')
         .attr('href', d => d.url).attr('preserveAspectRatio', 'xMinYMid slice')
@@ -488,8 +491,11 @@ function makeInput (prep, paths) {
                .on('drag', function(d) { // DRAGGING
       let x = d3.event.x - grab.dx,
           y = d3.event.y - grab.dy
+      let overlaps = firstOverlap(d.id, x+card.w/2, y+card.h/2)
       d3.select(this)
         .attr('transform', `translate(${x}, ${y})`)
+        .select('.highlight')
+          .style('fill', (d) => overlaps ? '#ddd' : '#444')
       d.x = x; d.y = y
     })
                .on('end', function(d,i) { // DRAG END
@@ -529,7 +535,8 @@ function makeInput (prep, paths) {
       // TODO: ascertain how the extant cards are leaked into this closure
       
       cards.selectAll('.highlight')
-          .style('opacity', (d) => faces.includes(d.id) ? 1 : 0)
+          .style('fill', (d) => faces.includes(d.id) ? '#ddd' : '#444')
+          // .style('opacity', (d) => faces.includes(d.id) ? 1 : 0)
       cards.selectAll('image') // inactive cards are translucent
           .style('opacity', (d) => faces.includes(d.id) ? 1 : .9)
       
@@ -754,9 +761,9 @@ input:hover {
   let a = (s) => `./assets/${s}.png`
   let images =
     [a('guardian'), a('moth'),
-      a('orbit'), a('grail'), a('lantern'),
+      a('orbit'), a('forge'), a('lantern'),
     a('ophidian'), a('devil'),
-      a('imbrication'), a('priestess'), a('emperor'),
+      a('imbrication'), a('priestess'), a('heart'),
     a('hanged')]
   
   let res = (i) => ({id: i, epithet: roles[i], query: wants[i], url: images[i], tall: true}) // [0,1,2,5].includes(i)})
