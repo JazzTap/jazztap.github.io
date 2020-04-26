@@ -85,27 +85,41 @@ main.variable(observer("lightbox")).define("lightbox", ["html", "d3", "tokens", 
   let active = makePicks(branching)
   
   let picks = trace.map(t => dictionary.body[t]) // makePicks(input).map(t => dictionary.body[t])
+  console.log(picks.length)
+
   while (picks.length < 3) { // pad picks to fixed length
     let b = `<p></p>` // <span style='border: dashed gray; border-width: 0 1px 0 0;'>&nbsp;</span>
     picks.push('<h4>&nbsp;</h4>'+b+b+b) //+b
-  }  
-  let results = html`<grid style="grid-template-rows: 2em 1fr 1fr 1fr; grid-auto-flow: column;">
-                     ${picks.join('\n')}
-                     </grid>`
-  for (let i = 0; i < 4; ++i) {
-    for (let j = 0; j < 3; ++j) {
-      let res = results.children[j*4 + i] // TODO: hoist loop
-      
-      if (active.includes(trace[j])) {
-        res.style.animation = 'fadein .5s'
-        res.style.color = 'black'
-      }
-      else {
-        res.style.color = 'gray'
+  }
+  let ret = html`<grid style="grid-template-rows: 2em 1fr 1fr 1fr; grid-auto-flow: column;">
+                  ${picks.slice(0,3).join('\n')}
+                </grid>`
+  annotate(ret, 0)
+
+  if (picks.length > 3) {
+    let res = html`<grid style="grid-template-rows: 2em 1fr 1fr 1fr; grid-auto-flow: column;">
+                    ${picks.slice(3,6).join('\n')}
+                  </grid>`
+    annotate(res, 3)
+    ret = html`${ret} \n\n ${res}`
+  }
+
+  function annotate(results, st=0) {
+    for (let i = 0; i < 4; ++i) {
+      for (let j = 0; j < 3; ++j) {
+        let res = results.children[j*4 + i] // TODO: hoist loop
+        
+        if (active.includes(trace[st+j])) {
+          res.style.animation = 'fadein .5s'
+          res.style.color = 'black'
+        }
+        else {
+          res.style.color = 'gray'
+        }
       }
     }
   }
-  return results // md`${results.outerHTML}`
+  return ret // md`${results.outerHTML}`
   
   // return md`<grid>${f(a,b)} \n\n ${f(b,c)} \n\n ${f(a,c)}</grid>`
   // return md`${ret[tokens[a]][tokens[b]].join('  \n')}`
@@ -209,9 +223,9 @@ Then, is she worth saving? That which is petrified will be preserved. As life de
 ANSEGDNISS:
 That which would be inexistent is weak. Yet the World is virtuous, and I take pity on it. Though their sacred were tamed, and could not become us in all of history.
 
-Sound transforms signals into materials, compounded fluctuating waves of physical displacement. Existence is to beat against the world, in a certain interference pattern.
+Sound transforms signals into materials, as compounding waves of physical displacement. Existence is to beat against the world, in a certain interference pattern.
 
-To purify your signal is to become sacred, and unable to recognize the world as it was. For any personhood that is known is only the sum and cancellation of fleeting impressions.
+To become sacred is to reduce your own signal to one wavelength, and become blind to the rest. For any personhood that is known is only the sum and cancellation of fleeting impressions.
 
 - [1+5j]
 ANSEGDNISS:
@@ -243,7 +257,7 @@ I have realized, Mother, that you love the World dearly. As one loves the thing 
 
 Let me bear the sum and total of your deeds. Father conferred upon me the armor, and I am tempered against hatred, so at last I shall wield it. I would make of the World its own altar.
 
-I am here now to join your cause, which is the war to end wars. I will have your sword, and it shall cut free my own doubt. Are you afraid, Mother?
+I am here now to join your cause, which is the war to end wars. I will have your sword, to cut me free from doubt. Are you afraid, Mother?
 
 - [3+1j]
 IRAE:
@@ -263,9 +277,9 @@ Thus you stole her from me, the only one I would save.
 
 - [3+4j]
 EIDOLON:
-Strength, in the person of your mother, is hard and grey. A pillar of steel, made under torsion to curve like a human body would. She is a widow, a vagrant, a strangler. Having made herself sacred, she is more and less than a citizen.
+Strength, in the person of your mother, is hard and grey. A pillar of steel, made under torsion to curve like a human body would. She is less than a citizen, having made herself sacred.
 
-The soldiers she was given were killed. She has raised soldiers to take their place. Because she serves the World that is the Origin of Holy Empire, she is banished from the World and its kindness.
+Because she serves the World that is the Origin of Holy Empire, she is banished from the World and its kindness. The soldiers she was given were killed, and she has raised soldiers to take their places.
 
 Your mother Lord Ansegdniss resides in the black between worlds. You are pulled to her.
     
@@ -388,9 +402,9 @@ function makeInput (prep, paths) {
   svg.style('position', 'absolute').style('top', 0)
      .attr('viewBox', '0 0 1200 950')
 
-  let card = {w: 220, h: 300, w_: 200, h_: 340}, // 170, 250; 160, 270
+  let card = {w: 270, h: 350, w_: 250, h_: 390}, // 170, 250; 160, 270
       spread = {x: card.w_ + 5, y: 10,
-                w: 850, h: 950} // 540, 420
+                w: 900, h: 950} // 540, 420
   let grab = {dx: 0, dy: 0},
       choice = new Piles(tokens.length),
       faces = [], obstructed = [],
@@ -419,7 +433,7 @@ function makeInput (prep, paths) {
     .attr('width', spread.w).attr('height', spread.h)
     .style('fill', '#222').style('stroke', 'black') */
   
-  let initialize = (d,i=0) => ({...d, x: i * (spread.w + card.w_ + 10), y: 0,
+  let initialize = (d,i=0) => ({...d, x: i * (spread.w + card.w_ + 10), y: 400,
                                      w: d.tall ? card.w_ : card.w,
                                      h: d.tall ? card.h_ : card.h})
   let db = prep.map(initialize)
@@ -439,7 +453,7 @@ function makeInput (prep, paths) {
         .attr('rx', 15).style('fill', '#ddd')
       sel // illustrations
         .append('image')
-        .attr('href', d => d.url).attr('preserveAspectRatio', 'xMinYMid slice')
+        .attr('href', d => d.url).attr('preserveAspectRatio', 'xMidYMid slice')
         .attr('width', d => d.w).attr('height', d => d.h)
         .attr('clip-path', d => `url(#clip${d.tall ? 'tall' : ''})`)
 
@@ -625,16 +639,18 @@ function makeInput (prep, paths) {
   // console.log('trace updated')
   // update trace (imperative version of makePicks\1) on update to 'branching'
   let faces = branching.getFaces().sort(),
-      ret = [key(faces[0], faces[1]), key(faces[1], faces[2]), key(faces[0], faces[2])]
+    ret = [key(faces[0], faces[1]), key(faces[0], faces[2]), key(faces[1], faces[2])]
+  if (faces.length == 4)
+    ret = [...ret, key(faces[0], faces[3]), key(faces[1], faces[3]), key(faces[2], faces[3])]
   
-  if (faces.length == 0 && trace.length != 0)
+  if (faces.length == 0 && trace.length != 0) // no cards, clear trace
     $0.value = []
-  else if (faces.length == 3 && !ret.every(k => trace.includes(k)))
+  else if (faces.length >= 3 && !ret.every(k => trace.includes(k))) // many cards
     $0.value = [...ret]
   else {
     ret = ret[0]
-    if (ret && !trace.includes(ret))
-      $0.value = [ret, ...$0.value.slice(0,1)] // 0,2
+    if (ret && !trace.includes(ret)) // two cards, update history
+      $0.value = [ret, ...$0.value.slice(0,1)] // was 0,2. dispose of older edges.
   }
 }
 );
@@ -760,10 +776,10 @@ input:hover {
   // writing prompt
   let a = (s) => `./assets/${s}.png`
   let images =
-    [a('guardian'), a('moth'),
+    [a('guardian_'), a('moth'),
       a('orbit'), a('forge'), a('lantern'),
-    a('ophidian'), a('devil'),
-      a('imbrication'), a('priestess'), a('heart'),
+    a('imbrication'), a('devil'),
+      a('grail'), a('priestess'), a('heart'),
     a('hanged')]
   
   let res = (i) => ({id: i, epithet: roles[i], query: wants[i], url: images[i], tall: true}) // [0,1,2,5].includes(i)})
