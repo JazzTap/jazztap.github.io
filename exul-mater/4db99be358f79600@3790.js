@@ -148,41 +148,31 @@ main.variable(observer("lightbox")).define("lightbox", ["html", "d3", "tokens", 
 new Charsheet(() => 'and so',
 {'magician': [`"I am alone," the daughter thought, "and will on my own merits fail, or succeed."
 
-But she knew only the world from which her mother had gone. And she was very tired.
+But she knew only the Earth from which her mother had gone, and not the Sky in which she now dwelt.
 
-So the witch said, "Take strength from my presence."`, ['strength', 'justice', 'death',
+Therefore the witch said, "Take strength from my presence."`, ['strength', 'justice', 'death',
     'tower', 'devil', 'priestess',
     'moon', 'sun', 'judgement']],
  
  // ansegdniss
- 'strength': [`"You are mine," said the pious mother to her daughter. "And therefore you are of the Earth."
+ 'strength': [`"You are mine," said the Lord of Sacrifice to her daughter. "And therefore you are of the Earth."
  
- In spite of your father, whom your features honor. The daughter heard this unspoken, and replied in turn.
+ In spite of your father, she heard unspoken.`, ['justice', 'death', 'moon', 'judgement']],
  
- "Yet you should be proud. For I am the Sun and its glory."`, ['justice', 'death', 'moon', 'judgement']],
- 
- 'justice': [`So the daughter was kept from harm, if not from cruelty, amongst the priests. Her father had begged she be made civilized and civilizer.
- 
- And she learned those ways, among other secrets.`, 'judgement'],
- 'death': [`The Lord of Sacrifice has lost her daughter, who came back to her. Ansegdniss raises Irae as her general.
- 
- She unites the fleets, by arraying them against the World.`, 'moon'],
+ 'justice': [`"You should be proud, for I am the light-bearer," said the daughter. "And I will banish all ignorance."`, 'judgement'],
+ 'death': [`Yet Irae was raised as Ansegdniss' general, being reconciled. By her mother, she was named Master of Phosphorus.`, 'moon'],
  
  // idyll
- 'tower': [`The witch unites with the daughter. They would unite the World entire.
+ 'tower': [`The Figurative Lady united with the daughter. They would unite the World entire. The daughter summoned her familiars for guidance, and these serpents came to dwell in her flesh.`, ['priestess', 'devil', 'sun', 'judgement']],
  
- The daughter learns to summon her familiars for guidance. These serpents come to dwell in her flesh.`, ['priestess', 'devil', 'sun', 'judgement']],
- 
- 'priestess': [`The daughter knows the Earth's dogmas from her time on the Moon, and therefore its weaknesses. She instructs the witch toward her revenge.`, 'sun'],
- 'devil': [`You held me coiled as I stirred, too late. Your shoulders felt to be at the pelvic level, your wrists part of some longer, spindling limb.
- 
- Your lips smelled like iron, but I woke to see your shape frozen in stone. The corona about my head was hissing snakes.`, 'judgement'],
+ 'priestess': [`Irae knew well the dogmas from her time on the Moon, and therefore its weaknesses. She instructed her lover toward her revenge.`, 'sun'],
+ 'devil': [`"You held me as I stirred from my coils. Your lips smelled like iron, but I woke to see your shape frozen in stone."`, 'judgement'],
  
  // terminal
- 'judgement': `The daughter is crowned, in the end.`,
- 'judgement_': `The daughter is crowned, in the end.`,
- 'sun': `The witch is lost during the campaign.`,
- 'moon': `The daughter returns to conquer the Earth.`
+ 'judgement': `"The corona about my head was hissing snakes. Because I had woken late, I sought a pallet for your transport, as we would make ourselves present to be judged."`,
+ 'judgement_': `For her father kept her from harm, if not cruelty. She was made civilized and civilizer.`,
+ 'sun': `Despite the fleet's support, Eidolon was lost during the campaign.`,
+ 'moon': `By uniting their fleets against the World, Irae delivered the Sky unto the Earth. She was crowned.`
 })
 )});
   main.variable(observer("lines")).define("lines", function(){return(
@@ -285,11 +275,11 @@ Your mother Lord Ansegdniss resides in the black between worlds. You are pulled 
     
 - [4+2i]
 ANSEGDNISS:
-You were banished from the Temple and exiled from the World. You have confessed all to the priestess. Although you inherited my enemies, Daughter, never were you my ally until now.
+You were banished from the Temple and exiled from the World. You have confessed all to the priestess. Although you inherited my enemies, daughter, never were you my ally until now.
 
 You once delved into the archives where every atrocity dwelt, and made their logics live inside of you, aware that serpents multiply. You resolved to bring the Sky its justice.
 
-I have sealed the Sky against the lawful means of rule, of belonging to the World, being subject to its greed. I have kept their leaders weak by culling, lest they defect. But you would make them all citizens.
+I have sealed the Sky against the lawful means of rule, of belonging to the World, being subject to its greed. I have kept their leaders weak by culling, lest they defect. But you would make of them all citizens.
   
 - [4+2j]
 EIDOLON:
@@ -398,13 +388,15 @@ makePicks(branching)
 )});
   main.variable(observer("makeInput")).define("makeInput", ["d3","DOM","Piles","tokens","clamp"], function(d3,DOM,Piles,tokens,clamp){return(
 function makeInput (prep, paths) {
-  let svg = d3.select(DOM.svg(document.body.clientWidth, 900)) // 1000, 450
-  svg.style('position', 'absolute').style('top', 0)
-     .attr('viewBox', '0 0 1200 950')
+  let width = document.body.clientWidth,
+      svg = d3.select(DOM.svg(width, 1150)) // 1000, 450
+  svg.style('position', 'absolute').style('top', 0).style('left', 0)
+     .attr('viewBox', '0 0 '+ width +' 1050')
 
-  let card = {w: 270, h: 350, w_: 250, h_: 390}, // 170, 250; 160, 270
-      spread = {x: card.w_ + 5, y: 10,
-                w: 900, h: 950} // 540, 420
+  let card = {w: 230, h: 380, /*w_: 250, h_: 390*/},
+              // 170,    250;       160,     270
+      spread = {x: card.w + 5, y: 10,
+                w: width - card.w*2, h: 1050} // 540, 420
   let grab = {dx: 0, dy: 0},
       choice = new Piles(tokens.length),
       faces = [], obstructed = [],
@@ -416,10 +408,10 @@ function makeInput (prep, paths) {
     .append('clipPath').attr('id', 'clip')
       .append('rect').attr('width', card.w).attr('height', card.h)
       .attr('rx', 10)
-  svg.select('defs')
+  /* svg.select('defs')
     .append('clipPath').attr('id', 'cliptall')
       .append('rect').attr('width', card.w_).attr('height', card.h_)
-      .attr('rx', 10)
+      .attr('rx', 10) */
   // https://stackoverflow.com/questions/15500894/background-color-of-text-in-svg
   svg.select('defs')
     .append('filter').attr('id', 'solid')
@@ -433,9 +425,9 @@ function makeInput (prep, paths) {
     .attr('width', spread.w).attr('height', spread.h)
     .style('fill', '#222').style('stroke', 'black') */
   
-  let initialize = (d,i=0) => ({...d, x: i * (spread.w + card.w_ + 10), y: 400,
-                                     w: d.tall ? card.w_ : card.w,
-                                     h: d.tall ? card.h_ : card.h})
+  let initialize = (d,i=0) => ({...d, x: i * (spread.w + card.w - 10), y: 400,
+                                     w: card.w, // d.tall ? card.w_ : card.w,
+                                     h: card.h}) // d.tall ? card.h_ : card.h})
   let db = prep.map(initialize)
   
   let overlaps = (u, cx, cy) => 
@@ -519,8 +511,8 @@ function makeInput (prep, paths) {
       if (x > spread.x && x < spread.x + spread.w &&
           y > spread.y && y < spread.y + spread.h - 20) {
 
-        x_ = clamp(x, spread.x + (5./9)*card.w_, spread.x + spread.w - (5./9)*card.w_) - card.w_/2
-        y_ = clamp(y, (5./9)*card.h_, spread.h - (5./9)*card.h_) - card.h_/2
+        x_ = clamp(x, spread.x + (5./9)*card.w, spread.x + spread.w - (5./9)*card.w) - card.w/2
+        y_ = clamp(y, (5./9)*card.h, spread.h - (5./9)*card.h) - card.h/2
 
         // DRAW CARD
         let u = firstOverlap(d.id, x_+card.w/2, y_+card.h/2) // do I overlap anyone who isn't me?
@@ -535,7 +527,7 @@ function makeInput (prep, paths) {
         update()
 
       } // if not in playing area:
-      else { x_ = d.x < spread.w ? 0 : spread.w + card.w_ + 10;
+      else { x_ = d.x < spread.w ? 0 : spread.w + card.w + 10;
             choice.pull(d.id); update() } // PULL CARD
 
       d.x = x_; d.y = y_
@@ -779,7 +771,7 @@ input:hover {
     [a('guardian_'), a('moth'),
       a('orbit'), a('forge'), a('lantern'),
     a('imbrication'), a('devil'),
-      a('grail'), a('priestess'), a('heart'),
+      a('grail'), a('priestess'), a('emperor'),
     a('hanged')]
   
   let res = (i) => ({id: i, epithet: roles[i], query: wants[i], url: images[i], tall: true}) // [0,1,2,5].includes(i)})

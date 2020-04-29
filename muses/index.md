@@ -1,51 +1,118 @@
+<script>
+  function show(id) {
+    let sel = document.querySelector('#'+id)
+    sel.style.opacity = 1.0
+    sel.style['transition-delay'] = '0s'
+  }
+  function hide(id) {
+    let sel = document.querySelector('#'+id)
+    sel.style.opacity = 0.0
+    sel.style['transition-delay'] = '.5s'
+  }
+
+  window.onload = () => {
+    for (let img of document
+          .querySelectorAll('.double img, .triple img')) {
+      let id = img.src.split(/\/([\w\-]+)\./)[1]
+      
+      let sel = document.querySelector('#'+id)
+      if ( sel ) {
+        img.onmouseover = () => show(id)
+        img.onmouseout = () => hide(id)
+      }
+      else
+        console.log('unmatched id ' + id)
+    }
+  }
+</script>
+
 <style>
 div.double {
   display: grid;
   grid-template-columns: 4fr 3fr;
-  grid-column-gap: 20px;
+  grid-column-gap: 1rem;
   margin-bottom: 10px;
 }
 div.triple {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
+  grid-column-gap: 1rem;
   margin-bottom: 10px;
 }
-  
-img {
-  transition: linear .6s;
+
+/* https://fransdejonge.com/wp-content/uploads/2010/01/sidenotes.html */
+.margin {
+  display: block;
+  float: right;
+  max-width: 10rem;
+  margin: 1rem;
 }
-img:hover:not(.vector) {
-  transform: scale(.99);
+.margin p {
+  font-size: calc(.3rem + 1vw);
+  margin: 0 0 40px;
+  min-height: 50px;
+  opacity: 0;
+  transition: .5s ease;
+  overflow: hidden;
+}
+/* https://stackoverflow.com/a/20935566 */
+.margin strong:after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+@media (max-width: 940px) {
+  .margin {
+    display: none;
+    /* float: none; */
+  }
+  /* .margin p {
+    color: white;
+    position: fixed;
+    width: 250px;
+  } */
 }
 </style>
 
-<div style="max-width: 700px;">
+<div style="position: relative; max-width: 850px;">
+<div class="margin">
+  <p id="fire_rat">and i've grown&nbsp;familiar with&nbsp;villains that&nbsp;live&nbsp;in my&nbsp;head</p>
+  <p id="idyll">our memories, well they can be&nbsp;inviting, but&nbsp;some are altogether&nbsp;mighty frightening</p>
+  <p id="mater"><strong>(xi) strength</strong></p>
+  <p id="reflection_"><strong>(xii) traitor</strong></p>
+  <p id="namer"><strong>(xiii) death</strong></p>
+  <p id="illia_svg-4">lost in that&nbsp;memory, like a&nbsp;candle in&nbsp;the&nbsp;wind</p>
+  <p id="prismatic">all that riddles&nbsp;me will never cease&nbsp;to&nbsp;be, still&nbsp;i&nbsp;search this&nbsp;world</p>
+  <p id="necro_">everything's&nbsp;blackening<br/> i am made of flesh&nbsp;and&nbsp;bone</p>
+  <p id="priestess_">and&nbsp;here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
+  <p id="blink">you&nbsp;speak with&nbsp;silence, and i carve each&nbsp;word you&nbsp;sing</p>
+  <p id="g4363">i can&nbsp;not&nbsp;only see, but&nbsp;you&nbsp;stopped&nbsp;me from&nbsp;blinking</p>
+</div>
 
 <div class="double">
-  <img src="fire_rat.png" title="and i've grown familiar with villains that live in my head"/>
-  
-  <img src="idyll.png" title="broke the vow i thought you made, my angel, why" style="margin-top: -5rem;"/>
+  <img src="fire_rat.png" title=""/>
+  <img src="idyll.png" title="" style="margin-top: -5rem;"/>
 </div>
   
 <div class="triple">
-  <img src="mater.png" title="(xi) strength"/>
-  <img src="reflection_.png" title="(xii) traitor"/>
-  <img src="namer.png" style="align-self: center;" title="(xiii) death" />
+  <img src="mater.png" title=""/>
+  <img src="reflection_.png" title=""/>
+  <img src="namer.png" style="align-self: center;" title="" />
 </div>
 
 <div class="triple">
-  <img src="illia_svg-4.png" class="vector" title="lost in that memory, like a candle in the wind" style="margin-top: -3rem;" />
+  <img src="illia_svg-4.png" class="vector" title="" style="margin-top: -3rem;" />
 
   <div>
-    <img src="prismatic.png" title="waking falling free of gravity, this is more than just affinity" />
-    <img src="necro_.png" class="vector" title="feel the beat as you lead me on, from the sky to the mire">
+    <img src="prismatic.png" title="" />
+    <img src="necro_.png" class="vector" title="">
   </div>
-  <img src="priestess_.png" title="and here now comes the sweet, corrupting reality" style="margin-bottom: 1rem;" />
+  <img src="priestess_.png" title="" style="margin-bottom: 1rem;" />
 </div>
 
 <div class="triple" style="justify-items: center;">
   <small>FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>), 2016 - 2020. blink.gif, 2011.</small>
-  <img src="blink.gif" class="vector" style="align-self: end;" title="you speak with silence, and i carve each word you sing" />
-  <img src="g4363.png" class="vector" style="margin-top: -8rem;" title="i can not only see, but you stopped me from blinking" />
+  <img src="blink.gif" class="vector" style="align-self: end;" title="" />
+  <img src="g4363.png" class="vector" style="margin-top: -8rem;" title="" />
 </div>

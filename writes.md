@@ -1,23 +1,34 @@
-# Resume Todo
+# Projects
 
-I have two course transcripts between four transcript entries (transfer work, BS, MS, PhD). I will split up the latter manually.
+### elo
 
-* Update CV.
-	* > Include urls of abstracts or reprints of any papers you have published in journals or presented at conferences on your resume with your online application. Examples of our research are available.
+* creative scenes
 
-	* Link geobiology and scipy materials. Don't forget msri, arxiv.
-	* Include departmental awards.
+* mere juxtaposition
 
+### vis
 
-# Statement Todo
+* intuited saddle points
 
-* Saddle points in idea space.
-* Fractal depth of specialization.
+* skewers
 
-* Review portfolio reqs.
-	> Computational Media MS/PhD and Games & Playable Media MS Program applicants are expected to include a link to their online portfolio.
+### scipy
 
-* prof. forbes
+* steady state locus of a nonlinear system
+
+* kappavis
+
+### game theory
+
+* rock paper scissors browser
+
+* tournament under parameter variation
+
+### undergraduate
+
+* pattern formation
+
+* spatialized predator-prey, absorbing states
 
 ---
 
