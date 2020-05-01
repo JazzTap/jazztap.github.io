@@ -13,7 +13,7 @@
   window.onload = () => {
     for (let img of document
           .querySelectorAll('.double img, .triple img')) {
-      let id = img.src.split(/\/([\w\-]+)\./)[1]
+      let id = img.src.split(/\/([\w\-]+)\./).slice(-1)[0]
       
       let sel = document.querySelector('#'+id)
       if ( sel ) {
