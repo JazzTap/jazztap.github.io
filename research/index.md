@@ -48,11 +48,11 @@
   <h3>data visualization</h3>
   <div class="filmstrip full">
     <a href="#">
-      <img src="../assets/blog/card.jpg" />
+      <img src="../assets/blog/canvas_boundary.png" />
   	  <p><strong>IEEE Vis Arts |</strong> intuition and saddle points</p>
     </a>
     <a href="#">
-      <img src="../assets/blog/card.jpg" />
+      <img src="../assets/blog/IGM-Vis_Coherence.png" />
   	  <p><strong>IEEE Vis |</strong> intergalactic skewers</p>
   </a>
   </div>
@@ -76,8 +76,8 @@
   	  <p><strong>Sinervo lab |</strong> RPS parameter space browser</p>
     </a>
     <a href="#">
-      <img src="../assets/blog/card.jpg" />
-  	  <p>phase spaces slides</p>
+      <img src="../assets/blog/flocking.png" />
+  	  <p>collective motion slides</p>
     </a>
     <a href="#">
       <img src="../assets/blog/card.jpg" />
