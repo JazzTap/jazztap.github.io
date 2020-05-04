@@ -2,13 +2,19 @@
 ---
 
 @import "{{ site.theme }}";
-/*  parent has position: relative
-	https://hartshorne.ca/sidenotes-with-css-3f28f1628518 */
 
-.sidenote {
-  margin-right: 10px;
-  float: right;
-  width: 150px;
+body {
+  padding: 20px 50px 0px 50px;
+}
+
+.wrapper {
+  margin: 0;
+  width: auto;
+  max-width: 2000px;
+
+  /* https://css-tricks.com/simplified-fluid-typography/ */
+  font-size: 14px;
+  font-size: min(max(14px, 1.05vw), 22px);
 }
 
 header {
@@ -17,14 +23,49 @@ header {
   position: inherit;
 }
 
-aside {
-  text-align: right;
-  margin-left: auto;
-  margin-bottom: 20px;
-  max-width: 30rem;
-  color: #888;
-}
-
 p {
   color: #444;
+}
+
+
+/* lightbox markup */
+
+.overlay > div {
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 75%;
+  min-height: 200px;
+  
+  padding: 20px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: solid 20px #eee8;
+  z-index: 1;
+  display: none;
+}
+.overlay > div > a:first-child {
+  float: right;
+  margin-top: -15px;
+  font-size: 30px;
+}
+
+.overlay > div:target {
+  display: block;
+}
+
+.overlay > div:target ~ .backdrop{
+  /* https://stackoverflow.com/a/9812170 */
+  
+  display: block;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff2;
+  width: 100vw;
+  height: 100vh;
+  display: none;
 }

@@ -4,6 +4,21 @@ title: "Portfolio - Summer 2018"
 hidden: true
 ---
 
+<style> 
+.sidenote {
+  margin-right: 10px;
+  float: right;
+  width: 150px;
+}
+aside {
+  text-align: right;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 30rem;
+  color: #888;
+}
+</style>
+
 Untouched since then, basically. I've spent a year learning to articulate each of these parts more legibly.
 
 May as well inaugurate the blog with something I'll feel complled to update, then.  

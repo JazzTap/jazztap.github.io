@@ -19,8 +19,8 @@
         <!-- {{ site.github.url }} -->
         <a href="/"><h1 style="display:inline">{{ site.title }}</h3></a>
 		<span class="view">
-			&nbsp; <a href="/cv">[CV]</a> &nbsp;
-			<a href="https://observablehq.com/@jazztap"><img src="/assets/Observable-black.svg" width="25" height="25" /></a>
+			&nbsp; <a href="#cv">[CV]</a> &nbsp;
+			<a href="https://scholar.google.com/citations?user=CQyk9V8AAAAJ"><img src="/assets/GoogleScholar-black.svg" width="25" height="25" /></a>
 			<a href="{{ site.github.owner_url }}"><img src="/assets/Github-black.svg" width="25" height="25" /></a>
 			<a href="https://twitter.com/jatazak"><img src="/assets/Twitter-black.svg" width="25" height="25" /></a>			
 		</span>
@@ -29,19 +29,21 @@
 
       {{ content }}
 
-    <h3>All Posts</h3>
-    <ul>
-      {% for post in site.posts %}
-      {% if post.hidden != true %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: '%B %d, %Y' }})
-        </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
+    <div class="overlay"> 
+        <div id="cv" style="text-align: center;">
+          <a href="#_">❌</a>
+          <br/>
+          <a href="cv single.pdf">direct link</a>
+          <object data="cv single.pdf" type="application/pdf" style="width: 80vw; height: 65vw;">
+            <embed src="cv single.pdf" type="application/pdf" />
+          </object>
+        </div>
+          
+        <a class="backdrop" href="#_"></a>
+    </div>
 
       <!-- </section> <footer> -->
-        <p><small>Theme is <a href="https://github.com/pages-themes/minimal">Minimal</a> (orderedlist) for Jekyll with <a href="https://dribbble.com/shots/2235197-50-Free-Flat-Icons-Sketch-Illustrator">flat icons</a> (alexisdoreau).</small></p>
+        <p><small>Theme derived from <a target="_blank" href="https://github.com/pages-themes/minimal">Minimal</a> (orderedlist) for Jekyll with <a target="_blank" href="https://dribbble.com/shots/2235197-50-Free-Flat-Icons-Sketch-Illustrator">flat icons</a> (alexisdoreau).</small></p>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 

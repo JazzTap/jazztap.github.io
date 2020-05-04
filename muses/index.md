@@ -13,7 +13,7 @@
   window.onload = () => {
     for (let img of document
           .querySelectorAll('.double img, .triple img')) {
-      let id = img.src.split(/\/([\w\-]+)\./).slice(-1)[0]
+      let id = img.src.split(/\/([\w\-]+)\./).slice(-2)[0]
       
       let sel = document.querySelector('#'+id)
       if ( sel ) {
@@ -48,7 +48,6 @@ div.triple {
   margin: 1rem;
 }
 .margin p {
-  font-size: calc(.3rem + 1vw);
   margin: 0 0 40px;
   min-height: 50px;
   opacity: 0;
@@ -75,16 +74,16 @@ div.triple {
 }
 </style>
 
-<div style="position: relative; max-width: 850px;">
-<div class="margin">
+<div class="wrapper" style="max-width: 940px;">
+<div class="margin" style="min-height: 1300px;">
   <p id="fire_rat">and i've grown&nbsp;familiar with&nbsp;villains that&nbsp;live&nbsp;in my&nbsp;head</p>
-  <p id="idyll">our memories, well they can be&nbsp;inviting, but&nbsp;some are altogether&nbsp;mighty frightening</p>
+  <p id="idyll">our memories, they&nbsp;can be&nbsp;inviting, but&nbsp;some&nbsp;are altogether&nbsp;mighty frightening</p>
   <p id="mater"><strong>(xi) strength</strong></p>
   <p id="reflection_"><strong>(xii) traitor</strong></p>
   <p id="namer"><strong>(xiii) death</strong></p>
   <p id="illia_svg-4">lost in that&nbsp;memory, like a&nbsp;candle in&nbsp;the&nbsp;wind</p>
   <p id="prismatic">all that riddles&nbsp;me will never cease&nbsp;to&nbsp;be, still&nbsp;i&nbsp;search this&nbsp;world</p>
-  <p id="necro_">everything's&nbsp;blackening<br/> i am made of flesh&nbsp;and&nbsp;bone</p>
+  <p id="necro_">everything's blackening<br/> i am made of flesh&nbsp;and&nbsp;bone</p>
   <p id="priestess_">and&nbsp;here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
   <p id="blink">you&nbsp;speak with&nbsp;silence, and i carve each&nbsp;word you&nbsp;sing</p>
   <p id="g4363">i can&nbsp;not&nbsp;only see, but&nbsp;you&nbsp;stopped&nbsp;me from&nbsp;blinking</p>
@@ -112,7 +111,11 @@ div.triple {
 </div>
 
 <div class="triple" style="justify-items: center;">
-  <small>FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>), 2016 - 2020. blink.gif, 2011.</small>
+  <small>
+    <p>FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>), 2016 - 2020. blink.gif, 2011.</p>
+
+    <p><a href="..">go back</a></p>
+  </small>
   <img src="blink.gif" class="vector" style="align-self: end;" title="" />
   <img src="g4363.png" class="vector" style="margin-top: -8rem;" title="" />
 </div>
