@@ -38,7 +38,12 @@ projects | [blog](writes) | [muses](muses)
   grid-gap: 20px;
   /* grid-auto-flow: column;
   grid-template-rows: auto auto; */
-  grid-template-columns: repeat(6, calc(50% - 40px) );
+  grid-template-columns: repeat(6, calc(100% - 40px) );
+}
+@media (min-width: 480px) {
+  .filmstrip {
+    grid-template-columns: repeat(6, calc(50% - 40px) );
+  }
 }
 @media (min-width: 880px) {
   .filmstrip {
@@ -85,7 +90,6 @@ projects | [blog](writes) | [muses](muses)
 .accordion .content {
   overflow-y: hidden;
   height: 0;
-  transition: height 0.3s ease;
 }
 .accordion > input[type="checkbox"]:checked ~ .content {
   height: auto;
