@@ -111,10 +111,10 @@ main.variable(observer("lightbox")).define("lightbox", ["html", "d3", "tokens", 
         
         if (active.includes(trace[st+j])) {
           res.style.animation = 'fadein .5s'
-          res.style.color = 'black'
+          res.style.color = '#111111'
         }
         else {
-          res.style.color = 'gray'
+          res.style.color = '#aaaaaa'
         }
       }
     }
@@ -396,7 +396,7 @@ function makeInput (prep, paths) {
   let card = {w: 230, h: 380, /*w_: 250, h_: 390*/},
               // 170,    250;       160,     270
       spread = {x: card.w + 5, y: 10,
-                w: width - card.w*2, h: 1050} // 540, 420
+                w: width, h: 1050} // 540, 420
   let grab = {dx: 0, dy: 0},
       choice = new Piles(tokens.length),
       faces = [], obstructed = [],
@@ -425,9 +425,12 @@ function makeInput (prep, paths) {
     .attr('width', spread.w).attr('height', spread.h)
     .style('fill', '#222').style('stroke', 'black') */
   
-  let initialize = (d,i=0) => ({...d, x: i * (spread.w + card.w - 10), y: 400,
-                                     w: card.w, // d.tall ? card.w_ : card.w,
-                                     h: card.h}) // d.tall ? card.h_ : card.h})
+  let initialize = (d,i=0) => ({...d,
+    x: 0, // i * (spread.w + card.w - 10)
+    y: 0 + i*450,
+    w: card.w, // d.tall ? card.w_ : card.w,
+    h: card.h}) // d.tall ? card.h_ : card.h})
+
   let db = prep.map(initialize)
   
   let overlaps = (u, cx, cy) => 

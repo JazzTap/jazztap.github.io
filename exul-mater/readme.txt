@@ -1,0 +1,3 @@
+[begin reading](https://jazztap.github.io/exul-mater/)
+
+Runs on a current version of Chrome or Firefox. The computer should have a touchscreen ideally, and at least a mouse. The files can be served from either a remote site (requiring internet access), or hosted locally (requiring a Python installation to run an HTTP server).
