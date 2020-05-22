@@ -27,7 +27,8 @@ h4 {
 grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+  row-gap: 10px;
   width: 100%;
   min-height: 50rem;
 }
@@ -37,8 +38,7 @@ grid {
   min-height: 15rem;
 }
 p {
-  display: inline-block;
-  margin: .5rem 0;
+  margin: .5rem auto;
 }
 
 figure {
@@ -79,38 +79,46 @@ input:hover {
   display: none;
   position: absolute;
   z-index: 999;
-  width: 100%; /* 45%; */
-  min-width: 400px;
-  left: 0; /* 50%; */
+  width: 50%; /* 45%; */
+  left: 25%; /* 50%; */
   height: 90vh;
   top: 5vh;
   text-align: center; /* right; */
-  background: rgba(0,0,0,0.8);
+  background: #fffa;
 }
 .lightbox img {
-  max-height: 95%;
+  min-width: 400px;
+  max-height: 700px;
   margin-top: 5%;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff3;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: none;
 }
     </style>
   </head>
 
   <body>
-    <section class="container">
+    <section style="max-width: 960px; margin-left: 250px;">
+      <h4>exul mater</h4>
       <div class="row">
-        <div class="col-1" style="position: relative;">
-          <h4>exul mater</h4>
+        <!-- <div class="col-1" style="position: relative;">
           <div id="zero" class="invert"></div>
           <div id="one"></div>
-          <div id="five"></div>
-        </div>
+        </div> -->
         <div class="col-3">
           <div id="three"></div>
           <div id="four"></div>
         </div>
+        <div id="five"></div>
       </div>
-      <div class="row">
-          <div class="col center" id="two"></div>
-      </div>
+      <div id="two"></div>
     </section>
 
     <div id="six" hidden></div>
@@ -120,8 +128,8 @@ input:hover {
       import define from "./index.js";
       
       const renders = {
-        "showPreamble": "#zero",
-        "showFable": "#one",
+        /* "showPreamble": "#zero",
+        "showFable": "#one", */
 
         "viewof branching": "#two",
         "lightbox": "#three",

@@ -56,17 +56,26 @@ I shall rejoin you thus.
   return ret
 }
 );
-  main.variable(observer("showFable")).define("showFable", ["irae","branching","tokens"], function(irae,branching,tokens){return(
-irae.render([...branching.faces(tokens),
-             ...branching.occlusion(tokens)])
-)});
 main.variable(observer("lightbox")).define("lightbox", ["html", "d3", "tokens", "prep"], function(html, d3, tokens, prep)
 {
   let ret = html``
-  d3.select(ret).selectAll('img.lightbox')
-    .data(tokens).join('div').attr('class', 'lightbox').attr('id', d => d)
-      .on('click', function() { d3.select(this).style('display', 'none') })
-      .append('img').attr('src', d => prep[d].url)
+  let box = d3.select(ret).selectAll('img.lightbox')
+    .data(tokens).join('div')
+      .attr('class', 'lightbox').attr('id', d => d)
+      .style('pointer-events', 'none')
+      // .on('click', function() { d3.select(this).style('display', 'none') })
+
+  box.append('img').attr('src', d => prep[d].url)
+  box.append('p').text(d => prep[d].answer)
+                 .style('width', '500px')
+
+  d3.select(ret).append('a')
+      .attr('class', 'backdrop')
+      .on('click', function() {
+        d3.select(this.parentNode).selectAll('.lightbox').style('display', 'none')
+        d3.select(this).style('display', 'none')
+      })
+
   return ret
 });
   main.variable(observer("viewof branching")).define("viewof branching", ["counter","makeInput","prep"], function(counter,makeInput,prep)
@@ -94,22 +103,19 @@ main.variable(observer("lightbox")).define("lightbox", ["html", "d3", "tokens", 
   let ret = html`<grid style="grid-template-rows: 2em 1fr 1fr 1fr; grid-auto-flow: column;">
                   ${picks.slice(0,3).join('\n')}
                 </grid>`
-  annotate(ret, 0)
 
   if (picks.length > 3) {
-    let res = html`<grid style="grid-template-rows: 2em 1fr 1fr 1fr; grid-auto-flow: column;">
-                    ${picks.slice(3,6).join('\n')}
-                  </grid>`
-    annotate(res, 3)
-    ret = html`${ret} \n\n ${res}`
+    ret.innerHTML += picks.slice(3,6).join('\n')
+    ret.style['grid-template-rows'] = "2em 1fr 1fr 1fr 2em 1fr 1fr 1fr"
   }
+  annotate(ret, Math.max(picks.length, 3))
 
-  function annotate(results, st=0) {
+  function annotate(results, nd) {
     for (let i = 0; i < 4; ++i) {
-      for (let j = 0; j < 3; ++j) {
+      for (let j = 0; j < nd; ++j) {
         let res = results.children[j*4 + i] // TODO: hoist loop
         
-        if (active.includes(trace[st+j])) {
+        if (active.includes(trace[j])) {
           res.style.animation = 'fadein .5s'
           res.style.color = '#111111'
         }
@@ -144,41 +150,11 @@ main.variable(observer("lightbox")).define("lightbox", ["html", "d3", "tokens", 
 }
 );
   main.variable(observer("counter")).define("counter", ["Generators", "viewof counter"], (G, _) => G.input(_));
-  main.variable(observer("irae")).define("irae", ["Charsheet"], function(Charsheet){return(
-new Charsheet(() => 'and so',
-{'magician': [`"I am alone," the daughter thought, "and will on my own merits fail, or succeed."
-
-But she knew only the Earth from which her mother had gone, and not the Sky in which she now dwelt.
-
-Therefore the witch said, "Take strength from my presence."`, ['strength', 'justice', 'death',
-    'tower', 'devil', 'priestess',
-    'moon', 'sun', 'judgement']],
- 
- // ansegdniss
- 'strength': [`"You are mine," said the Lord of Sacrifice to her daughter. "And therefore you are of the Earth."
- 
- In spite of your father, she heard unspoken.`, ['justice', 'death', 'moon', 'judgement']],
- 
- 'justice': [`"You should be proud, for I am the light-bearer," said the daughter. "And I will banish all ignorance."`, 'judgement'],
- 'death': [`Yet Irae was raised as Ansegdniss' general, being reconciled. By her mother, she was named Master of Phosphorus.`, 'moon'],
- 
- // idyll
- 'tower': [`The Figurative Lady united with the daughter. They would unite the World entire. The daughter summoned her familiars for guidance, and these serpents came to dwell in her flesh.`, ['priestess', 'devil', 'sun', 'judgement']],
- 
- 'priestess': [`Irae knew well the dogmas from her time on the Moon, and therefore its weaknesses. She instructed her lover toward her revenge.`, 'sun'],
- 'devil': [`"You held me as I stirred from my coils. Your lips smelled like iron, but I woke to see your shape frozen in stone."`, 'judgement'],
- 
- // terminal
- 'judgement': `"The corona about my head was hissing snakes. Because I had woken late, I sought a pallet for your transport, as we would make ourselves present to be judged."`,
- 'judgement_': `For her father kept her from harm, if not cruelty. She was made civilized and civilizer.`,
- 'sun': `Despite the fleet's support, Eidolon was lost during the campaign.`,
- 'moon': `By uniting their fleets against the World, Irae delivered the Sky unto the Earth. She was crowned.`
-})
-)});
+  
   main.variable(observer("lines")).define("lines", function(){return(
 `    
 - [0+2j]
-EIDOLON:
+IDA:
 Your fleet gathers for the iron-crowned girl who has promised to end an empire, whose corona is like the dawn star. Their formation is like woven metal, which forms resonating membranes.
 
 As you reflect me, would you refract me? Because I am never facing myself, I see only the monster in my mirror. Our colors are both iron and copper, as in hemoglobin and hemocyanin, which are engines made by orbital gaps.
@@ -195,11 +171,11 @@ You would undo Father's work, you would see the World consumed for its own glory
 
 - [1+1i]
 IRAE:
-You may kill me, but the World will not be brought to life. You may compel me, but if we cling to its injustice, the World will never be remade. And so the death-dealing instrument of high office is before me, in your hands.
+You may kill me, but the World will not be brought to life. You may compel me, but if we cling to its injustice, the World will never be remade.
 
-You peel back its slim black casing, of the same metal as your gauntleted hand was. You unbind the weapon's heart and bind it to me. Your fingers are cold against mine. Their covering is translucently thin.
+So the death-dealing instrument of high office is before me, in your grasp. You peel back its metal skin, blackened as proof against rust. You unbind the weapon's heart and place it in my palm.
 
-Beneath is the bluish-gray of contractile fibre-bundles and their circulatory supply. The shard in my hand lowly hums. (I cover it hastily.) The nodes of its resonant frequency are in time with the pulse of our blood.
+Your fingers are cold against mine. Their skin is translucently thin. Beneath, the bluish-gray maze of circulatory supply. The lambent shard lowly hums, eager to be used. The nodes of its resonant frequency re-align themselves with my pulse, faster and faster than yours.
 
 - [1+2k]
 ANSEGDNISS:
@@ -234,12 +210,12 @@ In your own lifetime, the master of a particular engine revealed the ruin inside
 Like you, I wll forsake mortal weakness. If Father could not be cold, he should have burnt himself numb. It is an efficient sacrifice. There is no immortality but through those who succeed us, who will by example become our kind.
     
 - [2+2i]
-EIDOLON:
-Your crimes were unforgivable, and so the High King could give you nothing. Her father betrayed his master to you, because his honors shamed him. Yet you could not rule my people alone.
+IRAE:
+Your crimes were unforgivable, and so the High King could give you nothing. My father betrayed his master to you, because his honors shamed him. Yet you could not rule his people alone.
 
-You permitted our petty warlords to bleed the World. He had not known the Sky would someday become the World, yet he saw that she would inherit your darkness.
+You permitted their petty warlords to bleed the World. He had not known the Sky would someday become the World, in turn, adoring their riches. Yet he saw that I would inherit your darkness.
 
-She was brought to the Temple Moon as a student, to be tempered. And we would banish your shades both, their failed encapsulation of her.
+I was brought to the Moon as a temple initiate, to be tempered. And we would banish your shades both, their failed encapsulation of me.
     
 - [2+4j]
 IRAE:
@@ -266,12 +242,12 @@ But when my enemies came for her father, you surrendered her to my castigators. 
 Thus you stole her from me, the only one I would save.
 
 - [3+4j]
-EIDOLON:
+IDA:
 Strength, in the person of your mother, is hard and grey. A pillar of steel, made under torsion to curve like a human body would. She is less than a citizen, having made herself sacred.
 
-Because she serves the World that is the Origin of Holy Empire, she is banished from the World and its kindness. The soldiers she was given were killed, and she has raised soldiers to take their places.
+Because she serves the World that is the Origin of Writ and Wisdom, she is banished from the World and its kindness. The soldiers she was given were killed, and she has raised soldiers to take their places.
 
-Your mother Lord Ansegdniss resides in the black between worlds. You are pulled to her.
+Your mother resides in the black between Worlds, having conquered these foreign lands. You are pulled to her.
     
 - [4+2i]
 ANSEGDNISS:
@@ -282,7 +258,7 @@ You once delved into the archives where every atrocity dwelt, and made their log
 I have sealed the Sky against the lawful means of rule, of belonging to the World, being subject to its greed. I have kept their leaders weak by culling, lest they defect. But you would make of them all citizens.
   
 - [4+2j]
-EIDOLON:
+IDA:
 Your father took to regret too well, perhaps. It is likely that your malaise inherits from his. The ineptitude at rationalizing tragedy away. (We must be ashamed to remain upon the same old battle lines.)
 
 You wore a mask, an artifice that dreamed herself to solve itself. By exile, you would inherit your true divinity. So you removed your mask, which was your skin. Beneath it was the painful contradiction, a gap free of meaning.
@@ -295,10 +271,10 @@ As the World is divided into the Earth and the Sky, so we gave the dawn star two
 
 I am afraid of my desires, for they beg me to let them feed. Afraid of my tools, for they conceal any problem they cannot solve. I will show you what I do and what I say. Then I will beg of you, tell me who I am.
 
-How else can I reckon my worth? Lest madness arrive in wisdom's guise. Lest trauma speak to me as triumph and glory.
+How else can I reckon my worth? Lest madness arrive in wisdom's guise. Lest trauma speak to me as triumph and glory. I fear not the individual transgressions, but no longer knowing which were necessary.
 
 - [4+9j]
-EIDOLON:
+IDA:
 You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth. You shall suffer your own venom, you will turn on yourself with fangs.
 
 Between your lips is your familiar, a white snake. Its fumes are poison, and its fire clings, being spread by water. You reveal only by removing what isn't - this is our secret, that I have worded for you.
@@ -306,12 +282,12 @@ Between your lips is your familiar, a white snake. Its fumes are poison, and its
 The scrying sphere in my palm holds you inverted. I would face your glory, knowing my shape is only ice.
     
 - [5+1k]
-EIDOLON:
-For her sake I would rewind, to when nothing jagged and weeping resided in you. No more the woven armor, no more burning light behind your eyes. Before the murder of false masters, those you sought to free us from.
+IDA:
+For her sake I would rewind, to when nothing jagged and weeping resided in you. No more the woven armor, no more burning light behind your eyes.
 
-Could you have loved your daughter, as did the mortal who was you, before? When you were weak, and he still loved you. The goddess could not love. She could not be anything but what she was. 
+Before the murder of false masters, those you sought to free us from, by freeing yourself from the weight of us. You chose sacrifice, and what you gave up, you forgot, in time. What they had lost of you.
 
-You chose sacrifice, and you gave up so much, you could not remember what you had lost. What they had lost of you.
+She could have taught your daughter anything but conquest. She could have brought the girl her father. She could have been weak, for one moment. Your daughter sought the mortal you were, not the woman who is left.
     
 - [6+1i]
 IRAE:
@@ -322,7 +298,7 @@ I traced behind it to discern which was the lie, the monster or the woman. But f
 The World I know is intricate, inevitable, and unspeakable. Would that you were wood ash, and not black powder. 
     
 - [6+2i]
-EIDOLON:
+IDA:
 Consider who she is, that your father could not love who she became. Your mother suffers a cruelty that catches. Her eyes are scarred pale. Her gravity, warps.
 
 None of her is worthy to follow, nor any of your elders, for they prefigure our ruin. I am weary of their words, which battle to become correct. We must not keep their rituals, which perpetuate a feeling that once was true.
@@ -330,15 +306,15 @@ None of her is worthy to follow, nor any of your elders, for they prefigure our 
 We are never again to lie in the garden whence we met, nor to breathe its oxygen. Once, we could survive far from the Sun. Now ours has caught alight. It is burning.
 
 - [6+2k]
-LOPTR:
-The triumph of civilization is to catalog all things into their parts. Natural law cannot otherwise replace naked power, which rules beasts. If the World has failed in its mission, if its own law is predatory, what does legislation achieve? It has only bled ink.
+IRAE:
+The triumph of civilization is to catalog all things into their parts. Natural law cannot otherwise replace naked power, which rules beasts. If the World has failed in its mission - if its own law is predatory, - then these are cuts that bleed.
 
-You conquered the High King, dreading to take his place. Fearing not the individual transgressions, but no longer knowing which were necessary. My sovereign futures fell one by one to pieces, and I could not protect our daughter forever.
+You conquered the High King, dreading to take his place, so that no one else could. Yours is not the strength of wielding power, but of withstanding its loss. Therefore, any harm I inflict would only make you stronger.
 
-I know the symptoms of surrender. I see the brimstone in your eyes. I don't need you to be strong now. What she will be, is what we have saved.
+Your lover knew the symptoms of surrender. He saw the brimstone in your eyes. His sovereign futures were lost to ashes, and he could only hope to protect your daughter, who was all that you had saved.
 
 - [7+1j]
-EIDOLON:
+IDA:
 Your fingers find mine, eager, careful not to catch on sharp claws. They're asking if you let the Earth's secrets slip our grasp, I say. Have I answered truly? - you ask, gently.
 
 Am I not your priestess? They will not know your deeds. Would you harm me when they have not? In your eyes is the color of embers, honoring your father. You are acrid, you are are burning. (You will save us all.)
@@ -347,7 +323,7 @@ Are you not yourself turned against the Earth, willingly? Your familiar reaches 
 
 - [7+1i]
 IRAE:
-Your many-faceted visage is more beautiful than any army. It is a marble sweep, as if you killed your color, that imperfection. You have dreamed a queen of serpents to murder you with your gratitude.
+Your many-faceted visage is more beautiful than any army. It is a marble sweep, as if you killed your color, that imperfection. You have dreamed a queen of phosphorus to murder you with your gratitude.
 
 At the heart of the Moon lies the deepest atrium, whose stacks are shining polyhedra, which compile their stolen and fading and former truths. Each technology forgotten, each teaching unrecognized, each text that seeks to name you forever will fail.
 
@@ -388,10 +364,12 @@ makePicks(branching)
 )});
   main.variable(observer("makeInput")).define("makeInput", ["d3","DOM","Piles","tokens","clamp"], function(d3,DOM,Piles,tokens,clamp){return(
 function makeInput (prep, paths) {
-  let width = document.body.clientWidth,
-      svg = d3.select(DOM.svg(width, 1150)) // 1000, 450
+  let width = window.innerWidth,
+      height = window.innerHeight,
+      svg = d3.select(DOM.svg(width, height)) // 1000, 450
   svg.style('position', 'absolute').style('top', 0).style('left', 0)
-     .attr('viewBox', '0 0 '+ width +' 1050')
+     .attr('viewBox', '0 0 '+ width +' '+height)
+     .style('pointer-events', 'none')
 
   let card = {w: 230, h: 380, /*w_: 250, h_: 390*/},
               // 170,    250;       160,     270
@@ -408,15 +386,11 @@ function makeInput (prep, paths) {
     .append('clipPath').attr('id', 'clip')
       .append('rect').attr('width', card.w).attr('height', card.h)
       .attr('rx', 10)
-  /* svg.select('defs')
-    .append('clipPath').attr('id', 'cliptall')
-      .append('rect').attr('width', card.w_).attr('height', card.h_)
-      .attr('rx', 10) */
   // https://stackoverflow.com/questions/15500894/background-color-of-text-in-svg
   svg.select('defs')
     .append('filter').attr('id', 'solid')
                      .attr('x', 0).attr('y', 0).attr('width', 1).attr('height', 1.1)
-        .html(`<feFlood flood-color="#222"/>
+        .html(`<feFlood flood-color="#eee"/>
                <feComposite in="SourceGraphic" operator="atop"/>`)
   
   // playing area
@@ -425,18 +399,20 @@ function makeInput (prep, paths) {
     .attr('width', spread.w).attr('height', spread.h)
     .style('fill', '#222').style('stroke', 'black') */
   
-  let initialize = (d,i=0) => ({...d,
-    x: 0, // i * (spread.w + card.w - 10)
-    y: 0 + i*450,
+  let initialize = (d, i, arr) => ({
+    ...d,
+    x: 10, // i * (spread.w + card.w - 10)
+    y: arr.length < 2 ? 20 + 225 : 20 + i*450,
     w: card.w, // d.tall ? card.w_ : card.w,
     h: card.h}) // d.tall ? card.h_ : card.h})
 
+  console.log(prep)
   let db = prep.map(initialize)
   
   let overlaps = (u, cx, cy) => 
     cx < u.x+u.w && cx > u.x && cy < u.y+u.h && cy > u.y
-  let firstOverlap = (selfId, cx, cy) =>
-    db.filter(u => u.id != selfId).find(u => overlaps(u, cx, cy))
+  let getOverlap = (selfId, cx, cy) =>
+    db.filter(u => u.id != selfId && overlaps(u, cx, cy))
   
   // card initialization
   let define = (db) => {    
@@ -445,19 +421,19 @@ function makeInput (prep, paths) {
         .append('rect')
         .attr('class', 'highlight').attr('transform', 'translate(-5,-5)')
         .attr('width', d => d.w+10).attr('height', d => d.h+10)
-        .attr('rx', 15).style('fill', '#ddd')
+        .attr('rx', 15).style('fill', '#4440')
       sel // illustrations
         .append('image')
         .attr('href', d => d.url).attr('preserveAspectRatio', 'xMidYMid slice')
         .attr('width', d => d.w).attr('height', d => d.h)
-        .attr('clip-path', d => `url(#clip${d.tall ? 'tall' : ''})`)
+        .attr('clip-path', `url(#clip)`)
 
       sel // labels
         .each(function (d,i) {
         // multiline text from each datum
         d3.select(this).append('text')
           .attr('id', 'epithet')
-          .style('fill', 'white').style('opacity', 0).style('user-select', 'none')
+          .style('fill', 'black').style('opacity', 0).style('user-select', 'none')
           .attr('text-anchor', 'middle').attr('alignment-baseline', 'hanging')
           .attr('filter', 'url(#solid)')
           .selectAll('tspan').data(d.epithet.split(', '))
@@ -481,15 +457,18 @@ function makeInput (prep, paths) {
         else { // activate lightbox
           d3.selectAll(`.lightbox`).style('display', 'none')
           d3.select(`.lightbox#${tokens[d.id]}`).style('display', 'block')
+          d3.select(`.backdrop`).style('display', 'block')
         }
       })
       return sel
     }
     
     let cards = svg.selectAll('g').data(db, d => d.id) // FIXME: exiting data breaks alignment
-                .join((enter) => attach(enter.append('g')))
+                .join((enter) => attach(enter.append('g')
+                                             .attr('id', d => '_'+d.id)))
                 // .join('g').call(attach)
                 .attr('transform', d => `translate(${d.x}, ${d.y})`)
+                .style('pointer-events', 'all')
     
     cards.call(d3.drag()
                .on('start', function(d) { // DRAG START
@@ -500,12 +479,16 @@ function makeInput (prep, paths) {
                .on('drag', function(d) { // DRAGGING
       let x = d3.event.x - grab.dx,
           y = d3.event.y - grab.dy
-      let overlaps = firstOverlap(d.id, x+card.w/2, y+card.h/2)
+      let that = getOverlap(d.id, x+card.w/2, y+card.h/2)
+
       d3.select(this)
         .attr('transform', `translate(${x}, ${y})`)
-        .select('.highlight')
-          .style('fill', (d) => overlaps ? '#ddd' : '#444')
       d.x = x; d.y = y
+
+      // context hints for obscured cards
+      d3.selectAll('g')
+        .select('.highlight')
+          .style('fill', (d) => that.find(u => u.id === d.id) ? '#4440' : '#ddd')
     })
                .on('end', function(d,i) { // DRAG END
       let x = d3.event.x + card.w/2, y = d3.event.y + card.h/2
@@ -518,8 +501,8 @@ function makeInput (prep, paths) {
         y_ = clamp(y, (5./9)*card.h, spread.h - (5./9)*card.h) - card.h/2
 
         // DRAW CARD
-        let u = firstOverlap(d.id, x_+card.w/2, y_+card.h/2) // do I overlap anyone who isn't me?
-        let k = u ? choice.index[u.id] : choice.nextFree(d.id) // then join their stack, or else start one
+        let u = getOverlap(d.id, x_+card.w/2, y_+card.h/2) // do I overlap anyone who isn't me?
+        let k = u.length > 0 ? choice.index[u[0].id] : choice.nextFree(d.id) // then join their stack, or else start one
         choice.put(d.id, k)
 
         // REVEAL CARDS
@@ -530,7 +513,7 @@ function makeInput (prep, paths) {
         update()
 
       } // if not in playing area:
-      else { x_ = d.x < spread.w ? 0 : spread.w + card.w + 10;
+      else { x_ = d.x < spread.w ? 10 : spread.w + card.w + 10;
             choice.pull(d.id); update() } // PULL CARD
 
       d.x = x_; d.y = y_
@@ -544,7 +527,7 @@ function makeInput (prep, paths) {
       // TODO: ascertain how the extant cards are leaked into this closure
       
       cards.selectAll('.highlight')
-          .style('fill', (d) => faces.includes(d.id) ? '#ddd' : '#444')
+          .style('fill', (d) => faces.includes(d.id) ? '#ddd' : '#4440')
           // .style('opacity', (d) => faces.includes(d.id) ? 1 : 0)
       cards.selectAll('image') // inactive cards are translucent
           .style('opacity', (d) => faces.includes(d.id) ? 1 : .9)
@@ -573,9 +556,10 @@ function makeInput (prep, paths) {
       let target = paths[id]
       if (!target.length) target = [target]
 
-      target.forEach((u,i) => {
+      db.push(...target.map(initialize))
+      /* target.forEach((u,i) => {
         db.push( initialize(u,i) )
-      })
+      }) */
     }
     else {
       console.log(`swallowing card of id ${id}`)
@@ -746,7 +730,7 @@ input:hover {
   `THE MOON`,
   `THE DEVIL`,
   `THE SUN`,
-  `EIDOLON`,
+  `IDA`,
   'THE LOVER',
   `THE TRAITOR`,
   ]
@@ -766,7 +750,32 @@ input:hover {
   `What will it cost  to play my role?`,
   ]
 )});
-  main.variable(observer("prep")).define("prep", ["roles","wants"], function(roles,wants)
+main.variable(observer("fables")).define("fables", function(){return(
+[
+`So the daughter delivered the Sky unto the Earth, and by her mother was crowned.`,
+
+`Therefore the daughter sought out the Sky, knowing only the Earth from which her mother had gone.`,
+
+`The daughter summoned her familiars for guidance, and these serpents came to dwell in her flesh.`,
+
+`"I am alone," the daughter thought, "and this trial is mine." For she followed the dogmas of the World, in which she was never a citizen.`,
+
+`"You should be proud," said her daughter to the Lord of Sacrifice. "For I bear the torch of enlightenment, that banishes all ignorance."`,
+
+`She was raised as her mother's general, and reconciled thus.`,
+
+`The witch united with the daughter. They would unite the World entire.`,
+
+`The witch was lost during the campaign. The daughter stirred in her arms, and her lips smelled like iron, but she was frozen in stone.`,
+
+`Therefore the witch said, "Take strength from my presence." And in turn, the daughter instructed her toward her revenge.`,
+
+`"You are mine," said the Lord of Sacrifice to her daughter. "Therefore you are of the Earth, and not the Sky."`,
+
+`In spite of your father - she heard unspoken, - the daughter was capable of resisting her mortal desires.`,
+]
+)});
+  main.variable(observer("prep")).define("prep", ["roles","wants","fables"], function(roles,wants,fables)
 {
   // writing prompt
   let a = (s) => `./assets/${s}.png`
@@ -777,7 +786,12 @@ input:hover {
       a('grail'), a('priestess'), a('emperor'),
     a('hanged')]
   
-  let res = (i) => ({id: i, epithet: roles[i], query: wants[i], url: images[i], tall: true}) // [0,1,2,5].includes(i)})
+  let res = (i) => ({id: i,
+    epithet: roles[i],
+    query: wants[i], 
+    answer: fables[i], 
+    url: images[i],
+    tall: true}) // [0,1,2,5].includes(i)})
   let ret = { // this should be an Object.fromEntries, zipping 'tokens' and 'res'
     'judgement': res(0),
     'strength': res(1),
