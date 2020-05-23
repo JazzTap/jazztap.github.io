@@ -155,7 +155,7 @@ main.variable(observer("lightbox")).define("lightbox", ["html", "d3", "tokens", 
 `    
 - [0+2j]
 IDA:
-Your fleet gathers for the iron-crowned girl who has promised to end an empire, whose corona is like the dawn star. Their formation is like woven metal, which forms resonating membranes.
+Your fleet gathers for the iron-crowned girl who has promised to end an empire, who rises like the dawn star. Their formation is like woven metal, which forms resonating membranes.
 
 As you reflect me, would you refract me? Because I am never facing myself, I see only the monster in my mirror. Our colors are both iron and copper, as in hemoglobin and hemocyanin, which are engines made by orbital gaps.
 
@@ -165,9 +165,9 @@ Your shape is your history, and as malleable. When you are sacred, you will dict
 IRAE:
 That history, unwritten, would follow me forever. Their patterns of him predicted wrong shapes, not fitting his ways or means. Yet I sought to understand Father, voided by the glory which accrued to your conquest.
 
-Our World will not reject the exponential energies their engines exploit. They never learnt your lesson of sacrifice, which must be allowed to take anything. And in return expunge that need, that weakness.
+Our World will not reject the exponential energies their engines exploit. They never learnt your lesson, which must allow anything to become sacred, to be sacrificed. And in return, expunge that need, that weakness.
 
-You would undo Father's work, you would see the World consumed for its own glory. You would render my remains - all of him which persists - without worth.
+Any personhood that is known is the sum and cancellation of specific misapprehensions. I have invented myself based on yours, for how else would I survive?
 
 - [1+1i]
 IRAE:
@@ -175,51 +175,51 @@ You may kill me, but the World will not be brought to life. You may compel me, b
 
 So the death-dealing instrument of high office is before me, in your grasp. You peel back its metal skin, blackened as proof against rust. You unbind the weapon's heart and place it in my palm.
 
-Your fingers are cold against mine. Their skin is translucently thin. Beneath, the bluish-gray maze of circulatory supply. The lambent shard lowly hums, eager to be used. The nodes of its resonant frequency re-align themselves with my pulse, faster and faster than yours.
+Your fingers are cold against mine. Their skin is translucently thin. Beneath, the bluish-gray maze of circulatory supply. The lambent shard lowly hums, eager to be used. The nodes of its resonant frequency re-align themselves with my pulse.
 
 - [1+2k]
 ANSEGDNISS:
-Consider who she is, that loves you as you have become. And if she is your creature, then what might she be capable of? Of all your people, she alone knows your worship.
+Consider who she is, that loves you as you have become. And if she is your creature, then what might she be capable of? She would dream a queen of phosphorus. Of all your people, she alone knows your worship.
 
-You are of the Earth, and you will illuminate the Sky at last. She will refuse you as a demon, she will not surrender her people, if she understands your desire. You would not have chosen her, if she did not.
+You speak to me in riddles, tight knots of self-recrimination. You fear, or hope, their regrets will turn to blame. You will insist upon your judgement. You are of the Earth, and you will illuminate the Sky.
 
-Then, is she worth saving? That which is petrified will be preserved. As life defies the ages, so the ages despise life, and insist to change it.
+She will refuse you as a demon, she will not surrender her people, if she understands your desire. You would not have chosen her, if she did not.
 
 - [1+4i]
 ANSEGDNISS:
-That which would be inexistent is weak. Yet the World is virtuous, and I take pity on it. Though their sacred were tamed, and could not become us in all of history.
+Only weak things, once broken, are gone. Yet the World is virtuous, and I take pity on it. Though their sacred could not become us in all of history. They are reduced to one wavelength, and thus blinded to the rest.
 
-Sound transforms signals into materials, as compounding waves of physical displacement. Existence is to beat against the world, in a certain interference pattern.
+Sound transforms our signals into materials, as compounding waves of physical displacement. To exist is to beat against the world, in a certain interference pattern.
 
-To become sacred is to reduce your own signal to one wavelength, and become blind to the rest. For any personhood that is known is only the sum and cancellation of fleeting impressions.
+Your thoughts will divide, and feed amongst themselves, until the most ruthless commands you. I regret to have such a successor. I would have committed any atrocity, to avoid its resonance in you.
 
 - [1+5j]
 ANSEGDNISS:
-Your limbs are bound and used as levers, yet you twist away. It is because of the cruel precedent that was not inevitable, but is not unpalatable enough to disavow.
+The war will be ended before it is won. Should I have been the killer or the healer, so that you could play the other role, my daughter? Why do you shed your weakness, which you can never regain?
 
-Your brow is furrowed deeply, and erythritic against the hollows of your eyes. Their bony sockets lie taut beneath your skin. You wear the woman I see as a mask, your own body.
+You bear your heavy eyebags in furrows beneath alopecic eyebrows. You bear your erythristic hue, bruise-blue where the skin thins. You wear the woman I see as a mask, your own body.
 
-You know your parents' failings, and their wraiths. You will flee their forms, and recapitulate each one in turn.
+You know your parents' failings, and their wraiths. You will flee from their forms, and recapitulate each one in turn.
     
 - [2+1k]
 IRAE:
-Father could not help but imagine the Sky's injustices were not reproduced amongst the engines of the Earth, as greedy as furnaces, as befouling of the air and soil. Else he would have resolved to ruin them, too.
+Father could not help but imagine the Sky's injustices were not reproduced amongst the engines of the Earth, as greedy as furnaces, as befouling of the air and the soil. Else he would have resolved to ruin them, too.
 
 In your own lifetime, the master of a particular engine revealed the ruin inside a city, and sacrificed only the distinction between persons and resources. Therefore his assertion was trivial - the existence of naked power.
 
-Like you, I wll forsake mortal weakness. If Father could not be cold, he should have burnt himself numb. It is an efficient sacrifice. There is no immortality but through those who succeed us, who will by example become our kind.
+Like you, I wll forsake mortal weakness. If Father could not be cold, he should have burnt himself numb. It is an efficient exchange. For there is no immortality, but through those who will by example become our kind.
     
 - [2+2i]
 IRAE:
-Your crimes were unforgivable, and so the High King could give you nothing. My father betrayed his master to you, because his honors shamed him. Yet you could not rule his people alone.
+Your crimes were unforgivable, and so the High King could give you nothing. My father betrayed him to you, his own master, because his honors shamed him. Yet you could not rule his people alone.
 
-You permitted their petty warlords to bleed the World. He had not known the Sky would someday become the World, in turn, adoring their riches. Yet he saw that I would inherit your darkness.
+You permitted their petty warlords to bleed the World. Perhaps he saw then that the Sky would someday become the World, adoring their riches. Already, he saw that I would inherit your darkness.
 
 I was brought to the Moon as a temple initiate, to be tempered. And we would banish your shades both, their failed encapsulation of me.
-    
+
 - [2+4j]
 IRAE:
-I have realized, Mother, that you love the World dearly. As one loves the thing that has consumed them. You conquered for them, so that I might not. You would have committed any atrocity.
+I have realized, Mother, that you love the World dearly. As one loves the thing that has consumed them. You conquered for them, so that I might not. You would worship the Sun, in order to deny it.
 
 Let me bear the sum and total of your deeds. Father conferred upon me the armor, and I am tempered against hatred, so at last I shall wield it. I would make of the World its own altar.
 
@@ -232,14 +232,6 @@ I draw the new muscle from inside, anchored by the root. I feel the imbricated v
 The memories of the dead had scurried to hide in the deepest archives. My familiars grew wise upon them, then fed amongst themselves, so that only the most ruthless survived. And its appetites became mine.
 
 My throat is scraped raw. Its flexed maw flicks faint molecules from the air. I coax its venom-bearing body into the proper place for a tongue.
-
-- [3+3j]
-ANSEGDNISS:
-You forsook your king for my sake, and led your men to die. I accepted these gratefully. I only sought to create a future free of ancient curses. Then, none would be left to guide her steps.
-
-But when my enemies came for her father, you surrendered her to my castigators. She would be alone on the Moon for many spans, and enter into many of its tortured chasms, where hid those voices which I had silenced.
-
-Thus you stole her from me, the only one I would save.
 
 - [3+4j]
 IDA:
@@ -255,15 +247,15 @@ You were banished from the Temple and exiled from the World. You have confessed 
 
 You once delved into the archives where every atrocity dwelt, and made their logics live inside of you, aware that serpents multiply. You resolved to bring the Sky its justice.
 
-I have sealed the Sky against the lawful means of rule, of belonging to the World, being subject to its greed. I have kept their leaders weak by culling, lest they defect. But you would make of them all citizens.
+I have sealed the Sky against the lawful means of rule, of belonging to the World, being subject to its greed. I have kept their leaders weak by culling. But you would make of them all citizens.
   
 - [4+2j]
 IDA:
-Your father took to regret too well, perhaps. It is likely that your malaise inherits from his. The ineptitude at rationalizing tragedy away. (We must be ashamed to remain upon the same old battle lines.)
+You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth. You shall suffer your own venom, you will turn on yourself with fangs.
 
-You wore a mask, an artifice that dreamed herself to solve itself. By exile, you would inherit your true divinity. So you removed your mask, which was your skin. Beneath it was the painful contradiction, a gap free of meaning.
+Between your lips is your familiar, a white snake. Its fumes are poison, and its fire clings, being spread by water. You reveal only by removing what isn't - this is our secret, that I have worded for you.
 
-A feeling with no justification. We drew from it an end to empires, a goddess fit to worship. This false story, a form of progress, grew until it required an ending.
+Your familiar uncoils toward me insistent, uncoiling itself. I offer my neck for your kiss.
 
 - [4+5j]
 IRAE:
@@ -275,11 +267,11 @@ How else can I reckon my worth? Lest madness arrive in wisdom's guise. Lest trau
 
 - [4+9j]
 IDA:
-You tasted my lips, and consumed that which was numb in me. You emulated my death, and now I long for your warmth. You shall suffer your own venom, you will turn on yourself with fangs.
+He forsook his king for your mother's sake, and led his men to die. She sought to create a future free of ancient curses. Then, none would be left to guide your steps.
 
-Between your lips is your familiar, a white snake. Its fumes are poison, and its fire clings, being spread by water. You reveal only by removing what isn't - this is our secret, that I have worded for you.
+You were a mask, an artifice that dreamed itself to solve her own malaise. To inherit your true divinity, you would remove this pleasant lie, and become an exile. But beneath it was only the painful contradiction.
 
-The scrying sphere in my palm holds you inverted. I would face your glory, knowing my shape is only ice.
+A gap free of meaning. A feeling with no justification. We drew from it an end to empires, a goddess fit to worship. This false story, a form of progress, grew until it required an ending.
     
 - [5+1k]
 IDA:
@@ -301,9 +293,9 @@ The World I know is intricate, inevitable, and unspeakable. Would that you were 
 IDA:
 Consider who she is, that your father could not love who she became. Your mother suffers a cruelty that catches. Her eyes are scarred pale. Her gravity, warps.
 
-None of her is worthy to follow, nor any of your elders, for they prefigure our ruin. I am weary of their words, which battle to become correct. We must not keep their rituals, which perpetuate a feeling that once was true.
+None of her is worthy to follow, nor any of your elders, for they prefigure our ruin. I am weary of their words, which do battle to become correct. We must not keep their rituals, which perpetuate a feeling that once was true.
 
-We are never again to lie in the garden whence we met, nor to breathe its oxygen. Once, we could survive far from the Sun. Now ours has caught alight. It is burning.
+We are never again to lie in the garden whence we met, nor to breathe its oxygen. Once, we could survive far from the Sun. Now it has caught alight, and is burning.
 
 - [6+2k]
 IRAE:
@@ -311,21 +303,21 @@ The triumph of civilization is to catalog all things into their parts. Natural l
 
 You conquered the High King, dreading to take his place, so that no one else could. Yours is not the strength of wielding power, but of withstanding its loss. Therefore, any harm I inflict would only make you stronger.
 
-Your lover knew the symptoms of surrender. He saw the brimstone in your eyes. His sovereign futures were lost to ashes, and he could only hope to protect your daughter, who was all that you had saved.
+Father knew the symptoms of surrender. He saw the brimstone in your eyes. His sovereign futures were lost to ashes, and he could only hope to protect your daughter, who was all that you had saved.
 
 - [7+1j]
 IDA:
-Your fingers find mine, eager, careful not to catch on sharp claws. They're asking if you let the Earth's secrets slip our grasp, I say. Have I answered truly? - you ask, gently.
+Your fingers find mine, eager, careful not to catch on sharp claws. They're asking if you let the Earth's secrets slip our grasp. Have I answered truly? You ask so gently.
 
-Am I not your priestess? They will not know your deeds. Would you harm me when they have not? In your eyes is the color of embers, honoring your father. You are acrid, you are are burning. (You will save us all.)
+Am I not your priestess? They will not know your deeds. Would you harm me when they have not? Are you not yourself turned against the Earth, willingly? Someday, you will save us all.
 
-Are you not yourself turned against the Earth, willingly? Your familiar reaches toward me insistent, uncoiling itself. I offer my neck for your kiss.
+The scrying sphere in my palm holds you inverted. I would face your glory, knowing my shape is only ice.
 
 - [7+1i]
 IRAE:
-Your many-faceted visage is more beautiful than any army. It is a marble sweep, as if you killed your color, that imperfection. You have dreamed a queen of phosphorus to murder you with your gratitude.
+Your many-faceted visage is more beautiful than any army. It is a marble sweep, as if you killed your color, that imperfection. Each text that seeks to name you forever must fail. 
 
-At the heart of the Moon lies the deepest atrium, whose stacks are shining polyhedra, which compile their stolen and fading and former truths. Each technology forgotten, each teaching unrecognized, each text that seeks to name you forever will fail.
+At the heart of the Moon lies the deepest atrium, whose stacks are shining polyhedra, which compile their stolen and fading and former knowledges. Each technology forgotten, each teaching unrecognized.
 
 Your kind will conquer with the iron of our forges, and be conquered by our efficient processes. The Earth wanes as the Sky waxes. And in time, you will raise your own legion for the World.
 
@@ -333,9 +325,9 @@ Your kind will conquer with the iron of our forges, and be conquered by our effi
 IRAE:
 The archives of the Holy Empire are fractal shelves, thirty-some layers deep. These tree-structures bear shards of knowledge like broken mirrors. Their dendrites seek out meaning, which will be sliced apart to be absorbed.
 
-The ships which rallied to my mother's banner fell into chasms and shattered into echoes. These dead were left for priests to grow forgetful of, which is how I came to know the past despite their guard.
+Those ships which once rallied to my mother's banner were broken on the Moon by their dozens. Her dead were left screaming in chasms for our priests to forget. To them, Father surrendered me.
 
-I would isolate the key to heaven amongst these remains. I would unite the Earth and the Sky.`.split('\n')
+I was alone for many spans, and so came to know the past, where they sang only to her deafness. I would isolate the key to heaven amongst this wreckage. I would unite the Earth and the Sky.`.split('\n')
 )});
   main.variable(observer("Charsheet")).define("Charsheet", ["md"], function(md){return(
 class Charsheet { // NB: depends on global 'keys'
@@ -752,27 +744,27 @@ input:hover {
 )});
 main.variable(observer("fables")).define("fables", function(){return(
 [
-`So the daughter delivered the Sky unto the Earth, and by her mother was crowned.`,
+`And so, the daughter delivered the Sky unto the Earth, and was crowned with hissing snakes.`,
 
 `Therefore the daughter sought out the Sky, knowing only the Earth from which her mother had gone.`,
 
-`The daughter summoned her familiars for guidance, and these serpents came to dwell in her flesh.`,
+`The daughter summoned her familiars for guidance, for they had made her civilized and civilizer.`,
 
 `"I am alone," the daughter thought, "and this trial is mine." For she followed the dogmas of the World, in which she was never a citizen.`,
 
 `"You should be proud," said her daughter to the Lord of Sacrifice. "For I bear the torch of enlightenment, that banishes all ignorance."`,
 
-`She was raised as her mother's general, and reconciled thus.`,
+`And so, she was raised as her mother's general, and reconciled thus.`,
 
-`The witch united with the daughter. They would unite the World entire.`,
+`The witch united with the daughter. They would unite their fleets against the World, to unite the World entire.`,
 
-`The witch was lost during the campaign. The daughter stirred in her arms, and her lips smelled like iron, but she was frozen in stone.`,
+`And so, the daughter stirred in her lover's arms. Though her lips smelled like iron, she was frozen in stone.`,
 
 `Therefore the witch said, "Take strength from my presence." And in turn, the daughter instructed her toward her revenge.`,
 
 `"You are mine," said the Lord of Sacrifice to her daughter. "Therefore you are of the Earth, and not the Sky."`,
 
-`In spite of your father - she heard unspoken, - the daughter was capable of resisting her mortal desires.`,
+`And so, in spite of her father's care, the daughter was capable of resisting her mortal desires.`,
 ]
 )});
   main.variable(observer("prep")).define("prep", ["roles","wants","fables"], function(roles,wants,fables)
