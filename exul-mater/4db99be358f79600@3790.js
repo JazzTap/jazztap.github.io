@@ -616,7 +616,7 @@ function makeInput (prep, paths) {
 { // in embedded mode, the inspector must address this cell, or it will fail to run
   // console.log('trace updated')
   // update trace (imperative version of makePicks\1) on update to 'branching'
-  let faces = branching.getFaces().sort(),
+  let faces = branching.getFaces(), // .sort(),
     ret = [key(faces[0], faces[1]), key(faces[0], faces[2]), key(faces[1], faces[2])]
   if (faces.length == 4)
     ret = [...ret, key(faces[0], faces[3]), key(faces[1], faces[3]), key(faces[2], faces[3])]
