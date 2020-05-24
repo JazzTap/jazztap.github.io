@@ -488,25 +488,32 @@ function makeInput (prep, paths) {
       let x_ = d3.event.x, y_ = d3.event.y // we'll clamp x_ and y_ to avoid overflowing the edge
       if (x > spread.x && x < spread.x + spread.w &&
           y > spread.y && y < spread.y + spread.h - 20) {
-
         x_ = clamp(x, spread.x + (5./9)*card.w, spread.x + spread.w - (5./9)*card.w) - card.w/2
         y_ = clamp(y, (5./9)*card.h, spread.h - (5./9)*card.h) - card.h/2
+      }
+      else {
+        x_ = d.x < spread.w ? 10 : spread.w + card.w + 10;
+      }
 
-        // DRAW CARD
-        let u = getOverlap(d.id, x_+card.w/2, y_+card.h/2) // do I overlap anyone who isn't me?
-        let k = u.length > 0 ? choice.index[u[0].id] : choice.nextFree(d.id) // then join their stack, or else start one
-        choice.put(d.id, k)
+      // DRAW CARD
+      let u = getOverlap(d.id, x_+card.w/2, y_+card.h/2) // do I overlap anyone who isn't me?
+      let k = u.length > 0 ? choice.index[u[0].id] : choice.nextFree(d.id) // then join their stack, or else start one
+      choice.put(d.id, k)
 
-        // REVEAL CARDS
-        if (!d.placed) {
-          fork(d.id) // defined below, before this callback runs
-          d.placed = true
-        }
+      // REVEAL CARDS
+      if (!d.placed) {
+        fork(d.id) // defined below, before this callback runs
+        d.placed = true
+      }
+      update()
+
+      // } // if not in playing area:
+      /* else {
+        // PULL CARD
+        x_ = d.x < spread.w ? 10 : spread.w + card.w + 10;
+        choice.pull(d.id); 
         update()
-
-      } // if not in playing area:
-      else { x_ = d.x < spread.w ? 10 : spread.w + card.w + 10;
-            choice.pull(d.id); update() } // PULL CARD
+      } */
 
       d.x = x_; d.y = y_
       d3.select(this)
@@ -774,8 +781,8 @@ main.variable(observer("fables")).define("fables", function(){return(
   let images =
     [a('guardian_'), a('moth'),
       a('orbit'), a('forge'), a('lantern'),
-    a('imbrication'), a('devil'),
-      a('grail'), a('priestess'), a('emperor'),
+    a('grail'), a('devil'),
+      a('imbrication'), a('priestess'), a('emperor'),
     a('hanged')]
   
   let res = (i) => ({id: i,
