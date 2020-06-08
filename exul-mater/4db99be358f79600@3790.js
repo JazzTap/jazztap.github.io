@@ -213,9 +213,9 @@ Like you, I wll forsake mortal weakness. If Father could not be cold, he should 
 IRAE:
 Your crimes were unforgivable, and so the High King could give you nothing. My father betrayed him to you, his own master, because his honors shamed him. Yet you could not rule his people alone.
 
-You permitted their petty warlords to bleed the World. Perhaps he saw then that the Sky would someday become the World, adoring their riches. Already, he saw that I would inherit your darkness.
+You permitted their petty warlords to bleed the World. He saw then that the Sky would someday become the World, inheriting the riches of the Earth. He saw then that I would inherit your darkness.
 
-I was brought to the Moon as a temple initiate, to be tempered. And we would banish your shades both, their failed encapsulation of me.
+To be tempered, I was brought to the Moon as a temple initiate, where my familiars were made by their secrets. We would burn away your shades both, their failed encapsulation of me.
 
 - [2+4j]
 IRAE:
@@ -239,7 +239,7 @@ Strength, in the person of your mother, is hard and grey. A pillar of steel, mad
 
 Because she serves the World that is the Origin of Writ and Wisdom, she is banished from the World and its kindness. The soldiers she was given were killed, and she has raised soldiers to take their places.
 
-Your mother resides in the black between Worlds, having conquered these foreign lands. You are pulled to her.
+Your mother resides in the black between Worlds, having conquered these foreign skies. You are pulled to her.
     
 - [4+2i]
 ANSEGDNISS:
@@ -299,11 +299,11 @@ We are never again to lie in the garden whence we met, nor to breathe its oxygen
 
 - [6+2k]
 IRAE:
-The triumph of civilization is to catalog all things into their parts. Natural law cannot otherwise replace naked power, which rules beasts. If the World has failed in its mission - if its own law is predatory, - then these are cuts that bleed.
+The triumph of civilization is to catalog all things into their parts. Natural law cannot otherwise replace naked power, which rules beasts. If the World has failed in its mission, then these are cuts that run with the blood of its people.
 
-You conquered the High King, dreading to take his place, so that no one else could. Yours is not the strength of wielding power, but of withstanding its loss. Therefore, any harm I inflict would only make you stronger.
+You conquered the High King, dreading to take his place, so that no one else could. Yours is not the strength of wielding power, but of withstanding its loss. You were destroyed long before I came.
 
-Father knew the symptoms of surrender. He saw the brimstone in your eyes. His sovereign futures were lost to ashes, and he could only hope to protect your daughter, who was all that you had saved.
+Father knew the symptoms of surrender. He saw the brimstone in your eyes. His sovereign futures were lost to ashes. His daughter was all that you would choose to save.
 
 - [7+1j]
 IDA:
