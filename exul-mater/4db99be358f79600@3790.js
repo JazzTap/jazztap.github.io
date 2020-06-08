@@ -159,7 +159,7 @@ Your fleet gathers for the iron-crowned girl who has promised to end an empire, 
 
 As you reflect me, would you refract me? Because I am never facing myself, I see only the monster in my mirror. Our colors are both iron and copper, as in hemoglobin and hemocyanin, which are engines made by orbital gaps.
 
-Your shape is your history, and as malleable. When you are sacred, you will dictate. It will not become true until you have moved the world, by moving your own perspective.
+Your shape is your history, and as malleable. If you are sacred, you will dictate it yourself. It will not become true until you have moved the world, by moving your own perspective.
 
 - [0+3j]
 IRAE:
@@ -167,7 +167,7 @@ That history, unwritten, would follow me forever. Their patterns of him predicte
 
 Our World will not reject the exponential energies their engines exploit. They never learnt your lesson, which must allow anything to become sacred, to be sacrificed. And in return, expunge that need, that weakness.
 
-Any personhood that is known is the sum and cancellation of specific misapprehensions. I have invented myself based on yours, for how else would I survive?
+Any personhood that is known is the sum and cancellation of specific misapprehensions. I have invented myself based on yours, so your wisdom may survive.
 
 - [1+1i]
 IRAE:
@@ -189,13 +189,13 @@ She will refuse you as a demon, she will not surrender her people, if she unders
 ANSEGDNISS:
 Only weak things, once broken, are gone. Yet the World is virtuous, and I take pity on it. Though their sacred could not become us in all of history. They are reduced to one wavelength, and thus blinded to the rest.
 
-Sound transforms our signals into materials, as compounding waves of physical displacement. To exist is to beat against the world, in a certain interference pattern.
+Sound transforms our signals into materials, as compounding waves of physical displacement. To exist is to beat against the world, in a certain interference pattern. This method reveals, by removing what isn't.
 
-Your thoughts will divide, and feed amongst themselves, until the most ruthless commands you. I regret to have such a successor. I would have committed any atrocity, to avoid its resonance in you.
+Your thoughts, divided, will feed amongst themselves. Until one survives alone, and commands you. I would have committed any atrocity, to avoid their resonance in you.
 
 - [1+5j]
 ANSEGDNISS:
-The war will be ended before it is won. Should I have been the killer or the healer, so that you could play the other role, my daughter? Why do you shed your weakness, which you can never regain?
+The war will be ended before it is won. Should I have been the killer or the healer, my daughter, so that you could play the other role? Why do you shed your weakness, which you can never regain?
 
 You bear your heavy eyebags in furrows beneath alopecic eyebrows. You bear your erythristic hue, bruise-blue where the skin thins. You wear the woman I see as a mask, your own body.
 
@@ -245,7 +245,7 @@ Your mother resides in the black between Worlds, having conquered these foreign 
 ANSEGDNISS:
 You were banished from the Temple and exiled from the World. You have confessed all to the priestess. Although you inherited my enemies, daughter, never were you my ally until now.
 
-You once delved into the archives where every atrocity dwelt, and made their logics live inside of you, aware that serpents multiply. You resolved to bring the Sky its justice.
+You once delved into the archives where every atrocity dwelt, and made their logics live inside of you, aware that serpents multiply. You resolved to bring her Sky its justice.
 
 I have sealed the Sky against the lawful means of rule, of belonging to the World, being subject to its greed. I have kept their leaders weak by culling. But you would make of them all citizens.
   
@@ -275,19 +275,19 @@ A gap free of meaning. A feeling with no justification. We drew from it an end t
     
 - [5+1k]
 IDA:
-For her sake I would rewind, to when nothing jagged and weeping resided in you. No more the woven armor, no more burning light behind your eyes.
+For her sake I would rewind, to when nothing jagged and weeping resided in you. Before the murder of false masters, those you sought to free us from, whom you became in turn.
 
-Before the murder of false masters, those you sought to free us from, by freeing yourself from the weight of us. You chose sacrifice, and what you gave up, you forgot, in time. What they had lost of you.
+No more the black cloak and armor, no more the steel woven with your ligaments. You chose sacrifice, and then you existed for a long time, alone. You forgot the person you gave up, to become sacred.
 
-She could have taught your daughter anything but conquest. She could have brought the girl her father. She could have been weak, for one moment. Your daughter sought the mortal you were, not the woman who is left.
+But she could have taught your daughter anything but conquest. She could have brought the girl her father. She could have been weak, for one moment. Your daughter sought the mortal you were, not the woman who is left.
     
 - [6+1i]
 IRAE:
-I have felt your curse-mask, whose tertiary eyes are glassy and black, that you earned by matricide. It is only seen where your face is occluded, as by turning away.
+I have felt your curse-mask, whose tertiary eyes shine brightly as ice, that you earned by matricide. It is only seen where your face is occluded, as by turning away.
 
 I traced behind it to discern which was the lie, the monster or the woman. But from ear-canal to eye-socket were only intermediates, my gradations between them arbitrary.
 
-The World I know is intricate, inevitable, and unspeakable. Would that you were wood ash, and not black powder. 
+The World I know is intricate, inevitable, and unspeakable. It pretends otherwise. It rejects you, because you are so much like it was. So we will transform it. Would that you were wood ash, and not black powder. 
     
 - [6+2i]
 IDA:
@@ -301,7 +301,7 @@ We are never again to lie in the garden whence we met, nor to breathe its oxygen
 IRAE:
 The triumph of civilization is to catalog all things into their parts. Natural law cannot otherwise replace naked power, which rules beasts. If the World has failed in its mission, then these are cuts that run with the blood of its people.
 
-You conquered the High King, dreading to take his place, so that no one else could. Yours is not the strength of wielding power, but of withstanding its loss. You were destroyed long before I came.
+You conquered the High King, dreading to take his place, so that no one else could. Yours is not the strength of wielding power, but of withstanding its loss. Why would I fight you? You were destroyed long before I came.
 
 Father knew the symptoms of surrender. He saw the brimstone in your eyes. His sovereign futures were lost to ashes. His daughter was all that you would choose to save.
 
@@ -325,7 +325,7 @@ Your kind will conquer with the iron of our forges, and be conquered by our effi
 IRAE:
 The archives of the Holy Empire are fractal shelves, thirty-some layers deep. These tree-structures bear shards of knowledge like broken mirrors. Their dendrites seek out meaning, which will be sliced apart to be absorbed.
 
-Those ships which once rallied to my mother's banner were broken on the Moon by their dozens. Her dead were left screaming in chasms for our priests to forget. To them, Father surrendered me.
+Those ships which once rallied to my mother's banner were shattered on the Moon by their dozens. Her dead were left screaming in chasms for our priests to forget. This was where Father surrendered me.
 
 I was alone for many spans, and so came to know the past, where they sang only to her deafness. I would isolate the key to heaven amongst this wreckage. I would unite the Earth and the Sky.`.split('\n')
 )});
@@ -751,27 +751,27 @@ input:hover {
 )});
 main.variable(observer("fables")).define("fables", function(){return(
 [
-`And so, the daughter delivered the Sky unto the Earth, and was crowned with hissing snakes.`,
+`And so, I delivered the Sky unto the Earth, and was crowned with iron.`,
 
-`Therefore the daughter sought out the Sky, knowing only the Earth from which her mother had gone.`,
+`Therefore I sought out the Sky, knowing only the Earth from which Mother had gone.`,
 
-`The daughter summoned her familiars for guidance, for they had made her civilized and civilizer.`,
+`I summoned my familiars for guidance. They had made me both civilized and civilizer.`,
 
-`"I am alone," the daughter thought, "and this trial is mine." For she followed the dogmas of the World, in which she was never a citizen.`,
+`"I am alone," I thought, "and this trial is mine." For I followed the dogmas of the World, in which I was never a citizen.`,
 
-`"You should be proud," said her daughter to the Lord of Sacrifice. "For I bear the torch of enlightenment, that banishes all ignorance."`,
+`"You should be proud," I said to my mother, the Lord of Sacrifice. "For I bear the torch of enlightenment, that banishes all ignorance."`,
 
-`And so, she was raised as her mother's general, and reconciled thus.`,
+`And so I was raised as Mother's general, and reconciled thus.`,
 
-`The witch united with the daughter. They would unite their fleets against the World, to unite the World entire.`,
+`The witch united with me. We would unite our fleets in conquest, to unite the World entire.`,
 
-`And so, the daughter stirred in her lover's arms. Though her lips smelled like iron, she was frozen in stone.`,
+`And so I stirred in my lover's arms. Her lips smelled like iron, but she was frozen in stone.`,
 
-`Therefore the witch said, "Take strength from my presence." And in turn, the daughter instructed her toward her revenge.`,
+`Therefore the witch said, "Take strength from my presence." And in turn, I would instruct her toward her just revenge.`,
 
-`"You are mine," said the Lord of Sacrifice to her daughter. "Therefore you are of the Earth, and not the Sky."`,
+`"You are mine," said the Lord of Sacrifice to her daughter, who knelt before her. "Therefore you are of the Earth, and not the Sky."`,
 
-`And so, in spite of her father's care, the daughter was capable of resisting her mortal desires.`,
+`And so, in spite of Father's care, I would be made sacred, and by my own hand.`,
 ]
 )});
   main.variable(observer("prep")).define("prep", ["roles","wants","fables"], function(roles,wants,fables)
