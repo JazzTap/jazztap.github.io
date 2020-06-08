@@ -780,7 +780,7 @@ main.variable(observer("fables")).define("fables", function(){return(
   let a = (s) => `./assets/${s}.png`
   let images =
     [a('guardian_'), a('moth'),
-      a('orbit'), a('forge'), a('lantern'),
+      a('orbit'), a('forge_'), a('lantern'),
     a('grail'), a('devil'),
       a('imbrication'), a('priestess'), a('emperor'),
     a('hanged')]
