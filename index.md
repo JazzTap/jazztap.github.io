@@ -20,9 +20,17 @@ projects | [blog](writes) | [muses](muses)
   grid-column: 1 / -1;
   overflow-x: scroll;
 }
+
+/* https://stackoverflow.com/a/54410301 */
 .container > .full::-webkit-scrollbar {
-  display: none;
+    width: 0px;
+    background: transparent;
 }
+.container > .full {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
 .container > h3 {
   margin-top: 10px;
   margin-left: -5vw;
@@ -63,16 +71,6 @@ projects | [blog](writes) | [muses](muses)
   height: 170px;
   width: 400px;
   object-fit: cover;
-}
-
-/* https://stackoverflow.com/a/54410301 */
-.filmstrip::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-}
-.filmstrip {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE 10+ */
 }
 
 /* https://stackoverflow.com/a/19903659 */
