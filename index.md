@@ -20,9 +20,17 @@ projects | [blog](writes) | [muses](muses)
   grid-column: 1 / -1;
   overflow-x: scroll;
 }
+
+/* https://stackoverflow.com/a/54410301 */
 .container > .full::-webkit-scrollbar {
-  display: none;
+    width: 0px;
+    background: transparent;
 }
+.container > .full {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
 .container > h3 {
   margin-top: 10px;
   margin-left: -5vw;
@@ -103,8 +111,24 @@ projects | [blog](writes) | [muses](muses)
   font-weight: bold;
   cursor: pointer;
 }
-
 </style>
+
+<script>
+  // enable horizontal scrolling within filmstrips
+  // https://stackoverflow.com/a/61930273
+  const target = document.querySelectorAll('.filmstrip')
+
+  target.forEach((el) => {
+    el.addEventListener('wheel', event => {
+      const toLeft  = event.deltaY < 0 && el.scrollLeft > 0
+      const toRight = event.deltaY > 0 && el.scrollLeft < el.scrollWidth - el.clientWidth
+      if (toLeft || toRight) {
+        event.preventDefault()
+        el.scrollLeft += event.deltaY
+      }
+    })
+  })
+</script>
 
 <div class="container">
   
