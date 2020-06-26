@@ -65,6 +65,16 @@ projects | [blog](writes) | [muses](muses)
   object-fit: cover;
 }
 
+/* https://stackoverflow.com/a/54410301 */
+.filmstrip::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+.filmstrip {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
 /* https://stackoverflow.com/a/19903659 */
 
 .content ul {  
