@@ -111,8 +111,23 @@ projects | [blog](writes) | [muses](muses)
   font-weight: bold;
   cursor: pointer;
 }
-
 </style>
+
+<script>
+  // enable horizontal scrolling within filmstrips
+  // https://stackoverflow.com/a/61930273
+  const target = document.querySelectorAll('.filmstrip')
+
+  target.foreach((el) => e.addEventListener('wheel', event => {
+    const toLeft  = event.deltaY < 0 && el.scrollLeft > 0
+    const toRight = event.deltaY > 0 && el.scrollLeft < el.scrollWidth - el.clientWidth
+
+    if (toLeft || toRight) {
+      event.preventDefault()
+      target.scrollLeft += event.deltaY
+    }
+  })
+</script>
 
 <div class="container">
   
