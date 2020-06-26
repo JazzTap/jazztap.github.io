@@ -119,7 +119,7 @@ projects | [blog](writes) | [muses](muses)
   const target = document.querySelectorAll('.filmstrip')
 
   target.forEach((el) => {
-    e.addEventListener('wheel', event => {
+    el.addEventListener('wheel', event => {
       const toLeft  = event.deltaY < 0 && el.scrollLeft > 0
       const toRight = event.deltaY > 0 && el.scrollLeft < el.scrollWidth - el.clientWidth
       if (toLeft || toRight) {
