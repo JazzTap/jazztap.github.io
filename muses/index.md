@@ -85,8 +85,8 @@ div.triple {
   <p id="prismatic">all that riddles&nbsp;me will never cease&nbsp;to&nbsp;be, still&nbsp;i&nbsp;search this&nbsp;world</p>
   <p id="necro_">everything's blackening<br/> i am made of flesh&nbsp;and&nbsp;bone</p>
   <p id="priestess_">and&nbsp;here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
-  <p id="blink">you&nbsp;speak with&nbsp;silence, and i carve each&nbsp;word you&nbsp;sing</p>
-  <p id="g4363">i can&nbsp;not&nbsp;only see, but&nbsp;you&nbsp;stopped&nbsp;me from&nbsp;blinking</p>
+  <p id="blink">breathing&nbsp;in the&nbsp;dark, exhaling the&nbsp;dust of&nbsp;stars</p>
+  <p id="g4363">there&nbsp;is nothing you&nbsp;keep, there&nbsp;is only your&nbsp;reflection</p>
 </div>
 
 <div class="double">

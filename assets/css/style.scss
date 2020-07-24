@@ -27,8 +27,33 @@ p {
   color: #444;
 }
 
+/* lightweight grids */
 
-/* lightbox markup */
+.double {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-column-gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.triple {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.three-lines {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+  margin-bottom: 10px;
+}
+
+
+/* lightbox markup [used where?] */
 
 .overlay > div {
   position: fixed;
