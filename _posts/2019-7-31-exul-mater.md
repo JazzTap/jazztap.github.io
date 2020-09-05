@@ -1,5 +1,6 @@
 ---
 title: Exul Mater (preview)
+hidden: true
 ---
 
 [![preview of tarot cards](/assets/blog/card.jpg)](/exul-mater/staging)
