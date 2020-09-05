@@ -29,27 +29,32 @@ p {
 
 /* lightweight grids */
 
-.double {
+.grid {
   display: grid;
-  grid-template-columns: 4fr 3fr;
   grid-column-gap: 1rem;
   margin-bottom: 10px;
+}
+
+.double {
+  grid-template-columns: 1fr 1fr;
+}
+
+.two-panels {
+  grid-template-columns: 4fr 3fr;
 }
 
 .triple {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 1rem;
-  margin-bottom: 10px;
 }
 
 .three-lines {
-  display: grid;
   grid-auto-flow: column;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1rem;
-  margin-bottom: 10px;
+}
+
+.quadruple {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 

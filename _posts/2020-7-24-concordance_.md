@@ -1,107 +1,132 @@
 ---
 layout: post
-title: "tracklist (moon)"
+title: "tracklist (sun)"
 ---
 
-[tracklist (sun)]({% post_url 2020-7-24-concordance %})
+[tracklist (moon)]({% post_url 2020-7-24-concordance %})
 
 <style>
-  h1 {
+  h2 {
     font-weight: normal;
   }
 </style>
 
-# ✍
-<div markdown="1" class="three-lines">
-Well I want the best god  
-Learning to swallow the rage
+## 🙏  
+<div markdown="1" class="grid three-lines">
+  (my eyes, my eyes, my fucking eyes)  
+  Hypocrite, how could you be so cruel
 
-Yeah I want the biggest god  
-Found a new girl, I think we can make it
+  Calling, calling out  
+  And expect my faith in return?
 
-But those gods are so hard to believe  
-As long as she stays on the page
+  The darkness reaches up my soul,  
+  Resistance is not as hard as it seems
+  
+THE SUN:
 
-THE MOON:
+deeply held belief, expedient teachings
 
-broken promises, collapse
+*slow burn (atreyu)  
+the mirror (dream theater)*
 
-*adapt (cursive)  
-space-dye vest (dream theater)*
+<p style="grid-row-start: span 3;">
+    <img src="/exul-mater/assets/imbrication.png" style="max-height: 15rem;">
+</p>
 </div>
 
-# 🐅
-<div markdown="1" class="three-lines">
-Justified in the way you make me bruise  
-Bombs and greed prox-imity and
+## 💥  
+<div markdown="1" class="grid three-lines">
+And my way out of the dark  
+"Believe? In a deity long dead? -
 
-Magnified in the science  
-Contrary, and chaos, chaos...
+I wanna set the skies on fire  
+I would rather be a pagan suckled in creeds outworn;
 
-Anatomically proved that you don't need me  
-Bright and clear in times you'll see
+And watch the angels as they fall into the sun  
+With faerytales fill'd up in head;
 
-DEATH:
+JUDGEMENT:
 
-self-hatred, punishment
+fetishizing the other, seeking guidance
 
-*the silence (manchester orchestra)  
-turn of the tide (sylvan)*
+*amanes (tiamat)  
+when he falleth (theater of tragedy)*
+
+<p style="grid-row-start: span 3;">
+    <img src="/exul-mater/assets/emperor.png" style="max-height: 15rem;">
+</p>
 </div>
 
-# 🎯
-<div markdown="1" class="three-lines">
-I have to know your name  
-Is there nothing left to steal?
 
-Where have I seen your face before?  
-Crying out for something more than I’ve been shown
+## 🚣  
+<div markdown="1" class="grid three-lines">
+In delicate equilibrium  
+You're my everything, you're my angel
 
-My dear, why don't you be afraid?  
-Knowing none of this is real
+Watching in revulsion the oblivious crowd  
+You're the vision that I take with me every step
 
-JUSTICE:
+Taking control of this world  
+Been searching for your vibration
 
-irreducible conflict of interests
+THE STAR:
 
-*forsaken (dream theater)  
-cry of achilles (alter bridge)*
+what will be, but is not
+
+*urban migration (xavier samuel)  
+the balance (knight area)*
+
+<p style="grid-row-start: span 3;">
+    <img src="/exul-mater/assets/priestess.png" style="max-height: 15rem;">
+</p>
 </div>
 
-# ⚛
-<div markdown="1" class="three-lines">
-Freedom lies in your own desires  
-There's silver in your lungs now
 
-Freedom lives in your will  
-And all I care about is shapes
+## 🗲  
+<div markdown="1" class="grid three-lines">
+Judge me now  
+Save a mist on the rise
 
-Nothing's left as we're reaching higher  
-And all I care about is colours
+Used to be afraid to let it show, bow down  
+A final blessing to hide
 
-STRENGTH:
+A king in my own mind  
+Her ghost in the fog
 
-immortal legacy, self-destruction
+THE TOWER:
 
-*covenant (soen)  
-your body is a machine (the good natured)*
+conquest, victory in war
+
+*the quiet place (in flames)  
+her ghost in the fog (cradle of filth)*
+
+<p style="grid-row-start: span 3;">
+    <img src="/exul-mater/assets/devil.png" style="max-height: 15rem;">
+</p>
 </div>
 
-# 🏺
-<div markdown="1" class="three-lines">
-Kingdom of Gold now lay at my feet -  
-Question all you trust, buy into the fear
 
-Ruler of Time and Space I will be  
-I see the man ripping at my soul now, I -
+## ⚗  
+<div markdown="1" class="grid three-lines">
+To burn, ignite, I’d do it for so much less  
+Desperation, better be
 
-Rivers of lies forever will run -   
-I know the man, I know him all too well
+When all is made clear there is nothing else  
+Setting sail in a stormy sea
 
-TEMPERANCE:
+And here we stand, the sweet arresting duality  
+Alone against humanity
 
-to be redeemed before an ancestor, reformation
+THE DEVIL:
 
-*egypt (symphony x)  
-this means war (avenged sevenfold)*
+to honor those sacrificed, revolution
+
+*my dark disquiet (poets of the fall)  
+the weight of disaster (leprous)*
+
+<p style="grid-row-start: span 3;">
+    <img src="/exul-mater/assets/statue.png" style="max-height: 15rem;">
+</p>
 </div>
+
+
