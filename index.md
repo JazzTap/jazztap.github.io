@@ -137,24 +137,43 @@ projects | [blog](writes) | [muses](muses)
 <div class="accordion">
   <input type="checkbox" id="montage" />
     <label for="montage">
-      <img src="assets/blog/card.jpg" />
+      <img src="assets/blog/diffraction.gif" />
       <p><strong>ELO 2020 |</strong> procedural montage</p>
     </label>
     <div class="content" markdown="1">
 A combinatorial fiction in tarot. In which space mages are sad about empire.
 
-* In press!
+[fiction](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html) and [paper](https://stars.library.ucf.edu/elo2020/asynchronous/proceedingspapers/12/).
+
+* Otto, J. &amp; Forbes, A. G. (2020). Procedural Montage: A Design Trace of Reflection and Refraction. Proceedings of the Electronic Literature Organization Conference 2020.
 </div>
 </div>
 
 <div class="accordion">
-  <input type="checkbox" id="pcg" />
-    <label for="pcg">
-      <img src="assets/blog/roads.png" />
-  	  <p>biomimetic procedural<br/> generation</p>
+  <input type="checkbox" id="ccw" />
+    <label for="ccw">
+      <img src="assets/blog/pipeline.png" />
+  	  <p><strong>Casual Creators 2020 |</strong> avatar editors</p>
     </label>
     <div class="content" markdown="1">
-* Construction in progress.
+a tour of latent space.
+
+[thread](https://twitter.com/GalaxyKate/status/1303362289588936705), [paper](https://mkremins.github.io/casual-creators-workshop/papers/ICCC20_paper_197.pdf).
+
+* Otto, J. &amp; Forbes, A. G. (2020). Entering the Design Space of Digital Portraiture: A Case Study in Avatar Creation Tools. 
+</div>
+</div>
+
+<div class="accordion">
+  <input type="checkbox" id="lifeworlds" />
+    <label for="lifeworlds">
+      <img src="assets/blog/artifacts.png" />
+  	  <p>weird ecology</p>
+    </label>
+    <div class="content" markdown="1">
+forthcoming work.
+
+sims storyteller, but make it procedural? c.f. [silk - NaNoGenMo 2018](https://github.com/ikarth/silk), with Isaac Karth et al.
 </div>
 </div>
   </div> <!-- end filmstrip -->
@@ -168,9 +187,9 @@ A combinatorial fiction in tarot. In which space mages are sad about empire.
   	  <p><strong>IEEE VISAP 2019 |</strong> intuition and saddle&nbsp;points</p>
     </label>
     <div class="content" markdown="1">
-**data brushes:** In-browser photo editor. Experiment with brushes carrying the 'style' of famous works of data art.
+**Stability analysis** of style transfer brushes trained on famous works of data art, in the form of a photo editor. Combines [p5.js style transfer](https://ml5js.org/reference/api-StyleTransfer/) with [d3-brush selections](https://github.com/d3/d3-brush).
 
-[Live demo](https://mahikadubey.github.io/Canvas-Style-Transfer/), [code](https://github.com/mahikadubey/Canvas-Style-Transfer), [paper](https://doi.org/10.1109/VISAP.2019.8900858). See also [p5.js docs](https://ml5js.org/reference/api-StyleTransfer/). With [Mahika Dubey](https://www.mahikadubey.com/).
+[Runs in browser](https://mahikadubey.github.io/Canvas-Style-Transfer/). [Open source code](https://github.com/mahikadubey/Canvas-Style-Transfer). With Mahika Dubey.
 
 * Dubey, M., Otto, J., &amp; Forbes, A. G. (2019). Data Brushes: Interactive Style Transfer for Data Art. 2019 IEEE VIS Arts Program (VISAP), 1–9. [[DOI]](https://doi.org/10.1109/VISAP.2019.8900858)
 </div>
@@ -182,6 +201,10 @@ A combinatorial fiction in tarot. In which space mages are sad about empire.
   	  <p><strong>EuroVis 2019 |</strong> <br/>intergalactic skewers</p>
     </label>
     <div class="content" markdown="1">
+**Spatial analysis** of intergalactic medium absorption, juxtaposing skewer absorption data with distant stars and other emissive bodies.
+
+[Runs in browser](https://creativecodinglab.github.io/Intergalactic/intergalactic.html). [Open source code](https://github.com/CreativeCodingLab/Intergalactic). With David Abramov and Joe Burchett.
+
 * Burchett, J. N., Abramov, D., Otto, J., Artanegara, C., Prochaska, J. X., & Forbes, A. G. (2019). IGM-Vis: Analyzing Intergalactic and Circumgalactic Medium Absorption Using Quasar Sightlines in a Cosmic Web Context. Computer Graphics Forum, 38(3), 491–504. [[DOI]](https://doi.org/10.1111/cgf.13705)
 </div>
 </div>
@@ -192,6 +215,10 @@ A combinatorial fiction in tarot. In which space mages are sad about empire.
   	  <p><strong>IEEE Vis 2019 |</strong> kappavis, 2019</p>
     </label>
     <div class="content" markdown="1">
+**Visual rule editor** for the KappaSim language, relating functional sites on macro-molecular agents through the formation and destruction of bonds.
+
+[Runs in browser](https://creativecodinglab.github.io/RuleVis/). [Open source code](https://github.com/CreativeCodingLab/RuleVis). With Cassia Artanegara, Makhika Dubey, and David Abramov.
+
 * Abramov, D., Otto, J., Dubey, M., Artanegara, C., Boutillier, P., Fontana, W., & Forbes, A. G. (2019). RuleVis: Constructing Patterns and Rules for Rule-Based Models. 2019 IEEE Visualization Conference (VIS), 191–195. [[DOI]](https://doi.org/10.1109/VISUAL.2019.8933596)
 </div>
 </div>
@@ -206,9 +233,9 @@ A combinatorial fiction in tarot. In which space mages are sad about empire.
       <p><strong>SciPy 2019 |</strong> steady state locus of a nonlinear system</p>
     </label>
     <div class="content" markdown="1">
-[interactive Apollonius problem](https://github.com/JazzTap/mcs563/tree/master/Apollonius) 
-
 Application of phcpy to the **real-time numerical solution** of steady states of nonlinear dynamical systems, as found in synthetic biology, kinematics, and other design spaces. With [Jan Verschelde](http://homepages.math.uic.edu/~jan/).
+
+[Open source code](https://github.com/JazzTap/mcs563/tree/master/Apollonius) to interactive solution of the Apollonius circle problem.
 
 * Otto, J., Forbes, A., & Verschelde, J. (2019). Solving Polynomial Systems with phcpy. 62–68. [[DOI]](https://doi.org/10.25080/Majora-7ddc1dd1-009)
 </div>
@@ -234,7 +261,7 @@ Application of phcpy to the **real-time numerical solution** of steady states of
   	  <p>collective motion as cell fate</p>
     </label>
     <div class="content" markdown="1">
-* [notebook in repository](https://github.com/JazzTap/collective-motion)
+* [data notebook](https://github.com/JazzTap/collective-motion)
 
 **Topological data analysis** of spatial effects in collective motion. Builds on prior work with agent-based systems whose population dynamics approach a dynamical system.
 

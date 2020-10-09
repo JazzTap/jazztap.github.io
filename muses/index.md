@@ -78,14 +78,14 @@ div.triple {
 <div class="margin" style="min-height: 1300px;">
   <p id="fire_rat">and i've grown&nbsp;familiar with&nbsp;villains that&nbsp;live&nbsp;in my&nbsp;head</p>
   <p id="idyll">our memories, they&nbsp;can be&nbsp;inviting, but&nbsp;some&nbsp;are altogether&nbsp;mighty frightening</p>
-  <p id="mater"><strong>(xi) strength</strong></p>
-  <p id="reflection_"><strong>(xii) traitor</strong></p>
-  <p id="namer"><strong>(xiii) death</strong></p>
-  <p id="illia_svg-4">lost in that&nbsp;memory, like a&nbsp;candle in&nbsp;the&nbsp;wind</p>
+  <p id="mater">tell me what is love, but breathing life alone?</p>
+  <p id="reflection_">he's free of others' eyes, there are no glances</p>
+  <p id="namer">i've searched the universe and found myself within her eyes</p>
+  <p id="illia_svg-4">you spread your&nbsp;wings to&nbsp;fly</p>
   <p id="prismatic">all that riddles&nbsp;me will never cease&nbsp;to&nbsp;be, still&nbsp;i&nbsp;search this&nbsp;world</p>
   <p id="necro_">everything's blackening<br/> i am made of flesh&nbsp;and&nbsp;bone</p>
   <p id="priestess_">and&nbsp;here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
-  <p id="blink">breathing&nbsp;in the&nbsp;dark, exhaling the&nbsp;dust of&nbsp;stars</p>
+  <p id="blink">and the&nbsp;devil's in my&nbsp;head, i&nbsp;will combat</p>
   <p id="g4363">there&nbsp;is nothing you&nbsp;keep, there&nbsp;is only your&nbsp;reflection</p>
 </div>
 
