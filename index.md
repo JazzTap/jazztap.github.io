@@ -137,15 +137,20 @@ projects | [blog](writes) | [muses](muses)
 <div class="accordion">
   <input type="checkbox" id="montage" />
     <label for="montage">
-      <img src="assets/blog/diffraction.gif" />
-      <p><strong>ELO 2020 |</strong> procedural montage</p>
+      <img src="assets/blog/card.jpg" />
+      <p><strong>ELO 2020 |</strong> exul mater</p>
     </label>
     <div class="content" markdown="1">
-A combinatorial fiction in tarot. In which space mages are sad about empire.
+in which space mages are sad about empire
 
-[fiction](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html) and [paper](https://stars.library.ucf.edu/elo2020/asynchronous/proceedingspapers/12/).
+[a combinatorial fiction in tarot](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html)  
 
-* Otto, J. &amp; Forbes, A. G. (2020). Procedural Montage: A Design Trace of Reflection and Refraction. Proceedings of the Electronic Literature Organization Conference 2020.
+* Otto, J. &amp; Forbes, A. G. (2020). [Procedural Montage: A Design Trace of Reflection and Refraction.](https://stars.library.ucf.edu/elo2020/asynchronous/proceedingspapers/12/) Proceedings of the Electronic Literature Organization Conference 2020.
+
+[![](/assets/blog/diffraction.gif)](/exul-mater/staging)
+
+previously for #PROCGENJAM Summer 2018, DANM 211 Winter 2019, CMPM 290J Spring 2019.
+
 </div>
 </div>
 
@@ -171,9 +176,7 @@ a tour of latent space.
   	  <p>weird ecology</p>
     </label>
     <div class="content" markdown="1">
-forthcoming work.
 
-sims storyteller, but make it procedural? c.f. [silk - NaNoGenMo 2018](https://github.com/ikarth/silk), with Isaac Karth et al.
 </div>
 </div>
   </div> <!-- end filmstrip -->

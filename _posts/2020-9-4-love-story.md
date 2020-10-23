@@ -39,7 +39,7 @@ Splinter Kingdom is the name of the coffee shop in the Avernus district, on a st
 <p style="font-size: 6rem; text-align: center;">❄&#8203;☠⚗&#8203;♝</p>
 
 <div style="text-align: center;" markdown="1">
- ![](/assets/blog/paints/idyll.png)
+ <img src="/assets/blog/paints/idyll.png" style="max-height: 500px;"/>
 </div>
 
 <div class="triple grid" markdown="1">
@@ -200,7 +200,7 @@ RAHEL: Then, you must be suggesting a new game. Tell me more.
 <div style="text-align: center;" markdown="1">
 <p style="font-size: 6rem;">☀️</p>
 
- ![](/assets/blog/paints/ares.png)
+ <img src="/assets/blog/paints/ares.png" style="max-height: 600px;">
 </div>
 
 
