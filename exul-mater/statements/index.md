@@ -25,7 +25,7 @@ Technical progress on *exul mater* primarily took the form of UX iterations due 
 
 For the Procedural Generation Game Jam in 2018, I decided to make a game that would turn eight 'aspects' into 56 unique stories, each comprising of 3 passages from a pool of 28 possible aspect-pairs. The major arcana of tarot are a canonical example of aspects, but there are 22 of them. Since I was concerned with a set of only eight aspects, their pairwise combinations wouldn't be wildly out of hand.
 
-![](/assets//blog/statements/sockets.gif)
+![](sockets.gif)
 
 #### Implementation
 
@@ -33,7 +33,7 @@ I developed *exul mater* in client-side Javascript, meaning the game can be play
 
 As I was working with d3.js event handlers - and on my HTML layout skills in general, -  this was when I discovered the 'pointer-events' CSS property. If I did not turn it off for the tokens while they were being dragged, they would happily intercept the event that allows me to tell which socket they were dropped into.
 
-![](/assets//blog/statements/irae.gif)
+![](irae.gif)
 
 I also created an interactive SVG animation of an eye, which flinches and blinks according to the proximity of your cursor. This is accomplished using an upper and lower brow, each with three keyframes, which have exactly the same ordering of control points, so that I can lerp between them to smooth the animation.
 
@@ -45,7 +45,7 @@ A 'mousemove' listener allows the pupil to follow the mouse cursor. If the curso
 
 In (appx.) November of 2018, I presented *exul mater* as a completed text (using three subsets of five aspects, out of eight), using the lights-and-sockets interface, in facilitated critique with a group of digital media students. I mounted the notebook cells in an HTML webpage with a gridded layout, and performed two of the arrangements ('winter grail edge' and 'winter grail lantern', according to my abstract) in a 10-minute demonstration.
 
-![](/assets//blog/statements/v1_p1.png)
+![](v1_p1.png)
 
 (The webpage no longer functions due to a cross-origin request. This screenshot is of the working ObservableHQ notebook. The top line is a 'spinner text' which rotates through a few character options when clicked. The second line is the handle of a function called by a later spinner text to change the iris color of the SVG eye. The remaining lines are part of an aspect backstory, designed to support any number of scenes in which that aspect takes part.)
 
@@ -55,11 +55,11 @@ Alas, when I had taken 'lights in sockets' as an interface metaphor from the Ice
 
 I had discovered my story direction was sound, although unintentionally opaque. The interface was too abstract to broach, though.
 
-![](/assets//blog/statements/spinner.gif)
+![](spinner.gif)
 
 Therefore, I put together a literal representation of 4 aspects connected by 6 scenes. The faces of this tetrahedron, in turn, would represent one entire permutation of the story. By dragging the mouse across it, you could spin the simplex, and whichever side was facing you would display its text(s) below.
 
-![](/assets//blog/statements/v2.png)
+![](v2.png)
 
 As you can imagine, playtesters were intrigued by this interaction, but also more confused.
 
@@ -69,7 +69,7 @@ As you can imagine, playtesters were intrigued by this interaction, but also mor
 
 I went back and rewrote the story again. But I couldn't have a situation where any scene could appear before any other. So I decided to produce a story-graph of three tetrahedrons in a fixed order.
 
-![](/assets//blog/statements/v3_p1.png)
+![](v3_p1.png)
 
 I tried a couple versions of the interface using modal buttons. One of them had four buttons, each representing the presence or absence of an aspect. There was a lot of hidden state, causing buttons to turn themselves off as you went, because I didn't want to render out all six scene texts if you had hit all the buttons.
 
@@ -79,13 +79,13 @@ I tried a version where each button represented a slot, and as you clicked the b
 
 (I found out that playtesters using their own devices could discover interesting edge cases. Earlier, the four-button prototype had, on an iPad, rendered each button as ovals instead of rectangles. By accident, it sometimes resembled a set of mirrors.)
 
-![](/assets//blog/statements/v3_p3.png)
+![](v3_p3.png)
 
 Here is a face of the tetrahedron appearing in a lights-and-sockets spread. Of course, I had decided to use a different input method for each tetrahedron of the story, since I had them all spare anyway.
 
 #### Response
 
-![](/assets//blog/statements/v4.png)
+![](v4.png)
 
 I replaced all of the widgets with cards of the art for each aspect. Then I flew home for the holiday. I remember because I was on Twitter in the airport, thiking about it.
 
@@ -107,11 +107,11 @@ But cards that are covered by other cards shouldn't be part of the spread, logic
 
 Going into the weeklong jam, I had recently completed an analysis of the eight aspects from a certain lore-heavy videogame (left unnamed, as it is the commercial product of an unscrupulous person). I determined an ordering of these aspects which yielded interesting adjacencies and gaps, and employed a distinction proposed Seth Dickinson to further separate the axes of actual (x) from the axes of simulacra (+).
 
-![](/assets//blog/statements/alchemy.png)
+![](alchemy.png)
 
 Through the lights-and-sockets prototype, I found that having four or five aspects to hand at a time sufficed to create a feeling of experimentation, so I picked out three subsets of 5 aspects each that I would present as a storyline - rendering certain pairings impossible, and the rest, specific to one or two storylines.
 
-![](/assets//blog/statements/game_jam.png)
+![](game_jam.png)
 
 #### Release
 
@@ -131,13 +131,13 @@ The resulting document is a bit less useful than it looks -  while overloading t
 * SACK: control, lacuna, proof, failure, depth
 * FLIGHT: serpent, mirror, names, proof, depth
 
-![](/assets//blog/statements/aspectry.png)
+![](aspectry.png)
 
 ##### The Lyrics Juxtaposer
 
 I had a lot of tracklists lying around for these characters. Surely I could put them to some use? [Figure out these dates.]
 
-![](/assets//blog/statements/v3_p2.png)
+![](v3_p2.png)
 
 #### Release
 
