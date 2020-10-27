@@ -1,3 +1,6 @@
+---
+title: Exul Mater Postmortem
+---
 
 <style>
 img {
