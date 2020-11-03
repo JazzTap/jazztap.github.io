@@ -295,7 +295,7 @@ I don't have any shortcut for song collection. Pick ones that remind you of the 
 
 For example, we can use a striding of lyrics to connect our two deutergonists, outside of Irae's correspondence. Some revisions later, this prompt becomes:
 
-<div style="font-family: serif;">
+<div style="font-family: serif;" markdown="1">
 
 > IDA:
 > 
@@ -332,7 +332,7 @@ beneath the ashy skin silvered implants.
 
 I would like a scene from Irae's perspective, discussing Ansegdniss' choice here.
 
-<div style="font-family: serif;">
+<div style="font-family: serif;" markdown="1">
 
 > And so the death-dealing instrument of high office is before me, in your hands. You peel back its slim black casing, of the same metal as your gauntleted hand was. You unbind the weapon's heart and bind it to me.
 > 
@@ -341,7 +341,7 @@ I would like a scene from Irae's perspective, discussing Ansegdniss' choice here
 
 But I've missed some beats. I can frontload the parallel between machine and body, without sliding away from the weapon (*its metal skin*). I can perlocute the act of binding (*place it in my palm*). I can stay with the prominence of the veins on aged hands (*bluish-gray maze*), discard the motif of silk hiding steel. I want to perceive those frequency spectra purified by a lens, and their perfect subdivision (*the nodes of its resonant frequency*).
  
-<div style="font-family: serif;">
+<div style="font-family: serif;" markdown="1">
 
 > So the death-dealing instrument of high office is before me, in your grasp. You peel back its metal skin, blackened as proof against rust. You unbind the weapon's heart and place it in my palm.
 > 
