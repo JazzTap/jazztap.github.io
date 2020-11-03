@@ -173,10 +173,10 @@ Emily Short characterises **aspects** as complementary and mutually interfering 
  
  Using Seth Dickinson's distinction between the actual and the virtual, I would further separate the actual (+) from the virtual (x) aspects, yielding four sets of axes.
 
- - |, Yield/Force
- - -, Death/Life
+ - \|, Yield/Force
+ - \-, Death/Life
  - \\, Artifice/Revelation
- - /, Yearning/Branding
+ - \/, Yearning/Branding
  
 This represents an improvement on Dungeons and Dragons' two axes of Good/Evil and Chaos/Law, for the specific purpose of stuffing characters into this ontology and seeing what falls out. Kate Compton indicates this mode of reflective play as a trope of casual creation tools. The idea of making your own brushes and mixing your own paints, so to speak, is one we'll return to.
 
@@ -202,13 +202,51 @@ For each storyline, five aspects suffice to produce enough unique scenes (i.e. n
 
 Overloading the aspects with verbs, tokens, tenors is good. Scenes on the other hand, need to be considerably more specific than a single word - at the very least, they introduce certain events, and have a certain tone.
 
-![](aspectry.png)
+Following the critique courses, when I changed the input method to a branching card draw, I settled on four stories of four aspects each. Each row below, whose blank slots inerit the nearest aspect above in their column, determines one such storyline - due to a creative process pieced together as development proceeded, and described in the remainder of this statement.
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;" markdown="1">
+
+![](../assets/forge_.png)
+
+![](../assets/moth.png)
+
+![](../assets/emperor.png)
+
+![](../assets/guardian_.png)
+
+&nbsp;
+
+&nbsp;
+
+![](../assets/lantern.png)
+
+![](../assets/grail.png)
+
+&nbsp;
+
+![](../assets/priestess.png)
+
+![](../assets/idyll.png)
+
+![](../assets/imbrication.png)
+
+&nbsp;
+
+&nbsp;
+
+![](../assets/devil.png)
+
+![](../assets/orbit.png)
+
+</div>
 
 ##### Illuminated Aspects
 
-I remember throwing together the last artwork of the set in the ProcJam prototype, figuring it was a minor thing anyway. But the critique response to the illustrations over the texts was disproportionately strong, given the time constraints.
+The critique response to the illustrations over the texts was disproportionately strong in critique, due to the scarcity of time. As this was more representative of engagement, I spent more time speedpainting, after that.
 
-I spent more time on the paintings, after that, which would represent each aspect.
+Usually I don't make a great effort to finish the pieces. It's far easier to realize the shape of another idea again, and maybe it'll work better. Once I put the color on this one (using GIMP's peculiar RGB 'equalizer' on the grayscale value layer, which usually determines the painting, precisely as the clay of a sculpt would), I knew it had me.
+
+Unfortunately, this piece needed a lot of fixing. The persepective of the sketch was mixed, an error where I've drawn the lower face at one angle (full-on) and the upper face at an incompatible angle (also full-on). I find it is exceptional to experience a piece of non-code as necessary - that even though creating the thing is not itself entertaining, the result merits the effort.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;" markdown="1">
 
@@ -225,20 +263,18 @@ I spent more time on the paintings, after that, which would represent each aspec
 ![](weight_5.png)    
 </div>
 
-The most difficult of these was the one that would not let me go, because the primary colors (while not a linearly independent basis of RGB space) can have that effect. Alas, the perspective of the sketch was mixed (see how the lower face is seen full on, but so is the upper face, on both figures), and had to all be fixed.
+Due to this logic, I revisited the same piece a month later, and again a month after. You can see from the repainted eyes that I went back and forth - who broke the moment? If I go to divine the character beat from song, in the case of this piece *the weight of disaster* (Leprous), the answer is underspecified.
 
-I finished the speedpaint, revisited it a month later, and again a month after. Usually, I would make a new piece. But you can see from the repainted eyes that I went back and forth - who broke the moment? If I set it to *the weight of disaster* (Leprous), there's no clear answer, due to the confusions of memory.
+> *alone against humanity / dark confusion, necessity / written now in history*
 
-*alone against humanity / dark confusion, necessity / written now in history*
+But we can draw more lyrics, from a certain curated pool (more on this shortly), to clarify this card. If we draw *vail monograph, version 2* (Chris Thile), for instance, Irae's ambitions are plainly the greater.
 
-On reflection, we can draw more lyrics (from a certain curated pool) to clarify this card. If we draw *vail monograph, version 2* (Chris Thile), for instance, Irae's ambitions are plainly the greater.
-
-*No, his is the great mind / And it will never be at rest  
+> *No, his is the great mind / And it will never be at rest  
 Will ever trade this moment for the next / And what it has, for what it’s dreamt*
 
 Even when we cast Ida as the protagonist, as in *face of melinda* (Opeth), she maintains her faith - even when Irae seems to refuse it, -
 
-*She spoke of her vices and broke the rhyme / But baffled herself with the final line  
+> *She spoke of her vices and broke the rhyme / But baffled herself with the final line  
 My promise is made, but my heart is thine*
 
 By abducting the story of this song, we find that it is equally applicable to a Melinda who is more like Baidukh - [a cunning woman](https://twitter.com/jatazak/status/1311466848509071360), raised to heaven to keep her from teaching magic. Sometimes she is Venus, which is Phosphorus, the dawn star, which has two names and is thus divided. 
@@ -247,7 +283,7 @@ For our purposes, she is akin also to phosphorus, the devil's element. Molecules
 
 ##### The Lyrics Juxtaposer
 
-When I recomposed the story from five-aspect sets down to four, I used a cut-up technique on these lyrics to prompt the scenes. This procedure was instigated by a divination workshop taught by Melissa Weiss Steele, and based on a VR visualization of my Pandora playlists for Angus' class.
+When I recomposed the story between courses, I used a cut-up technique on these lyrics to prompt the scenes. This procedure was instigated by a divination workshop taught by Melissa Weiss Steele, and based on a VR visualization of my Pandora playlists for Angus' class.
 
 The procedure is to pair random three-line slices in a strided order (ABABAB), taken from two songs, and to reveal them slowly. As though this arrangement is yours, and by sharing it, you reveal a hidden part of yourself. I've put a version with built-in search [online as a tool](https://observablehq.com/@jazztap/lyrics-juxtaposer-with-search).
 
@@ -260,16 +296,17 @@ I don't have any shortcut for song collection. Pick ones that remind you of the 
 For example, we can use a striding of lyrics to connect our two deutergonists, outside of Irae's correspondence. Some revisions later, this prompt becomes:
 
 <div style="font-family: serif;">
-IDA:
 
-For her sake I would rewind, to when nothing jagged and weeping resided in you. Before the murder of false masters, those you sought to free us from, whom you became in turn.  
-
-No more the black cloak and armor, no more the steel woven with your ligaments. You chose sacrifice, and then you existed for a long time, alone. You forgot the person you gave up, to become sacred.   
-
-But she could have taught your daughter anything but conquest. She could have brought the girl her father. She could have been weak, for one moment. Your daughter sought the mortal you were, not the woman who is left.
+> IDA:
+> 
+> For her sake I would rewind, to when nothing jagged and weeping resided in you. Before the murder of false masters, those you sought to free us from, whom you became in turn.  
+> 
+> No more the black cloak and armor, no more the steel woven with your ligaments. You chose sacrifice, and then you existed for a long time, alone. You forgot the person you gave up, to become sacred.   
+> 
+> But she could have taught your daughter anything but conquest. She could have brought the girl her father. She could have been weak, for one moment. Your daughter sought the mortal you were, not the woman who is left.
 </div>
 
-Which is indeed a direct accusation of poor parenting, which is an odd thing to tell a warlord, and there's a weird ambivalence about whether it is possible to stop choosing sacrifice. I would write Ida differently now, but I've spent a lot more time with her voice, is what happened.
+Indeed, a direct accusation of poor parenting, which is an odd thing to tell a warlord. There's a weird ambivalence about whether it is possible to stop choosing sacrifice. I would write Ida differently now, but I've spent a lot more time with her voice, is what happened.
 
 ##### Fragmented Reflection and Mourning
 
@@ -295,16 +332,18 @@ beneath the ashy skin silvered implants.
 
 I would like a scene from Irae's perspective, discussing Ansegdniss' choice here.
 
-```
-And so the death-dealing instrument of high office is before me, in your hands. You peel back its slim black casing, of the same metal as your gauntleted hand was. You unbind the weapon's heart and bind it to me.
+<div style="font-family: serif;">
 
-Your fingers are cold against mine. Their covering is translucently thin. Beneath is the bluish-gray of contractile fibre-bundles and their maze of circulatory supply. The lambent shard in my hand lowly hums, eager to be used. (I cover it hastily.) The nodes of its resonant frequency are in time with the pulse of our blood.
-```
+> And so the death-dealing instrument of high office is before me, in your hands. You peel back its slim black casing, of the same metal as your gauntleted hand was. You unbind the weapon's heart and bind it to me.
+> 
+> Your fingers are cold against mine. Their covering is translucently thin. Beneath is the bluish-gray of contractile fibre-bundles and their maze of circulatory supply. The lambent shard in my hand lowly hums, eager to be used. (I cover it hastily.) The nodes of its resonant frequency are in time with the pulse of our blood.
+</div>
 
 But I've missed some beats. I can frontload the parallel between machine and body, without sliding away from the weapon (*its metal skin*). I can perlocute the act of binding (*place it in my palm*). I can stay with the prominence of the veins on aged hands (*bluish-gray maze*), discard the motif of silk hiding steel. I want to perceive those frequency spectra purified by a lens, and their perfect subdivision (*the nodes of its resonant frequency*).
+ 
+<div style="font-family: serif;">
 
-```
-So the death-dealing instrument of high office is before me, in your grasp. You peel back its metal skin, blackened as proof against rust. You unbind the weapon's heart and place it in my palm.
-
-Your fingers are cold against mine. Their skin is translucently thin. Beneath, the bluish-gray maze of circulatory supply. The lambent shard lowly hums, eager to be used. The nodes of its resonant frequency re-align themselves with my pulse.
-```
+> So the death-dealing instrument of high office is before me, in your grasp. You peel back its metal skin, blackened as proof against rust. You unbind the weapon's heart and place it in my palm.
+> 
+> Your fingers are cold against mine. Their skin is translucently thin. Beneath, the bluish-gray maze of circulatory supply. The lambent shard lowly hums, eager to be used. The nodes of its resonant frequency re-align themselves with my pulse.
+</div>
