@@ -283,7 +283,7 @@ For our purposes, she is akin also to phosphorus, the devil's element. Molecules
 
 ##### The Lyrics Juxtaposer
 
-When I recomposed the story between courses, I used a cut-up technique on these lyrics to prompt the scenes. This procedure was instigated by a divination workshop taught by Melissa Weiss Steele, and based on a VR visualization of my Pandora playlists for Angus' class.
+When I recomposed the story between courses, I used a cut-up technique on these lyrics to prompt the scenes. This procedure was instigated by a divination workshop taught by Melissa Lucia, and based on a graph visualization of my Pandora playlists where edges were labelled with lyrics.
 
 The procedure is to pair random three-line slices in a strided order (ABABAB), taken from two songs, and to reveal them slowly. As though this arrangement is yours, and by sharing it, you reveal a hidden part of yourself. I've put a version with built-in search [online as a tool](https://observablehq.com/@jazztap/lyrics-juxtaposer-with-search).
 
