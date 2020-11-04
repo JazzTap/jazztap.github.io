@@ -186,23 +186,25 @@ This represents an improvement on Dungeons and Dragons' two axes of Good/Evil an
 
 The prototype that I built for ProcJam used these aspects in the aforementioned order, because I wanted to find out whether the other pairings had weight to them.
 
-Thanks to Jupiter Hadley for playtesting all of the ProcJam games that year, and in particular, naming her protagonist in the 'character creation' part of the aspects juxtaposer. I was indeed dismayed, so it turned out I hadn't made a generic plot generator at all.
+Thanks to Jupiter Hadley for playtesting all of the ProcJam games that year, and in particular, naming her protagonist in the 'character creation' part of the aspects juxtaposer. I was a little dismayed - I hadn't thought to make that semantically weighty part a shimmer text*, and not an unconstrained input, - so it turned out I hadn't made a generic plot generator at all.
+
+\* Aaron Reed's term for a section of text that can be changed to a small fixed number of options. For example, a dropdown selection menu, or the 'cycling link' which advances through its options when clicked, commonly found in Twine hypertexts.
 
 ### Development
 
 ##### Their Barbarian Vicissitudes
 
-I picked out three subsets of five aspects each that I would present as a storyline. Each storyline has one turning point:
+I picked out three subsets of five aspects each that I would present as a storyline. Each storyline as represented in the first prototype circumlocutes one turning point:
 
 * The coup, where Irae earns her mother's trust
 * The sack, where Irae betrays her mother's nation for her lover
 * The flight, where Irae kills her lover to maintain her cover
 
-For each storyline, five aspects suffice to produce enough unique scenes (i.e. not shared with any other storyline). Each scene is a recounting by a principal character. (Later, I would tighten this constraint - each scene must be recounted to another principal, having some rhetorical purpose.)
+In each case, five aspects produce enough unique scenes to distinguish each storyline from one another. Aspects are represented in my notes by a set of verbs, totem objects, emotional tenors, and most importantly, a user-facing illustration.
 
-Overloading the aspects with verbs, tokens, tenors is good. Scenes on the other hand, need to be considerably more specific than a single word - at the very least, they introduce certain events, and have a certain tone.
+Each scene is a recounting by a principal character, something epistolary. (Later, I would tighten this constraint - each scene must be recounted to another principal, having some rhetorical purpose.) Scenes on the other hand, need to be considerably more specific than a single word. They introduce certain events, and have a certain tone.
 
-Following the critique courses, when I changed the input method to a branching card draw, I settled on four stories of four aspects each. Each row below, whose blank slots inerit the nearest aspect above in their column, determines one such storyline - due to a creative process pieced together as development proceeded, and described in the remainder of this statement.
+I changed the input method to a branching card draw, following the critique courses, and at that time settled on four stories of four aspects each. Each is story shown below as one row of four aspects, with each blank inheriting the aspect of the next nonempty slot above.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;" markdown="1">
 
@@ -239,6 +241,8 @@ Following the critique courses, when I changed the input method to a branching c
 ![](../assets/orbit.png)
 
 </div>
+
+Each pair of aspects sharing a row implies one scene, through a creative process with divinatory roots, described in the remainder of this statement.
 
 ##### Illuminated Aspects
 
