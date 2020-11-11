@@ -64,58 +64,50 @@ div.triple {
 @media (max-width: 940px) {
   .margin {
     display: none;
-    /* float: none; */
   }
-  /* .margin p {
-    color: white;
-    position: fixed;
-    width: 250px;
-  } */
 }
 </style>
 
 <div class="wrapper" style="max-width: 940px;">
 <div class="margin" style="min-height: 1300px;">
   <p id="fire_rat">and i've grown&nbsp;familiar with&nbsp;villains that&nbsp;live&nbsp;in my&nbsp;head</p>
-  <p id="idyll">our memories, they&nbsp;can be&nbsp;inviting, but&nbsp;some&nbsp;are altogether&nbsp;mighty frightening</p>
-  <p id="mater">tell me what is love, but breathing life alone?</p>
-  <p id="reflection_">he's free of others' eyes, there are no glances</p>
-  <p id="namer">i've searched the universe and found myself within her eyes</p>
-  <p id="illia_svg-4">you spread your&nbsp;wings to&nbsp;fly</p>
-  <p id="prismatic">all that riddles&nbsp;me will never cease&nbsp;to&nbsp;be, still&nbsp;i&nbsp;search this&nbsp;world</p>
+  <p id="irae">i've searched the universe and found&nbsp;myself within her&nbsp;eyes</p>
+  <p id="priestess_">our memories, well they&nbsp;can be&nbsp;inviting, but some are altogether mighty frightening</p>
+  <p id="reflection_">and the&nbsp;devil's in my&nbsp;head, i&nbsp;will combat</p>
+  
   <p id="necro_">everything's blackening<br/> i am made of flesh&nbsp;and&nbsp;bone</p>
-  <p id="priestess_">and&nbsp;here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
-  <p id="blink">and the&nbsp;devil's in my&nbsp;head, i&nbsp;will combat</p>
-  <p id="g4363">there&nbsp;is nothing you&nbsp;keep, there&nbsp;is only your&nbsp;reflection</p>
+  <p id="strix">all that riddles&nbsp;me will never cease&nbsp;to&nbsp;be, still&nbsp;i&nbsp;search this&nbsp;world</p>
+  <p id="prismatic">here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
+  <p id="sacer">there&nbsp;is nothing you&nbsp;keep, there&nbsp;is only your&nbsp;reflection</p>
 </div>
 
 <div class="double">
   <img src="fire_rat.png" title=""/>
-  <img src="idyll.png" title="" style="margin-top: -5rem;"/>
+  <img src="irae.png" title="" style="margin-top: -5rem;"/>
 </div>
   
 <div class="triple">
-  <img src="mater.png" title=""/>
+  <img src="priestess_.png" title="" style="margin-bottom: 1rem;" />
   <img src="reflection_.png" title=""/>
-  <img src="namer.png" style="align-self: center;" title="" />
+    <img src="necro_.png" class="vector" style="align-self: center;" title="">
 </div>
 
-<div class="triple">
-  <img src="illia_svg-4.png" class="vector" title="" style="margin-top: -3rem;" />
-
+<div class="double" style="grid-template-columns: 3fr 4fr;">
   <div>
-    <img src="prismatic.png" title="" />
-    <img src="necro_.png" class="vector" title="">
+    <img src="strix.png" title=""/>
+  <img src="prismatic.png" title="" />
   </div>
-  <img src="priestess_.png" title="" style="margin-bottom: 1rem;" />
+  <div>
+    <img src="sacer.png" title="" /> <!-- style="margin-top: -3rem;" -->
+    <small>
+      <p>FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>), 2016 - 2020.</p>
+
+      <p><a href="..">go back</a></p>
+    </small>
+    <div>
+  </div>
 </div>
 
 <div class="triple" style="justify-items: center;">
-  <small>
-    <p>FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>), 2016 - 2020. blink.gif, 2011.</p>
-
-    <p><a href="..">go back</a></p>
-  </small>
-  <img src="blink.gif" class="vector" style="align-self: end;" title="" />
-  <img src="g4363.png" class="vector" style="margin-top: -8rem;" title="" />
 </div>
+
