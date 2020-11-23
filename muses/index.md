@@ -98,15 +98,15 @@ div.triple {
 </div>
 
 <div class="double" style="grid-template-columns: 3fr 4fr;">
+  <img src="sorceress.png" title="" style="margin-top: 0rem;" />
   <div>
-    <img src="irae.png" title="" style="margin-top: 2rem;" />
+    <img src="sacer.png" title="" style="margin-top: 0rem;" />
     <small>
       <p>with FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>).</p>
 
       <p><a href="..">go back</a></p>
     </small>
   </div>
-  <img src="sacer.png" title="" style="margin-top: 0rem;" />
 </div>
 
 <div class="triple" style="justify-items: center;">
