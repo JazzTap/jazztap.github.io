@@ -77,12 +77,12 @@ div.triple {
   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   <p id="_">here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
   
-  <p id="priestess_">give me eyes to see<br/> her never growing old<br/>(take heart, it's all fool's&nbsp;gold)</p>
-  <p id="strix">I should care to let&nbsp;you&nbsp;fly,<br/>a chance to retrieve what was left behind</p>
+  <p id="priestess_">give&nbsp;up&nbsp;my&nbsp;shame, all&nbsp;of&nbsp;my&nbsp;pain, for&nbsp;you&nbsp;again</p>
+  <p id="strix">give me eyes to see<br/> her never growing old<br/>(take heart, it's all fool's&nbsp;gold)</p>
   
   <br/><br/><br/><br/><br/><br/>
 
-  <p id="irae">give&nbsp;up&nbsp;my&nbsp;shame, all&nbsp;of&nbsp;my&nbsp;pain, for&nbsp;you&nbsp;again</p>
+  <p id="sorceress">I should care to let&nbsp;you&nbsp;fly,<br/>a chance to retrieve what was left behind</p>
   <p id="sacer">there&nbsp;is nothing you&nbsp;keep, there&nbsp;is only your&nbsp;reflection</p>
 </div>
 
