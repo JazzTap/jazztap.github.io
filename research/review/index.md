@@ -4,10 +4,154 @@
 This review will cover the history of currently active software instrument scenes, including both computational notebooks (a form of literate programming) and explorable explanations.
 
 ## Survey of Graphical Instruments (Historical Work)
-        
-### DESIGN: the hands-on essay
+
+In this chapter, I will discuss explorable explanations (as circulated among lifelong learners and indie videogame developers) and computational notebooks (as circulated among scientists and journalists) as two scenes that currently are producing novel expository and exploratory *computational mediums*.
 
 A proliferation of interactive visualizations is available from outlets including the New York Times graphics desk. Let's tour the 'explorable explanations' art scene that uses these tools to do fun things with informative material, not least by making the data that it's about possible to poke and prod.
+
+[notebooks for frontend development...]
+
+
+### Bret Victor
+- Some Platforms
+	- Joint PI, Communication Design Group [CDG]
+	- Designer at Apple Inc., 2007 - 2011
+- Some Works
+	- Up and Down the Ladder of Abstraction (interactive essay, self-published)
+	- Inventing on Principle (talk at Game Developers' Conference [GDC], 2012)
+
+### Alan Kay
+- Some Works
+	- Dynabook
+	- Smalltalk
+
+### Vi Hart
+- Some Platforms
+	- Joint PI, Communication Design Group [CDG]
+	- Researcher at Khan Academy, 2012 - 2015
+	- Vihart YouTube channel (1.34 million subscribers)
+- Some Works
+	- Parable of the Polygons (with Nicky Case, self-published, 2015)
+	- Doodling in Math: Spirals, Fibonacci, and Being a Plant [1 of 3] (YouTube, 2011)
+
+In How To Snakes (Vimeo, republished from YouTube, 2011) \cite{https://vimeo.com/147792656}, Vi Hart demonstrates the use of a modular plastic snake toy as a tool for recreational mathematics and personal expression, with affordances such as:
+- wearing the snakes
+- dropping the snakes
+- making a space-filling fractal curve
+- jumping rope with a snake
+- wearing snake as a mustache
+- stop-motion game of Snake (1976)
+- configuration space of snakes in terms of 'left' 'right' and 'forward', similar to Logo
+- but snakes can't run into themselves, so how many valid configurations are there?
+- binary encoding with two-color snakes
+- fractal snake (for each head you cut off, add two)
+- wearing the snakes on your fingers and making them longer
+- stop-motion game of Snake but the snake runs into itself and dies
+
+This video is 2:09 minutes long, and elegantly connects space-filling curves with group theory (of valid snake configurations, called 'slithers'), while also making light of the somewhat arbitrary definition of a slither. While slithers ares shown to be extensible beyond 90-degree turns, they are also clearly irrelevant to cases where the snake is a mustache (or otherwise functioning as a 3D physics object), let alone a hydra (or otherwise incorporating a branching operator that rapidly fills up 2D configuration space).
+
+The above affordances are listed in the same order as presented in the video. Concepts are introduced after concepts they depend on, which are introduced after motivating examples, which also serve as periods of reduced tension, supporting the surrealistic narrative arc. It is clear that any hinged modular toy could have been used to convey these concepts, except that it hinges on a cultural reference involving snakes, and that it is really very fun to chant 'snake'.
+
+### Reza Sarhengi
+- Some Platforms
+- Organized Events
+	- Bridges Math/Art Conference
+
+### Nicky Case
+- Some Works
+	- Parable of the Polygons (with Vi Hart, self-published)
+	- Loopy
+	- World in Emoji
+- Edited Volumes
+	- explorabl.es ()
+
+### Jer Thorp
+- Organized Events
+
+### Jonathan McCabe
+- Some Platforms
+	- **distill.pub**
+- Some Works
+	- Cyclic Symmetric Multi-Scale Turing Patterns (Bridges, 2010)
+
+### Casey Reas
+- Some Platforms
+- Some Works
+
+### Uri Wilenski
+- Some Platforms
+	- Northwestern Institute on Complex Systems, Director
+- Contributed Libraries
+	- NetLogo
+
+### Simon Papert
+- Some Platforms
+- Some Works
+
+### Tim Hutton
+- Some Platforms
+	- Senior Scientist, Microsoft
+- Contributed Libraries
+	- Ready
+
+### Kate Compton
+- Some Platforms
+- Some Works
+
+### Don Norman
+- Some Platforms
+- Some Works
+
+### Emily Short
+- Some Platforms
+- Some Works
+	- Galatea
+	- Blood and Laurels
+
+In Glass, a tutorial for Inform 7, the player stands not in a *physical room* but in a topic of conversation. The parser responds to verbs which pertain not to physical navigation, but to steering the conversation toward a fractured fairy-tale outcome.
+
+### Tarn Adams
+- Some Platforms
+	- Dwarf Fortress
+- Some Works
+	- [villain system]
+
+### Mike Bostock
+- Some Platforms
+	- CEO, **ObservableHQ**
+	- NYT graphics desk (?)
+- Contributed Libraries
+	- d3.js
+	- Protovis
+
+### Jason Grout
+- Some Platforms
+	- Jupyter Developer at Bloomberg
+	- Mathematics Professor at -- ()
+- Contributed Libraries
+	- SageMathCell (UTMOST Phase 1)
+	- IPython Widgets
+
+### William Stein
+- Some Platforms
+	- CEO, CoCalc
+    - Mathematics Professor at UW ()
+- Organized Events
+	- SageMathDays
+
+### Chris Olah
+- Some Platforms
+	- **distill.pub**
+- Some Works
+
+### Thomas Robitaille
+- Some Platforms
+	- astropy
+- Contributed Libraries
+	- gluevis 
+
+        
+### DESIGN: the hands-on essay
 
 Alan Kay secured funding for the Communication Design Group (CDG) in 2013, and hired Dan Ingalls (his collaborator on Smalltalk), Vi Hart (then working at Khan Academy), and Bret Victor (formerly working at Apple) to run it \cite{https://tashian.com/articles/dynamicland/}.
 
