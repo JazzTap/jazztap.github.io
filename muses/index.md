@@ -77,12 +77,12 @@ div.triple {
   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   <p id="_">here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
   
-  <p id="priestess_">give&nbsp;up&nbsp;my&nbsp;shame, all&nbsp;of&nbsp;my&nbsp;pain, for&nbsp;you&nbsp;again</p>
-  <p id="strix">give me eyes to see<br/> her never growing old<br/>(take heart, it's all fool's&nbsp;gold)</p>
+  <p id="sorceress">I should care to let&nbsp;you&nbsp;fly,<br/>a chance to retrieve what was left behind</p>
+  <p id="priestess">give&nbsp;up&nbsp;my&nbsp;shame, all&nbsp;of&nbsp;my&nbsp;pain, for&nbsp;you&nbsp;again</p>
   
   <br/><br/><br/><br/><br/><br/>
 
-  <p id="sorceress">I should care to let&nbsp;you&nbsp;fly,<br/>a chance to retrieve what was left behind</p>
+  <p id="corvy">give me eyes to see<br/> her never growing old<br/>(take heart, it's all fool's&nbsp;gold)</p>
   <p id="sacer">there&nbsp;is nothing you&nbsp;keep, there&nbsp;is only your&nbsp;reflection</p>
 </div>
 
@@ -92,15 +92,15 @@ div.triple {
 </div>
   
 <div class="double" style="grid-template-columns: 2fr 5fr;">
-  <img src="priestess_.png" title="" />
-  <img src="strix.png" title="" />
+  <img src="sorceress.png" title="" />
+  <img src="corvy.png" title="" />
   </div>
 </div>
 
 <div class="double" style="grid-template-columns: 3fr 4fr;">
-  <img src="sorceress.png" title="" style="margin-top: 0rem;" />
+  <img src="priestess.png" title="" style="margin-top: 0rem;" />
   <div>
-    <img src="sacer.png" title="" style="margin-top: 0rem;" />
+    <img src="sacer.png" title="" style="margin-top: -4rem;" />
     <small>
       <p>with FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>).</p>
 
