@@ -1,0 +1,2843 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Navigational Instruments for Design Spaces
+\end_layout
+
+\begin_layout Standard
+This review will cover the history of some active software instrument scenes,
+ and establish the terminology of 'software instruments' referring to playful
+ tools and serious toys.
+ We will use the computational meta-medium in which software instruments
+ are orchestrated as a means to organize skillful traversals of 
+\emph on
+design spaces
+\emph default
+ containing many useful or expressive artifacts.
+\end_layout
+
+\begin_layout Part*
+Survey of Graphical Instruments
+\end_layout
+
+\begin_layout Standard
+In this section, I will discuss software instruments including both computationa
+l notebooks and explorable explanations.
+ We'll briefly tour the 'explorable explanations' art scene, that uses these
+ tools to do fun things with informative material, especially by making
+ the data accessible to poking and prodding.
+\end_layout
+
+\begin_layout Standard
+Explorable explanations are an increasingly popular form among independent
+ researchers and educators, especially in the spaces of videogame design
+ and machine learning.
+ Computational notebooks are a form of self-documenting script-based workflow
+ which has gained popularity among lab scientists as well as computer scientists.
+ These scenes are currently producing novel 
+\emph on
+computational mediums
+\emph default
+ suited to the definition, exploration, and exposition of a vast variety
+ of complex subjects.
+\end_layout
+
+\begin_layout Subsubsection*
+Alan Kay
+\end_layout
+
+\begin_layout Standard
+- Some Works - Dynabook - Smalltalk
+\end_layout
+
+\begin_layout Subsubsection*
+Vi Hart
+\end_layout
+
+\begin_layout Itemize
+Some Platforms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Joint PI, Communication Design Group [CDG]
+\end_layout
+
+\begin_layout Itemize
+Researcher at Khan Academy, 2012 - 2015
+\end_layout
+
+\begin_layout Itemize
+Vihart YouTube channel (1.34 million subscribers)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Some Works
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Parable of the Polygons (with Nicky Case, self-published, 2015)
+\end_layout
+
+\begin_layout Itemize
+Doodling in Math: Spirals, Fibonacci, and Being a Plant [1 of 3] (YouTube,
+ 2011)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+In How To Snakes (Vimeo, republished from YouTube, 2011) 
+\backslash
+cite{https://vimeo.com/147792656}, Vi Hart demonstrates the use of a modular
+ plastic snake toy as a tool for recreational mathematics and personal expressio
+n, with affordances such as: - wearing the snakes - dropping the snakes
+ - making a space-filling fractal curve - jumping rope with a snake - wearing
+ snake as a mustache - stop-motion game of Snake (1976) - configuration
+ space of snakes in terms of 'left' 'right' and 'forward', similar to Logo
+ - but snakes can't run into themselves, so how many valid configurations
+ are there? - binary encoding with two-color snakes - fractal snake (for
+ each head you cut off, add two) - wearing the snakes on your fingers and
+ making them longer - stop-motion game of Snake but the snake runs into
+ itself and dies
+\end_layout
+
+\begin_layout Standard
+This video is 2:09 minutes long, and elegantly connects space-filling curves
+ with group theory (of valid snake configurations, called 'slithers'), while
+ also making light of the somewhat arbitrary definition of a slither.
+ While slithers ares shown to be extensible beyond 90-degree turns, they
+ are also clearly irrelevant to cases where the snake is a mustache (or
+ otherwise functioning as a 3D physics object), let alone a hydra (or otherwise
+ incorporating a branching operator that rapidly fills up 2D configuration
+ space).
+\end_layout
+
+\begin_layout Standard
+The above affordances are listed in the same order as presented in the video.
+ Concepts are introduced after concepts they depend on, which are introduced
+ after motivating examples, which also serve as periods of reduced tension,
+ supporting the surrealistic narrative arc.
+ It is clear that any hinged modular toy could have been used to convey
+ these concepts, except that it hinges on a cultural reference involving
+ snakes, and that it is really very fun to chant 'snake'.
+\end_layout
+
+\begin_layout Subsubsection*
+Reza Sarhengi
+\end_layout
+
+\begin_layout Standard
+- Some Platforms - Organized Events - Bridges Math/Art Conference
+\end_layout
+
+\begin_layout Subsubsection*
+Bret Victor
+\end_layout
+
+\begin_layout Itemize
+Some Platforms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Joint PI, Communication Design Group [CDG]
+\end_layout
+
+\begin_layout Itemize
+Designer at Apple Inc., 2007 - 2011
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Some Works
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Up and Down the Ladder of Abstraction (interactive essay, self-published)
+\end_layout
+
+\begin_layout Itemize
+Inventing on Principle (talk at Game Developers' Conference [GDC], 2012)
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+Nicky Case
+\end_layout
+
+\begin_layout Standard
+- Some Works - Parable of the Polygons (with Vi Hart, self-published) -
+ Loopy - World in Emoji
+\end_layout
+
+\begin_layout Standard
+- Edited Volumes - explorabl.es ()
+\end_layout
+
+\begin_layout Standard
+- Explorables as design tools
+\end_layout
+
+\begin_layout Subsubsection*
+Jer Thorp
+\end_layout
+
+\begin_layout Standard
+- Organized Events
+\end_layout
+
+\begin_layout Subsubsection*
+Jonathan McCabe
+\end_layout
+
+\begin_layout Standard
+- Some Platforms - - Some Works - Cyclic Symmetric Multi-Scale Turing Patterns
+ (Bridges, 2010)
+\end_layout
+
+\begin_layout Subsubsection*
+Casey Reas
+\end_layout
+
+\begin_layout Itemize
+Platforms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Founder, Processing Org
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Edited Volumes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Form and Code, Princeton Architectural Press, 2011
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+Kate Compton
+\end_layout
+
+\begin_layout Standard
+- Some Platforms - Some Works
+\end_layout
+
+\begin_layout Subsubsection*
+Tarn Adams
+\end_layout
+
+\begin_layout Standard
+- Some Platforms - Dwarf Fortress - Some Works - [villain system]
+\end_layout
+
+\begin_layout Subsubsection*
+Emily Short
+\end_layout
+
+\begin_layout Itemize
+Some Works 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Galatea
+\end_layout
+
+\begin_layout Itemize
+Annals of the Parrigues
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Edited Volumes
+\end_layout
+
+\begin_layout Subsubsection*
+Jason Grout
+\end_layout
+
+\begin_layout Standard
+- Some Platforms - Jupyter Developer at Bloomberg - Mathematics Professor
+ at -- () - Contributed Libraries - SageMathCell (UTMOST Phase 1) - IPython
+ Widgets
+\end_layout
+
+\begin_layout Standard
+- Notebooks as frontend design tools
+\end_layout
+
+\begin_layout Subsubsection*
+William Stein
+\end_layout
+
+\begin_layout Standard
+- Some Platforms - CEO, CoCalc - Mathematics Professor at UW () - Organized
+ Events - SageMathDays
+\end_layout
+
+\begin_layout Subsubsection*
+Mike Bostock
+\end_layout
+
+\begin_layout Standard
+- Some Platforms - CEO, **ObservableHQ** - NYT graphics desk (?) - Contributed
+ Libraries - d3.js - Protovis
+\end_layout
+
+\begin_layout Standard
+- A proliferation of interactive visualizations is available from outlets
+ including the New York Times graphics desk.
+ How are those written?
+\end_layout
+
+\begin_layout Subsubsection*
+Chris Olah
+\end_layout
+
+\begin_layout Standard
+- Some Platforms - **distill.pub** - Some Works
+\end_layout
+
+\begin_layout Subsection*
+### DESIGN: the hands-on essay
+\end_layout
+
+\begin_layout Standard
+Alan Kay secured funding for the Communication Design Group (CDG) in 2013,
+ and hired Dan Ingalls (his collaborator on Smalltalk), Vi Hart (then working
+ at Khan Academy), and Bret Victor (formerly working at Apple) to run it
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+cite{https://tashian.com/articles/dynamicland/}.
+\end_layout
+
+\begin_layout Subsubsection*
+#### A Humane, Dynamic Medium
+\end_layout
+
+\begin_layout Standard
+Bret Victor's work is linked on the explorabl.es site curated by Nicky Case
+ (and many collaborators
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+cite{https://github.com/explorableexplanations/explorableexplanations.github.io#exp
+lorable-explanations}), in particular his influential piece 'Up and Down
+ the Ladder of Abstraction' from 2011.
+\end_layout
+
+\begin_layout Standard
+Kay wanted to make another group like Xerox PARC [...]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename assets/ladder_a.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+#### An Expressive, Extensible Medium
+\end_layout
+
+\begin_layout Standard
+Vi Hart is an artist known for her amusing educational videos about mathematics.
+\end_layout
+
+\begin_layout Standard
+Vi Hart cites Reza Sarhengi, the founder of the math-art conference Bridges,
+ as a formative influence
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+cite{https://theartofresearch.org/a-history/}, in the context of her decision
+ not to study in a mathematics department but rather, in experimental music.
+\end_layout
+
+\begin_layout Standard
+> I already had spent enough time in the field to know that what they teach
+ in school captures very little of the beauty of mathematics, and I could
+ find that elsewhere.
+ More than I am a mathematician I am a composer...
+\end_layout
+
+\begin_layout Standard
+AUTODIDACTIC and pertaining to VIDEOGAME DEVELOPMENT.
+\end_layout
+
+\begin_layout Standard
+Dynabook -> Vi Hart -> explorable.es, distill.pub, observableHQ
+\end_layout
+
+\begin_layout Subsection*
+### SCIENCE: the computational dashboard
+\end_layout
+
+\begin_layout Standard
+A proliferation of literate programming has been seen in .
+\end_layout
+
+\begin_layout Standard
+ACADEMIC and pertaining to MATHEMATICAL RESEARCH.
+\end_layout
+
+\begin_layout Standard
+SageMath -> Jason Grout -> matplotlib, IPython widgets, binder
+\end_layout
+
+\begin_layout Standard
+(You can punt to future touchstones, as well.)
+\end_layout
+
+\begin_layout Subsection*
+Conclusion
+\end_layout
+
+\begin_layout Standard
+At this point we've seen a lot of design spaces.
+ Let's go in-depth on some specific, playful tools for dealing with (and
+ simultaneously, defining) design spaces.
+\end_layout
+
+\begin_layout Part*
+Case Studies in the Computational Meta-Medium
+\end_layout
+
+\begin_layout Standard
+In this section, I will discuss in depth two unique instruments for navigating
+ design spaces: a casual creator from the popular Sims series which defines
+ the facial features of expressive virtual avatars, and a computerized oracle
+ deck which unfolds as a nonlinear narrative in a mode of reflection upon
+ an inexpressible tragedy.
+\end_layout
+
+\begin_layout Standard
+The paper on The Sims 3 Create-A-Sim (CAS) was presented at the Casual Creators
+ Workshop at the Conference on Computational Creativity in 2020.
+ It contributes a model of the avatar creator containing both an inner evaluatio
+n loop (where a vector of weights defines a facial geometry of the avatar),
+ and an outer evaluation loop (where the user perceives the character represente
+d by the avatar going about their Sim life), where execution occurs as often
+ as the user chooses to revise or update their Sim.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+exul mater
+\begin_inset Quotes erd
+\end_inset
+
+ and its accompanying paper were presented at the (un)continuity exhibition
+ at the Electronic Literature Organization Conference in 2020.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+exul mater
+\begin_inset Quotes erd
+\end_inset
+
+ is a novella in an oracle deck (taking about 2 hours to read), told in
+ the scenes between cards.
+ Placing pairs of cards reveals letters between the figures regarding their
+ conflicting and conflicted commitments to each other, and to space-operatic
+ forms of cybernetic power.
+ A postmortem is also online, containing more detail regarding prior interface
+ designs, and reflections on creating the non-hypertextual multimedia elements:
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://jazztap.github.io/exul-mater/statements/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Entering the Design Space of Digital Portraiture:
+\begin_inset Newline newline
+\end_inset
+
+A Case Study in Avatar Creation Tools
+\end_layout
+
+\begin_layout Standard
+We describe creativity support tools for digital portraiture in terms of
+ their design spaces, which conveniently possess both a high-dimensional
+ linear space of representations, and a highly expressive nonlinear space
+ of referents.
+ Using the casual creators tropes of parameterization and paper dolls, we
+ investigate how distinct 'face spaces' are made playable by these tools
+ and toys.
+ We consider in depth The Sims 3's Create-A-Sim mode, a 3D avatar creator
+ whose expressive range is further expanded by a modding community through
+ intentional and highly technical interventions.
+ Finally, we connect these skills to practices using professional creativity
+ support tools for digital portraiture.
+ We argue that the skillful practice of creating beautiful and evocative
+ avatars is encoded simultaneously in software tools and in artistic communities
+, enabling a form of conversation between the portrait artist and their
+ medium.
+\end_layout
+
+\begin_layout Subsection*
+Introduction
+\end_layout
+
+\begin_layout Standard
+Art students undertake years of life drawing to learn how to capture human
+ likenesses in graphite and clay.
+ Yet videogames which allow players to create their own character must somehow
+ facilitate avatar creation by novice users, without making a hash of their
+ first attempt with an unfamiliar system.
+ Therefore, videogames with avatar customization invariably supply a combination
+ of 'known good' starting avatars, and possibly an additional system of
+ procedural modification 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schwind_determining_2015"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+These systems enable the exploration of a certain 'face space' - far being
+ from the only one that exists, but certainly compatible with e.g.
+ facial animations specific to the game, - which may not contain only good
+ avatars.
+ Indeed, more permissive editors tend to be capable of producing a wide
+ variety of 'monstrous' faces.
+ The humorous exploration and celebration of these possibilities formed
+ the premise of the 'Monster Factory' Let's Play series 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mcelroy_monster_2015"
+literal "false"
+
+\end_inset
+
+.
+ This paper will explore an argument that the existence and accessibility
+ of these distressing and typically unintended results is indeed necessary
+ and co-constitutive of the value in a creativity support system for digital
+ software.
+\end_layout
+
+\begin_layout Standard
+In order to make this claim, we need to describe both the technical and
+ expressive dimensions of portraiture.
+ We will focus on the case of 3D polygon-based avatars, because this is
+ the current technological standard for roleplaying games produced by major
+ studios, and in order to use The Sims 3 (TS3) as our case study.
+ While 2D avatars present a compelling example in the domains of videogaming,
+ tabletop roleplaying, and social media, we leave a detailed exploration
+ to the craft literature of the respective software, and therefore leave
+ their technical description aside.
+\end_layout
+
+\begin_layout Standard
+Faces are highly expressive, able to convey aesthetic judgement 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "simoff_metaphor_2000"
+literal "false"
+
+\end_inset
+
+ and other forms of data that resist quantification.
+ Humans are also good at distinguishing between collections of points representi
+ng a face, and statistically similar collections that don't 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "matejka_same_2017"
+literal "false"
+
+\end_inset
+
+.
+ Since our computers aren't, they need either very well-fitted manifolds
+ in order to navigate 'face space', or a modestly good fit and a human pilot.
+ And if it's fun for the human to lend their knowledge of face space and
+ its strange boundaries to the computer, then perhaps it's more fun for
+ them to refine that knowledge co-creatively.
+\end_layout
+
+\begin_layout Subsection*
+Portraiture is virtual
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/jas/Dropbox/School/CMPM/Spring 2020/pipeline.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Outer and inner evaluation loops in an avatar creator, annotated by the
+ dimensionality of data at each stage.
+ From left to right: 1) The portrait (or similar artifact) that we want
+ to locate in the tool's expressive range.
+ 2) The parameterization chosen, as a vector of slider values and/or part
+ choices.
+ A compressed representation of the portrait, relative to the avatar creator.
+ 3) The numerical representation of our avatar geometry, i.e.
+ the chosen linear combination of basis elements.
+ 4) The interactive visual representation of our avatar geometry, incorporating
+ textures, animations, and camera settings.
+ 5) The referent, i.e.
+ the character whose avatar is being made.
+ All data representations of a character capable of growth are necessarily
+ incomplete, so their dimensionaility is ill-defined.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Davidenko 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davidenko_silhouetted_2007"
+literal "false"
+
+\end_inset
+
+ characterizes various synthetic manifolds (i.e.
+ the expressive range of a generative model) embedded in a (universal) face
+ space equipped with the perceptual distance between any two human faces,
+ and develops a minimal 20-dimensional 'face space' of silhouetted face
+ profiles which are suitable as visual stimuli for cognitive experiments.
+ We extend this approach to describe the elaborate 'face spaces' which are
+ made explorable by avatar creators in TS3 and similar games, with an eye
+ toward eventually extending the work to face spaces of an illustrative
+ or photographic nature (i.e.
+ lacking a fundamental wireframe representation), that use either projection
+ techniques (as in life drawing) or texture synthesis (as in generative
+ adversarial networks).
+\end_layout
+
+\begin_layout Standard
+In order to characterize spaces of 3D faces in the context of player creativity,
+ we in fact encounter an intricate pipeline of data structures and percepts.
+ We interpret an output of 'portraiture' as encompassing an entire space
+ of possible images of the character represented by an avatar (see Fig.
+ 1, far right), which document the user's evaluation of the nonliving yet
+ growing character they have represented in the game or fiction.
+\end_layout
+
+\begin_layout Standard
+Simultaneously, we interpret an input of 'portraiture' as a particular set
+ of image references (e.g.
+ the face of a person from school, or from a movie, or from another videogame)
+ which the user aims to reproduce, mimic, or modify using the avatar creator.
+ The same artifact may evoke similar or divergent referents in different
+ users, just as the 'same referent' may be represented by different artifacts
+ according to different users.
+ An online gallery may easily contain several different Sims of the same
+ character from popular culture.
+\end_layout
+
+\begin_layout Standard
+Both characters and artifacts exist in a semantically rich space.
+ The avatar creator software incorporates certain claims about this space
+ (e.g.
+ 'eye distance varies within this range', 'the height of the inner corner
+ of each eye varies independently of the curve of the lower eyelid'), using
+ a linear basis for additive recombination of facial features, and a rendering
+ algorithm to permit their observation.
+ The immediate visibility of features permits their recombination to be
+ improvised, just as a well-crafted instrument does 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "duplantis_game_2016"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Instruments are actual
+\end_layout
+
+\begin_layout Standard
+We choose to study avatar creator software as an instrument in its own right,
+ which encodes part of the skillful practice required to create human likenesses.
+ Their expressive range is only ever partially summarized by their own interface
+, especially as the numbers of facial feature sliders proliferate, and unpredict
+able interaction effects 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cook_danesh_2016"
+literal "false"
+
+\end_inset
+
+ start to predominate the output.
+ Even if parameter space is linear, perceptual space is not.
+\end_layout
+
+\begin_layout Standard
+Tubb and Dixon identify the array of sliders with 
+\emph on
+analytic
+\emph default
+ creative interaction, which tends to break down the combinatorial explosion
+ in a face space with many features 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "talton_exploratory_2009"
+literal "false"
+
+\end_inset
+
+.
+ In elaborating on our Sims case study, we will see that 
+\emph on
+reflective
+\emph default
+ interaction (i.e.
+ not winnowing, but expanding representations) enters through alternation
+ between gameplay and avatar creation.
+ Conversely, The Sims 4 moves toward 
+\emph on
+tacit
+\emph default
+ interaction - its slider panel GUI is replaced by 'direct manipulation'
+ of the Sim face (via well-curated 
+\emph on
+bone sliders
+\emph default
+, a mapping we discuss in 'mesh-based geometry'), with panels replaced by
+ 'coarse' and various 'detail' layers.
+\end_layout
+
+\begin_layout Standard
+To avoid confusion between toys (in the case of small parameter spaces)
+ and tools (in the case of very large parameter spaces, up to and including
+ sculpting software), we call the avatar creation software an 'instrument'.
+ Like musical instruments, they can be played more or less skillfully.
+ Like analysis instruments, they provide generalizable insight into the
+ character of universal face space.
+\end_layout
+
+\begin_layout Subsection*
+The design space of portraiture is vast
+\end_layout
+
+\begin_layout Standard
+Artists learning to draw in the contemporary tradition must perform mimesis
+ of a reference artifact (be it the pose of a model on a stage, stock photos
+ of actors, or even the drawings of master artists), and are taught to regard
+ this as a productive process.
+ Not only are divergences inevitable anyway, but the process of reaching
+ a landmark in design space is an embodied learning experience 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "talton_exploratory_2009"
+literal "false"
+
+\end_inset
+
+.
+ Creating from imagination, then, is just like walking to this landmark
+ across a rugged fitness landscape, - per the navigation-functionality analysis
+ in $9.3 of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "compton_casual_2019"
+literal "false"
+
+\end_inset
+
+, - except the artist must recognize the landmark despite its previously
+ unseen form.
+\end_layout
+
+\begin_layout Standard
+Developing a method of documenting forays into the design space of portraiture
+ allows us to not only compare particular results, but also to consider
+ the expressive range of the tool or composer.
+ Reflective tool design 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "smith_computational_2011"
+literal "false"
+
+\end_inset
+
+ makes an artifact of the part of an artist's skill (often discussed as
+ their 'style') that is encoded into e.g.
+ a basis for a certain face space.
+\end_layout
+
+\begin_layout Standard
+Stylization is the visible evidence of a certain set of constraints on the
+ region of design space that a given set of artworks (typically by a closely-kni
+t group of artists) thereby explore.
+ Deliberate constraints are often self-imposed.
+ In Techne Theory (p.188), Staten describes design constraints as 'maze walls'
+ in design space, that (at various levels of tangibility, epsecially the
+ subconscious) define skillful practice itself 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "staten_techne_2019"
+literal "false"
+
+\end_inset
+
+; a contoured space deeply contingent on material history.
+\end_layout
+
+\begin_layout Standard
+In the realm of avatar creation, these contours may arise either from the
+ tools being used (e.g.
+ the character creator might not have this celebrity's exact eyebrows),
+ or from particular ways of using those tools (e.g.
+ not using items that didn't ship with the game, in order to create 'no-CC'
+ content).
+ More fundamentally, the contours of universal face space are concealed
+ where they align with the tool's face space, and revealed where they don't.
+\end_layout
+
+\begin_layout Subsubsection*
+Search methods
+\end_layout
+
+\begin_layout Standard
+We suggest a specific reading of artistic procedures as evolutionary algorithms
+ (after Dennett, via Staten), where the face space of a given creativity
+ support tool operationalizes a single level of abstraction.
+ In particular, sets of landmarks in design space closely resemble the procedure
+ of quality-diversity search 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gravina_procedural_2019"
+literal "false"
+
+\end_inset
+
+, which maintains a set of increasingly 'good' points in various regions
+ of design space.
+\end_layout
+
+\begin_layout Standard
+It is vital to observe that interactive explorations of design space can
+ be in constant communication with their perceptual landscape (equipped
+ with its rugged fitness function), whereas automatic procedures are better
+ at characterizing computationally intensive properties of the artifacts
+ being designed.
+ Nonetheless, small breaks in this interaction make a design space more
+ interesting, not less.
+ For instance, when a Sim has a child, even if their parameters are more
+ or less evenly combined with their partner's, the ruggedness of perceptual
+ space can lead to surprises (e.g.
+ if the child inherits a supernatural feature).
+\end_layout
+
+\begin_layout Standard
+Instruments comprise a domain-specific language equipped with direct manipulatio
+n, in software terms.
+ Avatar creators are software instruments, and their avatars are similar
+ to Montfort's 'player character ...
+ a constraint and possibility defined by the [software's] author' 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "montfort_fretting_2008"
+literal "false"
+
+\end_inset
+
+.
+ While general-purpose sculpting software can be adapted for use as avatar
+ creators, they produce an experience much less similar to 'steering', and
+ much closer to being the vehicle responsible for a safe traversal of design
+ space.
+\end_layout
+
+\begin_layout Subsection*
+The design space of face geometry is consistently formalized
+\end_layout
+
+\begin_layout Standard
+In this paper, we take particular interest in the language of a linear basis
+ for a face space, that is, some subset of a 'universal face space' containing
+ all likenesses of persons.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/jas/Dropbox/School/CMPM/Spring 2020/davidenko.png
+	lyxscale 50
+	width 47.5col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Axes in a non-videogame face space developed for use as controlled stimuli
+ in facial perception studies.
+ Note that 2D contours carry enough information to recognize distinct people,
+ and that only three out of 20 axes in the parameterization are shown.
+ (Reproduced from Davidenko, Fig.13.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Mesh-based geometry
+\end_layout
+
+\begin_layout Standard
+Meshes consist of a set of points in 3D space, connected by edges forming
+ triangles which discretize a surface.
+ Surfaces that are roughly egg-shaped, but possessing eye sockets and a
+ jawline, can be said to resemble skulls.
+ With the appropriate proportions and elaborations, eventually a face will
+ emerge.
+ Meanwhile, each vertex position should be chosen thoughtfully, to minimize
+ the number of triangles in the resulting surface (to minimize the difficulty
+ of rendering).
+\end_layout
+
+\begin_layout Standard
+We may define a basis for face space as 1) a 'face mesh' of this form (including
+ a fixed list of edges between vertices), and 2) a collection of 'vertex
+ sliders', each consisting of a linear deformation to the positions of the
+ vertices.
+ In practice, certain subsets of vertices are assigned with variable weights
+ to certain 'bones', allowing 'bone sliders' which deform the position,
+ scale, and rotation of bones (and ergo those subsets of vertices) to produce
+ more expressive mappings 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hunt_importance_2003"
+literal "false"
+
+\end_inset
+
+.
+ Because these linear operations compose algebraically, all sliders are
+ basis elements of the face space.
+\end_layout
+
+\begin_layout Standard
+Practical guides to the creation of new sliders (i.e.
+ basis elements in face space) can be found in Sims modding forums 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cmarnyc_tutorial_2009,whiterider_tutorial_2011"
+literal "false"
+
+\end_inset
+
+, relying on a variety of community tools to interface with the game's data
+ formats.
+\end_layout
+
+\begin_layout Subsubsection*
+Texture maps and lighting
+\end_layout
+
+\begin_layout Standard
+Diffuse texture maps model the response of each point on the surface to
+ direct illumination, i.e.
+ what color is reflected.
+ Normal texture maps allow bumps and other surface details to be added to
+ the mesh surface without changing the number of vertices.
+ The combination of these comprises one possible 'complexion' or 'skintone'.
+\end_layout
+
+\begin_layout Standard
+More advanced texturing and shading techniques, including subsurface scattering
+ (to model the soft translucence of human skin), are prevalent in heavily
+ produced games that invest their resources into 'realism' 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yang_thick_2019"
+literal "false"
+
+\end_inset
+
+.
+ The relationship of The Sims as a series and of its various communities
+ to this rhetoric is complex.
+ In this paper, we aim to avoid reliance on on the intensive character of
+ 'realistic' avatar creation, as we are concerned with a separate form of
+ 'skill' encoded into a face space.
+\end_layout
+
+\begin_layout Standard
+Yet the evaluation of a face space will necessarily depend upon its rendering.
+ A relatively heavily-produced game such as The Sims (or Skyrim) affords
+ strong curiosity about face space, especially insofar as what needs to
+ be fixed is made evident.
+ Indeed, dissatisfaction with first-party textures can itself drive custom
+ content creation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wirman_playing_2014"
+literal "false"
+
+\end_inset
+
+ to critique and address the gap.
+\end_layout
+
+\begin_layout Subsection*
+Case study of interactive portraiture
+\end_layout
+
+\begin_layout Standard
+We proceed to consider avatar creation in a modded instance of TS3, looking
+ for moments of expressive payoff resulting from complex technical procedures
+ (such as the slider tutorials discussed above), which distort and remediate
+ the game's world-model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sihvonen_extending_2011"
+literal "false"
+
+\end_inset
+
+.
+ By considering various iterations of Create-A-Sim (CAS) as a family of
+ modifiable instruments for portraiture, we demonstrate that parameterizations
+ of design space are always tentative.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/jas/Dropbox/School/CMPM/Spring 2020/cas.png
+	lyxscale 50
+	width 47.5col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Create-A-Sim displaying modded sliders.
+ Note parameter choices (left) and the avatar on a turntable (right) dominating
+ the Create-A-Sim interface.
+ Red annotations are by the mod author, illustrating how to access the modded
+ sliders by entering the 'Face/Head and Ears/Advanced/Ears' submenu and
+ scrolling to the bottom.
+ (Reproduced from 'Pointed ears as CAS sliders' by CmarNYC, via Mod The
+ Sims.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Sliders
+\end_layout
+
+\begin_layout Standard
+Sliders are categorized into five parts of the face, and divided among four
+ or more panels in each part.
+ Somewhere between three and a dozen sliders are available in each panel.
+ By default, all of this is hidden, and avatar editing is performed using
+ a gallery of examples.
+ In The Sims 2, the example facial features can be right-clicked to blend
+ toward them by 10%, but this resets the slider GUI for that part's axes
+ (and not their values), allowing extreme features to be created without
+ mods.
+\end_layout
+
+\begin_layout Standard
+The NRAAS family of community-maintained mods for TS3 (available at 
+\family typewriter
+nraas.net
+\family default
+) 
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "twallan_nraas_nodate"
+literal "false"
+
+\end_inset
+
+implements most of the features we will proceed to discuss, including a
+ litany of bug-fixes and error traps appearing alongside changes to gameplay,
+ and quality of life features such as the addition of most cheat console
+ capabilities into the game UI, and the option to force Create-A-Sim (CAS)
+ to display.
+ In particular, this means that Sim parameterizations (including sliders,
+ skintones, and other non-clothing accessories) need not be locked in, so
+ that extended avatar editing remains a part of the gameplay loop.
+\end_layout
+
+\begin_layout Paragraph*
+Slider range, and caricature
+\end_layout
+
+\begin_layout Standard
+NRAAS enables CAS to display an arbitrary number of custom sliders, and
+ can also expand the ranges of all sliders (including those of the base
+ game) by an arbitrary factor - because the value of a slider becomes the
+ floating-point weight of a vector, which is not actually bounded by the
+ suggested range.
+ This is useful for producing humanoid characters with exaggerated or animalisti
+c features, in the style of special effects makeups.
+\end_layout
+
+\begin_layout Standard
+The Monster Factory strategem of 'no middle sliders' calls for all sliders
+ to be moved, preferably to an extreme position, regardless of the result.
+ This maximizes the salience of the relationship between any two sliders
+ in the face space, and since these relationships produce the rugged landscape
+ of the space, some of its broad contours can be seen.
+\end_layout
+
+\begin_layout Standard
+For instance, if the eyes are way over there, what will happen to the curvature
+ of the nose bridge area if we lower the brow ridge? We can try it and see.
+ Maybe the brow bone is a child of the eye bone, and the entire silhouette
+ of the brow region changes.
+ Or maybe the brow bone is still where the eyebrows were, and the nose bridge
+ ends up longer.
+\end_layout
+
+\begin_layout Standard
+Adapting Calvino's terms for a combinatorial expressive space 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "duncan_calvino_2012,berkman_italo_2020"
+literal "false"
+
+\end_inset
+
+, these slider choices define the 
+\emph on
+crystal
+\emph default
+ nature of the face space, acting as authorial choices.
+ They are subject to the 
+\emph on
+clinamen, 
+\emph default
+which is any deviation from pattern that destabilizes the percept by a minimal
+ intervention.
+ In order to locate a potential clinamen, the player-author collaborates
+ with the avatar creator, in conversation with their gameplay intent.
+\end_layout
+
+\begin_layout Standard
+The clinamen in face space depends on the highly nonlinear relationships
+ between sliders, and their ensuing effects on face perception.
+ (Almost all of the points in high-dimensional spaces are in 'corners',
+ further from the center than extremal points along any one axis are 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tucker_theres_2018"
+literal "false"
+
+\end_inset
+
+.) For instance, Monster Factory begins with a garishly additive, over-detailed
+ bout of character creation, which promptly lands in an odd corner.
+ These avatars are then juxtaposed with the world, which the game engine
+ happily furnishes their interaction with, since nothing unusual has occurred
+ from its point of view.
+ As a result, suspension of disbelief creeps back in, and characters emerge.
+\end_layout
+
+\begin_layout Paragraph*
+Slider defaults, and vanilla pudding
+\end_layout
+
+\begin_layout Standard
+Certain service roles in TS3 generate new sims with a face that isn't randomized
+, but whose sliders are simply all set to zero.
+ The NRAAS mods include both batch processing tools (e.g.
+ by drawing from a gallery of premade Sims) and enhanced console commands
+ for solving the problem (e.g.
+ by loading each affected Sim into CAS, or by remixing them from other Sims
+ in the neighborhood).
+\end_layout
+
+\begin_layout Standard
+The activity of eliminating default faces from the neighborhood involves
+ player community awareness of the face space, which is shared among players
+ through this troubleshooting.
+ It also demonstrates a mode of engagement where NPC avatars are actively
+ expected to be the subject of 
+\emph on
+exploratory
+\emph default
+ interaction (co-creation) with the face space 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tubb_four_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Interaction with texture maps and accessory slots
+\end_layout
+
+\begin_layout Standard
+While a Sim's facial geometry is determined by their sliders (relative to
+ the base head mesh), the rest of their appearance depends on skintone,
+ hairstyle, and other bespoke assets.
+\end_layout
+
+\begin_layout Paragraph*
+Combining makeups
+\end_layout
+
+\begin_layout Standard
+Unlike other sculpting software (e.g.
+ Sculptris, 3D-Sculpt) that enables direct painting, CAS provides a variety
+ of makeups (split amongst five slots), with up to four customizable color
+ channels each.
+ This is useful not only for eyeshadow and face-paint, but also for eyebags,
+ 'contact lenses' (including both costume lenses, and realistic options
+ using more than one color channel), and any other feature that can be placed
+ into a facial texture.
+\end_layout
+
+\begin_layout Standard
+NRAAS can prevent makeup from taking up its own slot, allowing arbitrary
+ combinations thereof.
+ Clearly, a much smaller number of 'good' design options are opened up than
+ bad or pointless ones by this choice.
+ Yet this is a trade-off that certain users are happy to make, which is
+ not surprising - to bother with mods at all means making instrument more
+ tool-like (improving user control), at the cost of making it less toy-like
+ (intensifying user effort).
+\end_layout
+
+\begin_layout Paragraph*
+Iris scale and hat bones
+\end_layout
+
+\begin_layout Standard
+Sliders can also interact with makeup and accessories.
+ For instance, the iris and pupil sliders of #aWT change the radius of these
+ features (regardless of which eye texture the user has applied) by moving
+ the vertices of the eye mesh.
+ Modders have also created sliders for the bones to which things like hats,
+ glasses, and teeth attach, that modify their position to prevent (or accomplish
+) clipping through the face of a Sim with extreme features.
+\end_layout
+
+\begin_layout Standard
+This represents an extension of face space to accomodate specific textures
+ and accessories.
+ So our story about face space cannot be that it is a nice and rendering-agnosti
+c characterization of expressive range.
+ Rather, it is made into an evolving site of identity work, in its capacity
+ as a small lab of non-narrative world-building activity, as is The Sims
+ as a series 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rak_life_2015"
+literal "false"
+
+\end_inset
+
+, as are the communities that have built themselves around it.
+\end_layout
+
+\begin_layout Subsection*
+Conclusions
+\end_layout
+
+\begin_layout Subsubsection*
+Call for face spaces
+\end_layout
+
+\begin_layout Standard
+Linear approximation by sliders is an imperfect but tractable method of
+ modelling universal face space.
+ As an analogy, consider the RGB (red-green-blue) color space, which cuts
+ through the space of all possible spectral signatures (as a submanifold).
+ RGB color space consists of all possible blends of only three frequencies:
+ a certain red, green, and blue, which each activate their respective receptor
+ in the human eye.
+ But RGB is a poor representation for designers, because the hue and tone
+ of a color varies wildly as red, green, and blue are added or subtracted.
+ A well-chosen linear change of basis will convert RGB space into HSV (hue-satur
+ation-value), or another perceptual color space, which has the same expressive
+ range but is easier to navigate.
+\end_layout
+
+\begin_layout Standard
+Certain 'explainable AI' tools are designed to identify human-interpretible
+ bases for expressive linear spaces.
+ For instance, photorealistic 2D face spaces have enjoyed a surge of popularity
+ due to recent work in generative adversarial networks (GANs).
+ The SpaceSheet interface 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "loh_spacesheets_2018"
+literal "false"
+
+\end_inset
+
+ is in fact an avatar creator incorporating real-time user modification
+ of the parameter space, represented as a spreadsheet containing a high-dimensio
+nal vector in each cell, which is rendered as a point in the face space
+ of the GAN.
+ Unlike the paper-doll avatar creators commonly available online 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mascheroni_dress_2013"
+literal "false"
+
+\end_inset
+
+, GANs have not yet seen popular incorporation into feminine play.
+\end_layout
+
+\begin_layout Standard
+Because of the comparative complexity of 3D rendering, libraries specific
+ to avatar creation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "apostolakis_raat_2013"
+literal "false"
+
+\end_inset
+
+ may be useful in general for creating web applications that rely on morph
+ targets.
+ faceMaker 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schwind_determining_2015"
+literal "false"
+
+\end_inset
+
+ is a well-executed, very plain example of this kind of software.
+ It has a substantial expressive range, but unfortunately, no landmarks
+ besides the default face.
+ Their most characterful slider by far is 'style', which produces avatars
+ with the huge eyes and tiny necks of a Disney princess when moved from
+ 'real' to 'cartoon'.
+ It also predominates easily over other sliders.
+ Nonetheless, imagining other 'style' sliders (e.g.
+ for assorted interpretations of vampires) is a fun exercise.
+\end_layout
+
+\begin_layout Subsubsection*
+Call for instruments
+\end_layout
+
+\begin_layout Standard
+Instruments are a technology that changes over time.
+ Instruments are defined by their design space, as when sculpting software
+ uses clay as a (visual) metaphor to describe brush-based manipulation of
+ a surface mesh.
+ Yet play with instruments also re-defines their design space, as when situation
+s arising in a life simulation game reflect back on the avatars populating
+ that space, e.g.
+ via the player-author seeking out specific custom content.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Reflective design
+\emph default
+ is a mode of design research oriented toward documenting design knowledge
+ in software instruments and other intelligent interfaces 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "smith_computational_2011"
+literal "false"
+
+\end_inset
+
+.
+ Avatar creators are instruments of this research when they are oriented
+ toward understanding a face space, meaning that they both make claims (on
+ their author's behalf) and challenge them (through their users).
+ Two people attempting to use the same instrument to recreate the same person
+ will find surprising differences in those representations.
+\end_layout
+
+\begin_layout Standard
+The reference of avatars to a character who is important to the player,
+ i.e.
+ self-relevance, is a powerful means for players to understand and control
+ their self-perception 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ratan_when_2016"
+literal "false"
+
+\end_inset
+
+.
+ Ratan and Dawson provide evidence that when 
+\emph on
+avatar-body disconnection
+\emph default
+ after use is minimized, then avatar self-relevance after use (i.e.
+ during downtime) is maximized.
+ By this argument, indirect control of household Sims (and AI control of
+ self-relevant but non-household Sims) would actually strengthen their connectio
+n to the player who isn't actively playing the game.
+\end_layout
+
+\begin_layout Standard
+However, the strength of self-relevance depends on whether the design space
+ of the expressive instruments in the game, including the face space of
+ the avatar creator, is able to accomodate the 
+\emph on
+player's
+\emph default
+ creative range.
+ Therefore, even when its face space is not the explicit subject of design
+ inquiry, any life simulation game (e.g.
+ the Sims-like Paralives, or the roguelike Ultima Ratio Regum 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "smith_ultima_2015"
+literal "false"
+
+\end_inset
+
+) depends upon it to connect deeply with its players.
+\end_layout
+
+\begin_layout Subsubsection*
+Call to create communities
+\end_layout
+
+\begin_layout Standard
+Each instrument affords a common language by which universal face space
+ can be explored, allowing landmarks to be shared in the form of directions
+ to them.
+ Therefore, we assert that the Simming community itsel(ves) represents the
+ primary good created by a platform which creates both support for novice
+ creators, and room for virtuosity.
+\end_layout
+
+\begin_layout Standard
+Avatar creators are deeply connected to social sharing, arising in the majority
+ of 3D massively multiplayer online roleplaying games 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mcarthur_ux_2017"
+literal "false"
+
+\end_inset
+
+, as well as in paper-doll avatar creators shared online (e.g.
+ on the website 
+\family typewriter
+meiker.io
+\family default
+).
+ For instance, the Mii Parade that shipped with the Wii console was a space
+ in which the 3D Mii avatars could 'mingle' with Miis from other consoles
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "karoussos_mii_2008"
+literal "false"
+
+\end_inset
+
+.
+ Using the sliders to change the X/Y placement of certain features on the
+ Mii's head, it was possible to create a variety of masked and alien Miis,
+ e.g.
+ in order to figure out how someone else had entered a certain popular character
+ into a Mii competition.
+\end_layout
+
+\begin_layout Standard
+An intervention to seed this sort of community on other platforms might
+ look like a creative jam oriented around using a particular existing or
+ novel instrument of portraiture.
+ For instance, turnkey stylizers like AI Gahaku 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "barnes_this_2020"
+literal "false"
+
+\end_inset
+
+, which projects selfies into a face space based on Renaissance art, are
+ designed for social sharing.
+ Unfortunately, this kind of face space typically lacks diversity 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sung_ai_2019"
+literal "false"
+
+\end_inset
+
+, and remediation (e.g.
+ via photo editing) is not afforded in a turnkey design.
+\end_layout
+
+\begin_layout Standard
+As a platform, The Sims facilitates reflective learning 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hsiao_sims_2007"
+literal "false"
+
+\end_inset
+
+ thanks in no small part to its maximalism as a life simulator.
+ It supports usage by academics to facilitate skill development and personal
+ expression, using authentic problems such as portraiture 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "eden_making_1996"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph*
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+This section could not have been written without the insight of folks who
+ have partaken in the Casual Creators discussion group, ensuing from the
+ Curating Simulated Storyworlds discussion group.
+ They include Melanie D., Kavi D., Tamara D., Jason G., Isaac K., Max K., Cat
+ M., and many others.
+\end_layout
+
+\begin_layout Section*
+Procedural Montage:
+\begin_inset Newline newline
+\end_inset
+
+A Design Trace of Reflection and Refraction
+\end_layout
+
+\begin_layout Standard
+Narrative media may vary the adjacency of fixed textual passages to drive
+ rhizomatic readings through a montage procedure.
+ We present the design of “exul mater”, a hypertext fiction which locates
+ perlocutionary acts in virtual spaces and resonant gaps.
+ We reflect on sculptural fiction, the (de)formance of complex systems,
+ and tarot reading as methods of layering metaphorical blends into polysemous
+ juxtapositional elements.
+ "exul mater" consists of one set of such elements and their pairwise juxtaposit
+ions, as presented through an interface which supports higher-order ‘gap-filling
+’ reading(s).
+ We draw on peer feedback to address challenges to readability arising from
+ the narrative application of procedural montage.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+"exul mater" is a computerized oracle deck, questioning cybernetic power
+ and identity, which is performed by a querent who arranges illustrated
+ cards to reveal narrative texts.
+ Using combinatorial narrative, it probes the multiple faces of each figure
+ in its encoded myth (heightened by tropes of science fantasy and magical
+ corruption), whose contradictions and diffractions reveal their conflicted
+ interiority.
+\end_layout
+
+\begin_layout Standard
+Its central figure attempts to reconcile a series of illegible tragedies
+ with the totalizing scientific ontology which enabled these self-same triumphs
+ to occur.
+ The mutual incompatibility of these multiple truths is destabilizing, leading
+ to a simultaneous and escalating aggrandizement and loathing of her loved
+ ones.
+\end_layout
+
+\begin_layout Standard
+The spaces in between its figures are sites of escape, of experiences that
+ have not been reconfigured by a colonizing form of military-industrial
+ technology.
+ This rationalizing influence invades their moments together and animates
+ the material forces that tear them apart, attempting merely to form neat
+ strata.
+ This deck argues against clinging to powerful stories for too long, and
+ in favor of messy stories which fail to privilege any one reading, which
+ can disrupt the imbalanced synthesis of history.
+\end_layout
+
+\begin_layout Subsection*
+Introduction
+\end_layout
+
+\begin_layout Standard
+We describe "exul mater", a short web-based story in a branching, card-based
+ format.
+ We consider the properties of this narrative system which induce apophenia,
+ the eager perception of connections and meaning in unordered collections
+ of like things (e.g.
+ seeing strokes as forming letters, or letters as forming words).
+ Its reader is invited to reminisce upon an immutable collection of events,
+ which nonetheless may yield many different stories, as a querent would
+ receive meaningfully different readings from the same tarot deck.
+\end_layout
+
+\begin_layout Standard
+We locate "exul mater" amongst analog forms of procedural narrative, which
+ include tarot reading, shuffle literature (Montfort and Husárová), and
+ other games of order or causality (Short, "Card-Deck Narratives").
+ Although a linear causality of events exists in "exul mater", it is not
+ surfaced by our narrative's text, which more closely resembles a sequence
+ of frame stories.
+ This work does not attempt to complete a telling regardless of the reader's
+ path, but instead presents each route as a deformance (McGann and Samuels)
+ of the virtual space of narratives encoded by the deck.
+ Our reader is thus encouraged to perform narrative between the scenes,
+ within the constraint of which cards exist in their hand, to locate events
+ whose significance was hidden.
+ In this paper, we present the design of "exul mater", along with feedback
+ from peer researchers of narrative design and visual culture.
+ In the following text, quotes from this written correspondence are provided
+ at the beginning of each section in gray intertext.
+\end_layout
+
+\begin_layout Subsection*
+Construction
+\end_layout
+
+\begin_layout Standard
+Our method of polysemous elements and productive gaps attempts to make a
+ fixed topology of narrative content open-ended, by letting the reader select
+ imprecisely among multiple selections of its scenes.
+\end_layout
+
+\begin_layout Standard
+"exul mater" uses a concordance-like textual layout.
+ Multiple scenes are laid out in alignment with each other, and are overlaid
+ by the cards determining them (per 'Edge selections' below).
+ Recent scene texts remain in alignment, faded out, until their card is
+ completely replaced.
+ 
+\end_layout
+
+\begin_layout Standard
+Cards are illustrated, representing characters (persons, institutions, or
+ worlds) or themes (creatures, sites, or abstract concepts).
+ As the text interrogates progress and hybridity through mythic tragedy,
+ we ground out to images of sorceresses and their familiars.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename assets/montage.gif
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Contrasting montages of cards with comparable themes and figures.
+ Here, the 'priestess' and 'magician' cards are fixed in the center.
+ The priestess may harbor dangerous thoughts, or a traitor.
+ The magician may adopt reserve, or venom.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Edge selections
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+"I like how it feels like you’re tinkering with this ancient device, trying
+ to uncover a story in faded text.
+ I had to reread each fragment many times but the interactivity makes that
+ feel like a puzzle." -Reader 5
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+"The different permutations of the story build off of one another nicely,
+ even with different arrangements of player input." -Reader 4
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+"One of my favorite parts is the small references between the three [routes]
+ that give unity to the piece, but I also feel like just a few more connections
+ between the three [routes] could have been made to help encourage you to
+ keep rereading." -Reader 5
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Each pair of cards induces one scene, which represents a missive, reflection,
+ or something else epistolary.
+ When one card in a two-card spread is replaced, the previous scene text
+ is placed to the side and faded (but not completely hidden).
+ If the new text was faded (rather than absent), it is revealed in place.
+ Otherwise, its movement would disrupt reading.
+\end_layout
+
+\begin_layout Standard
+We present the cards in a fixed branching sequence.
+ After each choice of a card by the reader, we discard the alternative (if
+ any) and reveal one or two new cards (which are predetermined).
+ In order to view alternative routes, the reader can rewind to the top of
+ the deck at any time.
+\end_layout
+
+\begin_layout Standard
+Each route of four cards corresponds to six scenes: respectively, the vertices
+ and edges of a tetrahedron.
+ Each edge is adjacent to four edges (two by replacing each card), while
+ the sixth and opposite edge could be reached in two moves, using only two-card
+ spreads.
+ (Routes of more than four cards would imply higher dimensional simplices,
+ and their respective combinatorics.) 
+\end_layout
+
+\begin_layout Standard
+Although one-card spreads are trivial (no scene is revealed), three-card
+ and four-card spreads are also possible.
+ If three cards are present, then three pairs are present, and each of their
+ scenes is revealed simultaneously.
+ (This triple is one face of the tetrahedron, so each adjacent face shares
+ one scene.) If any one card is removed, both pairs broken are faded.
+ 
+\end_layout
+
+\begin_layout Standard
+If four cards are present, then all six pairs are revealed.
+ Removing one card breaks three pairs.
+ Because all four cards are opaque and take up screen space, it is unlikely
+ that all revealed scenes will be readable.
+ The deformance necessarily performed by the reader is thereby made visible.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename assets/simplex-map.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagram of storylet space, in six frames.
+ Each node represents a card, and the center node is the first, fixed card.
+ The two rows portray two routes, which diverge in the middle column: the
+ second card chosen was the same, but the third card chosen was different.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Virtual spaces
+\end_layout
+
+\begin_layout Standard
+Because they can return to their previous position by a simple series of
+ actions, the reader is encouraged in a circular motion of review, similar
+ to other shuffle literature (Montfort and Husárová) in its reflective framing.
+\end_layout
+
+\begin_layout Standard
+Traditional tarot decks likewise encode a vast virtual space of readings
+ into the combinatorics of various spreads of cards.
+ Tarot spreads produce a superimposition of orderings designed to draw out
+ intuitive answers to personal questions (Parrish) (Manning, "Tarot as Procedura
+l Storytelling").
+ The range of possible and plausible readings from any tarot spread are
+ malleable through the use of decks with varied suites, names, and imagery
+ (Short, "Expressive Range in Tarot Decks").
+ 
+\end_layout
+
+\begin_layout Standard
+Our system in "exul mater" is an example of sculptural fiction (Reed, "Changeful
+ Tales") where the reader performs the work, whilst the author designs the
+ space it may occupy.
+ Such work creates apophenia - the recognition of patterns or subtext -
+ inevitably, yet at unpredictable moments.
+ 
+\end_layout
+
+\begin_layout Standard
+For instance, Fallen London (Failbetter Games) is a browser-based persistent-pro
+gression game with occult themes, which implies to the player a more extensive
+ and involved world than could be directly implemented.
+ Because it plays out daily over the course of actual years, the user has
+ time to prod at the seams of that world, and it may grow to fill the available
+ mental space.
+ 
+\end_layout
+
+\begin_layout Standard
+We claim the polysemous juxtapositional elements in any given apophenic
+ fiction are in fact interwoven and mutually reinforcing.
+ "If you hammer a nail into a piece of wood, the wood has a different resistance
+ according to the place you attack it: we say that wood is not isotropic.
+ Neither is the text: the edges, the seam, are unpredictable." (Barthes,
+ 36).
+ Tarot decks, especially, are in diffraction (Barad) with themselves - each
+ of their elements with another possesses constructive or destructive resonances.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Contradictory orderings
+\end_layout
+
+\begin_layout Standard
+We imagine the four voiced characters in exul mater as flickering signifiers
+ (Raley, quoting Hayles).
+ By allowing the presentation of each figure to vary widely between their
+ scenes, which sit in an indeterminate order, they may "present [themselves]
+ as a constantly refreshed image".
+ Their polysemy is actually located in this variability, as much as their
+ illustration(s) seek to surface it.
+ 
+\end_layout
+
+\begin_layout Standard
+Our aesthetic goal is to enable many readings of literally the same scene,
+ just as the montage effect describes a single face read with different
+ expressions for what shots flanked it.
+ We describe actual variation between, and imply virtual variation underneath,
+ each presentation in each scene.
+ This gestures at the performative fiction of identity, as undertaken by
+ people attempting to be recognized as characters.
+ 
+\end_layout
+
+\begin_layout Standard
+The reader may rearrange scenes (edges) in exul mater at will, within their
+ current spread, which is topologically a simplex (i.e.
+ a triangle of three cards, or a tetrahedron of four cards, and so on).
+ Mere juxtaposition can produce virtual narrative (King) that is imagined
+ yet unwritten, that is present without happening.
+ By different elements of the scenes being diffracted with their neighbors,
+ so every reading of the text is performed by reader intervention.
+ 
+\end_layout
+
+\begin_layout Standard
+For instance, any spread of three cards will produce a triple of texts.
+ "Neighboring stories" of this form share two cards.
+ But not all triples are neighbors, resulting in textural gaps.
+ In addition, the branching selection of cards reveals rival interpretations,
+ by various shifts of perspective.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Inferred causality
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+"I can’t, however, decide whether it is a stream of consciousness fragmented
+ and pieced together to tell a story or fragmented mourning and sorrow that
+ refuse to arrive at a destination." -Reader 7
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+"I wonder if, through divination, the daughter's exile can be ended, or
+ if it is only a lens through which to understand." -Reader 2
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+"Much like tarot, it's best to glean an initial impression of the figure
+ and what it might mean upon seeing it appear." -Reader 1
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Each scene in "exul mater" is triggered by and comments on the relationship
+ between two cards, typically in the form of a character addressing another
+ character about their involvement in it.
+ Relationships can be as simple as murder - because such acts foreclose
+ on future possibilities, thus dictating causality - or as complex as vengeance.
+ The relationship, as a perlocutionary act, emerges from those acts it implies
+ and is implied by (Blommaert, 22).
+ But in a puzzle whose solution is "love", the only word prohibited is "love"
+ (Borges, 34).
+\end_layout
+
+\begin_layout Standard
+If the same character may act in many different capacities, then even small
+ casts imply very many different scenes.
+ But the ideal place to position a scene is at a saddle point (a narrative
+ watershed, from which outcomes diverge), where relationships are about
+ to be reconfigured.
+ Human readers are excellent at interpolating in between, imagining how
+ a character reached point B from A - we may imagine fraught months of deception
+, from only the evening the spies nearly were caught.
+\end_layout
+
+\begin_layout Standard
+Plot may be seen as a scheme to exhaust every interesting configuration
+ of a relationship.
+ This is clearest when a climactic scene teeters over the saddle point toward
+ tragedy (e.g.
+ the protagonist at the altar entering a loveless marriage), only to swerve
+ back again.
+ We propose that a virtual form of this other world exists if and only if
+ the reader was made to pause and think of it.
+\end_layout
+
+\begin_layout Standard
+Consider the narrative motion experienced by the remaining scene (out of
+ three) when one card out of three is changed.
+ This effect can be causally productive, enacting a cut (Barad), by changing
+ e.g.
+ the reason for an action taken, or the outcome of those choices.
+ Following this action, the revealed text now has a virtual counterpart,
+ a might-have-been.
+\end_layout
+
+\begin_layout Standard
+We call the movement between adjacent spreads a triangle closure, alluding
+ to the more general form of narrative closure, as found between successive
+ panels in a comic book (McCloud).
+ These near-misses, layered upon each other, together comprise a set of
+ alternative causalities, which we regard as a re-reading.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename assets/simplex-3of4.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A space of three-card spreads, with (horizontal and vertical) adjacency
+ given by replacing any one card.
+ Adjacent spreads share exactly one edge, corresponding to a fixed scene,
+ which experiences that movement as a triangle closure.
+ Taken altogether, these scenes comprise a four-card spread (see previous
+ figure, top-right).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Productive gaps
+\end_layout
+
+\begin_layout Standard
+Calvino's combinatorial approach in The Castle of Crossed Destinies (Cannon)
+ generates a multiplicity of plots from spreads of the popular Rider-Waite
+ tarot (a deck of playing cards including the set of character archetypes
+ known as the major arcana).
+ Any given card possesses no single reading - rather, its meaning lies outside
+ of itself, in its order with its neighbors.
+ Yet the mere presence of unused cards in a narrative might entice the reader
+ to find further nuance inside of the idea that a given iteration has presented.
+\end_layout
+
+\begin_layout Standard
+These 'productive gaps' are lacunae (Manning, on lacunae), narrative elements
+ which exist at the margins of the work, whether in friction with its meaning,
+ or by visibly failing to exist.
+ Lacunae are virtual, located in between texts, as apophenia and intuited
+ connections.
+ They are typical of narrative metacognition, as Calvino demonstrated by
+ compelling his characters to read each others' stories, with no ability
+ to negotiate a 'correct' reading amongst themselves.
+ 
+\end_layout
+
+\begin_layout Standard
+Triangle closures, as a movement between readings of flickering signifiers,
+ are themselves a meaningful gap which the reader may be driven to account
+ for.
+ Our aesthetic goal is (additionally) to enable many readings of literally
+ the same spread, as the reader settles on one possible causal interpretation,
+ especially if we cannot predict or even account for that interpretation
+ (Kumari et al.).
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Recombinatorial engines
+\end_layout
+
+\begin_layout Standard
+Shuffle literature plays with polysemy and metaphorical blending, similarly
+ to the mathematical intuition underlying a proof, in which exists an intricate
+ contingency of the metaphorical blends (Lakoff and Núñez) forming each
+ entity: "[...] the proof always springs from the insight, and not the other
+ way round - and that the insight itself has its source [...] in a delicate
+ and obstinate feeling of the relevant entities and concepts and their mutual
+ relations." (Grothendieck) 
+\end_layout
+
+\begin_layout Standard
+Current works of digital narrative also deploy lacunae and resonance to
+ locate the pleasures of rearranging a text, as demonstrated by the following
+ two examples.
+ 
+\end_layout
+
+\begin_layout Standard
+Telling Lies (Barlow) presents its topology through a heavily diegetic search
+ interface, which relies on the gaps created by revealing only the five
+ videos earliest in its timeline whose transcript contains a keyword match
+ for any given query.
+ In an operationalized variety of deformance (McGann and Samuels), the reader
+ is forced to arrange the most meaningful series of records that could exist
+ for them at each moment, bootstrapping their knowledge of the characters
+ and their relations from nothing.
+ 
+\end_layout
+
+\begin_layout Standard
+The Ice-Bound Concordance (Reed et al.) casts the player as the assistant
+ to a posthumous author, who has written a novel but cannot arrange it.
+ The virtual space of all the novels that could be written is explicitly
+ the object of inquiry.
+ Mechanically, the subset of sockets (cards) selected enables certain events
+ (scenes) in each chapter, by certain boolean combinations.
+ 
+\end_layout
+
+\begin_layout Standard
+Ice-Bound presents a small subset of the possible tokens for each chapter,
+ so that the reader has no hope of realizing all of its plots without revisit.
+ To lock in any given theme (which unblocks future sockets) at the end of
+ chapter, the player must search the companion book for imagery, sealed
+ documents, and ephemera from the digital author's life, filling the lacuna
+ ("where did this idea germinate?") with a resonant image or story.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Obstacles
+\end_layout
+
+\begin_layout Standard
+Playtester feedback has revealed various issues of obscurity in "exul mater"
+ over its development.
+ As meaning-in-gaps is most effective when it resonates at a personal level
+ (by elision of detail), it is prone to being enigmatic too, like a cipher
+ without its key.
+ We consider possible remedies to the confusion engendered by our context-depend
+ent text content.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Obscured characters
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+"It may be beneficial to provide some background story to the characters
+ so I have an idea of what has led to the point of contemplation and questioning.
+" -Reader 1
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+"[...] for me the strength of this piece comes from being able to detect the
+ emotions and relationships even if the details are obscured, and so I feel
+ like not being able to figure who a character is at odds with this." -Reader
+ 5 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+"I think as a way [of] providing more (albeit loose) framework, the player
+ can choose which dyad of characters to investigate with the different tarot
+ lenses, and a dramatis personae of the characters and/or cards as they
+ relate to that dyad." -Reader 3 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+"exul mater" represents its cards as selected major arcana, and identifies
+ each with a character.
+ Cards are the common threads between multiple scenes, and together produce
+ an emotional, thematic palette for the world in the story.
+ A card is an original illustration (with character-specific imagery) paired
+ to a short epithet, which may either name a character unambiguously, or
+ else a suitable major arcana.
+ (The name of the archetype is contingent on the card's position in the
+ text, as the same illustration can have many names.) 
+\end_layout
+
+\begin_layout Standard
+We label the observer of each scene in the style of a script.
+ A fixed point of view is infeasible when no single character is aware of
+ all the scenes we need to establish each saddle point in the complex system
+ which we portray them as navigating.
+ Even characters observing the same scene will necessarily have different
+ interpretations, which are desirable to contrast.
+ 
+\end_layout
+
+\begin_layout Standard
+As character relations need only be revealed one or two at a time, each
+ scene is only three paragraphs.
+ Even shorter passages (ideally down to 100-word drabbles) would exert greater
+ juxtapositional force, but are more difficult to ground out to characters.
+ Whereas lyricism and emotional resonance require quick identification of
+ specific characters in various guises.
+ 
+\end_layout
+
+\begin_layout Standard
+And we don't even know if the reader knows a certain name for a character,
+ or a certain relation of theirs.
+ Any ambiguity in which name means which character is potentially counterproduct
+ive.
+ Yet it arises naturally through both the multiplicity of individual characters
+ (leading to a proliferation of names), and direct parallels between the
+ relationships of various characters (i.e.
+ repeating patterns, rhyming plots).
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Unfamiliar interface
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+"I felt like the fact that some of the passages were retained while new
+ ones appeared was supposed to invite me to compare and contrast the passages
+ but I don’t think that came across in my behavior.
+ Instead, I ignored passages I had already read and interacted with the
+ machines looking for new prose." -Reader 6 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+"Seeing prose appear as I arrange the tarot cards makes me curious what
+ the relationship is between the cards and the text, and I wonder if the
+ names mentioned are gods of some pantheon foreign to me.
+ [...] As I read further I understand that these names aren't those of gods,
+ but of mortals." -Reader 2
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Although using tarot as a metaphor prompted a number of our peer respondents
+ to accept the fragmented qualities of "exul mater", this was not always
+ sufficient guidance.
+ 
+\end_layout
+
+\begin_layout Standard
+Further iteration on the work led to a drag-and-drop interface (choose m
+ out of n cards), which is the most common representation of subset selection
+ in shuffle literature.
+ We also tried interfaces using fixed slots (put n lights in m sockets,
+ as in Ice-Bound), or a set of switches (m out of n can be active together,
+ as in multiple-selection lists), or a rotating simplex (let the camera
+ face m out of n vertices, with purely theoretical precedent).
+ None were as legible.
+ 
+\end_layout
+
+\begin_layout Standard
+The possibilities of interpreted spatial proximity, beyond excluding cards
+ occluded by others, remain latent.
+ The possibilities of on-hover text for clarification (e.g.
+ against an explicit database, as in Inkle's Heaven's Vault) are more evident,
+ but less feasible for our implicit knowledge representation.
+ 
+\end_layout
+
+\begin_layout Standard
+Other forms of description folding on keywords or short phrases include
+ hover text (e.g.
+ Obsidian's Tyranny) and shimmer text (e.g.
+ various Twine games).
+ Hover text fragments can cause their hidden referent (a footnote, or a
+ linked article) to appear beside the text.
+ Shimmer text fragments can be cycled through a few authored variations,
+ and may include character creation choices, collapsible summaries, or reframing
+s of perspective (e.g.
+ Reed et al.'s Ice-Bound).
+ Each mode of juxtaposition is expressive and produces its own resonances.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Difficult texts
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+"Recasting this project as a manuscript would let you keep the obscurity
+ and let us project onto the piece.
+ As a game there wasn't enough connection between the playable elements
+ and the story for me to understand it." -Reader 8 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+"But I was never able to figure out if each configuration of the piece was
+ a window into a larger story, or if each configuration was supposed to
+ be a different story from the other configurations." -Reader 9
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The scene texts in "exul mater" carry the weight of both carrying a literal
+ scene and producing figurative resonances.
+ These fragments easily become alienating unless the card images are very
+ literal.
+ Rather than describe an intersection of scenes, these are more like entities
+ that carry between scenes.
+ 
+\end_layout
+
+\begin_layout Standard
+Our scenes are not written from single words; each relationship between
+ characters has emotional overtones, so we used song lyrics interleaved
+ as couplets to prompt each scene.
+ The scene text must evoke or enact or discuss an interaction the given
+ pair could have in one of their mutually defining capacities.
+ 
+\end_layout
+
+\begin_layout Standard
+In "exul mater", using figures who ascribe different forms of villainy to
+ each other, whose actions are forced by systems which they each articulate
+ differently, we seek to describe systemic violence.
+ Between scenes are the saddle points upon which those tragedies are willingly
+ replicated.
+ The beliefs and traits of each participating entity must cohere; they should
+ prove the unexpected coexistence of certain roles, and so articulate what
+ cannot be systematized (Raley).
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Future plans
+\end_layout
+
+\begin_layout Standard
+We anticipate seeing more and more shuffle literature incorporated into
+ narrative games, especially those seeking to be highly replayable, yet
+ being limited by the cost of content, or by the burden of avoiding self-contrad
+iction (due to statefulness).
+ In future works, we plan to investigate further structuring interface elements,
+ beyond the prompts.
+ Perhaps scenes can be indicated as events upon a timeline, or character
+ aliases can be called out with a contextualizing highlight.
+ 
+\end_layout
+
+\begin_layout Standard
+"exul mater" is available online.
+ It was prototyped using the ObservableHQ, which supports interactive recombinat
+ion of elements.
+ While authoring, this allows us to see the selected text alongside the
+ juxtaposed images, and to edit text with zero recompilation delay.
+ However, the prototyping notebook is a general-purpose tool.
+ While our code is open-source (using a flat representation of scene text,
+ inspired by Inkle's ink langage), it is not a well-documented authoring
+ tool.
+ Because the structure of branching simplices is distinct from the locative
+ fiction supported by existing sculptural hypertext authoring (Kitromili
+ et al.), we may extend our notebook to facilitate authoring new decks.
+ 
+\end_layout
+
+\begin_layout Standard
+We look forward to seeing the craft of flickering signifiers continue to
+ be developed in procedural formats, inspired by both the capacities of
+ modern hypertext, and traditional forms of magic and myth-making.
+ 
+\end_layout
+
+\begin_layout Section*
+Traversals of Design Space
+\end_layout
+
+\begin_layout Standard
+This section defines a domain-agnostic terminology for navigation in high-dimens
+ional design spaces, oriented toward researchers in computational creativity
+ producing co-creative systems, who desire the accessibility of casual creators
+ or explorable explanations, whilst respecting the deeply domain-specific
+ structure of their design space in the computational medium.
+\end_layout
+
+\begin_layout Standard
+definitions, pragmatic reading, extrapolate from related work
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename assets/triangle.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Our schema for methods of navigating design space, emphasizing the mutually
+ reinforcing yet opposed natures of exploration, definition, and explanation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Explore
+\end_layout
+
+\begin_layout Standard
+to bake a cake
+\end_layout
+
+\begin_layout Standard
+to 'approach a monument'
+\end_layout
+
+\begin_layout Standard
+(I think the other way to get around the burden of content-authoring is
+ to use a type system that encodes the entire semantics.)
+\end_layout
+
+\begin_layout Standard
+In practice, I have never been able to design a data structure 
+\emph on
+from scratch
+\emph default
+ that is flexible and powerful enough to have expressive utility.
+ Except in the case of learning to draw figures, which I experience as reificati
+on:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+a) In locating a virtual, to be made actual.
+ The strokes on the page become the silhouette of a figure projected into
+ the camera plane, even though this figure is virtual.
+\end_layout
+
+\begin_layout Standard
+(This use of 'virtual/actual' can be replaced with 'absent/present'.
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+cite{https://courses.nus.edu.sg/course/elljwp/deconstruction.htm})
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+b) In discovering features of the reification that I did not think of in
+ the figure; owing to constraints, they appeared anyway.
+ This is the difference between drawing an eye that represents an eye, or
+ drawing an eye that defines the eye socket of the skull and thus imparts
+ spatial orientation and proportion, in *addition* to its (relatively subtle)
+ effect on the gestalt expression.
+\end_layout
+
+\begin_layout Standard
+This phenomenon is due to the principle that 'music is made of silences',
+ or that 'edges are dual to vertices'.
+ (The entire list of features can reconstruct the whole, and so can the
+ entire list of gaps between features.)
+\end_layout
+
+\begin_layout Standard
+In some mental data structure, I have represented the anatomy of the figure,
+ which contains various relationships and invariants that discourage me
+ from considering a contradictory stroke, so that I am free to select among
+ an array of 'possible next strokes' at random, and moreover this freedom
+ increases as I gain experience with figure drawing.
+\end_layout
+
+\begin_layout Standard
+An instance of this data structure for the *subject* is what I mean by a
+ point in design space.
+ An effective, co-creative software partner encodes some of the skill -
+ meaning the relationships between forms implied by strokes - sometimes
+ literally.
+ The Create-a-Sim sliders, for instance, operate on an entire polygonal
+ mesh (the data structure of the *representation*), as though the strokes
+ comprising the Sim base mesh were printed on some strange analogue of the
+ rubber sheet on which the 'stretchy fish' of Thompson's On Growth and Form
+ were printed.
+\end_layout
+
+\begin_layout Standard
+These relationships of form are the subject of the next section, which pertains
+ to grammar.
+\end_layout
+
+\begin_layout Subsection*
+Define
+\end_layout
+
+\begin_layout Standard
+to write a recipe
+\end_layout
+
+\begin_layout Standard
+to 'produce a grammatical utterance'
+\end_layout
+
+\begin_layout Subsection*
+Explain
+\end_layout
+
+\begin_layout Standard
+to recommend a recipe
+\end_layout
+
+\begin_layout Standard
+to 'document a work' 
+\end_layout
+
+\begin_layout Section*
+Bibliography
+\end_layout
+
+\begin_layout Standard
+[import x3]
+\end_layout
+
+\end_body
+\end_document

@@ -70,42 +70,43 @@ div.triple {
 
 <div class="wrapper" style="max-width: 940px;">
 <div class="margin" style="min-height: 1500px;">
-  <p id="apotheosis">here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
-  <p id="irae">a light to burn all the empires, so bright the&nbsp;sun is ashamed to&nbsp;rise&nbsp;and&nbsp;be</p>
-  
-  <p id="priestess_">give me heresy, we were never told</p>
-  <p id="namer">you asked me to swear&nbsp;in a&nbsp;mirror, confide</p>
-  <p id="flight">you and&nbsp;me, I can see us&nbsp;dying,<br/>are&nbsp;we</p>
-  
-  <p id="_">and i've grown&nbsp;familiar with&nbsp;villains that&nbsp;live&nbsp;in my&nbsp;head</p>
-  <p id="__">and the&nbsp;devil's in my&nbsp;head, i&nbsp;will combat, we'll find our way home</p>
 
-  <p id="strix">give&nbsp;up&nbsp;my&nbsp;shame, all&nbsp;of&nbsp;my&nbsp;pain, for&nbsp;you&nbsp;again</p>
+  <p id="exul">will no one lay the laurel <br/>wreath, when silence<br/>drowns the screams</p>
+  <p id="ir">a light to burn all&nbsp;the&nbsp;empires, so&nbsp;bright the&nbsp;sun&nbsp;is ashamed to&nbsp;rise</p>
+  
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <p id="_">here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
+  
+  <p id="sorceress">I should care to let&nbsp;you&nbsp;fly,<br/>a chance to retrieve what was left behind</p>
+  <p id="priestess">give&nbsp;up&nbsp;my&nbsp;shame, all&nbsp;of&nbsp;my&nbsp;pain, for&nbsp;you&nbsp;again</p>
+  
+  <br/><br/><br/><br/><br/><br/>
+
+  <p id="corvy">give me eyes to see<br/> her never growing old<br/>(take heart, it's all fool's&nbsp;gold)</p>
   <p id="sacer">there&nbsp;is nothing you&nbsp;keep, there&nbsp;is only your&nbsp;reflection</p>
 </div>
 
-<div class="double">
-  <img src="apotheosis.png" title=""/>
-  <img src="irae.png" title="" style="margin-top: -5rem;"/>
+<div class="double" style="grid-template-columns: 4fr 3fr;">
+  <img src="exul.png" title=""/>
+  <img src="ir.png" title="" style="margin-top: 1rem;"/>
 </div>
   
-<div class="triple">
-  <img src="priestess_.png" title="" />
-  <img src="namer.png" title="" />
-  <img src="flight.png" title="" style="margin-bottom: 1rem; margin-top: -7rem;" />
+<div class="double" style="grid-template-columns: 2fr 5fr;">
+  <img src="sorceress.png" title="" />
+  <img src="corvy.png" title="" />
   </div>
 </div>
 
 <div class="double" style="grid-template-columns: 3fr 4fr;">
+  <img src="priestess.png" title="" style="margin-top: 0rem;" />
   <div>
-    <img src="strix.png" title="" />
+    <img src="sacer.png" title="" style="margin-top: -4rem;" />
     <small>
       <p>with FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>).</p>
 
       <p><a href="..">go back</a></p>
     </small>
   </div>
-  <img src="sacer.png" title="" style="margin-top: -8rem;" />
 </div>
 
 <div class="triple" style="justify-items: center;">

@@ -172,11 +172,12 @@ a tour of latent space.
 <div class="accordion">
   <input type="checkbox" id="lifeworlds" />
     <label for="lifeworlds">
-      <img src="assets/blog/artifacts.png" />
+      <img src="assets/blog/roads.png" />
   	  <p>weird ecology</p>
     </label>
     <div class="content" markdown="1">
-
+  <p>idle game with memetic spread and team dynamics, WIP</p>
+  <img src="assets/blog/cyclic_5.png" style="height: 500px;" />
 </div>
 </div>
   </div> <!-- end filmstrip -->
