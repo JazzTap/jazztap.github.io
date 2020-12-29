@@ -1,17 +1,28 @@
 ---
 layout: post
-title: "tracklist (sun)"
+title: "Tracklist (☀️)"
 ---
 
-[tracklist (moon)]({% post_url 2020-7-24-concordance %})
+<h1 style="text-align: right;" markdown="1">[Tracklist (🌑)]({% post_url 2020-7-24-concordance %})</h1>
 
 <style>
   h2 {
     font-weight: normal;
+    font-variant: small-caps;
+  }
+  
+  .three-lines {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 2fr;
+  }
+  
+  .float {
+    display: contents;
+    text-align: right;
   }
 </style>
 
-## 🙏  
+## 🙏 The Sun
 <div markdown="1" class="grid three-lines">
   (my eyes, my eyes, my fucking eyes)  
   Hypocrite, how could you be so cruel
@@ -22,19 +33,21 @@ title: "tracklist (sun)"
   The darkness reaches up my soul,  
   Resistance is not as hard as it seems
   
-THE SUN:
+<div class="float" markdown="1">
+deeply held belief
 
-deeply held belief, expedient teachings
+expedient teachings
 
 *slow burn (atreyu)  
-the mirror (dream theater)*
+the mirror (dream&nbsp;theater)*
+</div>
 
 <p style="grid-row-start: span 3;">
-    <img src="/exul-mater/assets/imbrication.png" style="max-height: 15rem;">
+    <img src="/exul-mater/assets/imbrication.png">
 </p>
 </div>
 
-## 💥  
+## 💥 Judgement
 <div markdown="1" class="grid three-lines">
 And my way out of the dark  
 "Believe? In a deity long dead? -
@@ -45,20 +58,22 @@ I would rather be a pagan suckled in creeds outworn;
 And watch the angels as they fall into the sun  
 With faerytales fill'd up in head;
 
-JUDGEMENT:
+<div class="float" markdown="1">
+fetishizing the other
 
-fetishizing the other, seeking guidance
+seeking guidance
 
 *amanes (tiamat)  
-when he falleth (theater of tragedy)*
+when he falleth (theater&nbsp;of&nbsp;tragedy)*
+</div>
 
 <p style="grid-row-start: span 3;">
-    <img src="/exul-mater/assets/emperor.png" style="max-height: 15rem;">
+    <img src="/exul-mater/assets/emperor.png">
 </p>
 </div>
 
 
-## 🚣  
+## 🚣 The Star
 <div markdown="1" class="grid three-lines">
 In delicate equilibrium  
 You're my everything, you're my angel
@@ -69,20 +84,22 @@ You're the vision that I take with me every step
 Taking control of this world  
 Been searching for your vibration
 
-THE STAR:
-
+<div class="float" markdown="1">
 what will be, but is not
 
-*urban migration (xavier samuel)  
-the balance (knight area)*
+cyclical relationships
+
+*urban migration (xavier&nbsp;samuel)  
+the balance (knight&nbsp;area)*
+</div>
 
 <p style="grid-row-start: span 3;">
-    <img src="/exul-mater/assets/priestess.png" style="max-height: 15rem;">
+    <img src="/exul-mater/assets/priestess.png">
 </p>
 </div>
 
 
-## 🗲  
+## 🗲 The Tower
 <div markdown="1" class="grid three-lines">
 Judge me now  
 Save a mist on the rise
@@ -93,20 +110,22 @@ A final blessing to hide
 A king in my own mind  
 Her ghost in the fog
 
-THE TOWER:
+<div class="float" markdown="1">
+victory in war
 
-conquest, victory in war
+reason in mystery
 
-*the quiet place (in flames)  
-her ghost in the fog (cradle of filth)*
+*the quiet place (in&nbsp;flames)  
+her ghost in the fog (cradle&nbsp;of&nbsp;filth)*
+</div>
 
 <p style="grid-row-start: span 3;">
-    <img src="/exul-mater/assets/devil.png" style="max-height: 15rem;">
+    <img src="/exul-mater/assets/devil.png">
 </p>
 </div>
 
 
-## ⚗  
+## ⚗ The Devil
 <div markdown="1" class="grid three-lines">
 To burn, ignite, I’d do it for so much less  
 Desperation, better be
@@ -117,16 +136,16 @@ Setting sail in a stormy sea
 And here we stand, the sweet arresting duality  
 Alone against humanity
 
-THE DEVIL:
+<div class="float" markdown="1">
+to honor those sacrificed
 
-to honor those sacrificed, revolution
+revolution
 
-*my dark disquiet (poets of the fall)  
+*my dark disquiet (poets&nbsp;of&nbsp;the&nbsp;fall)  
 the weight of disaster (leprous)*
-
-<p style="grid-row-start: span 3;">
-    <img src="/exul-mater/assets/statue.png" style="max-height: 15rem;">
-</p>
 </div>
 
-
+<p style="grid-row-start: span 3;">
+    <img src="/exul-mater/assets/statue.png">
+</p>
+</div>

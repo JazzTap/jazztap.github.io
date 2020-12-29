@@ -198,7 +198,7 @@ RAHEL: Then, you must be suggesting a new game. Tell me more.
 
 
 <div style="text-align: center;" markdown="1">
-<p style="font-size: 6rem;">☀️</p>
+<br/>
 
  <img src="/assets/blog/paints/ares.png" style="max-height: 600px;">
 </div>
@@ -207,7 +207,7 @@ RAHEL: Then, you must be suggesting a new game. Tell me more.
 <div class="quadruple grid" markdown="1">
 <div style="text-align: center;" markdown="1">
 <br/>
- [light refs](https://www.artstation.com/artwork/6a0Par)
+ [ooh, lighting tool](https://www.artstation.com/artwork/6a0Par)
 
  ![](/assets/blog/paints/ares__shade.png)
 </div>

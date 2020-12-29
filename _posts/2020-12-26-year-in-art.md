@@ -15,7 +15,7 @@ here's one piece from each month. (January? I don't recall a January.) since I d
 
 spring quarter features some of the player characters from tabletop campaign, which has been ongoing through voice calls.
 
-summer quarter features more tabletop art. I'm very excited about drawing feathered wings *and* staring eyes, I gotta say.
+summer quarter features [more tabletop art]({% post_url 2020-09-04-love-story %}). I'm very excited about drawing feathered wings *and* staring eyes, I gotta say.
 
 fall quarter, I'm revisiting other characters from exul mater, now that it's all done. and looking forward to [new retellings]({% post_url 2020-12-17-sword %}).
 
