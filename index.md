@@ -147,7 +147,7 @@ in which space mages are sad about empire
 
 * Otto, J. &amp; Forbes, A. G. (2020). [Procedural Montage: A Design Trace of Reflection and Refraction.](https://stars.library.ucf.edu/elo2020/asynchronous/proceedingspapers/12/) Proceedings of the Electronic Literature Organization Conference 2020.
 
-[![](/assets/blog/diffraction.gif)](/exul-mater/staging)
+[![](/assets/blog/diffraction.gif)](/exul-mater)
 
 previously for #PROCGENJAM Summer 2018, DANM 211 Winter 2019, CMPM 290J Spring 2019.
 
