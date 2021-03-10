@@ -71,43 +71,43 @@ div.triple {
 <div class="wrapper" style="max-width: 940px;">
 <div class="margin" style="min-height: 1500px;">
 
-  <p id="exul">will no one lay the laurel <br/>wreath, when silence<br/>drowns the screams</p>
-  <p id="ir">a light to burn all&nbsp;the&nbsp;empires, so&nbsp;bright the&nbsp;sun&nbsp;is ashamed to&nbsp;rise</p>
+  <p id="tunic">a&nbsp;light to burn&nbsp;all the&nbsp;empires, so&nbsp;bright the&nbsp;sun's ashamed <br/> to rise and be</p>
+  <p id="apotheosis">you're the one that i need, i'm the one that you loathe <br/> you can watch me corrode</p>
   
   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-  <p id="_">here now&nbsp;comes the&nbsp;sweet, corrupting reality</p>
   
-  <p id="sorceress">I should care to let&nbsp;you&nbsp;fly,<br/>a chance to retrieve what was left behind</p>
-  <p id="priestess">give&nbsp;up&nbsp;my&nbsp;shame, all&nbsp;of&nbsp;my&nbsp;pain, for&nbsp;you&nbsp;again</p>
+  <p id="reflection_">everybody knows it's something you had to live with, darling <br/> nobody's gonna tear you down now</p>
+  <p id="irae">there is nothing you keep, there is only your reflection</p>
   
   <br/><br/><br/><br/><br/><br/>
 
-  <p id="corvy">give me eyes to see<br/> her never growing old<br/>(take heart, it's all fool's&nbsp;gold)</p>
-  <p id="sacer">there&nbsp;is nothing you&nbsp;keep, there&nbsp;is only your&nbsp;reflection</p>
+  <p id="devil">give me heresy, we were never told the truth <br/> the world that spoke</p>
+  <p id="priestess_">give me eyes to see, her never growing old <br/> take heart, it's all fool's gold</p>
+</div>
+  
+<div class="double" style="grid-template-columns: 2fr 4fr;">
+  <img src="tunic.png" title="" />
+  <img src="apotheosis.png" title="" />
+  </div>
+</div>
+
+<div class="double" style="grid-template-columns: 4fr 4fr;">
+  <img src="reflection_.png" title="" style="margin-top: 0rem;" />
+  <img src="irae.png" title="" style="margin-top: -3rem;" />
 </div>
 
 <div class="double" style="grid-template-columns: 4fr 3fr;">
-  <img src="exul.png" title=""/>
-  <img src="ir.png" title="" style="margin-top: 1rem;"/>
-</div>
-  
-<div class="double" style="grid-template-columns: 2fr 5fr;">
-  <img src="sorceress.png" title="" />
-  <img src="corvy.png" title="" />
-  </div>
-</div>
-
-<div class="double" style="grid-template-columns: 3fr 4fr;">
-  <img src="priestess.png" title="" style="margin-top: 0rem;" />
-  <div>
-    <img src="sacer.png" title="" style="margin-top: -4rem;" />
-    <small>
-      <p>with FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>).</p>
-
-      <p><a href="..">go back</a></p>
-    </small>
-  </div>
+  <img src="devil.png" title="" style="margin-top: 0rem;"/>
+  <img src="priestess_.png" title="" style="margin-top: -1rem;"/>
 </div>
 
 <div class="triple" style="justify-items: center;">
 </div>
+
+<small>
+  <p>with FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>).</p>
+
+  <p>
+    <a href="..">go back</a>
+  </p>
+</small>
