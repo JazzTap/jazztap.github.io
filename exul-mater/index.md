@@ -1,6 +1,6 @@
 ---
-title: exul mater
-excerpt: 
+title: "exul mater"
+excerpt: "seek out messy stories, which fail to privilege one reading over others. those stories can disrupt the imbalanced synthesis of history, and the flawed logic of inevitability."
 ---
 
 ![](/assets/blog/card.jpg)
