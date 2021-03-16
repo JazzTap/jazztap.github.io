@@ -5,7 +5,7 @@ excerpt: "seek out messy stories, which fail to privilege one reading over other
 
 ![](/assets/blog/card.jpg)
 
-[**exul mater**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html) is a computerized oracle deck, questioning cybernetic power and identity. it was presented at **(un)continuity**, a curated exhibition at ELO 2020. originally scheduled to convene in Orlando, Florida, the exhibition was moved online due to pandemic.
+[**exul mater**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html) is a computerized oracle deck, questioning cybernetic power and identity. it was presented at [**(un)continuity**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/index.html), a curated exhibition at ELO 2020. originally scheduled to convene in Orlando, Florida, the exhibition was moved online due to pandemic.
 
 you will reveal the text by arranging cards. in this myth, each figure has many faces. they are witches and lovers, soldiers and mothers, in contradiction with themselves, so always re-representing themselves. consequently, the cards will show another story each time.
 
