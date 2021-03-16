@@ -141,7 +141,7 @@ projects | [blog](writes) | [muses](muses)
       <p><strong>ELO 2020 |</strong> exul mater</p>
     </label>
     <div class="content" markdown="1">
-in which space mages are sad about empire. [a computerized oracle deck](/exul-mater) and companion paper.
+In which space mages are sad about empire. [Read more](/exul-mater)?
 
 * Otto, J. &amp; Forbes, A. G. (2020). [Procedural Montage: A Design Trace of Reflection and Refraction.](https://stars.library.ucf.edu/elo2020/asynchronous/proceedingspapers/12/) Proceedings of the Electronic Literature Organization Conference 2020.
 
@@ -159,7 +159,7 @@ previously for #PROCGENJAM Summer 2018, DANM 211 Winter 2019, CMPM 290J Spring 2
   	  <p><strong>Casual Creators 2020 |</strong> avatar editors</p>
     </label>
     <div class="content" markdown="1">
-a tour of latent space.
+Case study of a software instrument for avatar creation. Or, a guided tour of latent space.
 
 [thread](https://twitter.com/GalaxyKate/status/1303362289588936705), [paper](https://mkremins.github.io/casual-creators-workshop/papers/ICCC20_paper_197.pdf).
 
@@ -175,7 +175,6 @@ a tour of latent space.
     </label>
     <div class="content" markdown="1">
   <p>idle game with memetic spread and team dynamics, WIP</p>
-  <img src="assets/blog/cyclic_5.png" style="height: 500px;" />
 </div>
 </div>
   </div> <!-- end filmstrip -->
