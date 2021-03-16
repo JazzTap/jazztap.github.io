@@ -141,9 +141,17 @@ projects | [blog](writes) | [muses](muses)
       <p><strong>ELO 2020 |</strong> exul mater</p>
     </label>
     <div class="content" markdown="1">
-in which space mages are sad about empire
+**exul mater** is a computerized oracle deck, questioning cybernetic power and identity. [it was presented](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html) at (un)continuity, a curated online exhibition (due to global pandemic) at ELO 2020.
 
-[a combinatorial fiction in tarot](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html)  
+you will reveal the text by arranging cards. in this myth, each figure has many faces. they are witches and lovers, soldiers and mothers, in contradiction with themselves, thus always re-representing themselves. so the cards will show another story each time.
+
+the fictive querent aims to reconcile a series of tragedies that her family and her nation have suffered into a story that is legible. she would accomplish this through the same totalizing language in which those self-same events represent triumph and progress. she is destabilized by holding both truths, which brings about her corruption.
+
+she circles between adoration and hatred, passing around the figures of her loved ones. the spaces between them are sites of escape. their experiences are unlike their lives, because they cannot be broken by war and its technologies. they cannot easily be reconfigured, rationalized, and conquered from within.
+
+do not cling to powerful stories for too long, it says. seek out messy stories, which fail to privilege one reading over others. those stories can disrupt the imbalanced synthesis of history, and the flawed logic of inevitability. 
+
+or: a combinatorial fiction in tarot. in which space mages are sad about empire.
 
 * Otto, J. &amp; Forbes, A. G. (2020). [Procedural Montage: A Design Trace of Reflection and Refraction.](https://stars.library.ucf.edu/elo2020/asynchronous/proceedingspapers/12/) Proceedings of the Electronic Literature Organization Conference 2020.
 
