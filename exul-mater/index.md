@@ -3,7 +3,7 @@ title: "exul mater"
 excerpt: "seek out messy stories, which fail to privilege one reading over others. those stories can disrupt the imbalanced synthesis of history, and the flawed logic of inevitability."
 ---
 
-![](/assets/blog/card.jpg)
+<img src="/assets/blog/card.jpg" style="max-width: 500px;"></img>
 
 [**exul mater**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html) is a computerized oracle deck, questioning cybernetic power and identity. it was presented at [**(un)continuity**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/index.html), a curated exhibition at ELO 2020. originally scheduled to convene in Orlando, Florida, the exhibition was moved online due to pandemic.
 
