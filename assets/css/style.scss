@@ -3,20 +3,22 @@
 
 @import "{{ site.theme }}";
 
-body {
-  padding: 20px 50px 0px 50px;
-}
-
 .wrapper {
-  margin-top: 0;
-  margin-left: calc(16px + max(-31.8rem + 50vw, 0px));
-  margin-right: calc(16px + max(-31.8rem + 50vw, 0px));
+  padding: 20px 50px 0px 50px;
+
+  margin: 0;
   width: auto;
-  max-width: 2000px;
+  max-width: 2000px; /* verify - might be redundant. */
 
   /* https://css-tricks.com/simplified-fluid-typography/ */
   font-size: 14px;
   font-size: min(max(14px, 1.05vw), 22px);
+}
+
+.post-content {
+  margin-top: 0;
+  margin-left: calc(16px + max(-31.8rem + 50vw, 0px));
+  margin-right: calc(16px + max(-31.8rem + 50vw, 0px));
 }
 
 header {
