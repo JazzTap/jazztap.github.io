@@ -1,12 +1,12 @@
 ---
 title: "exul mater"
-excerpt: "seek out messy stories, which fail to privilege one reading over others. those stories can disrupt the imbalanced synthesis of history, and the flawed logic of inevitability."
+excerpt: "in which space mages are sad about empire"
 layout: post
 ---
 
 <a href="https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html"><img src="/assets/blog/card.jpg" style="max-width: 500px;" /></a>
 
-[**exul mater**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html) is a computerized oracle deck, questioning cybernetic power and identity. it was presented at [**(un)continuity**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html), a curated exhibition at ELO 2020. originally scheduled to convene in Orlando, Florida, the exhibition was moved online due to pandemic.
+[**exul mater**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html) is a computerized oracle deck, questioning cybernetic power and identity. it was presented at [**(un)continuity**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html), a curated exhibition at ELO 2020. Originally scheduled to convene in Orlando, Florida, the exhibition was moved online due to pandemic.
 
 you will reveal the text by arranging cards. in this myth, each figure has many faces. they are witches and lovers, soldiers and mothers, and they cannot always perform themselves consistently.
 
@@ -16,6 +16,6 @@ as she regards the figures of her loved ones, her feelings cycle between adorati
 
 stolen moments cannot so easily be reconfigured, and rationalized, and conquered by their *hero*. do not cling to powerful stories for too long, the deck says, out of mourning. seek out messy stories, that might not privilege one reading over others.
 
-[read online](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html)  
+[read online](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html)  
 or,  
 [go back](/)

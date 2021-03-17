@@ -141,7 +141,7 @@ projects | [blog](writes) | [muses](muses)
       <p><strong>ELO 2020 |</strong> exul mater</p>
     </label>
     <div class="content" markdown="1">
-In which space mages are sad about empire. [Read more](/exul-mater)?
+A story about history and its others. [Playable online](/exul-mater).
 
 * Otto, J. &amp; Forbes, A. G. (2020). [Procedural Montage: A Design Trace of Reflection and Refraction.](https://stars.library.ucf.edu/elo2020/asynchronous/proceedingspapers/12/) Proceedings of the Electronic Literature Organization Conference 2020.
 
