@@ -2,7 +2,7 @@
 title: "exul mater"
 excerpt: "in which space mages are sad about empire"
 layout: post
-largeimage: "/assets/blog/card.jpg"
+image: "https://raw.githubusercontent.com/JazzTap/jazztap.github.io/master/assets/blog/card.jpg"
 ---
 
 <a href="https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html"><img src="/assets/blog/card.jpg" style="max-width: 500px;" /></a>
