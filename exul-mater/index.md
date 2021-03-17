@@ -6,7 +6,7 @@ layout: post
 
 <a href="https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html"><img src="/assets/blog/card.jpg" style="max-width: 500px;" /></a>
 
-[**exul mater**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html) is a computerized oracle deck, questioning cybernetic power and identity. it was presented at [**(un)continuity**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html), a curated exhibition at ELO 2020. Originally scheduled to convene in Orlando, Florida, the exhibition was moved online due to pandemic.
+[**exul mater**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html) is a computerized oracle deck, questioning cybernetic power and identity. it was presented at [**(un)continuity**](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/otto.html), a curated exhibition at ELO 2020. originally scheduled to convene in Orlando, Florida, the exhibition was moved online due to pandemic.
 
 you will reveal the text by arranging cards. in this myth, each figure has many faces. they are witches and lovers, soldiers and mothers, and they cannot always perform themselves consistently.
 
