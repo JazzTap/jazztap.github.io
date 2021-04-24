@@ -26,6 +26,8 @@ Being lost in the dungeon, Balakog was rescued by the vampire orcs of the Underq
 
 If Balakog chose to join the Underquorum, based on his faith in the Orc Lord, then he likely became involved in the raids against Dungeon Town. Possibly the cryostasis used to preserve his life began to fail, due to the new laws of magic, although the vampires could have found some means to sustain it.
 
+### Krievan
+
 ### Idyll
 
 [figure of a winged valkyrie, embracing an unadorned shield]
@@ -40,41 +42,31 @@ Or, whatever it is she did, she could bear to not face her friends afterward.
 
 ---
 
-RAHEL: Oh, you don't think she knows you? That she could trust you, after you handed her your own mother?
+RAHEL: Oh, you don't think she knows you? That she could trust you, after you handed her your own mother?  
+RAHEL: Krievan cares about people. I don't mean people you know, people, I mean people in the world. Who are bastards, as you know.
 
-RAHEL: Krievan cares about people. You and I know better.
+RAHEL: The real question here is, who will you get the leverage to free her from?  
+RAHEL: You could go back to Maggy! She's great. She's really awful. How perfect. Super instrumental.
 
-IDYLL: Hmm.
+RAHEL: I mean, obviously you betray the custodian and take their power, regardless of who you pick. That's real endgame here.  
+RAHEL: You don't want to stay in Dungeon Town.
 
-RAHEL: The real question here is, who will you get the leverage to free her from?
-
-RAHEL: You could go back to Maggy! She's great. She's really awful. How perfectly instrumental, for a working relationship.
-
-IDYLL: Mnm.
-
-RAHEL: I mean, obviously you betray the custodian and take their power, regardless of who it is. That's real endgame here. You don't want to stay in dungeon town.
-
-IDYLL: Dungeon town? And what about the devourer?
-
-RAHEL: No, no, that's the safest place you could be. It's the way in which everything seems to be going, these days. Right down the gullet.
-
+IDYLL: Yes, and I suppose the Devourer is the safest place I could be in all this?  
 IDYLL: Weren't you all about breaking Hell, last month? The cycle of damnation entire?
 
-RAHEL: I mean, yes, how else do you think that's happening? You remember Krievan's big plan.
+RAHEL: They might've forgot, I'm starting to feel like. But you? You remember Krievan's big plan.
 
-IDYLL: Was it, though? I can't believe you're going along with this one. Oh, wait, that's why you won't help me get her back. She'd wreck your mom's scheme all over again.
+IDYLL: Was it, though? Hers, I mean?  
+IDYLL: Wait, that's why you won't help me get her back. She'd wreck your mom's scheme all over again.
 
-RAHEL: You could guess that! I won't deny it.
-
-IDYLL: You're going with filial piety, that's your excuse?
-
+RAHEL: You could guess that the Diabolist had her hand in this one. I won't deny it.  
 RAHEL: Come up here and we'll talk about it.
 
-IDYLL: You know what, fuck off.
+IDYLL: You ran back to her, after everything? Knowing everything she did, as Zariel?  
+IDYLL: You know what, fuck off! Enough with the voicemails.
 
-
-### Krievan
-
+IDYLL: I would like to simply enjoy my break from the entire goddamn Splinter Kingdom in peace.  
+IDYLL: It's not a fate. Almost certainly not.
 
 
 # Pamphlet: The Gods and You
