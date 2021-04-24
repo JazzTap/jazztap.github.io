@@ -30,13 +30,48 @@ If Balakog chose to join the Underquorum, based on his faith in the Orc Lord, th
 
 [figure of a winged valkyrie, embracing an unadorned shield]
 
-One night, Idyll departed Dungeon Town with Krievan's shield, bypassing entirely Slobberchomps' usual haunts and Beleth's hut on the outskirts. She had convinced herself that Dungeon Town could not sustain itself against orcish incursion without negotiation. But without the aid of the Great Gold Wyrm, she had nothing to bring them to the table with. Therefore, she should retrieve the body of Krievan from the Flesh Tailor's clutches.
+One night, Idyll departed Dungeon Town with the shield bearing Krievan's soul, avoiding entirely both Slobberchomps' haunts and Beleth's hut. For Dungeon Town could not sustain itself against the Underquorum's siege without negotiations. And she could not bring them to the table without leverage.
 
-(Along the way, Idyll is forced to choose between locating the lair of the Flesh Tailor, or diverting to rescue Rahel, who seems to have been captured while executing on a very stupid plan. Idyll can't do anything about that, she decides, flummoxing the psychic predator which laid out that bait.)
+Therefore, she had plotted to retrieve the body of Krievan from the Flesh Tailor's clutches. (Something sets a trap for Idyll. She cannot resist the call to save her true love! Wait, yes she can. Lair of the Flesh Tailor first, stupid plan later.)
 
-How Idyll should have convinced the Flesh Tailor to release the body of Krievan is unclear. It is clear that Idyll never returned to Dungeon Town, so she either did reach Heaven - or perhaps, whatever it is she found in the Devourer, she could not face her friends afterward.
+How Idyll should have convinced the Flesh Tailor is unclear. Blackmail? Service? Self-sacrifice? It is clear that Idyll never returned to Dungeon Town, so perhaps she did reach Heaven.
 
-(The Flesh Tailor can be convinced to take on a skilled chirurgeon to maintain their forces. This is fortunate, as Idyll has nothing to trade for Krievan's body but her own service.)
+Or, whatever it is she did, she could bear to not face her friends afterward.
+
+---
+
+RAHEL: Oh, you don't think she knows you? That she could trust you, after you handed her your own mother?
+
+RAHEL: Krievan cares about people. You and I know better.
+
+IDYLL: Hmm.
+
+RAHEL: The real question here is, who will you get the leverage to free her from?
+
+RAHEL: You could go back to Maggy! She's great. She's really awful. How perfectly instrumental, for a working relationship.
+
+IDYLL: Mnm.
+
+RAHEL: I mean, obviously you betray the custodian and take their power, regardless of who it is. That's real endgame here. You don't want to stay in dungeon town.
+
+IDYLL: Dungeon town? And what about the devourer?
+
+RAHEL: No, no, that's the safest place you could be. It's the way in which everything seems to be going, these days. Right down the gullet.
+
+IDYLL: Weren't you all about breaking Hell, last month? The cycle of damnation entire?
+
+RAHEL: I mean, yes, how else do you think that's happening? You remember Krievan's big plan.
+
+IDYLL: Was it, though? I can't believe you're going along with this one. Oh, wait, that's why you won't help me get her back. She'd wreck your mom's scheme all over again.
+
+RAHEL: You could guess that! I won't deny it.
+
+IDYLL: You're going with filial piety, that's your excuse?
+
+RAHEL: Come up here and we'll talk about it.
+
+IDYLL: You know what, fuck off.
+
 
 ### Krievan
 
