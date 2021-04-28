@@ -56,67 +56,39 @@ val distribution = ListBuffer[Int](1, 2)
 distribution // [1,2]
 ```
 
-### Typed Methods
+\* ...where 'integer' is a primitive type, i.e. it is stored directly in the data structure instance in memory. All variable-length data structures require the use of *pointers*, whose lifecycle is typically managed by a programming language's compiler or interpreter.
 
-The *methods* of an object are the part of its representation that is verb-like.
+## Articulatory Distance
 
-We will taxonomize these methods as follows.
+revisiting Engelbart, we find the distinction between
 
-#### Operations, T -> T
+* 'artifacts', which are always physical objects
+* language, which comprises representations of these artifacts
+* methodology, which organizes problem-solving activities
+* training, by which a person brings the above to bear
 
-Methods with algebraic properties.
+and discover that as of the early '60s, the plurality of languages in contemporary data science (and other software arts) had not fully appeared.
 
-#### Algorithms, T -> F[T]
+to restate it, Engelbart is glossing over *translation problems*.
 
-Methods to augment or annotate structured records. The simplest examples are boolean classifiers (T -> Bool), which evaluate an object as either 'yes' or 'no'.
+> But let the human specify to the instrument his particular conceptual need of the moment, relative to this internal image. Without disrupting its own internal reference structure in the slightest, the computer will effectively stretch, bend, fold, extract, and cut as it may need in order to assemble an internal substructure that is its response, structured in its own internal way.
 
-Among the most elegant examples is discrete Fourier transform, which turns a time-domain scalar function into a frequency-domain scalar function.
+we find sixty years hence (amid an explosion of interest in NLP-based AI) that the more capability and data our computers possess, the more programming-literacy we need in people to transform those capacities into knowledge and effective action.
 
-The most complex examples include program compilation (which produces running code from a parse graph initially represented by a string), methods of solving systems of equations (especially hybrid symbolic-numeric techniques), and other forms of domain-specific analysis.
+### the gulf of execution
 
-#### Views and Representations, F[T] -> T
+although natural language is 'general purpose' for people, it is the programmer's job to change a 'general purpose' programming language such as C++ or Python into a 'domain-specific' set of tools.
 
-Lossy methods including projections, summary statistics, and written summaries.
+in fact, 'domain-specific languages' appear in software engineering and especially videogame development. [what is a domain-specific language?]
 
-Absolutely necessary to render 3D objects on 2D screens. Also typical in 2D data visualizations, which can't fit every feature of an object into one screen of information. Pick any example of 'the map is not the territory, nor would that help.'
+[how are videogames a good example of interactive software?]
 
+https://freecontent.manning.com/the-what-and-why-of-domain-specific-lanugages/
+https://www.gamasutra.com/view/feature/130077/the_whimsy_of_domainspecific_.php
 
-### Typed Methods on Data
+### the gulf of evaluation
 
-The majority of data takes the form of arrays of structured records, which we call 'rows of data'. If every row is of type T, then we have a homogenous dataset of type List[T].
+compare Engelbart's techno-optimism to that of Hutchins et al. in '85, speaking to a community of *interface language designers*.
 
-Certain list methods are agnostic to the fields and methods of T objects, and make up the common core of data science and generative art. They are useful because of operations, algorithms, and views specific to T, all of which can be passed in as arguments.
+> If one is talking about sound patterns in the input interface language, the output could be the sounds themselves. The computer has  the  potential to  exploit articulatory  similarities  through technological innovation in the varieties of dimensions upon which it can op- erate.
 
-#### Filters, (List[T], T -> Bool) -> List[T]
-
-Focusing on certain rows to the exclusion of others, usually by user selection.
-
-#### Maps, (List[T], T -> F[T]) -> List[F[T]]
-
-Transforming all rows in the same way.
-
-#### Reductions, (List[T], (F[T], T) -> F[T], F[T]) -> F[T]
-
-Summation, or any other kind of cumulative operation over rows in a dataset. This is the first kind of list method we have considered that does not itself return a list.
-
-#### Sampling, List[T] -> T
-
-Focusing on one row to the exclusion of all others, usually by arbitrary choice. Basic method in procedural generation.
-
-#### Clustering, List[T] -> List[F[T]]
-
-Diverse family of methods that augment rows with information about their relationship to other rows.
-
-Typical in dimensionality reduction algorithms, and in covariance analyses generally.
-
-#### Expressive Range Analysis, List[T] -> F[T]
-
-Special case of sampling from a dataset augmented with relational information. Useful for interactive browsing.
-
-#### Example-Driven Synthesis (T -> List[T])
-
-
-
----
-
-Where 'integer' is a primitive type, i.e. it is stored directly in the data structure instance in memory. (All variable-length data structures require the use of *pointers*, whose lifecycle is typically managed by a programming language's compiler or interpreter.)
