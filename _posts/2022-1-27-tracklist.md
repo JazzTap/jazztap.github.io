@@ -23,23 +23,22 @@ title: "Tracklist (ira et ius)"
 
 <div markdown="1" class="grid three-lines">
 
+opeth - face of melinda  
+iamx - song of imaginary beings
+
 dream theater - in the presence of enemies pt.1  
 ghost - cirice
 
 soen - lascivious  
 manic bloom - running from the scene
 
+<div class="float" markdown="1">
+
 my chemical romance - the sharpest lives  
 queens of the stone age - the vampyre of time and memory
 
-
-<div class="float" markdown="1">
-
 redemption - and yet  
 the hint - hidden track
-
-opeth - face of melinda  
-iamx - song of imaginary beings
 
 guns n' roses - this i love  
 royal bliss - by and by
