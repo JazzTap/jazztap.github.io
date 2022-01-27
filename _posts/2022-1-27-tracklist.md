@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tracklist (ira et ius)"
+description: songs for the diabolist's daughter
 ---
 
 <style>
@@ -19,9 +20,11 @@ title: "Tracklist (ira et ius)"
   }
 </style>
 
+or, songs for the diabolist's daughter
+
 [> load mix](https://music.youtube.com/playlist?list=PLl25FdDd5-Sz4HKJtMHU9t4jMRwGOL7iG)  
 
-<div markdown="1" class="grid three-lines">
+<div markdown="1" class="grid three-lines" style="grid-template-columns: 1fr 2fr;">
 
 opeth - face of melinda  
 iamx - song of imaginary beings
