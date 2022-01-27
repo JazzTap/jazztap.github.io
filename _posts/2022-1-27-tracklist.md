@@ -64,11 +64,11 @@ But breathing life alone
 
 <div class="float" markdown="1">
 
-in hindsight i can say
+in hindsight
 
-it didn't work out for us
+we didn't work
 
-and it couldn't have
+and never could
 
 </div>
 </div>
@@ -91,7 +91,7 @@ you promised me love
 
 that i
 
-could find salvation
+could even be saved
 
 </div>
 </div>
@@ -110,7 +110,7 @@ I'm losing a battle I thought I had already won
 
 <div class="float" markdown="1">
 
-i will fight
+i struggled
 
 against the world
 
@@ -135,9 +135,9 @@ Not exactly sure anymore
 
 sometimes i thought
 
-our deeds
+our great deeds
 
-were mostly crimes
+were just crimes
 
 </div>
 </div>
