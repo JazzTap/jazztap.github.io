@@ -64,9 +64,9 @@ But breathing life alone
 
 <div class="float" markdown="1">
 
-in hindsight
+looking back on us
 
-we didn't work
+it didn't work
 
 and never could
 
@@ -89,9 +89,9 @@ I can help you seek revenge, and save yourself
 
 you promised me love
 
-that i
+that even i
 
-could even be saved
+could be saved
 
 </div>
 </div>
