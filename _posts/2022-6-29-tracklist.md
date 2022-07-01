@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tracklist (exile)"
-description: if i'm broken, i'm stronger for it
+description: five times the exile did what had to be done
 ---
 
 <style>
@@ -20,7 +20,7 @@ description: if i'm broken, i'm stronger for it
   }
 </style>
 
-the lord of sacrifice testifies to her crimes.
+five times the exile did what had to be done
 
 <a href="https://music.youtube.com/playlist?list=PLl25FdDd5-Sytm33h7ACiPi3DOEFwJsxC">> load mix</a>
 
@@ -66,11 +66,11 @@ Arm yourself because no one else
 
 <div class="float" markdown="1">
 
-we
+perhaps there was
 
-couldn't save them all,
+no other way,
 
-you knew
+a way to save them all
 
 </div>
 </div>
@@ -90,11 +90,11 @@ What's going on outside
 
 <div class="float" markdown="1">
 
-it gave me
+I gave, and I
 
-nothing, you saw
+was nothing
 
-that strength
+you knew that strength
 
 </div>
 </div>
@@ -113,11 +113,11 @@ I feel worthy 'cause I've gained your trust
 
 <div class="float" markdown="1">
 
-perhaps
+if there are further tragedies
 
-each tragedy
+it is only until
 
-was necessary
+they are not necessary
 
 </div>
 </div>
@@ -136,11 +136,11 @@ This was it, he took his last breath
 
 <div class="float" markdown="1">
 
-I killed you
+I killed you because
 
-finally, I
+I had to
 
-made you proud
+make you proud
 
 </div>
 </div>
@@ -184,9 +184,9 @@ Magnified in the science
 
 I'm asking now
 
-if she'll learn
+will she learn
 
-to make me proud
+to make me proud?
 
 </div>
 </div>
