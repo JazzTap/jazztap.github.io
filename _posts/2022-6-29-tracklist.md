@@ -1,0 +1,151 @@
+---
+layout: post
+title: "Tracklist (exile)"
+description: another one of their broken generals
+---
+
+<style>
+  h2 {
+    font-weight: normal;
+    font-variant: small-caps;
+  }
+  
+  .three-lines {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+  }
+  .float {
+    display: contents;
+    text-align: right;
+  }
+</style>
+
+<a href="https://music.youtube.com/playlist?list=PLl25FdDd5-Sytm33h7ACiPi3DOEFwJsxC">> load mix</a>
+
+<div markdown="1" class="grid three-lines" style="grid-template-columns: 1fr 2fr;">
+
+breaking benjamin - blow me away  
+chris cornell - you know my name
+
+seether - country song  
+poor man's poison - providence  
+
+cursive - adapt  
+calla - rise
+
+<div class="float" markdown="1">
+
+thrice - black honey  
+dredg - pariah
+
+blue oyster cult - astronomy  
+porcupine tree - lazarus
+
+king crimson - epitaph  
+manchester orchestra - the silence
+
+</div>
+
+</div>
+
+---
+
+## show me the way / forget how to feel
+<div markdown="1" class="grid three-lines">
+
+Only the strongest will survive  
+But you yourself are nothing so divine
+
+Lead me to heaven when we die  
+Just next in line
+
+<div class="float" markdown="1">
+
+
+
+</div>
+</div>
+
+
+## blame all your weakness on me / set fire to us all
+<div markdown="1" class="grid three-lines">
+
+My ship is sinking but it's  
+Feed the rich and kill the poor  
+
+All good and I can go down  
+Turn out the lights and just ignore  
+
+<div class="float" markdown="1">
+
+
+
+</div>
+</div>
+
+## those gods, they're so hard to believe / if i fail, if i rise
+<div markdown="1" class="grid three-lines">
+
+Somebody has to keep justice intact  
+I have promised everything would be fine
+
+Somebody has to get stabbed in the back  
+I don't say this to no one else
+
+<div class="float" markdown="1">
+
+
+
+</div>
+</div>
+
+## this time, i'll get it right / no more fighting, no more pain
+<div markdown="1" class="grid three-lines">
+
+I'll rip and smash through the hornet's nest  
+And a plan written in death, at that moment
+
+Don't you understand I deserve the best?  
+This was it, he took his last breath
+
+<div class="float" markdown="1">
+
+
+
+</div>
+</div>
+
+## most of you have gone away / but in the deafness of my world
+<div markdown="1" class="grid three-lines">
+
+It's the nexus of the crisis, and the origin of storms  
+Follow me down to the valley below, you know
+
+Just the place to hopelessly encounter time  
+Moonlight is bleeding from out of your soul
+
+<div class="float" markdown="1">
+
+
+
+</div>
+</div>
+
+## when every man is torn apart / you stopped me from blinking
+<div markdown="1" class="grid three-lines">
+
+Will no one lay the laurel wreath  
+But you, amplified in the silence  
+
+When silence drowns the screams?  
+Justified in the way you make me bruise
+
+<div class="float" markdown="1">
+
+
+</div>
+</div>
+
+---
+
+[> return](https://archiveofourown.org/works/8154980)  
