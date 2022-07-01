@@ -90,7 +90,7 @@ What's going on outside
 
 <div class="float" markdown="1">
 
-the war gave me
+it gave me
 
 nothing, you saw
 
@@ -138,7 +138,7 @@ This was it, he took his last breath
 
 I killed you
 
-and I
+finally, I
 
 made you proud
 
@@ -161,9 +161,9 @@ From out of your soul
 
 when I met
 
-her father, I knew he
+her father, I didn't think
 
-would leave
+about you
 
 </div>
 </div>
@@ -182,9 +182,9 @@ Magnified in the science
 
 <div class="float" markdown="1">
 
-it's okay
+I'm asking now
 
-she won't learn
+if she'll learn
 
 to make me proud
 
