@@ -20,7 +20,7 @@ description: five times the exile did what had to be done
   }
 </style>
 
-five times the exile did what had to be done
+five times you did what had to be done, and one time you couldn't
 
 <a href="https://music.youtube.com/playlist?list=PLl25FdDd5-Sytm33h7ACiPi3DOEFwJsxC">> load mix</a>
 
@@ -70,7 +70,7 @@ perhaps there was
 
 no other way,
 
-a way to save them all
+no way to save them all
 
 </div>
 </div>
@@ -90,7 +90,7 @@ What's going on outside
 
 <div class="float" markdown="1">
 
-I gave, and I
+I gave, until I
 
 was nothing
 
@@ -115,9 +115,9 @@ I feel worthy 'cause I've gained your trust
 
 if there are further tragedies
 
-it is only until
+it is only until they are
 
-they are not necessary
+no longer necessary
 
 </div>
 </div>
