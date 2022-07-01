@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tracklist (exile)"
-description: another one of their broken generals
+description: if i'm broken, i'm stronger for it
 ---
 
 <style>
@@ -19,6 +19,8 @@ description: another one of their broken generals
     text-align: right;
   }
 </style>
+
+the lord of sacrifice testifies to her crimes.
 
 <a href="https://music.youtube.com/playlist?list=PLl25FdDd5-Sytm33h7ACiPi3DOEFwJsxC">> load mix</a>
 
@@ -59,9 +61,16 @@ But you yourself are nothing so divine
 Lead me to heaven when we die  
 Just next in line
 
+I am a shadow on the wall  
+Arm yourself because no one else
+
 <div class="float" markdown="1">
 
+we
 
+couldn't save them all,
+
+you knew
 
 </div>
 </div>
@@ -76,9 +85,16 @@ Feed the rich and kill the poor
 All good and I can go down  
 Turn out the lights and just ignore  
 
+Keep pretending like the party's all over  
+What's going on outside
+
 <div class="float" markdown="1">
 
+the war gave me
 
+nothing, you saw
+
+that strength
 
 </div>
 </div>
@@ -87,14 +103,21 @@ Turn out the lights and just ignore
 <div markdown="1" class="grid three-lines">
 
 Somebody has to keep justice intact  
-I have promised everything would be fine
+Surely it's a waste of time
 
 Somebody has to get stabbed in the back  
-I don't say this to no one else
+You hold me highly, I suppose it's fine
+
+It's for a good cause  
+I feel worthy 'cause I've gained your trust
 
 <div class="float" markdown="1">
 
+perhaps
 
+each tragedy
+
+was necessary
 
 </div>
 </div>
@@ -103,14 +126,21 @@ I don't say this to no one else
 <div markdown="1" class="grid three-lines">
 
 I'll rip and smash through the hornet's nest  
-And a plan written in death, at that moment
+With the plan certified by faith
 
 Don't you understand I deserve the best?  
+And a plan written in death, at that moment
+
+Gonna do what I want, do what I please  
 This was it, he took his last breath
 
 <div class="float" markdown="1">
 
+I killed you
 
+and I
+
+made you proud
 
 </div>
 </div>
@@ -118,15 +148,22 @@ This was it, he took his last breath
 ## most of you have gone away / but in the deafness of my world
 <div markdown="1" class="grid three-lines">
 
-It's the nexus of the crisis, and the origin of storms  
+It's the nexus of the crisis  
 Follow me down to the valley below, you know
 
+And the origin of storms  
+Moonlight is bleeding
+
 Just the place to hopelessly encounter time  
-Moonlight is bleeding from out of your soul
+From out of your soul
 
 <div class="float" markdown="1">
 
+when I met
 
+her father, I knew he
+
+would leave
 
 </div>
 </div>
@@ -140,8 +177,16 @@ But you, amplified in the silence
 When silence drowns the screams?  
 Justified in the way you make me bruise
 
+Between the iron gates of fate  
+Magnified in the science
+
 <div class="float" markdown="1">
 
+it's okay
+
+she won't learn
+
+to make me proud
 
 </div>
 </div>
