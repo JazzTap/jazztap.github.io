@@ -20,8 +20,7 @@ description: you would've drowned the world in blood to save it
   }
 </style>
 
-the one where you would've drowned the world in blood to save it.  
-and your daughter still might.
+the one where you would've drowned the world in blood to save it, and your daughter still might
 
 <a href="https://music.youtube.com/playlist?list=PLl25FdDd5-Sytm33h7ACiPi3DOEFwJsxC">> load mix</a>
 
@@ -118,7 +117,7 @@ if there are further tragedies
 
 it is only until
 
-none are necessary
+they are not necessary
 
 </div>
 </div>
@@ -160,9 +159,9 @@ From out of your soul
 
 <div class="float" markdown="1">
 
-when I met
+when your father
 
-your father, I didn't think
+and I met, we didn't think
 
 about fate
 
@@ -183,9 +182,9 @@ Magnified in the science
 
 <div class="float" markdown="1">
 
-he begged them
+he left,
 
-to teach you
+begged them to teach you
 
 what I could not
 
