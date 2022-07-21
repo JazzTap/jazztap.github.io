@@ -159,11 +159,11 @@ From out of your soul
 
 <div class="float" markdown="1">
 
-when your father
+we didn't think
 
-and I met, we didn't think
+of duty when your father
 
-about fate
+and I met
 
 </div>
 </div>
@@ -182,7 +182,7 @@ Magnified in the science
 
 <div class="float" markdown="1">
 
-he left,
+he left -
 
 begged them to teach you
 
