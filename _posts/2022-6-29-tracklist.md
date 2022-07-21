@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tracklist (exile)"
-description: five times the exile did what had to be done
+description: you would've drowned the world in blood to save it
 ---
 
 <style>
@@ -20,7 +20,8 @@ description: five times the exile did what had to be done
   }
 </style>
 
-five times you did what had to be done, and one time you couldn't
+the one where you would've drowned the world in blood to save it.  
+and your daughter still might.
 
 <a href="https://music.youtube.com/playlist?list=PLl25FdDd5-Sytm33h7ACiPi3DOEFwJsxC">> load mix</a>
 
@@ -66,11 +67,11 @@ Arm yourself because no one else
 
 <div class="float" markdown="1">
 
-perhaps there was
+as I said
 
-no other way,
+there was
 
-no way to save them all
+no other way
 
 </div>
 </div>
@@ -90,11 +91,11 @@ What's going on outside
 
 <div class="float" markdown="1">
 
-I gave, until I
+you will give
 
-was nothing
+until you are nothing
 
-you knew that strength
+and that is strength
 
 </div>
 </div>
@@ -115,9 +116,9 @@ I feel worthy 'cause I've gained your trust
 
 if there are further tragedies
 
-it is only until they are
+it is only until
 
-no longer necessary
+none are necessary
 
 </div>
 </div>
@@ -136,11 +137,11 @@ This was it, he took his last breath
 
 <div class="float" markdown="1">
 
-I killed you because
+and here you come
 
-I had to
+with venom
 
-make you proud
+on your tongue
 
 </div>
 </div>
@@ -161,9 +162,9 @@ From out of your soul
 
 when I met
 
-her father, I didn't think
+your father, I didn't think
 
-about you
+about fate
 
 </div>
 </div>
@@ -182,11 +183,11 @@ Magnified in the science
 
 <div class="float" markdown="1">
 
-I'm asking now
+he begged them
 
-will she learn
+to teach you
 
-to make me proud?
+what I could not
 
 </div>
 </div>
