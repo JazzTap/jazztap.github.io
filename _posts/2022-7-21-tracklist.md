@@ -159,11 +159,11 @@ From out of your soul
 
 <div class="float" markdown="1">
 
-we didn't think
+your father and I,
 
-of duty when your father
+we had our duty,
 
-and I met
+and then each other
 
 </div>
 </div>
