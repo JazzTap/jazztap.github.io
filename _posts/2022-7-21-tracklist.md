@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tracklist (exile)"
-description: she who kills the world, to save it
+description: all we sacrificed for nothing
 ---
 
 <style>
@@ -20,7 +20,7 @@ description: she who kills the world, to save it
   }
 </style>
 
-the one where her sacrifice was for nothing, the one who kills the world to save it
+songs for the diabolist, who must kill the world to save it
 
 <a href="https://music.youtube.com/playlist?list=PLl25FdDd5-Sytm33h7ACiPi3DOEFwJsxC">> load mix</a>
 
@@ -66,11 +66,11 @@ Arm yourself because no one else
 
 <div class="float" markdown="1">
 
-as I said
+daughter,
 
-there was
+there was no other way
 
-no other way
+as I have said
 
 </div>
 </div>
@@ -90,11 +90,11 @@ What's going on outside
 
 <div class="float" markdown="1">
 
-you will give
+and we gave
 
-until you have nothing,
+until we had nothing,
 
-that strength
+that pure strength
 
 </div>
 </div>
@@ -113,11 +113,11 @@ I feel worthy 'cause I've gained your trust
 
 <div class="float" markdown="1">
 
-if there are further tragedies
+if there are further
 
-it is only until
+tragedies, it is only until
 
-they are no longer necessary
+no more are necessary
 
 </div>
 </div>
@@ -136,11 +136,11 @@ This was it, he took his last breath
 
 <div class="float" markdown="1">
 
-and here you come
+your father chose his family
 
-with venom
+over his duty. he begged them
 
-on your tongue
+to teach you
 
 </div>
 </div>
@@ -159,11 +159,11 @@ From out of your soul
 
 <div class="float" markdown="1">
 
-your father chose his family
+and here you come
 
-over his duty, knowing
+with venom
 
-that I would not
+on your tongue
 
 </div>
 </div>
@@ -182,11 +182,11 @@ Magnified in the science
 
 <div class="float" markdown="1">
 
-he left to beg
+until my duty ends
 
-for them to teach you
+and your bonds
 
-what I could not
+slip free
 
 </div>
 </div>
