@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tracklist (exile)"
-description: you would've drowned the world in blood to save it
+description: she who kills the world, to save it
 ---
 
 <style>
@@ -20,7 +20,7 @@ description: you would've drowned the world in blood to save it
   }
 </style>
 
-the one where you would've drowned the world in blood to save it, and your daughter still might
+the one where her sacrifice was for nothing, the one who kills the world to save it
 
 <a href="https://music.youtube.com/playlist?list=PLl25FdDd5-Sytm33h7ACiPi3DOEFwJsxC">> load mix</a>
 
@@ -92,9 +92,9 @@ What's going on outside
 
 you will give
 
-until you are nothing
+until you have nothing,
 
-and that is strength
+that strength
 
 </div>
 </div>
@@ -117,7 +117,7 @@ if there are further tragedies
 
 it is only until
 
-they are not necessary
+they are no longer necessary
 
 </div>
 </div>
@@ -159,11 +159,11 @@ From out of your soul
 
 <div class="float" markdown="1">
 
-your father and I,
+your father chose his family
 
-we had our duty,
+over his duty, knowing
 
-and then each other
+that I would not
 
 </div>
 </div>
@@ -182,9 +182,9 @@ Magnified in the science
 
 <div class="float" markdown="1">
 
-he left -
+he left to beg
 
-begged them to teach you
+for them to teach you
 
 what I could not
 
