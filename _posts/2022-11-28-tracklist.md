@@ -50,7 +50,7 @@ pure reason revolution - the twyncyn
 
 ---
 
-## they sent me away to find them a fortune
+## fell asleep in your embrace / should be scared of me
 <div markdown="1" class="grid three-lines">
 
 We can leave now, just drive away  
@@ -73,16 +73,16 @@ it wasn't supposed to bleed
 </div>
 
 
-## clock is ticking while i'm still in time
+## time to forget / steal from yourselves
 <div markdown="1" class="grid three-lines">
 
-Nothing else they can do to turn it back  
+Nothing else they can do
 You're stabbing you through him  
 
-Breaking partnership in this crime  
+To turn it back
 And betting most of this world  
 
-Ripping up the past, condescending smile  
+Breaking partnership
 We'll add enough of the whole world  
 
 <div class="float" markdown="1">
@@ -95,7 +95,7 @@ with the medicine
 </div>
 </div>
 
-## you sing to me, the river flows deep
+## the river flows deep / we live as we dream
 <div markdown="1" class="grid three-lines">
 
 The fires are burning, under starlight  
@@ -117,7 +117,7 @@ no, i didn't -
 </div>
 </div>
 
-## a sanctified gift from your gods
+## a sanctified gift / at last i see
 <div markdown="1" class="grid three-lines">
 
 Hallowing the martyrs  
@@ -139,7 +139,7 @@ i draw forth a long tooth
 </div>
 </div>
 
-## and i am this, another man down
+## and i am this / what you're doing
 <div markdown="1" class="grid three-lines">
 
 But far behind me - I'm flying -  
@@ -161,7 +161,7 @@ hidden, alone
 </div>
 </div>
 
-## the earth is alive and man is a parasite
+## the earth is alive / braving his warm smile
 <div markdown="1" class="grid three-lines">
 
 And heavenly bodies make us fight  
