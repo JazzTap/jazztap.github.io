@@ -27,19 +27,16 @@ description:
 still corners - i wrote in blood  
 halsey - control  
 
-lacuna coil - our truth  
-chevelle - jars  
+in sumerian haze - sirenia  
+our truth - lacuna coil
 
-swallow the sun - stone wings  
 nightwish - ghost river  
+knight area - the balance  
 
 <div class="float" markdown="1">
 
-knight area - the balance  
-david draiman - forsaken  
-
-royal hunt - another man down  
-the foreshadowing - the wandering  
+swallow the sun - stone wings  
+chevelle - jars  
 
 kongos - i'm only joking  
 pure reason revolution - the twyncyn
@@ -50,7 +47,7 @@ pure reason revolution - the twyncyn
 
 ---
 
-## fell asleep in your embrace / should be scared of me
+## I'm colder than this home
 <div markdown="1" class="grid three-lines">
 
 We can leave now, just drive away  
@@ -63,105 +60,63 @@ Let's take a chance, like we used to
 I'm crying, "They're coming for me"
 
 <div class="float" markdown="1">
-hear my plea
-
-i did as you asked
-
-it wasn't supposed to bleed
 
 </div>
 </div>
 
 
-## time to forget / steal from yourselves
+## Condescending smile, time to forget 
 <div markdown="1" class="grid three-lines">
 
-Nothing else they can do
-You're stabbing you through him  
+Profoundly deranged you go  
+Can't you turn it back?
 
-To turn it back
-And betting most of this world  
+Through another day  
+Stop the cycle set me free, run away
 
-Breaking partnership
-We'll add enough of the whole world  
+I guess it was meant to be this way  
+Silence sneaking around my path
 
 <div class="float" markdown="1">
-i am not well
-
-but my friend will return
-
-with the medicine
 
 </div>
 </div>
 
-## the river flows deep / we live as we dream
+## Snow white, pitch-black, your life such strife
 <div markdown="1" class="grid three-lines">
 
-The fires are burning, under starlight  
-Death by a thousand cuts
+Never met a kinder heart than yours  
+Spinning your wheels of fortune
 
-Through veils of golden light  
-Believe it, we live as we dream
+Let it bleed  
+Playing with powers you cannot comprehend
 
-The sails so pure, so white  
-He will go down he will drown drown, deeper down
+Leave a footprint on every island you see  
+But when all cards have been played
 
 <div class="float" markdown="1">
-did you see my friend
-
-he was killed?
-
-no, i didn't -
 
 </div>
 </div>
 
-## a sanctified gift / at last i see
+## We'll add enough of the whole world
 <div markdown="1" class="grid three-lines">
 
-Hallowing the martyrs  
-You see I'm falling in the vast abyss
+Walls will crumble in  
+We can't both become the same pawn
 
-Who right before them fell  
-Clouded by memories of the past
+And skies open  
+That's made to fall
 
-Chanting names of gods  
-At last I see
-
-<div class="float" markdown="1">
-i am not a victim,
-
-only a cursed stranger
-
-i draw forth a long tooth
-
-</div>
-</div>
-
-## and i am this / what you're doing
-<div markdown="1" class="grid three-lines">
-
-But far behind me - I'm flying -  
-Our souls are not ready for life
-
-Somebody else's body hits the ground  
-We're gonna have a fight
-
-I'm moving away... or just trying?  
-Our souls try to be swept from our bodies 
+And when you speak  
+Oil that tastes like blood
 
 <div class="float" markdown="1">
-i gnaw through at the root
-
-my dagger shape shown
-
-hidden, alone
 
 </div>
 </div>
 
-## the earth is alive / braving his warm smile
+## Set the stars alight, beneath them ease their minds
 <div markdown="1" class="grid three-lines">
 
 And heavenly bodies make us fight  
@@ -174,15 +129,6 @@ I don't believe a thing I said
 Was done & to come how everything thunders my son
 
 <div class="float" markdown="1">
-you said, return to man
-
-and do not forget my gift
-
-for i adore your wickedness
 
 </div>
 </div>
-
----
-
-> return
