@@ -1,0 +1,1777 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass moderncv
+\begin_preamble
+%% 'template.tex' copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+% This work may be distributed and/or modified under the conditions of the LaTeX Project Public License version 1.3c, available at http://www.latex-project.org/lppl/.
+
+% possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+% 0.75
+\setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
+% \setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Jasmine T.}
+\familyname{Otto}
+% \title{}                          % optional, remove / comment the line if not wanted
+% \address{street and number}{postcode city}    % optional, remove / comment the line if not wanted
+% \mobile{+1~(224)~433~1709}                     % optional, remove / comment the line if not wanted
+% \phone{+2~(345)~678~901}                      % optional, remove / comment the line if not wanted
+% \fax{+3~(456)~789~012}                        % optional, remove / comment the line if not wanted
+
+\email{[last][first]@gmail.com}                          % optional, remove / comment the line if not wanted
+\homepage{jazztap.github.io}                    % optional, remove / comment the line if not wanted
+\extrainfo{\href{https://vis.social/@jazz}{@jazz@vis.social}}            % optional, remove / comment the line if not wanted
+
+% \photo[128pt][0pt]{tiger.png}                  % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Art imitates life reifies art, from nature's myriad forms.}                            % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+% patch title so that contact info floats next to name
+% https://tex.stackexchange.com/a/358433
+% https://tex.stackexchange.com/a/360788
+
+\usepackage{etoolbox}
+% \patchcmd{<cmd>}{<search>}{<replace>}{<success>}{<failure>}
+\tracingpatches
+
+% can't find control sequence
+% \show\makecvtitle
+% \patchcmd{\makecvhead}{emaillink{\@email}}{\includegraphics{email}}{}{}
+\patchcmd{\makecvhead}{\end{tabular}}{\end{tabular}\hspace*{-.65\textwidth}}{}{} % budge it right (???)
+
+% can't wrap from patch
+% \patchcmd{\makecvtitle}{\begin{tabular}}{\makebox[1\textwidth][c] \begin{tabular}}{}{}
+% \patchcmd{\makecvtitle}{\end{tabular}}{\end{tabular} }{}{}
+
+% scratch: overwrite title generation
+% \makeatletter
+%\renewcommand*{\makecvtitle}{%
+%  \recomputecvlengths
+%  \@initializebox{\makecvheaddetailsbox}%
+%  \savebox{\makecvheaddetailsbox}{%
+%      \addressfont\color{color2}%
+%      \begin{tabular}[b]{@{}p{10cm}@{}}%
+%        \makenewline\emailsymbol\emaillink{\@email}%
+%        \makenewline\homepagesymbol\httplink{\@homepage}%
+%        \makenewline\httplink{\@extrainfo}%
+%      \end{tabular}
+%  % name and title
+%    \raggedright\namestyle{\@firstname\ \@familyname}\par\medskip%
+%    \ifthenelse{\equal{\@title}{}}{}{{\centering\titlestyle{\@title}\par}\medskip}%
+%  }}%
+% \makeatother
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\end_preamble
+\options sans
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+makecvtitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2.8cm*
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% -1.8cm if 
+\backslash
+makecvhead unpatched
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 1
+width "3in"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+quotestyle
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Visualization developer
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5em]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace -1.5cm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "r"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width "110line%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 1
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+raisebox{-.81
+\backslash
+totalheight}[0pt][0pt]{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename tiger.png
+	lyxscale 10
+	width 43text%
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Education
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+2018–present
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+PhD, Computational Media
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+UCSC
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\shape italic
+University of California, Santa Cruz
+\shape default
+.
+ Expected 2021.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+2015–2018
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+MS, Applied Math
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+UIC
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\shape italic
+University of Illinois at Chicago
+\shape default
+.
+ Received 2017.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+2012–2015
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+BS, Mathematical Computer Science
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+UIC
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Minor in Biology.
+ Graduated 
+\shape italic
+summa cum laude
+\shape default
+.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+2009–2012
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Transferred work
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+College of DuPage
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Glen Ellyn, IL
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Experience
+\end_layout
+
+\begin_layout Subsection
+Selected Research & Teaching
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Summer 2019
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Mentor
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+Science Internship Progam
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+UC Santa Cruz
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Mentored high school students developing explorable explanations in the
+ broswer.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+July 2019
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Solving Polynomial Systems with phcpy
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+with Jan Verschelde
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "DOI:10.25080/Majora-7ddc1dd1-009"
+target "dx.doi.org/10.25080/Majora-7ddc1dd1-009"
+literal "false"
+
+\end_inset
+
+.
+ In Proceedings of the 18th Python in Science Conference (SciPy 2019).
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+April 2019
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+IGM-Vis: Analyzing Intergalactic and Circumgalactic Medium Absorption Using
+ Quasar Sightlines in a Cosmic Web Context
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+Joseph N.
+ Burchett et al
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "arXiv:1812.07092"
+target "https://arxiv.org/abs/1812.07092"
+literal "false"
+
+\end_inset
+
+.
+ Accepted to Eurographics Conference on Visualization 2019 and Computer
+ Graphics Forum.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+cventry{Fall 2016}{Independent study}{Ecological Sociobiology} {with Lou
+ Kauffman} {} {Memetic flow on a social graph.
+ Patterns due to diffusivity, advection, nonlinear response.}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+AY '16–'18
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Organizer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+SIG Math Coding
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+UIC ACM
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Programming
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+Scientific
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+
+\shape italic
+Python
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Jupyter, Numpy, Pandas, xarray, Cython, R, C++ in a past life
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+Visual
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+
+\shape italic
+JavaScript
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+D3.js, ObservableHQ, Processing, THREE.js, shaders
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+Robust
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+
+\shape italic
+Scala
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Git, JupyterHub, Fabric, Prolog
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+Mathematical
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+
+\shape italic
+Rigorous proof
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+SageMath, NetLogo, LaTeX
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Distinctions
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+AY '18–'19
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Chancellor's Fellowship
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+UCSC
+\end_layout
+
+\end_inset
+
+Competitive fellowship awarded to first-year doctoral students.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+April 2017
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Scholarship
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Yeuk-Lam Yau-Leung Memorial
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+in biomathematics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+June 2016
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Participant
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+SMS 2016: Dynamics of Biological Systems
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+University of Alberta
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+MSRI supported.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+May 2015
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Member
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Phi Beta Kappa
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+April 2015
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Outstanding scholarship
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Biological Sciences at UIC
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+\begin_layout Plain Layout
+BIOS 100 and 101
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Interests
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Research
+\end_layout
+
+\end_inset
+
+Building intuition for science through direct manipulation.
+ Juxtapositional narrative.
+ Improvisational learning.
+ Emergence of distinct qualitative regimes via saddle points.
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Gesture/Hobby
+\end_layout
+
+\end_inset
+
+Modern dance, drumset, figure drawing, storygaming, ontogeny, Mandarin.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+cvitemwithcomment{Language 1}{Skill level}{Comment}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+cvdoubleitem{hobby 1}{Description}{}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+renewcommand{
+\backslash
+listitemsymbol}{-~}            % change the symbol for lists
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Publications from a BibTeX file without multibib
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%  for numerical labels: 
+\backslash
+renewcommand{
+\backslash
+bibliographyitemlabel}{
+\backslash
+@biblabel{
+\backslash
+arabic{enumiv}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%  to redefine the heading string ("Publications"): 
+\backslash
+renewcommand{
+\backslash
+refname}{Articles}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+nocite{*}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+bibliographystyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+bibliography{publications}                   % 'publications' is the name
+ of a BibTeX file
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Publications from a BibTeX file using the multibib package
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+section{Publications}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+nocitebook{book1,book2}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+bibliographystylebook{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+bibliographybook{publications}              % 'publications' is the name
+ of a BibTeX file
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+nocitemisc{misc1,misc2,misc3}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+bibliographystylemisc{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+bibliographymisc{publications}              % 'publications' is the name
+ of a BibTeX file
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+clearpage
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-----       letter       -----
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+enclosure[Attached]{curriculum vit
+\backslash
+ae{}}     % use an optional argument to use a string other than "Enclosure",
+ or redefine 
+\backslash
+enclname
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
