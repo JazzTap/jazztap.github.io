@@ -259,7 +259,7 @@ status collapsed
 
 \end_inset
 
-Visualization notebook developer
+Data visualization researcher
 \begin_inset ERT
 status collapsed
 
@@ -450,6 +450,14 @@ status open
 \end_inset
 
 
+\begin_inset Quotes eld
+\end_inset
+
+Software Instruments: Creativity Support Tools for Domain Experts
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Entry
@@ -502,7 +510,7 @@ status collapsed
 
 \end_inset
 
-Led a data science SIG at the student ACM.
+
 \end_layout
 
 \begin_layout Entry
@@ -520,7 +528,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-BS, Math CS
+BS, Math Comp Sci
 \end_layout
 
 \end_inset
@@ -621,7 +629,8 @@ Developed novel visual analytics tools for Mars Sample Return.
 \begin_inset Newline newline
 \end_inset
 
-Interviewed key stakeholders throughout an iterative process.
+Carried out an iterative design study with key stakeholders working in a
+ complex, evolving tradespace.
 \end_layout
 
 \begin_layout Entry
@@ -674,20 +683,9 @@ status open
 
 \end_inset
 
-Created a schedule view for a relay pass allocation tool being used by the
- Mars Sample Return mission.
+Created the MarsIPAN schedule viewer for relay pass allocations of the Mars
+ Sample Return mission.
  
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://datavis.caltech.edu/projects/marsipan/
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -747,61 +745,7 @@ status open
 \end_inset
 
 Developed novel dashboard widgets for MBARI LRAUV operators, supporting
- observability needs and reducing the cost of onboarding.
-\end_layout
-
-\begin_layout Entry
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-2019
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 2
-status open
-
-\begin_layout Plain Layout
-Science Internship Program Mentor
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 3
-status open
-
-\begin_layout Plain Layout
-UCSC
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 5
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-Mentored high school students developing explorable explanations in a browser-ba
-sed notebook.
+ situational awareness needs and reducing the cost of onboarding new operators.
 \end_layout
 
 \begin_layout Entry
@@ -819,7 +763,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Chancellor's Fellow (Graduate)
+Chancellor's Fellow
 \end_layout
 
 \end_inset
@@ -854,13 +798,7 @@ status open
 
 \end_inset
 
-Led development on IGM-Vis, an immersive analysis tool for quasar sightlines
- in the cosmic web.
-\begin_inset Newline newline
-\end_inset
 
-Led development on RuleVis, a graphical IDE for Kappa Language systems biology
- models.
 \end_layout
 
 \begin_layout Subsection
@@ -882,7 +820,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Research Assistant
+Graduate Research Assistant
 \end_layout
 
 \end_inset
@@ -917,11 +855,65 @@ status open
 
 \end_inset
 
-Deployed a JupyterHub to 30+ PHCpack users.
+Deployed a JupyterHub notebook server to 30+ PHCpack library users.
 \end_layout
 
 \begin_layout Section
 Publications
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+AIIDE 2023
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+DendryScope: Narrative Designer Support via Symbolic Analysis
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+with Autumn Chen
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Forthcoming - AAAI Conference on Artificial Intelligence and Interactive
+ Digital Entertainment
 \end_layout
 
 \begin_layout Entry
@@ -1029,6 +1021,59 @@ status open
 \end_inset
 
 Electronic Literature Organization Conference
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+CGF 2019
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+IGM-Vis: Analyzing Intergalactic and Circumgalactic Medium Absorption...
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+with David Abramov, Cassia Artenagara, and Joe Burchett
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Computer Graphics Forum
 \end_layout
 
 \begin_layout Entry
@@ -1149,7 +1194,7 @@ SciPy 2019
 
 
 \begin_inset Argument 2
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Solving Polynomial Systems with phcpy
@@ -1187,7 +1232,7 @@ status open
 
 \end_inset
 
-
+Scientific Computing with Python Conference
 \end_layout
 
 \begin_layout Standard
@@ -1195,6 +1240,225 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Teaching
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2021
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Visualization Mentor
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+UCSC Data Visualization Collection
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Mentored data analytics work with a NOAA scientist and an undergraduate
+ developer.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2020
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Teaching Assistant
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+UCSC
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Taught lab for Game Design Studio, Data Structures for Interactive Media,
+ and Games Systems.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2019
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Science Internship Mentor
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+UCSC
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Mentored high school students developing explorable explanations.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2018
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+SIG Data Organizer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+ACM@UIC
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Led weekly open labs on selected libraries from SciPy, JavaScript, and Prolog
+ package ecosystems.
 \end_layout
 
 \begin_layout Section
@@ -1266,7 +1530,7 @@ status open
 
 
 \begin_inset Argument 2
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Participant
@@ -1276,7 +1540,7 @@ Participant
 
 
 \begin_inset Argument 3
-status collapsed
+status open
 
 \begin_layout Plain Layout
 SMS 2016: Dynamics of Biological Systems
