@@ -2,6 +2,7 @@
 title: Software Instruments - Introduction
 excerpt: "We describe software instruments as a family of interactive computational mediums (i.e. game-like artifacts) spanning both toys and tools..."
 author: Jasmine Otto
+hidden: true
 ---
 
 This post begins an essay about software instruments, which will be serialized on Tuesday evenings for the next five weeks or so.

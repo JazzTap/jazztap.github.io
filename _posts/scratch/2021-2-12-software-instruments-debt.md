@@ -2,6 +2,7 @@
 title: Software Instruments - Research Debt
 excerpt: "A community of practice has research debt when its students and researchers know they need to learn some topic X, but the avalable exposition on topic X is very dense..."
 author: Jasmine Otto
+hidden: true
 ---
 
 [Last week]({% post_url 2021-2-5-software-instruments-performance %}), we talked about practice and performance in a computational medium, using instruments to navigate an artifact space. This week, we use our instruments to play in another sense - to 'think the unthinkable', by embedding skill into our representations of and operations on difficult problems.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Splinter Kingdom Epilogue"
-hidden: true
+published: false
 ---
 
 

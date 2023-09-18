@@ -1,6 +1,7 @@
 ---
 title: Software Instruments - The Medium and its Data Flow
 author: Jasmine Otto
+hidden: true
 ---
 
 ## Software Expression

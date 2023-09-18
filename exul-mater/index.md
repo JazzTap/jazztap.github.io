@@ -17,6 +17,6 @@ still the spaces between the querent and her loved ones are sites of escape, of 
 
 do not cling to powerful stories for too long, the deck says. seek out messy stories, that might not privilege one reading over others.
 
-[read online](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html)  
-or,  
-[go back](/)
+- [read online](https://projects.cah.ucf.edu/mediaartsexhibits/uncontinuity/Otto/exulmater/index.html)  
+- [visit moodboard](../muses)  
+- [go back](/)

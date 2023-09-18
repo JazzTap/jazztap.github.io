@@ -1,5 +1,5 @@
 ---
-hidden: true
+published: false
 ---
 
 automation via shame

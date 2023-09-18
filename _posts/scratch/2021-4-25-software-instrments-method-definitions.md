@@ -1,6 +1,7 @@
 ---
 title: Software Instruments - The Data Flow
 author: Jasmine Otto
+hidden: true
 ---
 
 ## Software Expression (cont'd)

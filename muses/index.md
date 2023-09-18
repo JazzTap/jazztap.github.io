@@ -108,6 +108,6 @@ div.triple {
   <p>with FOSS digital media (<a href="https://www.gimp.org/">GIMP</a> + <a href="https://code.google.com/archive/p/gps-gimp-paint-studio/">GPS</a>, <a href="https://inkscape.org/en/">Inkscape</a>).</p>
 
   <p>
-    <a href="..">go back</a>
+    <a href="../exul-mater">go back</a>
   </p>
 </small>

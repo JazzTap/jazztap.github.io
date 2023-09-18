@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2020 in art"
+published: false
 ---
 
 <div style="display: grid; grid-template-columns: 3fr 1fr;" markdown="1">

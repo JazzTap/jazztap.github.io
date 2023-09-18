@@ -3,7 +3,7 @@ layout: landing
 ---
 
 <div style="font-size: 26px; text-align: center;" markdown="1">
-[projects](..) | blog | [muses](../muses)
+[projects](..) | blog 
 </div>
 
 <h3>Blog</h3>

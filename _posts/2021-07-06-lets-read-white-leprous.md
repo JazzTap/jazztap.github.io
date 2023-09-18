@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Let's Read - White (Leprous)
+published: false
 ---
 
 Let's see that this song reads as / can be / is about whiteness as violence, and yet as rebellion. As a portrait of self-congratulation over the latter, while oblivious to the former, I sure like it a lot.

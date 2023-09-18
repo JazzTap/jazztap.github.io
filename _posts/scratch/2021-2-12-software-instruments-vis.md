@@ -1,6 +1,7 @@
 ---
 title: Literature Review - Software Instruments
 author: Jasmine Otto
+hidden: true
 ---
 
 We restate [the introduction]({% post_url 2021-01-19-software-instruments-intro %}) in the terms of *data visualization*, and its attendant interests in science and industry.

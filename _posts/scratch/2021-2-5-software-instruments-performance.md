@@ -2,6 +2,7 @@
 title: Software Instruments - Performance
 excerpt: "This week is about design space, and its navigation via generative instruments."
 author: Jasmine Otto
+hidden: true
 ---
 
 This week is about design space, and its navigation via [software instruments]({% post_url 2021-1-26-software-instruments-def %}). This is the second background section of the series. Next week, we will have the first background section on research debt, which wasn't meant to be self-demonstrating in its indefinite deferral.
