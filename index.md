@@ -206,9 +206,7 @@ See also our [Data to Discovery 2021 project page](https://datavis.caltech.edu/p
   <div class="content" markdown="1">
 Playtesting support via **interactive static analysis** of routes in quality-based narrative games. Introduces the skein, an interactive heatmap of playtraces, powered by ASP. [Try it online](/DendryScope).
 
-Preprint forthcoming. If you want your own game transpiled from Dendry (or similar), please reach out.
-
-* Otto, J., Chen, A., &amp; Smith, A. M. (2023). DendryScope: Narrative Designer Support via Symbolic Analysis.
+* Otto, J., Chen, A., &amp; Smith, A. M. (2023). DendryScope: Narrative Designer Support via Symbolic Analysis. [[preprint]](./dendry-paper/2023_AIIDE_Dendryscope_Camera_Ready.pdf)
 </div>
 </div> 
 
