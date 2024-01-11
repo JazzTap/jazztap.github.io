@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 
 title: Jasmine Otto
-description: PhD candidate in Computational Media at UC Santa Cruz
+description: Ph.D. Computational Media, UC Santa Cruz
 
 plugins:
   - jekyll-seo-tag
