@@ -35,7 +35,7 @@
 % \phone{+2~(345)~678~901}                      % optional, remove / comment the line if not wanted
 % \fax{+3~(456)~789~012}                        % optional, remove / comment the line if not wanted
 
-\email{[last][first]@gmail.com}                          % optional, remove / comment the line if not wanted
+\email{jtotto@ucsc.edu}                          % optional, remove / comment the line if not wanted
 \homepage{jazztap.github.io}                    % optional, remove / comment the line if not wanted
 \extrainfo{\href{https://vis.social/@jazz}{@jazz@vis.social}}            % optional, remove / comment the line if not wanted
 
@@ -414,7 +414,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-PhD Candidate, Computational Media
+PhD, Computational Media
 \end_layout
 
 \end_inset
@@ -697,7 +697,7 @@ University of California, Santa Cruz
 status open
 
 \begin_layout Plain Layout
-2018-present
+2018-2023
 \end_layout
 
 \end_inset
@@ -707,7 +707,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Doctoral Candidate
+Doctoral Researcher
 \end_layout
 
 \end_inset
@@ -907,13 +907,12 @@ status open
 status open
 
 \begin_layout Plain Layout
-
+Nominated for Best Artifact.
 \end_layout
 
 \end_inset
 
-Forthcoming - AAAI Conference on Artificial Intelligence and Interactive
- Digital Entertainment
+AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment
 \end_layout
 
 \begin_layout Entry
