@@ -404,7 +404,7 @@ Education
 status open
 
 \begin_layout Plain Layout
-2018–present
+2018–2023
 \end_layout
 
 \end_inset
@@ -600,7 +600,7 @@ Visualization Developer
 status open
 
 \begin_layout Plain Layout
-NASA JPL
+NASA Jet Propulsion Laboratory
 \end_layout
 
 \end_inset
@@ -625,12 +625,9 @@ status open
 
 \end_inset
 
-Developed novel visual analytics tools for Mars Sample Return.
-\begin_inset Newline newline
-\end_inset
-
-Carried out an iterative design study with key stakeholders working in a
- complex, evolving tradespace.
+Design study products used by Mars Sample Return stakeholders to quantify
+ the impact of changes to likely Earth-Mars communications scenarios upon
+ staffing schedules.
 \end_layout
 
 \begin_layout Entry
@@ -683,8 +680,8 @@ status open
 
 \end_inset
 
-Created the MarsIPAN schedule viewer for relay pass allocations of the Mars
- Sample Return mission.
+Created the MarsIPAN schedule viewer for communications and command opportunitie
+s.
  
 \end_layout
 
@@ -744,8 +741,7 @@ status open
 
 \end_inset
 
-Developed novel dashboard widgets for MBARI LRAUV operators, supporting
- situational awareness needs and reducing the cost of onboarding new operators.
+Developed novel event log analytics for MBARI LRAUV operations.
 \end_layout
 
 \begin_layout Entry
@@ -1270,7 +1266,7 @@ Visualization Mentor
 status open
 
 \begin_layout Plain Layout
-UCSC Data Visualization Collection
+UCSC Data Visualization Collective
 \end_layout
 
 \end_inset
