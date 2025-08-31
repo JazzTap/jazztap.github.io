@@ -144,7 +144,7 @@ projects | [blog](writes)
 
 We created the MarsIPAN (Mars Interactive Pass Allocation Navigator) schedule, and a companion dashboard for comparing allocations. Operations planners are using these visualizations to assess both operational efficiency and staffing requirements across many possible scenarios.
 
-* Manuscript in preparation.
+* [JT Otto, M Khurana, N Deutsch, BPS Donitz, O Elek, and S Davidoff. MarsIPAN: Optimization and Negotiations in Mars Sample Return Scheduling Coordination. IEEE Computer Graphics and Applications, 2025](https://ieeexplore.ieee.org/abstract/document/10950091).
 
 See also our [Data to Discovery 2021 project page](https://datavis.caltech.edu/projects/marsipan/). With thanks to the DTD team and our JPL stakeholders.
 
